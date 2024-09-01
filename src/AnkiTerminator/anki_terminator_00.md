@@ -47,16 +47,22 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
  * **Bing Chat**<br>
     * 30 chats per session and 300 chats per day, but GPT-4 is free.
 
+
+### 🛠️Known Issues
+* Mac Anki23.12.1 cannot open Bird and Bing(ChatGPT is good), but Mac23.12 can. This problem is a Qt issue, so perhaps the latest Anki update will fix it when Qt is updated.
+
+
 <br>
 <br>
 
 
-## How to Use
+## 📖How to Use
 
 
 - [▲ Attention](#-attention)
   - [Limits of each AI](#limits-of-each-ai)
-- [How to Use](#how-to-use)
+  - [🛠️Known Issues](#️known-issues)
+- [📖How to Use](#how-to-use)
   - [Sidebar](#sidebar)
 - [Options](#options)
   - [Always tab](#always-tab)
