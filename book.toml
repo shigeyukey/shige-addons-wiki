@@ -1,0 +1,13 @@
+[book]
+authors = ["Shigeyuki"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Shige addons Wiki"
+
+[output.html]
+git-repository-url = "https://www.patreon.com/Shigeyuki"
+git-repository-icon = "fa-envelope"
+
+[output.html.print]
+enable = false
