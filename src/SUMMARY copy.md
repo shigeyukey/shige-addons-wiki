@@ -16,7 +16,7 @@
   * [💖Credit](AnkiArcade/98.-Credit.md)
   * [🚨Bug Report](AnkiArcade/99.-Bug-Report.md)
 
-* [📊Progress bar for Anki]()
+* [📊Progress bar for Anki](progress-bar-for-anki.md)
 * [🌱New Card Farm]()
 * [📅New Card Heatmap]()
 * [🎮additional animation coins]()
@@ -31,7 +31,7 @@
 * [Template]()
   * [🎮An-Ki-Oh!]()
 * [Shared Decks]()
-  * [⌨TypingMaster (US keyboard)]()
+  * [⌨TypingMaster US keyboard]()
 
 # Free add-ons (by Shige)
 
