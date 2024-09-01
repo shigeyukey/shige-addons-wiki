@@ -1,6 +1,5 @@
 
-[![Progress_bar_for_Anki](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/Progress_bar_for_Anki.gif)](https://youtu.be/x8M1jAs4dpk)<br>
-[Youtube : Progress Bar For Anki](https://youtu.be/x8M1jAs4dpk)<br>
+<iframe width="1422" height="617" src="https://www.youtube.com/embed/x8M1jAs4dpk" title="Progress Bar For Anki - Chunking Anki Cards (For Patrons only)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 [![patreon](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.patreon.com/Shigeyuki)<br>
 
