@@ -1,0 +1,364 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>🎮️Anki Arcade Themes - Shige addons Wiki</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item "><a href="../intro.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item affix "><li class="part-title">Patreon add-ons</li><li class="chapter-item expanded "><a href="../AnkiArcade/Home.html"><strong aria-hidden="true">2.</strong> ⚔️Anki Arcade</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../AnkiArcade/01.-AnkiArcade-Themes.html" class="active"><strong aria-hidden="true">2.1.</strong> 🎮️Anki Arcade Themes</a></li><li class="chapter-item "><a href="../AnkiArcade/02.-Change-Theme.html"><strong aria-hidden="true">2.2.</strong> 🎨Change Theme</a></li><li class="chapter-item "><a href="../AnkiArcade/03.-Card-status.html"><strong aria-hidden="true">2.3.</strong> 📊Card Status</a></li><li class="chapter-item "><a href="../AnkiArcade/04.-Progress-Bars.html"><strong aria-hidden="true">2.4.</strong> ⌛️Progress Bars</a></li><li class="chapter-item "><a href="../AnkiArcade/05.-Pomodoro-&-Break-Timer.html"><strong aria-hidden="true">2.5.</strong> ⏱️Pomodoro & Break Timer</a></li><li class="chapter-item "><a href="../AnkiArcade/06.-Sound.html"><strong aria-hidden="true">2.6.</strong> 🎵Sound</a></li><li class="chapter-item "><a href="../AnkiArcade/08.-Other.html"><strong aria-hidden="true">2.7.</strong> 📂Other</a></li><li class="chapter-item "><a href="../AnkiArcade/09.-Changelog.html"><strong aria-hidden="true">2.8.</strong> 📝Changelog</a></li><li class="chapter-item "><a href="../AnkiArcade/98.-Credit.html"><strong aria-hidden="true">2.9.</strong> 💖Credit</a></li><li class="chapter-item "><a href="../AnkiArcade/99.-Bug-Report.html"><strong aria-hidden="true">2.10.</strong> 🚨Bug Report</a></li></ol></li><li class="chapter-item "><li class="part-title">Free add-ons</li><li class="chapter-item "><a href="../AnkiTerminator/anki_terminator_00.html"><strong aria-hidden="true">3.</strong> 🤖Anki Terminator</a></li><li class="chapter-item affix "><li class="part-title">Others</li><li class="chapter-item "><a href="../anki_manuals_jp.html"><strong aria-hidden="true">4.</strong> 📖Japanese translation of Anki Manuals</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Shige addons Wiki</h1>
+
+                    <div class="right-buttons">
+                        <a href="https://www.patreon.com/Shigeyuki" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/shigeyukey/shige-addons-wiki/edit/main/src/AnkiArcade/01.-AnkiArcade-Themes.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/4dcc3e40-158d-4ccf-b1cf-5b97bdad0c4a" alt="patreon_header_ankigame_addons_2 (2)" /></p>
+<ol>
+<li><a href="#1-anki-knights--doragons-lively">⚔Anki Knights &amp; Doragons (Lively)</a></li>
+<li><a href="#2-little-ankimares-mellow">💎Little Ankimares (Mellow)</a></li>
+<li><a href="#3-catgirl--sushi-pop">🐈CatGirl &amp; Sushi (Pop)</a></li>
+<li><a href="#4-ambiebt-music-calm">⭐Ambiebt Music (Calm)</a></li>
+<li><a href="#5-study-with-zombie-horror">🧟‍♀Study with Zombie (Horror)</a></li>
+<li><a href="#6-resident-anki">🧟‍♀RESIDENT ANKI (Shooting)</a></li>
+<li><a href="#7-cat-gathering-in-anki">🐈Cat Gathering in Anki (Cute)</a></li>
+<li><a href="#8-zen-mode">🧘‍♀Zen Mode (Zen)</a></li>
+<li><a href="#9-ankiterminator-sr-800">🤖Anki Terminator SR-800 (AI)</a></li>
+<li><a href="#10-virtual-ankipad">🎮Virtual AnkiPad </a></li>
+<li><a href="#11-mozartanki">🎵Mozartanki</a></li>
+<li><a href="#12-warriorwoman">⚔WarriorWoman</a></li>
+<li><a href="#13-armorknight">⚔ArmorKnight</a></li>
+<li><a href="#14-meowknight">🐈MeowKnight</a></li>
+<li><a href="#15-redwitch">🪄RedWitch</a></li>
+<li><a href="#16-darkwitch">🪄DarkWitch</a></li>
+</ol>
+<h2 id="1-anki-knights--doragons-lively"><a class="header" href="#1-anki-knights--doragons-lively">1. ⚔Anki Knights &amp; Doragons (Lively)</a></h2>
+<p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/6c751328-c2e9-4dcc-be4d-568b84c408ef" alt="image" /></p>
+<ul>
+<li>The knights fight many monsters.
+<ul>
+<li>[ Easy ] Bow attack</li>
+<li>[ Good ] Slash</li>
+<li>[ Hard ] Kick</li>
+<li>[ Again ] Iron Punch</li>
+</ul>
+</li>
+<li>When the review progresses, the monsters become stronger.</li>
+<li>When all of today's review cards are completed, the stage goes into colosseum mode and the knight fights other knights.</li>
+<li><a href="https://youtu.be/wYUzx3xKqq8">[ Youtube demo video ]</a></li>
+</ul>
+<h2 id="2-little-ankimares-mellow"><a class="header" href="#2-little-ankimares-mellow">2. 💎Little Ankimares (Mellow)</a></h2>
+<p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/0160c014-9722-4879-997c-27a7162e4b1e" alt="image" /></p>
+<ul>
+<li>The hooded protagonist explores a mysterious cave in search of gemstones.
+<ul>
+<li>[ Easy ] Blue attack</li>
+<li>[ Good ] Green attack</li>
+<li>[ Hard ] Yellow attack</li>
+<li>[ Again ] Red attack</li>
+</ul>
+</li>
+<li>When the review progresses, the small gemstones gradually become larger.</li>
+<li>When all of today's review cards are completed, the stage goes to the city of gems and the polished gems are collected.</li>
+</ul>
+<h2 id="3-catgirl--sushi-pop"><a class="header" href="#3-catgirl--sushi-pop">3. 🐈CatGirl &amp; Sushi (Pop)</a></h2>
+<p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/987ef99e-80d1-4507-bc8b-54339aa7b4cd" alt="image" /></p>
+<ul>
+<li>Cute CatGirl eats a lot of Sushi. Voice effects are available.
+<ul>
+<li>[ Easy, Good, Hard ] Meow and nod</li>
+<li>[ Again ]  Shaking head</li>
+</ul>
+</li>
+<li>When you press Again, Catgirl shakes her head and the sushi turns into another sushi.</li>
+<li>When the review progresses, the catgirls can eat overpriced sushi.</li>
+<li><a href="https://youtu.be/oX0IClAFTxA"> [ Youtube demo video ]</a></li>
+</ul>
+<h2 id="4-ambiebt-music-calm"><a class="header" href="#4-ambiebt-music-calm">4. ⭐Ambiebt Music (Calm)</a></h2>
+<p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/02710996-a914-45ee-a26b-8f0a412fa56d" alt="image" /></p>
+<ul>
+<li>Ambient sounds such as bonfires and rainfall are played instead of music.
+<ul>
+<li>[ Easy ] Blue Star spinning</li>
+<li>[ Good ] Green Star spinning</li>
+<li>[ Hard ] Yellow Star spinning</li>
+<li>[ Again ] Red Star spinning</li>
+</ul>
+</li>
+<li>When you answer, the Anki star spinning.</li>
+</ul>
+<h2 id="5-study-with-zombie-horror"><a class="header" href="#5-study-with-zombie-horror">5. 🧟‍♀Study with Zombie (Horror)</a></h2>
+<p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/370e0523-7052-4616-981f-edb7f7e715bb" alt="292660416-a1091a1f-18de-4902-99f3-03c1589ffce1" /></p>
+<ul>
+<li>Fight Parasite Zombie like 3D FPS Game.
+<ul>
+<li>[ Easy ] Gunfire and triple explosions, zombie is knocked down.</li>
+<li>[ Good ] Gunfire and explosions, zombie is knocked down.</li>
+<li>[ Hard ] Gunfire and explosions, but zombie attack or roar.</li>
+<li>[ Again ] Reload, zombie attack or roar.</li>
+<li>[ Leech + Again ] Zombie Eats Flesh</li>
+<li>[ Press Again or Hard many times on same card today ] Zombie Laughs</li>
+</ul>
+</li>
+<li>The zombie is translucent.</li>
+</ul>
+<h2 id="6-resident-anki"><a class="header" href="#6-resident-anki">6. 🧟‍♀RESIDENT ANKI</a></h2>
+<p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/0e135d45-286f-4342-a46a-de519293b021" alt="banner_resident_anki (3)" /></p>
+<ul>
+<li>vs mini zombies 300.</li>
+</ul>
+<h2 id="7-cat-gathering-in-anki"><a class="header" href="#7-cat-gathering-in-anki">7. 🐈️Cat Gathering in Anki</a></h2>
+<p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/3fd8d71b-dd1b-4f7b-9e7c-799b0205580f" alt="banner_Cat Gathering_in_Anki (3)" /><br></p>
+<ul>
+<li>This is an additional theme with cats walking and running around.</li>
+</ul>
+<h2 id="8-zen-mode"><a class="header" href="#8-zen-mode">8. 🧘‍♀️Zen Mode</a></h2>
+<p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/180f5ad7-f27e-40c9-87bc-4d9161ce5323" alt="banner_zen_mode (3)" /><br></p>
+<ul>
+<li>This is an additional theme that turns off all animation, progress bar, and music.(In other words, there is nothing.)</li>
+</ul>
+<h2 id="9-ankiterminator-sr-800"><a class="header" href="#9-ankiterminator-sr-800">9. 🤖AnkiTerminator SR-800</a></h2>
+<p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/fc591dab-b098-4009-bf1c-64529902f603" alt="banner_Anki_Terminator_192" /></p>
+<ul>
+<li>Anki Terminator SR-800 is the cute mascot character for Anki's reviews.</li>
+</ul>
+<h2 id="10-virtual-ankipad"><a class="header" href="#10-virtual-ankipad">10. 🎮Virtual AnkiPad</a></h2>
+<p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/727bd55e-7a63-4960-a3dc-9f08b5dd860e" alt="image" /></p>
+<ul>
+<li>Review screens will show answer buttons like the gamepad.</li>
+<li>Drag and drop to move it.</li>
+<li>Right-click to show additional buttons.</li>
+<li>Cancel button by pressing and holding it for more than 1 second.</li>
+<li>Show/hide the buttons in the "Theme" tab of the options.(Top position)</li>
+<li>Virtual AnkiPad buttons positions can be changed by right-clicking. (This menu is not optimized so it is still a bit difficult to use.)</li>
+<li>Added a function to turn on/off V-AnkiPad by right-clicking during review.</li>
+</ul>
+<h2 id="11-mozartanki"><a class="header" href="#11-mozartanki">11. 🎵Mozartanki</a></h2>
+<p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/2cfa141b-4edd-40ca-ab93-ea04166b01f8" alt="image" /></p>
+<ul>
+<li>MIDI music player with 328 classical music tracks.</li>
+</ul>
+<h2 id="12-warriorwoman"><a class="header" href="#12-warriorwoman">12. ⚔WarriorWoman</a></h2>
+<p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/63a48c45-ed79-4cb8-a428-abc1b577f523" alt="image" /></p>
+<h2 id="13-armorknight"><a class="header" href="#13-armorknight">13. ⚔ArmorKnight</a></h2>
+<p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/84339160-47f1-47e3-81d2-625c7ad5314b" alt="image" /></p>
+<h2 id="14-meowknight"><a class="header" href="#14-meowknight">14. 🐈MeowKnight</a></h2>
+<p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/fdc8656e-41c9-4888-93e2-e62707c1e212" alt="image" /></p>
+<h2 id="15-redwitch"><a class="header" href="#15-redwitch">15. 🪄RedWitch</a></h2>
+<p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/7a3530bd-0795-4aa3-8731-806cb9c677e2" alt="image" /></p>
+<h2 id="16-darkwitch"><a class="header" href="#16-darkwitch">16. 🪄DarkWitch</a></h2>
+<p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/80fb7348-d206-417c-9898-3c0a11b064c4" alt="image" /></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../AnkiArcade/Home.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../AnkiArcade/02.-Change-Theme.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../AnkiArcade/Home.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../AnkiArcade/02.-Change-Theme.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
