@@ -40,7 +40,7 @@ I have not yet developed the function to use the API.<br>
     * 30 chats per session and 300 chats per day, but GPT-4 is free.
 <br>
 
-## How to Use
+## How to Use {#custom-id-how-to-use}
 
 
 
@@ -63,9 +63,9 @@ Clicking on it will open the AI sidebar.<br>
 
 ![image](https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/4a6aa260-407f-412e-82c9-3df052ecef71)<br>
 
-## Options
+## Options {#custom-id-options}
 
-### 1.Always tab
+### Always tab {#custom-id-always-tab}
 
 *  AI : ChatGPT, GoogleBard, BingChat
 *  Translate : The default prompt is English, so non-native English speakers cannot use it,<br>
@@ -74,7 +74,7 @@ Clicking on it will open the AI sidebar.<br>
 
 ![image](https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/cacdeb42-663f-4724-8bd5-94a67daf17df)<br>
 
-### 2.Prompts tab
+### Prompts tab {#custom-id-prompts-tab}
 
 You can customize the name of each prompt and button.<br>
 {} will be replaced by field text.<br>
@@ -82,28 +82,28 @@ You can customize the name of each prompt and button.<br>
 ![image](https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/49657f12-7dd0-421b-84d1-bd8715f82dc2)<br>
 
 
-### 3.Tags tab
+### Tags tab {#custom-id-tags-tab}
 
 If you use a special tag, you can tell ChatGPT that you are studying that tag.<br>
 {} will be replaced by tag.<br>
 
 ![image](https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/8f0b6011-91eb-493d-88e9-28a82c71e7f6)<br>
 
-### 4.Priority Fields tab
+### Priority Fields tab {#custom-id-priority-fields-tab}
 
 This add-on grabs the text to be used in the prompt from the first field.<br>
 You can specify which fields are to be prioritized.<br>
 
 ![image](https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/237ea7b3-fc17-4988-bf13-c0dc65f48bed)<br>
 
-### 4. Exclude tab
+### Exclude tab {#custom-id-exclude-tab}
 
 Does not grab the text from the field by the specified note type.<br>
 For example, image occlusion cannot be used because there is no text.<br>
 
 ![image](https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/9185a136-08b9-4a85-812c-f39fe98bc1f8)<br>
 
-### 5. Other tab
+### Other tab {#custom-id-other-tab}
 
 * Sidebar
 * AutoPrompt
