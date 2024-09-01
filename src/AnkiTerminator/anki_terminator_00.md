@@ -13,6 +13,15 @@ There is a feature to auto-send prompts when flipping Anki cards.<br>
 
 \[ add-on code : `1428126516` ] <br> 
 
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rLXM63Jc8ng" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+
+
 #### \[ ▲ Attention ]
  This add-on stores your login information in a Cookie.<br>
  If you are concerned about security, please do not use this add-on.<br>
