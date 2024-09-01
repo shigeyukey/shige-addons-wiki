@@ -10,9 +10,7 @@ if you [become a Patreon](https://www.patreon.com/Shigeyuki), you will get early
 * ### [ [ Latest Version v1.7.0 ]  Download Page (Patreon)](https://www.patreon.com/posts/ankiarcade-1-7-0-101482750?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=t50NZagCsYk" frameborder="0" allowfullscreen></iframe>
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t50NZagCsYk" title="[ Anki add-on ] AnkiArcade.1.6.8 Medley (Long)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 * ### [ AnkiArcade Themes ](https://github.com/shigeyukey/AnkiArcade/wiki/01.-AnkiArcade-Themes)
