@@ -8,6 +8,11 @@ title = "Shige addons Wiki"
 [output.html]
 git-repository-url = "https://www.patreon.com/Shigeyuki"
 git-repository-icon = "fa-envelope"
+edit-url-template = "https://github.com/shigeyukey/shige-addons-wiki/edit/main/{path}"
+
 
 [output.html.print]
 enable = false
+
+[output.html.fold]
+enable = true
