@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://ankiweb.net/shared/info/1594977234">
-    <title>Redirecting...</title>
+ <meta http-equiv="refresh" content="0;url=https://ankiweb.net/shared/info/1594977234">
 </head>
 <body>
 </body>
