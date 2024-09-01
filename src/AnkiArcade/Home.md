@@ -1,5 +1,5 @@
 
-## [ AnkiArcade ] How to use Wiki
+## \[ AnkiArcade ] How to use Wiki
 
 ![patreon_header_ankigame_addons_2 (2)](https://github.com/shigeyukey/AnkiArcade/assets/124401518/4dcc3e40-158d-4ccf-b1cf-5b97bdad0c4a)
 
@@ -7,10 +7,13 @@ AnkiArcade is an add-on with multiple mini games, progress bar, pomodoro timer, 
 This is a prototype add-on that I personally developed for the [open source flashcard app Anki.](https://apps.ankiweb.net/)<br>
 if you [become a Patreon](https://www.patreon.com/Shigeyuki), you will get early access to Prototype.(It's not related to the official Anki)<br> 
 
-* ### [ [ Latest Version v1.7.0 ]  Download Page(Patreon)](https://www.patreon.com/posts/ankiarcade-1-7-0-101482750?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
+* ### [ [ Latest Version v1.7.0 ]  Download Page (Patreon)](https://www.patreon.com/posts/ankiarcade-1-7-0-101482750?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
 
-* Youtube<br>
-[![_thumbnail_Medley_youtube](https://github.com/shigeyukey/AnkiArcade/assets/124401518/39d0fdea-5a08-430f-9cf5-00cccbdbb3e1)](https://www.youtube.com/watch?v=t50NZagCsYk)
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=t50NZagCsYk" frameborder="0" allowfullscreen></iframe>
+
+
+
 
 * ### [ AnkiArcade Themes ](https://github.com/shigeyukey/AnkiArcade/wiki/01.-AnkiArcade-Themes)
 
