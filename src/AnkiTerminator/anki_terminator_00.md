@@ -71,6 +71,7 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
   - [Priority Fields tab](#priority-fields-tab)
   - [Exclude tab](#exclude-tab)
   - [Other tab](#other-tab)
+  - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
 <br><br>
 
@@ -174,8 +175,15 @@ Clicking on it will open the AI sidebar.<br>
 
 
 
-<br><br>
+<br>
 
-| [**Add-on page**](https://ankiweb.net/shared/info/1428126516)
-| **add-on code:** `1428126516` 
-| [**Reviews**](https://ankiweb.net/shared/info/1428126516#:~:text=Remove-,Reviews,-on%202024%2D08)
+
+### 📥 How do I install this add-on?
+1. Copy and paste the add-on code ( `1428126516` )  into Anki and you can install it. ( Menu -> Tools -> Add-ons -> Get Add-ons -> Code : add-on code )
+2. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
+3. If you rate and recommend it, I will receive a notice and my tedious and sleepy add-ons volunteer work will become more enjoyable and exciting.(This add-on is developed by free volunteer work!👍️)
+
+[Click here and please Rate this add-on, Thank you! :-) <br>
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/1428126516)
+
+ [**Read Reviews**](https://ankiweb.net/shared/info/1428126516#:~:text=Remove-,Reviews,-on%202024%2D08)
