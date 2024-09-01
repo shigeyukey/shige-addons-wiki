@@ -13,7 +13,7 @@ if you [become a Patreon](https://www.patreon.com/Shigeyuki), you will get early
 <iframe width="560" height="315" src="https://www.youtube.com/embed/t50NZagCsYk" title="[ Anki add-on ] AnkiArcade.1.6.8 Medley (Long)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-* ### [ AnkiArcade Themes ](https://github.com/shigeyukey/AnkiArcade/wiki/01.-AnkiArcade-Themes)
+* ### [ AnkiArcade Themes ](01.-AnkiArcade-Themes.md)
 
 * Youtube
     * [[  Anki Knights & Doragons ]](https://youtu.be/wYUzx3xKqq8)
