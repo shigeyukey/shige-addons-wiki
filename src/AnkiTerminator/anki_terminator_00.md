@@ -40,7 +40,7 @@ I have not yet developed the function to use the API.<br>
     * 30 chats per session and 300 chats per day, but GPT-4 is free.
 <br>
 
- ## How to Use
+## How to Use
 
 
 
