@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
- <meta http-equiv="refresh" content="0;url=anki_terminator.html#1always-tab">
+ <meta http-equiv="refresh" content="0;url=anki_terminator_00.html#1always-tab">
 </head>
 <body>
 </body>
