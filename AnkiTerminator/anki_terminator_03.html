@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>🤖Anki Terminator - Shige addons Wiki</title>
+        <title>options - Shige addons Wiki</title>
 
 
         <!-- Custom HTML head -->
@@ -87,7 +87,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../intro.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../AnkiTerminator/anki_terminator.html" class="active"><strong aria-hidden="true">2.</strong> 🤖Anki Terminator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../AnkiTerminator/anki_terminator_01.html"><strong aria-hidden="true">2.1.</strong> How to use</a></li></ol></li><li class="chapter-item expanded "><a href="../anki_manuals_jp.html"><strong aria-hidden="true">3.</strong> 📖Japanese translation of Anki Manuals</a></li></ol>
+                <ol class="chapter"><li class="chapter-item "><a href="../intro.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../AnkiTerminator/anki_terminator_00.html"><strong aria-hidden="true">2.</strong> 🤖Anki Terminator</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../AnkiTerminator/anki_terminator_01.html"><strong aria-hidden="true">2.1.</strong> How to use</a></li><li class="chapter-item "><a href="../AnkiTerminator/anki_terminator_02.html"><strong aria-hidden="true">2.2.</strong> sidebar</a></li><li class="chapter-item expanded "><a href="../AnkiTerminator/anki_terminator_03.html" class="active"><strong aria-hidden="true">2.3.</strong> options</a></li></ol></li><li class="chapter-item "><a href="../anki_manuals_jp.html"><strong aria-hidden="true">3.</strong> 📖Japanese translation of Anki Manuals</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -146,6 +146,9 @@
                         <a href="https://www.patreon.com/Shigeyuki" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-envelope"></i>
                         </a>
+                        <a href="https://github.com/shigeyukey/shige-addons-wiki/edit/main/src/AnkiTerminator/anki_terminator_03.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
 
                     </div>
                 </div>
@@ -172,120 +175,23 @@
 
                 <div id="content" class="content">
                     <main>
-                        <p><img src="https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/8141ce68-9f0a-4eb9-8f99-e418a879baa2" alt="banner" /></p>
-<p><a href="https://www.reddit.com/user/Shige-yuki"><img src="https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065" alt="reddit" /></a></p>
-<h5 id="-github-issues-"><a class="header" href="#-github-issues-"><a href="https://github.com/shigeyukey/Anki-Terminator-/issues"> [ Github Issues ] </a></a></h5>
-<p>AI sidebar for reviews. <br>
-Just login to use ChatGPT, GoogleBard, and Bing Chat for free and easy.<br>
-(No OpenAI API required).<br>
-There is a feature to auto-send prompts when flipping Anki cards.<br></p>
-<p>[ add-on code : <code>1428126516</code> ] <br></p>
-<h4 id="--attention-"><a class="header" href="#--attention-">[ ▲ Attention ]</a></h4>
-<p>This add-on stores your login information in a Cookie.<br>
-If you are concerned about security, please do not use this add-on.<br>
-(To delete the cookie, delete the add-on or delete the User_files folder.)<br></p>
-<ul>
-<li>Advantages of using cookie
-<ul>
-<li>No need for tedious 2-step authentication</li>
-<li>Free AI can be used as much as you want (no need for API)
-<br></li>
-</ul>
-</li>
-<li>Disadvantages of using cookie
-<ul>
-<li>Poor security</li>
-<li>Add-on is easily broken<br></li>
-</ul>
-</li>
-</ul>
-<p>To resolve this cookie issue, API is needed (in short, it will be paid for).<br>
-I have not yet developed the function to use the API.<br></p>
-<h4 id="-limits-of-each-ai-"><a class="header" href="#-limits-of-each-ai-">[ Limits of each AI ]<br></a></h4>
-<ul>
-<li><strong>Chat GPT</strong>
-<ul>
-<li>The fastest, but has an hourly limit<br>
-(30 times per hour, so about 1 time every 2 minutes), <br>
-so if you use it continuously, it will reach the limit soon.</li>
-</ul>
-</li>
-<li><strong>Google Bard</strong>
-<ul>
-<li>Unlimited number of replies, but replies are a bit slow.</li>
-</ul>
-</li>
-<li><strong>Bing Chat</strong>
-<ul>
-<li>30 chats per session and 300 chats per day, but GPT-4 is free.
-<br></li>
-</ul>
-</li>
-</ul>
-<h2 id="how-to-use"><a class="header" href="#how-to-use">How to Use</a></h2>
-<p><img src="https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/29e4db70-2b95-4613-84b7-f4261d49cc92" alt="image" /><br></p>
-<p>When the add-on is installed, the ChatGPT icon will be added to the right side of the top toolbar.<br>
-Clicking on it will open the AI sidebar.<br></p>
-<h2 id="sidebar"><a class="header" href="#sidebar">Sidebar</a></h2>
-<ul>
-<li>Change AI : Click to change the AI.</li>
-<li>AutoSendPronpt : Automatically sends prompts when card answer is shown and when Pronpts button is pressed.</li>
-<li>Field Name : The text of the field used in prompts is automatically inputted.</li>
-<li>Right click : You can enter text in this box by right-clicking.</li>
-<li>Select text in Anki -&gt; Right click -&gt; Chat GPT</li>
-<li>Pronpts Buttons : Input prompts into ChatGPT.</li>
-<li>Option : Open the Options dialog.</li>
-</ul>
-<p><img src="https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/4a6aa260-407f-412e-82c9-3df052ecef71" alt="image" /><br></p>
-<h2 id="options"><a class="header" href="#options">Options</a></h2>
-<h3 id="1always-tab"><a class="header" href="#1always-tab">1.Always tab</a></h3>
-<ul>
-<li>AI : ChatGPT, GoogleBard, BingChat</li>
-<li>Translate : The default prompt is English, so non-native English speakers cannot use it,<br>
-but you can request translation to ChatGPT using prompts.<br>
-The "{}" is auto-replaced with the language used by Anki.<br></li>
-</ul>
-<p><img src="https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/cacdeb42-663f-4724-8bd5-94a67daf17df" alt="image" /><br></p>
-<h3 id="2prompts-tab"><a class="header" href="#2prompts-tab">2.Prompts tab</a></h3>
-<p>You can customize the name of each prompt and button.<br>
-{} will be replaced by field text.<br></p>
-<p><img src="https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/49657f12-7dd0-421b-84d1-bd8715f82dc2" alt="image" /><br></p>
-<h3 id="3tags-tab"><a class="header" href="#3tags-tab">3.Tags tab</a></h3>
-<p>If you use a special tag, you can tell ChatGPT that you are studying that tag.<br>
-{} will be replaced by tag.<br></p>
-<p><img src="https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/8f0b6011-91eb-493d-88e9-28a82c71e7f6" alt="image" /><br></p>
-<h3 id="4priority-fields-tab"><a class="header" href="#4priority-fields-tab">4.Priority Fields tab</a></h3>
-<p>This add-on grabs the text to be used in the prompt from the first field.<br>
-You can specify which fields are to be prioritized.<br></p>
-<p><img src="https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/237ea7b3-fc17-4988-bf13-c0dc65f48bed" alt="image" /><br></p>
-<h3 id="4-exclude-tab"><a class="header" href="#4-exclude-tab">4. Exclude tab</a></h3>
-<p>Does not grab the text from the field by the specified note type.<br>
-For example, image occlusion cannot be used because there is no text.<br></p>
-<p><img src="https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/9185a136-08b9-4a85-812c-f39fe98bc1f8" alt="image" /><br></p>
-<h3 id="5-other-tab"><a class="header" href="#5-other-tab">5. Other tab</a></h3>
-<ul>
-<li>Sidebar</li>
-<li>AutoPrompt</li>
-<li>auto input : Automatically prompts when card answer is shown.</li>
-<li>auto send : Automatically sends prompts when card answer is shown.</li>
-<li>Shortcut Keys
-<ul>
-<li>Send pronpts : The prompts you enter can be send using shortcut keys.</li>
-<li>Open Sidebar</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/9952f1b2-b95a-4809-ac4b-50a28cf1b0a2" alt="image" /></p>
-
+                        <!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="refresh" content="0;url=anki_terminator.html#options">
+</head>
+<body>
+</body>
+</html>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../intro.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../AnkiTerminator/anki_terminator_02.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="../AnkiTerminator/anki_terminator_01.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../anki_manuals_jp.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -295,11 +201,11 @@ For example, image occlusion cannot be used because there is no text.<br></p>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../intro.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../AnkiTerminator/anki_terminator_02.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="../AnkiTerminator/anki_terminator_01.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../anki_manuals_jp.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
