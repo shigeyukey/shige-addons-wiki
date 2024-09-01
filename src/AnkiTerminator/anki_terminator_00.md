@@ -50,7 +50,7 @@ When the add-on is installed, the ChatGPT icon will be added to the right side o
 Clicking on it will open the AI sidebar.<br>
 
 
-## Sidebar
+## Sidebar {#custom-id-sidebar}
 
 * Change AI : Click to change the AI.
 * AutoSendPronpt : Automatically sends prompts when card answer is shown and when Pronpts button is pressed.
