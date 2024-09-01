@@ -4,12 +4,12 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Shige addons Wiki"
-default-theme = "navy"
+
 
 [output.html]
 git-repository-url = "https://www.patreon.com/Shigeyuki"
 git-repository-icon = "fa-envelope"
-
+default-theme = "navy"
 
 [output.html.print]
 enable = false
