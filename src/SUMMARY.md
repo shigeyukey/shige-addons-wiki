@@ -57,7 +57,7 @@
 
 ---
 
-# Popular Free add-ons (Custom)
+# Popular Free add-ons
 - [⌛️Progress bar](progress-bar.md)
 - [🏆Anki Leaderboard](anki-leaderboard.md)
 - [🎖️Anki Killstreaks](anki-killstreaks.md)
