@@ -59,14 +59,14 @@
 
 # Popular Free add-ons
 - [⌛️Progress bar](progress-bar.md)
-- [🏆Anki Leaderboard](anki-leaderboard.md)
-- [🎖️Anki Killstreaks](anki-killstreaks.md)
-- [🔍Zoom 23](zoom-23.md)
-- [🎮Pokemanki Gold](pokemanki-gold.md)
+- [🏆Anki Leaderboard]()<!--(anki-leaderboard.md)-->
+- [🎖️Anki Killstreaks]()<!--(anki-killstreaks.md)-->
+- [🔍Zoom 23]()<!--(zoom-23.md)-->
+- [🎮Pokemanki Gold]()<!--(pokemanki-gold.md)-->
 - [🤖Anki Terminator](AnkiTerminator/anki_terminator_00.md)
-- [🖥️No Distractions Full Screen](no-distractions-full-screen.md)
-- [🔝Always On Top](always-on-top.md)
-- [🎨Anki Redesign](anki-redesign.md)
+- [🖥️No Distractions Full Screen]()<!--(no-distractions-full-screen.md)-->
+- [🔝Always On Top]()<!--(always-on-top.md) -->
+- [🎨Anki Redesign]()<!--(anki-redesign.md)-->
 - [🔂AnkiRestart](ankirestart.md)
 - [☕Break Timer](break-timer.md)
 
@@ -76,14 +76,14 @@
 
 - [Shige add-ons]()
   - [🎮Today Again Count](today-again-count.md)
-  - [📌Rearrange home addons](rearrange-home-addons.md)
-  - [🐻TidyAnkiBear](tidyankibear.md)
-  - [🦾Bulk Image Downloader](bulk-image-downloader.md)
-  - [📝Editor auto show or hide](editor-auto-show-or-hide.md)
-  - [📱Anki Discord Sidebar](anki-discord-sidebar.md)
-  - [🖌️Auto Highlight Cloze in Browser](auto-highlight-cloze-in-browser.md)
-  - [🖍️Review Highlighter](review-highlighter.md)
-  - [⏩️Skip Anki home and deck overview](skip-anki-home-and-deck-overview.md)
+  - [📌Rearrange home addons]()<!--(rearrange-home-addons.md)-->
+  - [🐻TidyAnkiBear]()<!--(tidyankibear.md)-->
+  - [🦾Bulk Image Downloader]()<!--(bulk-image-downloader.md)-->
+  - [📝Editor auto show or hide]()<!--(editor-auto-show-or-hide.md)-->
+  - [📱Anki Discord Sidebar]()<!--(anki-discord-sidebar.md)-->
+  - [🖌️Auto Highlight Cloze in Browser]()<!--(auto-highlight-cloze-in-browser.md)-->
+  - [🖍️Review Highlighter]()<!--(review-highlighter.md)-->
+  - [⏩️Skip Anki home and deck overview]()<!--(skip-anki-home-and-deck-overview.md)-->
 
 ---
 
