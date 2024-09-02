@@ -18,8 +18,8 @@ Q. How can I get this add-on right now?
 Q. How can I wait until this become free?
  1. Download this empty add-on and when it becomes free I will notify you and you can install it.
 
-* [Addon page](https://ankiweb.net/shared/info/1708250053)
-* addon code : `1708250053`
+* [Addon page](https://ankiweb.net/shared/info/1594977234)
+* addon code : `1594977234`
 
 Q. When will this become free?
  1. I don't know when. It will be possible when I have done a lot of development, please wait.
