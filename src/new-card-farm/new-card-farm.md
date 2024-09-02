@@ -4,6 +4,6 @@
 
 ### New Cards Farm - Growing Crops and Flowers
 
- 1.  [New card farm 02](new-card-farm-02.md) (New!)
-
  1.  [New card farm 01](new-card-farm.md)
+
+ 1.  [New card farm 02](new-card-farm-02.md) (New!)

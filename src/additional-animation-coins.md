@@ -1,9 +1,8 @@
-
-
+# 🎖️Additional animation coins
 
 I fixed AnkiKillStreaks for the latest Anki. You can download it for free from AnkiWeb.
 
-(Free version)[🎮Anki Killstreaks - fixed for Anki 23 by Shige](https://ankiweb.net/shared/info/1562475180)
+* (Free version)[🎖️Anki Killstreaks - fixed for Anki 23 by Shige](https://ankiweb.net/shared/info/1562475180)
 
 If you become a patron, you will get additional animation coins.
 

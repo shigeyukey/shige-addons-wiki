@@ -1,1 +1,1 @@
-# just anki timer
+# 🍅Just do it Anki Timer

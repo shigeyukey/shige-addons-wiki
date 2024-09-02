@@ -1,7 +1,7 @@
+# 📖Japanese translation of Anki Manuals
 
 
-
-
+I translate Anki manuals to Japanese.
 
 ## Summary of Anki Japanese Manuals
 

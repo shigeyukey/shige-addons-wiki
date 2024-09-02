@@ -1,0 +1,16 @@
+# 🎮Virtual AnkiPad
+
+![image](https://github.com/shigeyukey/AnkiArcade/assets/124401518/727bd55e-7a63-4960-a3dc-9f08b5dd860e)
+
+
+ * Review screens will show answer buttons like the gamepad.
+ * Drag and drop to move it.
+ * Right-click to show additional buttons.
+ * Cancel button by pressing and holding it for more than 1 second.
+ * Show/hide the buttons in the "Theme" tab of the options.(Top position)
+ * Virtual AnkiPad buttons positions can be changed by right-clicking. (This menu is not optimized so it is still a bit difficult to use.)
+ * Added a function to turn on/off V-AnkiPad by right-clicking during review.
+
+
+
+<iframe src="https://www.youtube.com/embed/-wnvkWz8GHg?list=PLZhrgD6s-LFVsEhxRdEHf_OkGVe2YZfeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>

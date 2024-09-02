@@ -1,1 +1,1 @@
-# dino timer
+# 🦖Dino Timer
