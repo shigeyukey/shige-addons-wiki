@@ -47,11 +47,11 @@
 - [🎨Top toolbar icons](top-toolbar-icons.md)
 - [🔫Doomanki](doomanki.md)
 - [🕶️EaseScouter](easescouter.md)
-- [🍅PomoTimer](pomotimer.md)<!--🟢-->
+- [🍅PomoTimer](pomotimer.md)
 - [🦖Dino Timer](dino-timer.md)
-- [🍅Just Do It Anki Timer](just-anki-timer.md)
+- [🔥Just Do It Anki Timer](just-anki-timer.md)
 - [🎮Superfluous Button Bros](superfluous-button-bros.md)
-
+---
 - [🎮An-Ki-Oh! Template](an-ki-oh.md)
 - [⌨TypingMaster US Shared Decks](typingmaster-us-keyboard.md)
 
@@ -77,8 +77,8 @@
 - [Shige add-ons]()
   - [🎮Today Again Count](today-again-count.md)
   - [📌Rearrange home addons](rearrange-home-addons.md)
-  - [🦾Bulk Image Downloader](bulk-image-downloader.md)
   - [🐻TidyAnkiBear](tidyankibear.md)
+  - [🦾Bulk Image Downloader](bulk-image-downloader.md)
   - [📝Editor auto show or hide](editor-auto-show-or-hide.md)
   - [📱Anki Discord Sidebar](anki-discord-sidebar.md)
   - [🖌️Auto Highlight Cloze in Browser](auto-highlight-cloze-in-browser.md)
