@@ -8,12 +8,12 @@
 
 - [⚔️️Anki Arcade](AnkiArcade/Home.md)
   <!-- - [🎮️Anki Arcade Themes](AnkiArcade/themes/00-index.md) -->
-- [⚔️️Anki Knights & Doragons](AnkiArcade/themes/01-anki-knights--doragons.md)
+- [⚔️Anki Knights & Doragons](AnkiArcade/themes/01-anki-knights--doragons.md)
 - [💎Little Ankimares](AnkiArcade/themes/02-little-ankimares.md)
 - [🐈CatGirl & Sushi](AnkiArcade/themes/03-catgirl--sushi.md)
 - [⭐Ambiebt Music](AnkiArcade/themes/04-ambiebt-music.md)
 - [🧟‍♀Study with Zombie](AnkiArcade/themes/05-study-with-zombie.md)
-- [🧟‍♀RESIDENT ANKI](AnkiArcade/themes/06-resident-anki.md)
+- [🧟‍♀Resident Anki](AnkiArcade/themes/06-resident-anki.md)
 - [🐈️Cat Gathering in Anki](AnkiArcade/themes/07-️cat-gathering-in-anki.md)
 - [🧘‍♀️Zen Mode](AnkiArcade/themes/08-️zen-mode.md)
 - [🤖AnkiTerminator SR-800](AnkiArcade/themes/09-ankiterminator-sr-800.md)
@@ -23,7 +23,7 @@
 - [🐈MeowKnight](AnkiArcade/themes/13-meowknight.md)
 - [🪄RedWitch and DarkWitch](AnkiArcade/themes/14-redwitch.md)
 
-- [📖AnkiArcade How to use](AnkiArcade/how-to-use.md)
+- [⚙️AnkiArcade How to use](AnkiArcade/how-to-use.md)
   - [🎨Change Theme](AnkiArcade/02.-Change-Theme.md)
   - [📊Card Status](AnkiArcade/03.-Card-status.md)
   - [⌛️Progress Bars](AnkiArcade/04.-Progress-Bars.md)

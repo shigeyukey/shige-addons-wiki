@@ -1,6 +1,6 @@
 ![patreon_header_ankigame_addons_2 (2)](https://github.com/shigeyukey/AnkiArcade/assets/124401518/4dcc3e40-158d-4ccf-b1cf-5b97bdad0c4a)
 
-<iframe src="https://www.youtube.com/embed/t50NZagCsYk?list=PLZhrgD6s-LFVsEhxRdEHf_OkGVe2YZfeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
+<!-- <iframe src="https://www.youtube.com/embed/t50NZagCsYk?list=PLZhrgD6s-LFVsEhxRdEHf_OkGVe2YZfeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe> -->
 
 
 This site is a collection of [ <img src="https://raw.githubusercontent.com/shigeyukey/Anki-Manuals-jp/main/Shigeyuki_icon.png" style="width: 1.2em; height: 2 em;"> Shigeyuki's ](http://patreon.com/Shigeyuki) Anki add-ons Wiki.

@@ -31,7 +31,7 @@ if you [become a Patreon](https://www.patreon.com/Shigeyuki), you will get early
 1. [🐈MeowKnight](themes/13-meowknight.md)
 1. [🪄RedWitch and DarkWitch](themes/14-redwitch.md)
 
-### [ AnkiArcade 📖How to use ](how-to-use.md)
+### [ ⚙️AnkiArcade How to use ](how-to-use.md)
 1. [🎨Change Theme](02.-Change-Theme.md)
 1. [📊Card Status](03.-Card-status.md)
 1. [⌛️Progress Bars](04.-Progress-Bars.md)

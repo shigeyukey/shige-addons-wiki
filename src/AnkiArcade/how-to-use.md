@@ -1,7 +1,7 @@
-# 📖AnkiArcade How to use
+# ⚙️AnkiArcade How to use
 
 
-  - AnkiArcade How to use
+  - ⚙️AnkiArcade How to use
     - [🎨Change Theme](02.-Change-Theme.md)
     - [📊Card Status](03.-Card-status.md)
     - [⌛️Progress Bars](04.-Progress-Bars.md)
