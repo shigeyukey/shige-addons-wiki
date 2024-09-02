@@ -127,13 +127,12 @@
   - [🛡️Enable HTTPS]()
 
 ---
-
-  # No longer needed
-  - [🎨Deck Browser CSS]()
-  - [🌍DeepL Translator]()
-  - [🎮️LeaderBoard Patch Installer]()
-  - [⌛️Remaining time]()
-  - [🚚Transfer scheduling data]()
+  - [No longer needed]()
+    - [🎨Deck Browser CSS]()
+    - [🌍DeepL Translator]()
+    - [🎮️LeaderBoard Patch Installer]()
+    - [⌛️Remaining time]()
+    - [🚚Transfer scheduling data]()
 
 ---
 
