@@ -25,7 +25,7 @@ Q. When will this become free?
 
 <br>
 
-**[ 📖 How To Use ]**
+**\[ 📖 How To Use ]**
 
 This Add-on is a cusimized version of the [New Card Heatmap (Not Free) ](https://ankiweb.net/shared/info/1184707668). You can grow crops and flowers with the new cards you have learned.<br>
 
