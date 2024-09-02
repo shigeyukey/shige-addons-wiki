@@ -1,0 +1,1 @@
+# rearrange home addons

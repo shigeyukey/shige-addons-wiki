@@ -31,14 +31,14 @@ def generate_missing_md_files(summary_file, base_dir):
             if relative_path.endswith('.md') and not os.path.exists(file_path):
                 # Print the file path and the updated line for confirmation
                 print(f'File to be created: {file_path}')
-                print(f'Updated line: {line}')
+                # print(f'Updated line: {line}')
                 # Uncomment the following lines to actually create the files and update the summary file
                 # Create directories if they do not exist
-                # os.makedirs(os.path.dirname(file_path), exist_ok=True)
+                os.makedirs(os.path.dirname(file_path), exist_ok=True)
                 # Create the .md file
-                # with open(file_path, 'w', encoding='utf-8') as md_file:
-                #     md_file.write(f'# {os.path.basename(file_path).replace("-", " ").replace(".md", "")}\n')
-                # print(f'Created: {file_path}')
+                with open(file_path, 'w', encoding='utf-8') as md_file:
+                    md_file.write(f'# {os.path.basename(file_path).replace("-", " ").replace(".md", "")}\n')
+                print(f'Created: {file_path}')
         
         updated_lines.append(line)
 
@@ -46,6 +46,11 @@ def generate_missing_md_files(summary_file, base_dir):
     print("Updated lines to be written back to the summary file:")
     for updated_line in updated_lines:
         print(updated_line, end='')
+
+    # Write the updated lines back to the summary file
+    with open(summary_file, 'w', encoding='utf-8') as file:
+        file.writelines(updated_lines)
+
 
 if __name__ == "__main__":
     summary_file = r'G:\among anki\_00_Github\Shige-Addons\shige-addons-wiki\shige-addons-wiki\src\SUMMARY.md'
