@@ -143,8 +143,8 @@
 
 ---
 
-# Others
-- [📖Japanese translation of Anki Manuals](anki_manuals_jp.md)
+# Translation
+- [📖Jp Anki Manuals ](anki_manuals_jp.md)
 
 ---
 
