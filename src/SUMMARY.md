@@ -46,8 +46,8 @@
 - [🔫Doomanki](doomanki.md)
 - [🕶️EaseScouter](easescouter.md)
 - [🍅PomoTimer](pomotimer.md)<!--🟢-->
-- [🍅Just Do It Anki Timer](just-anki-timer.md)
 - [🦖Dino Timer](dino-timer.md)
+- [🍅Just Do It Anki Timer](just-anki-timer.md)
 - [🎮Superfluous Button Bros](superfluous-button-bros.md)
 
 - [🎮An-Ki-Oh! Template](an-ki-oh.md)
