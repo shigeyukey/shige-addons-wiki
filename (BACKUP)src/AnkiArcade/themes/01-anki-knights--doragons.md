@@ -1,4 +1,4 @@
-# ⚔ Anki Knights & Doragons
+# ⚔️ Anki Knights & Doragons
 
 ![image](https://github.com/shigeyukey/AnkiArcade/assets/124401518/6c751328-c2e9-4dcc-be4d-568b84c408ef)   
 

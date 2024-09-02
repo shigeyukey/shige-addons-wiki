@@ -2,7 +2,7 @@
 
 
 - Anki Arcade Themes
-  - [⚔Anki Knights & Doragons (Lively)](01-anki-knights--doragons.md)
+  - [⚔️Anki Knights & Doragons (Lively)](01-anki-knights--doragons.md)
   - [💎Little Ankimares (Mellow)](02-little-ankimares.md)
   - [🐈CatGirl & Sushi (Pop)](03-catgirl--sushi.md)
   - [⭐Ambiebt Music (Calm)](04-ambiebt-music.md)
@@ -13,6 +13,6 @@
   - [🤖AnkiTerminator SR-800](09-ankiterminator-sr-800.md)
   - [🎮Virtual AnkiPad](10-virtual-ankipad.md)
   - [🎵Mozartanki](11-mozartanki.md)
-  - [⚔WarriorWoman and ArmorKnight](12-warriorwoman.md)
+  - [⚔️WarriorWoman and ArmorKnight](12-warriorwoman.md)
   - [🐈MeowKnight](13-meowknight.md)
   - [🪄RedWitch and DarkWitch](14-redwitch.md)

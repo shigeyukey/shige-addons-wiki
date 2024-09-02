@@ -1,4 +1,4 @@
-# ⚔WarriorWoman adn ArmorKnight
+# ⚔️WarriorWoman adn ArmorKnight
 
 
 ![image](https://github.com/shigeyukey/AnkiArcade/assets/124401518/63a48c45-ed79-4cb8-a428-abc1b577f523)

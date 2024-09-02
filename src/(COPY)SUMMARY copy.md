@@ -4,7 +4,7 @@
 
 # Patreon add-ons
 
-* [⚔️Anki Arcade](AnkiArcade/Home.md)
+* [⚔️️Anki Arcade](AnkiArcade/Home.md)
   * [🎮️Anki Arcade Themes](AnkiArcade/01.-AnkiArcade-Themes.md)
   * [🎨Change Theme](AnkiArcade/02.-Change-Theme.md)
   * [📊Card Status](AnkiArcade/03.-Card-status.md)

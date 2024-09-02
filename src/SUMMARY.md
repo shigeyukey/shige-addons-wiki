@@ -4,38 +4,38 @@
 
 - [Introduction](intro.md)
 
-# Patreon add-ons
+# AnkiArcade
 
-- [⚔️Anki Arcade](AnkiArcade/Home.md)
+- [⚔️️Anki Arcade](AnkiArcade/Home.md)
   <!-- - [🎮️Anki Arcade Themes](AnkiArcade/themes/00-index.md) -->
-  - [⚔Anki Knights & Doragons (Lively)](AnkiArcade/themes/01-anki-knights--doragons.md)
-  - [💎Little Ankimares (Mellow)](AnkiArcade/themes/02-little-ankimares.md)
-  - [🐈CatGirl & Sushi (Pop)](AnkiArcade/themes/03-catgirl--sushi.md)
-  - [⭐Ambiebt Music (Calm)](AnkiArcade/themes/04-ambiebt-music.md)
-  - [🧟‍♀Study with Zombie (Horror)](AnkiArcade/themes/05-study-with-zombie.md)
-  - [🧟‍♀RESIDENT ANKI](AnkiArcade/themes/06-resident-anki.md)
-  - [🐈️Cat Gathering in Anki](AnkiArcade/themes/07-️cat-gathering-in-anki.md)
-  - [🧘‍♀️Zen Mode](AnkiArcade/themes/08-️zen-mode.md)
-  - [🤖AnkiTerminator SR-800](AnkiArcade/themes/09-ankiterminator-sr-800.md)
-  - [🎮Virtual AnkiPad](AnkiArcade/themes/10-virtual-ankipad.md)
-  - [🎵Mozartanki](AnkiArcade/themes/11-mozartanki.md)
-  - [⚔WarriorWoman and ArmorKnight](AnkiArcade/themes/12-warriorwoman.md)
-  - [🐈MeowKnight](AnkiArcade/themes/13-meowknight.md)
-  - [🪄RedWitch and DarkWitch](AnkiArcade/themes/14-redwitch.md)
+- [⚔️️Anki Knights & Doragons](AnkiArcade/themes/01-anki-knights--doragons.md)
+- [💎Little Ankimares](AnkiArcade/themes/02-little-ankimares.md)
+- [🐈CatGirl & Sushi](AnkiArcade/themes/03-catgirl--sushi.md)
+- [⭐Ambiebt Music](AnkiArcade/themes/04-ambiebt-music.md)
+- [🧟‍♀Study with Zombie](AnkiArcade/themes/05-study-with-zombie.md)
+- [🧟‍♀RESIDENT ANKI](AnkiArcade/themes/06-resident-anki.md)
+- [🐈️Cat Gathering in Anki](AnkiArcade/themes/07-️cat-gathering-in-anki.md)
+- [🧘‍♀️Zen Mode](AnkiArcade/themes/08-️zen-mode.md)
+- [🤖AnkiTerminator SR-800](AnkiArcade/themes/09-ankiterminator-sr-800.md)
+- [🎮Virtual AnkiPad](AnkiArcade/themes/10-virtual-ankipad.md)
+- [🎵Mozartanki](AnkiArcade/themes/11-mozartanki.md)
+- [⚔️WarriorWoman and ArmorKnight](AnkiArcade/themes/12-warriorwoman.md)
+- [🐈MeowKnight](AnkiArcade/themes/13-meowknight.md)
+- [🪄RedWitch and DarkWitch](AnkiArcade/themes/14-redwitch.md)
 
-  - [📖AnkiArcade How to use](AnkiArcade/how-to-use.md)
-    - [🎨Change Theme](AnkiArcade/02.-Change-Theme.md)
-    - [📊Card Status](AnkiArcade/03.-Card-status.md)
-    - [⌛️Progress Bars](AnkiArcade/04.-Progress-Bars.md)
-    - [⏱️Pomodoro & Break Timer](AnkiArcade/05.-Pomodoro-&-Break-Timer.md)
-    - [🎵Sound](AnkiArcade/06.-Sound.md)
-    - [📂Other](AnkiArcade/08.-Other.md)
-    - [📝Changelog](AnkiArcade/09.-Changelog.md)
-    - [💖Credit](AnkiArcade/98.-Credit.md)
-    - [🚨Bug Report](AnkiArcade/99.-Bug-Report.md)
+- [📖AnkiArcade How to use](AnkiArcade/how-to-use.md)
+  - [🎨Change Theme](AnkiArcade/02.-Change-Theme.md)
+  - [📊Card Status](AnkiArcade/03.-Card-status.md)
+  - [⌛️Progress Bars](AnkiArcade/04.-Progress-Bars.md)
+  - [⏱️Pomodoro & Break Timer](AnkiArcade/05.-Pomodoro-&-Break-Timer.md)
+  - [🎵Sound](AnkiArcade/06.-Sound.md)
+  - [📂Other](AnkiArcade/08.-Other.md)
+  - [📝Changelog](AnkiArcade/09.-Changelog.md)
+  - [💖Credit](AnkiArcade/98.-Credit.md)
+  - [🚨Bug Report](AnkiArcade/99.-Bug-Report.md)
 
+# Patreon add-ons
 - [📊Progress bar for Anki](progress-bar-for-anki.md)
-
 <!-- - [🌱New Card Farm](new-card-farm/new-card-farm.md) -->
 - [🌱New Card Farm 2](new-card-farm/new-card-farm-02.md)
   - [🌱New Card Farm (Old ver)](new-card-farm/new-card-farm-01.md)
@@ -65,7 +65,7 @@
 - [🔍Zoom 23](zoom-23.md)
 
 
-# Free add-ons (Created)
+# Free add-ons (by Shige)
 
 - [🤖Anki Terminator](AnkiTerminator/anki_terminator_00.md)<!--🟢-->
 - [☕Break Timer](break-timer.md)
@@ -79,7 +79,7 @@
 - [🖍️Review Highlighter](review-highlighter.md)
 - [⏩️Skip Anki home and deck overview](skip-anki-home-and-deck-overview.md)
 
-
+# Fixed add-ons
 
 <!-- # Fixed Free add-ons
 
