@@ -1,6 +1,7 @@
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J_5MUjeBEkA" title="New Cards Farm - Growing Crops and Flowers (Anki Add-on, For Patrons only)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/J_5MUjeBEkA?list=PLZhrgD6s-LFVsEhxRdEHf_OkGVe2YZfeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
+
 
 ### New Cards Farm - Growing Crops and Flowers
 

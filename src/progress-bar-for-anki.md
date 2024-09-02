@@ -1,11 +1,9 @@
 
 # Progress bar for Anki
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/x8M1jAs4dpk" title="Progress Bar For Anki - Chunking Anki Cards (For Patrons only)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
 [![patreon](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.patreon.com/Shigeyuki)<br>
 
+<iframe src="https://www.youtube.com/embed/x8M1jAs4dpk?list=PLZhrgD6s-LFVsEhxRdEHf_OkGVe2YZfeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
 
 
 -----------------------<br>

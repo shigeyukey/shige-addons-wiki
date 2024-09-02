@@ -10,9 +10,10 @@ title = "Shige addons Wiki"
 git-repository-url = "https://www.patreon.com/Shigeyuki"
 git-repository-icon = "fa-envelope"
 default-theme = "navy"
+no-section-label = false
 
 [output.html.print]
 enable = false
 
 [output.html.fold]
-enable = false
+enable = true

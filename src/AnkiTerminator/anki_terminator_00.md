@@ -20,8 +20,7 @@ AI sidebar for reviews. Just login to use ChatGPT, GoogleGemini, and Bing Chat f
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rLXM63Jc8ng" frameborder="0" allowfullscreen></iframe>
-
+<iframe src="https://www.youtube.com/embed/rLXM63Jc8ng?list=PLZhrgD6s-LFVsEhxRdEHf_OkGVe2YZfeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
 
 
 

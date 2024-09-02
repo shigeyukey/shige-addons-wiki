@@ -3,7 +3,7 @@
 
 
 
-<iframe width="560" height="315"  src="https://www.youtube.com/embed/rB9JgY0JHHQ" title="EaseScouter (Ankiaddon Prototype Patreon) Visual feedback Ease Answer Interval multilingual text" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/rB9JgY0JHHQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
 
 
  *This add-on is still in development and not yet complete, so it is not published on Anki Web. If you become a Patreon, you will get early access to beta versions that are in development(Operation is not guaranteed).  I have only made prototype add-ons yet, But in the future these add-ons will be released for free.* 

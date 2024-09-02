@@ -1,7 +1,7 @@
 # 🌱New Card Farm-2
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6NO7uEgKRbQ" title="🌱New Card Farm 2 - Grow crops and flowers by new flashcards learned  (Anki Add-on, For Patrons Only)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<iframe src="https://www.youtube.com/embed/6NO7uEgKRbQ?list=PLZhrgD6s-LFVsEhxRdEHf_OkGVe2YZfeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
 
 
 This add-on to add Crops heatmap for New Cards to Anki's home. You can grow crops and flowers with the new cards you have learned. (old ver : [New Cards Farm v1.0](https://www.patreon.com/posts/how-to-use-new-0-105040125?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link))

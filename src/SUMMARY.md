@@ -1,5 +1,7 @@
 # Table of Contents
 
+# Shige Add-ons Wiki
+
 - [Introduction](intro.md)
 
 # Patreon add-ons
@@ -21,7 +23,7 @@
     - [🐈MeowKnight](AnkiArcade/themes/13-meowknight.md)
     - [🪄RedWitch and DarkWitch](AnkiArcade/themes/14-redwitch.md)
 
-  - [How to use](AnkiArcade/how-to-use.md)
+  - [AnkiArcade How to use](AnkiArcade/how-to-use.md)
     - [🎨Change Theme](AnkiArcade/02.-Change-Theme.md)
     - [📊Card Status](AnkiArcade/03.-Card-status.md)
     - [⌛️Progress Bars](AnkiArcade/04.-Progress-Bars.md)
@@ -51,7 +53,19 @@
 - [🎮An-Ki-Oh! Template](an-ki-oh.md)
 - [⌨TypingMaster US Shared Decks](typingmaster-us-keyboard.md)
 
-# Free add-ons (by Shige)
+
+# Popular Free add-ons (Custom by Shige)
+- [⌛️Progress bar](progress-bar.md)
+- [🏆Anki Leaderboard](anki-leaderboard.md)
+- [🎖️Anki Killstreaks](anki-killstreaks.md)
+- [🎮Pokemanki Gold](pokemanki-gold.md)
+- [🖥️No Distractions Full Screen](no-distractions-full-screen.md)
+- [🎨Anki Redesign](anki-redesign.md)
+- [🔝Always On Top](always-on-top.md)
+- [🔍Zoom 23](zoom-23.md)
+
+
+# Free add-ons (Created by Shige)
 
 - [🤖Anki Terminator](AnkiTerminator/anki_terminator_00.md)<!--🟢-->
 - [☕Break Timer](break-timer.md)
@@ -66,17 +80,8 @@
 - [⏩️Skip Anki home and deck overview](skip-anki-home-and-deck-overview.md)
 
 
-# Popular Free add-ons(Custom)
-- [🎮Progress bar](progress-bar.md)
-- [🏆Anki Leaderboard](anki-leaderboard.md)
-- [🎮Anki Killstreaks](anki-killstreaks.md)
-- [🎮Pokemanki Gold](pokemanki-gold.md)
-- [🖥️No Distractions Full Screen](no-distractions-full-screen.md)
-- [🎨Anki Redesign](anki-redesign.md)
-- [🔝Always On Top](always-on-top.md)
-- [🔍Zoom 23](zoom-23.md)
 
-# Fixed Free add-ons
+<!-- # Fixed Free add-ons
 
 - [🩸Leech Toolkit]()
 - [🏃🏻No Space Dash]()
@@ -124,7 +129,7 @@
 - [🚚Transfer scheduling data]()
 
 # Others
-- [📖Japanese translation of Anki Manuals](anki_manuals_jp.md)
+- [📖Japanese translation of Anki Manuals](anki_manuals_jp.md) -->
 
 # Q & A
 - [Q & A]()

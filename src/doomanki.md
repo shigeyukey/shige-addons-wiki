@@ -1,7 +1,11 @@
 # Doomanki
 #### Doomanki - Beta Anki addon ,like FPS Game, gunshot sound and text feedback, Ambient BGM, button sound effect, Military radio.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e3vOxR9WGKY" title="Doomanki - Beta Anki addon ,like FPS Game" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<iframe src="https://www.youtube.com/embed/e3vOxR9WGKY?list=PLZhrgD6s-LFVsEhxRdEHf_OkGVe2YZfeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
+
+
 
 ### ---! Attention ! & Introduction---
 This addon is still in development and in beta. When you become a Patreon, you will have early access to the beta version. Download from this download page.
