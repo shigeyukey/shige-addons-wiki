@@ -69,8 +69,8 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
     - [Sidebar](#sidebar)
   - [Options](#options)
     - [Always tab](#always-tab)
-      - [AI : ChatGPT, GoogleGemini, BingChat:](#ai--chatgpt-googlegemini-bingchat)
-      - [Enable Custom AI URL:](#enable-custom-ai-url)
+      - [AI : ChatGPT, GoogleGemini, BingChat](#ai--chatgpt-googlegemini-bingchat)
+      - [Enable Custom AI URL](#enable-custom-ai-url)
       - [Translate](#translate)
     - [Prompts tab](#prompts-tab)
     - [Tags tab](#tags-tab)
@@ -121,10 +121,10 @@ Clicking on it will open the AI sidebar.<br>
 
 ![image](https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/cacdeb42-663f-4724-8bd5-94a67daf17df)<br>
 
-####  AI : ChatGPT, GoogleGemini, BingChat:
+####  AI : ChatGPT, GoogleGemini, BingChat
   * Select the AI you wish to use. You can also quickly change the AI by pressing the AI icon button in the upper left corner of the sidebar.
 
-#### Enable Custom AI URL:
+#### Enable Custom AI URL
   * A page with the specified URL can be displayed in the sidebar.
 When this setting is enabled, a custom URL will be added to the \[ AI ] at the top (option must be restarted). Prompts and automatic submissions are not available for the custom URL.
 
