@@ -58,15 +58,21 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
 <br>
 
 
-## 📖How to Use
+# 📖How to Use
 
 
 - [🤖Anki Terminator Wiki](#anki-terminator-wiki)
   - [▲ Attention](#-attention)
     - [Limits of each AI](#limits-of-each-ai)
     - [🛠️Known Issues](#️known-issues)
-  - [📖How to Use](#how-to-use)
-    - [Sidebar](#sidebar)
+- [📖How to Use](#how-to-use)
+  - [Sidebar](#sidebar)
+      - [Change AI](#change-ai)
+      - [Auto Send Pronpts](#auto-send-pronpts)
+      - [Auto-read aloud (for ChatGPT only)](#auto-read-aloud-for-chatgpt-only)
+      - [Field Name](#field-name)
+      - [Pronpts Buttons](#pronpts-buttons)
+      - [Option](#option)
   - [Options](#options)
     - [Always tab](#always-tab)
       - [AI : ChatGPT, GoogleGemini, BingChat](#ai--chatgpt-googlegemini-bingchat)
@@ -98,18 +104,24 @@ Clicking on it will open the AI sidebar.<br>
 
 
 
-### Sidebar
+## Sidebar
 
-![image](https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/4a6aa260-407f-412e-82c9-3df052ecef71)<br>
+![alt text](../images/AnkiTorminator/auto-read-aloud.png)<br>
 
-
-* **Change AI:** Click to change the AI.
-* **Auto Send Pronpts:** Automatically sends prompts when card answer is shown and when Pronpts button is pressed.
-* **Field Name:** The text of the field used in prompts is automatically inputted.
-  * **Right click:** You can enter text in this box by right-clicking.
-  * Select text in Anki -> Right click -> Chat GPT
-* **Pronpts Buttons:** Input prompts into ChatGPT.
-* **Option:** Open the Options dialog.
+#### Change AI
+  *  Click to change the AI.
+#### Auto Send Pronpts
+  *  Automatically sends prompts when card answer is shown and when Pronpts button is pressed.
+####  Auto-read aloud (for ChatGPT only)
+   * The ChatGPT read aloud button is automatically pressed after the text is generated. This feature may break if the ChatGPT website changes, please contact me if it does not work.
+#### Field Name
+  * The text of the field used in prompts is automatically inputted.
+  * **Right click:**  You can enter text in this box by right-clicking.
+    * Select text in Anki -> Right click -> Chat GPT
+####  Pronpts Buttons
+  * Input prompts into ChatGPT. Optionally customizable.
+####  Option
+  * Open the Options dialog.
 
 
 <br>
@@ -119,7 +131,7 @@ Clicking on it will open the AI sidebar.<br>
 
 ### Always tab
 
-![image](https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/cacdeb42-663f-4724-8bd5-94a67daf17df)<br>
+![alt text](../images/AnkiTorminator/always-tab.png)<br>
 
 ####  AI : ChatGPT, GoogleGemini, BingChat
   * Select the AI you wish to use. You can also quickly change the AI by pressing the AI icon button in the upper left corner of the sidebar.
@@ -141,8 +153,7 @@ When this setting is enabled, a custom URL will be added to the \[ AI ] at the t
 
 * You can customize the name of each prompt and button.<br>
 * `{}` will be replaced by field text.<br>
-
-
+* The ability to add more prompts is still under development, please wait.
 <br>
 
 ### Tags tab
