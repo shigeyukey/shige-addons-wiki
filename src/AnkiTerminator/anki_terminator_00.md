@@ -77,6 +77,7 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
       - [Sidebar](#sidebar-1)
       - [Auto Prompt](#auto-prompt)
       - [Shortcut Keys](#shortcut-keys)
+      - [Effect Volume](#effect-volume)
   - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
 
@@ -181,7 +182,7 @@ Clicking on it will open the AI sidebar.<br>
 
 #### Auto Prompt
  * **auto send pronpts :**
-   * *Automatically prompts when card answer is shown.
+   * Automatically prompts when card answer is shown.
  * **Auto-read aloud (for ChatGPT only):**
    * The ChatGPT read aloud button is automatically pressed after the text is generated. This feature may break if the ChatGPT website changes, please contact me if it does not work.
 
@@ -191,7 +192,8 @@ Clicking on it will open the AI sidebar.<br>
   * **Open Sidebar :**
     * You can use the shortcut keys to open the sidebar. If it does not work, it may be that you are typing the key incorrectly or that a shortcut key already in use is interfering, if so, try changing it to a different key.
 
-
+#### Effect Volume
+  * You can adjust the volume of the sound effects played when you press the buttons on the sidebar (0-10). If you find it distracting, set it to the leftmost 0.
 
 <br>
 
