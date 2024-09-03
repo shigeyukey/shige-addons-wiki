@@ -66,7 +66,7 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
     - [Limits of each AI](#limits-of-each-ai)
     - [🛠️Known Issues](#️known-issues)
 - [📖How to Use](#how-to-use)
-  - [Sidebar](#sidebar)
+  - [AI Sidebar](#ai-sidebar)
   - [Options](#options)
     - [Always tab](#always-tab)
       - [AI : ChatGPT, GoogleGemini, BingChat](#ai--chatgpt-googlegemini-bingchat)
@@ -77,7 +77,7 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
     - [Priority Fields tab](#priority-fields-tab)
     - [Exclude tab](#exclude-tab)
     - [Other tab](#other-tab)
-      - [Sidebar](#sidebar-1)
+      - [Sidebar](#sidebar)
       - [Auto Prompt](#auto-prompt)
       - [Shortcut Keys](#shortcut-keys)
       - [Effect Volume](#effect-volume)
@@ -98,7 +98,7 @@ Clicking on it will open the AI sidebar.<br>
 
 
 
-## Sidebar
+## AI Sidebar
 
 ![alt text](../images/AnkiTorminator/auto-read-aloud.png)<br>
 
