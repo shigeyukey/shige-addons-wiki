@@ -229,7 +229,7 @@
 </ul>
 <br>
 <br>
-<h2 id="how-to-use"><a class="header" href="#how-to-use">📖How to Use</a></h2>
+<h1 id="how-to-use"><a class="header" href="#how-to-use">📖How to Use</a></h1>
 <ul>
 <li><a href="#anki-terminator-wiki">🤖Anki Terminator Wiki</a>
 <ul>
@@ -239,9 +239,18 @@
 <li><a href="#%EF%B8%8Fknown-issues">🛠️Known Issues</a></li>
 </ul>
 </li>
+</ul>
+</li>
 <li><a href="#how-to-use">📖How to Use</a>
 <ul>
-<li><a href="#sidebar">Sidebar</a></li>
+<li><a href="#sidebar">Sidebar</a>
+<ul>
+<li><a href="#change-ai">Change AI</a></li>
+<li><a href="#auto-send-pronpts">Auto Send Pronpts</a></li>
+<li><a href="#auto-read-aloud-for-chatgpt-only">Auto-read aloud (for ChatGPT only)</a></li>
+<li><a href="#field-name">Field Name</a></li>
+<li><a href="#pronpts-buttons">Pronpts Buttons</a></li>
+<li><a href="#option">Option</a></li>
 </ul>
 </li>
 <li><a href="#options">Options</a>
@@ -277,24 +286,41 @@
 Clicking on it will open the AI sidebar.<br></p>
 <br>
 <br>
-<h3 id="sidebar"><a class="header" href="#sidebar">Sidebar</a></h3>
-<p><img src="https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/4a6aa260-407f-412e-82c9-3df052ecef71" alt="image" /><br></p>
+<h2 id="sidebar"><a class="header" href="#sidebar">Sidebar</a></h2>
+<p><img src="../images/AnkiTorminator/auto-read-aloud.png" alt="alt text" /><br></p>
+<h4 id="change-ai"><a class="header" href="#change-ai">Change AI</a></h4>
 <ul>
-<li><strong>Change AI:</strong> Click to change the AI.</li>
-<li><strong>Auto Send Pronpts:</strong> Automatically sends prompts when card answer is shown and when Pronpts button is pressed.</li>
-<li><strong>Field Name:</strong> The text of the field used in prompts is automatically inputted.
+<li>Click to change the AI.</li>
+</ul>
+<h4 id="auto-send-pronpts"><a class="header" href="#auto-send-pronpts">Auto Send Pronpts</a></h4>
 <ul>
-<li><strong>Right click:</strong> You can enter text in this box by right-clicking.</li>
+<li>Automatically sends prompts when card answer is shown and when Pronpts button is pressed.</li>
+</ul>
+<h4 id="auto-read-aloud-for-chatgpt-only"><a class="header" href="#auto-read-aloud-for-chatgpt-only">Auto-read aloud (for ChatGPT only)</a></h4>
+<ul>
+<li>The ChatGPT read aloud button is automatically pressed after the text is generated. This feature may break if the ChatGPT website changes, please contact me if it does not work.</li>
+</ul>
+<h4 id="field-name"><a class="header" href="#field-name">Field Name</a></h4>
+<ul>
+<li>The text of the field used in prompts is automatically inputted.</li>
+<li><strong>Right click:</strong>  You can enter text in this box by right-clicking.
+<ul>
 <li>Select text in Anki -&gt; Right click -&gt; Chat GPT</li>
 </ul>
 </li>
-<li><strong>Pronpts Buttons:</strong> Input prompts into ChatGPT.</li>
-<li><strong>Option:</strong> Open the Options dialog.</li>
+</ul>
+<h4 id="pronpts-buttons"><a class="header" href="#pronpts-buttons">Pronpts Buttons</a></h4>
+<ul>
+<li>Input prompts into ChatGPT. Optionally customizable.</li>
+</ul>
+<h4 id="option"><a class="header" href="#option">Option</a></h4>
+<ul>
+<li>Open the Options dialog.</li>
 </ul>
 <br>
 <h2 id="options"><a class="header" href="#options">Options</a></h2>
 <h3 id="always-tab"><a class="header" href="#always-tab">Always tab</a></h3>
-<p><img src="https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/cacdeb42-663f-4724-8bd5-94a67daf17df" alt="image" /><br></p>
+<p><img src="../images/AnkiTorminator/always-tab.png" alt="alt text" /><br></p>
 <h4 id="ai--chatgpt-googlegemini-bingchat"><a class="header" href="#ai--chatgpt-googlegemini-bingchat">AI : ChatGPT, GoogleGemini, BingChat</a></h4>
 <ul>
 <li>Select the AI you wish to use. You can also quickly change the AI by pressing the AI icon button in the upper left corner of the sidebar.</li>
@@ -314,8 +340,9 @@ When this setting is enabled, a custom URL will be added to the [ AI ] at the to
 <ul>
 <li>You can customize the name of each prompt and button.<br></li>
 <li><code>{}</code> will be replaced by field text.<br></li>
+<li>The ability to add more prompts is still under development, please wait.
+<br></li>
 </ul>
-<br>
 <h3 id="tags-tab"><a class="header" href="#tags-tab">Tags tab</a></h3>
 <p><img src="https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/8f0b6011-91eb-493d-88e9-28a82c71e7f6" alt="image" /><br></p>
 <ul>
