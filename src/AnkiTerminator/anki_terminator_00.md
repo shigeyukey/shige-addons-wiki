@@ -67,12 +67,6 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
     - [🛠️Known Issues](#️known-issues)
 - [📖How to Use](#how-to-use)
   - [Sidebar](#sidebar)
-      - [Change AI](#change-ai)
-      - [Auto Send Pronpts](#auto-send-pronpts)
-      - [Auto-read aloud (for ChatGPT only)](#auto-read-aloud-for-chatgpt-only)
-      - [Field Name](#field-name)
-      - [Pronpts Buttons](#pronpts-buttons)
-      - [Option](#option)
   - [Options](#options)
     - [Always tab](#always-tab)
       - [AI : ChatGPT, GoogleGemini, BingChat](#ai--chatgpt-googlegemini-bingchat)
@@ -108,20 +102,14 @@ Clicking on it will open the AI sidebar.<br>
 
 ![alt text](../images/AnkiTorminator/auto-read-aloud.png)<br>
 
-#### Change AI
-  *  Click to change the AI.
-#### Auto Send Pronpts
-  *  Automatically sends prompts when card answer is shown and when Pronpts button is pressed.
-####  Auto-read aloud (for ChatGPT only)
-   * The ChatGPT read aloud button is automatically pressed after the text is generated. This feature may break if the ChatGPT website changes, please contact me if it does not work.
-#### Field Name
-  * The text of the field used in prompts is automatically inputted.
-  * **Right click:**  You can enter text in this box by right-clicking.
-    * Select text in Anki -> Right click -> Chat GPT
-####  Pronpts Buttons
-  * Input prompts into ChatGPT. Optionally customizable.
-####  Option
-  * Open the Options dialog.
+ 1.  **Change AI:**  Click to change the AI.
+ 1.  **Auto Send Pronpts:**  Automatically sends prompts when card answer is shown and when Pronpts button is pressed.
+ 1.  **Auto-read aloud (for ChatGPT only):** The ChatGPT read aloud button is automatically pressed after the text is generated. This feature may break if the ChatGPT website changes, please contact me if it does not work.
+ 1.  **Field Name:**  The text of the field used in prompts is automatically inputted.
+      1. **Right click:**  You can enter text in this box by right-clicking.
+      1. Select text in Anki -> Right click -> Chat GPT
+ 1. **Pronpts Buttons:** Input prompts into ChatGPT. Optionally customizable.
+ 1. **Option :** Open the Options dialog.
 
 
 <br>
