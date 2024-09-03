@@ -1,3 +1,5 @@
+# 🤖Anki Terminator Wiki
+#### ChatGPT Sidebar for Review, GoogleGemini (Created by Shige)
 
 ![banner](https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/8141ce68-9f0a-4eb9-8f99-e418a879baa2)
 
@@ -15,7 +17,7 @@
 
 AI sidebar for reviews. Just login to use ChatGPT, GoogleGemini, and Bing Chat for free and easy, no OpenAI API required.There is a feature to auto-send prompts when flipping Anki cards.<br>
 
-| [**Add-on page**](https://ankiweb.net/shared/info/1428126516)
+| [**Add-on page (AnkiWeb)**](https://ankiweb.net/shared/info/1428126516)
 | **add-on code:** `1428126516` <br>
 
 
@@ -58,19 +60,21 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
 ## 📖How to Use
 
 
-- [▲ Attention](#-attention)
-  - [Limits of each AI](#limits-of-each-ai)
-  - [🛠️Known Issues](#️known-issues)
-- [📖How to Use](#how-to-use)
-  - [Sidebar](#sidebar)
-- [Options](#options)
-  - [Always tab](#always-tab)
-  - [Prompts tab](#prompts-tab)
-  - [Tags tab](#tags-tab)
-  - [Priority Fields tab](#priority-fields-tab)
-  - [Exclude tab](#exclude-tab)
-  - [Other tab](#other-tab)
-- [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
+- [🤖Anki Terminator Wiki](#anki-terminator-wiki)
+      - [Anki Terminator - ChatGPT Sidebar for Review, GoogleGemini (Created by Shige)](#anki-terminator---chatgpt-sidebar-for-review-googlegemini-created-by-shige)
+  - [▲ Attention](#-attention)
+    - [Limits of each AI](#limits-of-each-ai)
+    - [🛠️Known Issues](#️known-issues)
+  - [📖How to Use](#how-to-use)
+    - [Sidebar](#sidebar)
+  - [Options](#options)
+    - [Always tab](#always-tab)
+    - [Prompts tab](#prompts-tab)
+    - [Tags tab](#tags-tab)
+    - [Priority Fields tab](#priority-fields-tab)
+    - [Exclude tab](#exclude-tab)
+    - [Other tab](#other-tab)
+  - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
 
 <br><br>
@@ -186,4 +190,5 @@ Clicking on it will open the AI sidebar.<br>
 [Click here and please Rate this add-on, Thank you! :-) <br>
  ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/1428126516)
 
- [**Read Reviews**](https://ankiweb.net/shared/info/1428126516#:~:text=Remove-,Reviews,-on%202024%2D08)
+| [**Add-on page (AnkiWeb)**](https://ankiweb.net/shared/info/1428126516)
+| **add-on code:** `1428126516` <br>
