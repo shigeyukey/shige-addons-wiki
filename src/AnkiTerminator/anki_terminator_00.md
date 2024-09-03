@@ -1,7 +1,8 @@
 # 🤖Anki Terminator Wiki
-#### ChatGPT Sidebar for Review, GoogleGemini (Created by Shige)
+**ChatGPT Sidebar for Review, GoogleGemini (Created by Shige)**
 
 ![banner](https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/8141ce68-9f0a-4eb9-8f99-e418a879baa2)
+
 
 
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.patreon.com/Shigeyuki)
@@ -61,7 +62,6 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
 
 
 - [🤖Anki Terminator Wiki](#anki-terminator-wiki)
-      - [Anki Terminator - ChatGPT Sidebar for Review, GoogleGemini (Created by Shige)](#anki-terminator---chatgpt-sidebar-for-review-googlegemini-created-by-shige)
   - [▲ Attention](#-attention)
     - [Limits of each AI](#limits-of-each-ai)
     - [🛠️Known Issues](#️known-issues)
@@ -74,6 +74,9 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
     - [Priority Fields tab](#priority-fields-tab)
     - [Exclude tab](#exclude-tab)
     - [Other tab](#other-tab)
+      - [Sidebar](#sidebar-1)
+      - [Auto Prompt](#auto-prompt)
+      - [Shortcut Keys](#shortcut-keys)
   - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
 
@@ -166,16 +169,27 @@ Clicking on it will open the AI sidebar.<br>
 
 ### Other tab
 
-![image](https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/9952f1b2-b95a-4809-ac4b-50a28cf1b0a2)
+![alt text](../images/AnkiTorminator/other-tab.png)
 
-* Sidebar
-* AutoPrompt
- * auto input : Automatically prompts when card answer is shown.
- * auto send : Automatically sends prompts when card answer is shown.
-* Shortcut Keys
-  * Send pronpts : The prompts you enter can be send using shortcut keys.
-  * Open Sidebar
+#### Sidebar
+ 1. **Auto open sidebar when start Anki :**
+    * Automatically open the sidebar when you start Anki to display the AI. If the sidebar does not display well, this option may solve the problem.
+ 2. **auto hide sidebar on review questions:**
+    * Hide the sidebar with the reviewer's answer, the purpose is to prevent the answer from being displayed.
+ 3. **add Ai icon buton to the top toolbar:**
+    * Whether to add AI icons to the top toolbar (Deck, Add, Browse, Stat, Sync), Clicking on the icon will open the sidebar. The sidebar can also be opened using shortcut keys.
 
+#### Auto Prompt
+ * **auto send pronpts :**
+   * *Automatically prompts when card answer is shown.
+ * **Auto-read aloud (for ChatGPT only):**
+   * The ChatGPT read aloud button is automatically pressed after the text is generated. This feature may break if the ChatGPT website changes, please contact me if it does not work.
+
+#### Shortcut Keys
+  * **Send pronpts :**
+    * There is a bug that when you press enter to send a prompt to ChatGPT, the reviewer's card is answered. This shortcut key allows you to send the prompt without using the enter key.
+  * **Open Sidebar :**
+    * You can use the shortcut keys to open the sidebar. If it does not work, it may be that you are typing the key incorrectly or that a shortcut key already in use is interfering, if so, try changing it to a different key.
 
 
 
