@@ -77,7 +77,7 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
     - [Priority Fields tab](#priority-fields-tab)
     - [Exclude tab](#exclude-tab)
     - [Other tab](#other-tab)
-      - [Sidebar](#sidebar)
+      - [AI Sidebar options](#ai-sidebar-options)
       - [Auto Prompt](#auto-prompt)
       - [Shortcut Keys](#shortcut-keys)
       - [Effect Volume](#effect-volume)
@@ -179,7 +179,7 @@ When this setting is enabled, a custom URL will be added to the \[ AI ] at the t
 
 ![alt text](../images/AnkiTorminator/other-tab.png)
 
-#### Sidebar
+#### AI Sidebar options
  1. **Auto open sidebar when start Anki :**
     * Automatically open the sidebar when you start Anki to display the AI. If the sidebar does not display well, this option may solve the problem.
  2. **auto hide sidebar on review questions:**
