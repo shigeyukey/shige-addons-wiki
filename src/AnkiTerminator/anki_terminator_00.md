@@ -115,6 +115,9 @@ Clicking on it will open the AI sidebar.<br>
 
 
 ## Right Click Actions
+
+![alt text](../images/AnkiTorminator/add-text-to-card.png)
+
   1. **Add text to card (AI-Sidebar)**
      1. To add a selected text in the sidebar to the Reviewer's card.(Beta)
      2. Drag to select text in the AI sidebar.
