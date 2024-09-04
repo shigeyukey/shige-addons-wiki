@@ -67,6 +67,7 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
     - [🛠️Known Issues](#️known-issues)
 - [📖How to Use](#how-to-use)
   - [AI Sidebar](#ai-sidebar)
+  - [Right Click Actions](#right-click-actions)
   - [Options](#options)
     - [Always tab](#always-tab)
       - [AI : ChatGPT, GoogleGemini, BingChat](#ai--chatgpt-googlegemini-bingchat)
@@ -110,6 +111,23 @@ Clicking on it will open the AI sidebar.<br>
       1. Select text in Anki -> Right click -> Chat GPT
  1. **Pronpts Buttons:** Input prompts into ChatGPT. Optionally customizable.
  1. **Option :** Open the Options dialog.
+
+
+
+## Right Click Actions
+  1. **Add text to card (AI-Sidebar)**
+     1. To add a selected text in the sidebar to the Reviewer's card.(Beta)
+     2. Drag to select text in the AI sidebar.
+     3. Right click to display context menu.
+     4. Select name of the field.
+  1. **Set text to AnkiTerminator (AI-Sidebar)**
+     1. Set the selected text in the sidebar to the AI sidebar text box. The purpose of this is to submit using the prompts set on the buttons.
+
+  2. **Explain with AnkiTerminator (Reviewer, Editor)**
+     1. Send the selected text in the reviewer or editor to the AI for description. This menu will not appear if the AI sidebar is not initialized.
+
+
+
 
 
 <br>
