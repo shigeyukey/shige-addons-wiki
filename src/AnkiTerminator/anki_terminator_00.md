@@ -11,7 +11,7 @@
 |[ **Reddit** ](https://new.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/)
 | [ **Forums**](https://forums.ankiweb.net/t/addon-support-ankiterminator-chatgpt-sidebar-for-anki-review-googlebard-bingchat-by-shige/41090)
 | [ **Github**<!--🟢--> ](https://github.com/shigeyukey/Anki-Terminator-/issues)
-| [ **Patreon** ](https://www.patreon.com/Shigeyuki)
+| [ **Patreon** ](https://www.patreon.com/posts/free-add-on-anki-96989326?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
 
 
 
