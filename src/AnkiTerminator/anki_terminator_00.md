@@ -4,7 +4,6 @@
 ![banner](https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/8141ce68-9f0a-4eb9-8f99-e418a879baa2)
 
 
-
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.patreon.com/Shigeyuki)
 
 **Report->**
@@ -26,6 +25,12 @@ AI sidebar for reviews. Just login to use ChatGPT, GoogleGemini, and Bing Chat f
 <iframe src="https://www.youtube.com/embed/rLXM63Jc8ng?list=PLZhrgD6s-LFVsEhxRdEHf_OkGVe2YZfeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
 
 
+## 🚨Error Notification =====<br>
+There seems to be a bug that causes an error or crash when updating the add-on after opening the sidebar (The crash was caused by code to work around the error). I disabled the code that caused the crash, the error issue is still being repaired.  
+
+Please try updating the add-on with the add-on disabled.
+ *  Tools -> Add-ons -> Select AnkiTerminator -> Toggle Enabled \[OFF] -> Restart Anki -> Update
+## ====================
 
 ##  ▲ Attention
  This add-on stores your login information in a Cookie. If you are concerned about security, please do not use this add-on. (To delete the cookie, delete the add-on or delete the User_files folder.)<br>
@@ -62,6 +67,8 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
 
 
 - [🤖Anki Terminator Wiki](#anki-terminator-wiki)
+  - [🚨Error Notification =====](#error-notification-)
+  - [====================](#)
   - [▲ Attention](#-attention)
     - [Limits of each AI](#limits-of-each-ai)
     - [🛠️Known Issues](#️known-issues)
