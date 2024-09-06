@@ -11,7 +11,6 @@ git-repository-url = "https://www.patreon.com/Shigeyuki"
 git-repository-icon = "fa-envelope"
 default-theme = "navy"
 no-section-label = false
-edit-url-template = "https://github.com/shigeyukey/Anki-faqs-jp/edit/src/{path}"
 
 
 [output.html.print]
