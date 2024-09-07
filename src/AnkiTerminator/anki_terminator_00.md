@@ -231,9 +231,10 @@ When this setting is enabled, a custom URL will be added to the \[ AI ] at the t
 
 1. [ **Github** ](https://github.com/shigeyukey/Anki-Terminator-/issues) 
 
-1. [ **Patreon** ](https://www.patreon.com/posts/free-add-on-anki-96989326?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) 
+1. [ **Patreon** ](https://www.patreon.com/posts/free-add-on-anki-96989326?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
 
 
+<br><br>
 
 
 ## 📥 How do I install this add-on?
