@@ -6,14 +6,6 @@
 
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.patreon.com/Shigeyuki)
 
-**Report->**
-[ **RateThis**<!--🟢--> ](https://ankiweb.net/shared/review/1428126516) 
-|[ **Reddit** ](https://new.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/)
-| [ **Forums**](https://forums.ankiweb.net/t/addon-support-ankiterminator-chatgpt-sidebar-for-anki-review-googlebard-bingchat-by-shige/41090)
-| [ **Github**<!--🟢--> ](https://github.com/shigeyukey/Anki-Terminator-/issues)
-| [ **Patreon** ](https://www.patreon.com/posts/free-add-on-anki-96989326?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
-
-
 
 AI sidebar for reviews. Just login to use ChatGPT, GoogleGemini, and Bing Chat for free and easy, no OpenAI API required.There is a feature to auto-send prompts when flipping Anki cards.<br>
 
@@ -77,6 +69,7 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
       - [Auto Prompt](#auto-prompt)
       - [Shortcut Keys](#shortcut-keys)
       - [Effect Volume](#effect-volume)
+      - [Report a problem or request](#report-a-problem-or-request)
   - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
 
@@ -228,14 +221,28 @@ When this setting is enabled, a custom URL will be added to the \[ AI ] at the t
 
 <br>
 
+#### Report a problem or request
+
+1. [**RateThis**](https://ankiweb.net/shared/review/1468920185)
+
+1. [ **Reddit** ](https://new.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/)
+
+1. [ **Forums**](https://forums.ankiweb.net/t/addon-support-ankiterminator-chatgpt-sidebar-for-anki-review-googlebard-bingchat-by-shige/41090) 
+
+1. [ **Github** ](https://github.com/shigeyukey/Anki-Terminator-/issues) 
+
+1. [ **Patreon** ](https://www.patreon.com/posts/free-add-on-anki-96989326?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) 
+
+
+
 
 ## 📥 How do I install this add-on?
-1. Copy and paste the add-on code ( `1428126516` )  into Anki and you can install it. ( Menu -> Tools -> Add-ons -> Get Add-ons -> Code : add-on code )
+1. Copy and paste the add-on code ( `1468920185` )  into Anki and you can install it. ( Menu -> Tools -> Add-ons -> Get Add-ons -> Code : add-on code )
 2. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
 3. If you rate and recommend it, I will receive a notice and my tedious and sleepy add-ons volunteer work will become more enjoyable and exciting.(This add-on is developed by free volunteer work!👍️)
 
 [Click here and please Rate this add-on, Thank you! :-) <br>
- ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/1428126516)
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/1468920185)
 
-| [**Add-on page (AnkiWeb)**](https://ankiweb.net/shared/info/1428126516)
-| **add-on code:** `1428126516` <br>
+| [**Add-on page (AnkiWeb)**](https://ankiweb.net/shared/info/1468920185)
+| **add-on code:** `1468920185` <br>
