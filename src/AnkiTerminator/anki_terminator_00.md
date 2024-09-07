@@ -87,25 +87,22 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
  AnkiTerminatorV1 can no longer be updated due to a bug, so please use this new add-on (2024-09-07).
 .<br>
 
-NEW | [**🤖Anki Terminator V2(AnkiWeb)**](https://ankiweb.net/shared/info/1468920185)|
+* NEW | [**🤖Anki Terminator V2(AnkiWeb)**](https://ankiweb.net/shared/info/1468920185)|
 **code : `1468920185`**<br>
-
-OLD | [~~🤖Anki Terminator V1~~](https://ankiweb.net/shared/info/1428126516)
+* OLD | [~~🤖Anki Terminator V1~~](https://ankiweb.net/shared/info/1428126516)
 | ~~`1428126516`~~ <br>
 
 <br><br>
+
+
+## AI Sidebar
+
 
 ![image](https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/29e4db70-2b95-4613-84b7-f4261d49cc92)<br>
 
 When the add-on is installed, the ChatGPT icon will be added to the right side of the top toolbar.<br>
 Clicking on it will open the AI sidebar.<br>
 
-<br>
-<br>
-
-
-
-## AI Sidebar
 
 ![alt text](../images/AnkiTorminator/auto-read-aloud.png)<br>
 
@@ -118,7 +115,7 @@ Clicking on it will open the AI sidebar.<br>
  1. **Pronpts Buttons:** Input prompts into ChatGPT. Optionally customizable.
  1. **Option :** Open the Options dialog.
 
-
+<br>
 
 ## Right Click Actions
 
