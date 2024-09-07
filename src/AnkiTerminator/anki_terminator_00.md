@@ -17,20 +17,9 @@
 
 AI sidebar for reviews. Just login to use ChatGPT, GoogleGemini, and Bing Chat for free and easy, no OpenAI API required.There is a feature to auto-send prompts when flipping Anki cards.<br>
 
-| [**Add-on page (AnkiWeb)**](https://ankiweb.net/shared/info/1428126516)
-| **add-on code:** `1428126516` <br>
-
-
 
 <iframe src="https://www.youtube.com/embed/rLXM63Jc8ng?list=PLZhrgD6s-LFVsEhxRdEHf_OkGVe2YZfeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
 
-
-## 🚨Error Notification =====<br>
-There seems to be a bug that causes an error or crash when updating the add-on after opening the sidebar (The crash was caused by code to work around the error). I disabled the code that caused the crash, the error issue is still being repaired.  
-
-Please try updating the add-on with the add-on disabled.
- *  Tools -> Add-ons -> Select AnkiTerminator -> Toggle Enabled \[OFF] -> Restart Anki -> Update
-## ====================
 
 ##  ▲ Attention
  This add-on stores your login information in a Cookie. If you are concerned about security, please do not use this add-on. (To delete the cookie, delete the add-on or delete the User_files folder.)<br>
@@ -67,12 +56,11 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
 
 
 - [🤖Anki Terminator Wiki](#anki-terminator-wiki)
-  - [🚨Error Notification =====](#error-notification-)
-  - [====================](#)
   - [▲ Attention](#-attention)
     - [Limits of each AI](#limits-of-each-ai)
     - [🛠️Known Issues](#️known-issues)
 - [📖How to Use](#how-to-use)
+    - [New version](#new-version)
   - [AI Sidebar](#ai-sidebar)
   - [Right Click Actions](#right-click-actions)
   - [Options](#options)
@@ -94,7 +82,18 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
 
 <br><br>
 
+### New version
 
+ AnkiTerminatorV1 can no longer be updated due to a bug, so please use this new add-on (2024-09-07).
+.<br>
+
+NEW | [**🤖Anki Terminator V2(AnkiWeb)**](https://ankiweb.net/shared/info/1468920185)|
+**code : `1468920185`**<br>
+
+OLD | [~~🤖Anki Terminator V1~~](https://ankiweb.net/shared/info/1428126516)
+| ~~`1428126516`~~ <br>
+
+<br><br>
 
 ![image](https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/29e4db70-2b95-4613-84b7-f4261d49cc92)<br>
 
