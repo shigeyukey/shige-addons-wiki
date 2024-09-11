@@ -69,16 +69,15 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
       - [Auto Prompt](#auto-prompt)
       - [Shortcut Keys](#shortcut-keys)
       - [Effect Volume](#effect-volume)
-      - [Report a problem or request](#report-a-problem-or-request)
-  - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
+    - [🚨Report a problem or request](#report-a-problem-or-request)
+  - [📥How do I install this add-on?](#how-do-i-install-this-add-on)
 
 
 <br><br>
 
 ### New version
 
- AnkiTerminatorV1 can no longer be updated due to a bug, so please use this new add-on (2024-09-07).
-.<br>
+ AnkiTerminatorV1 can no longer be updated due to a bug, so please use this new add-on (2024-09-07).<br>
 
 * NEW | [**🤖Anki Terminator V2(AnkiWeb)**](https://ankiweb.net/shared/info/1468920185)|
 **code : `1468920185`**<br>
@@ -221,7 +220,7 @@ When this setting is enabled, a custom URL will be added to the \[ AI ] at the t
 
 <br>
 
-#### Report a problem or request
+### 🚨Report a problem or request
 
 1. [**RateThis**](https://ankiweb.net/shared/review/1468920185)
 
@@ -237,7 +236,7 @@ When this setting is enabled, a custom URL will be added to the \[ AI ] at the t
 <br><br>
 
 
-## 📥 How do I install this add-on?
+## 📥How do I install this add-on?
 1. Copy and paste the add-on code ( `1468920185` )  into Anki and you can install it. ( Menu -> Tools -> Add-ons -> Get Add-ons -> Code : add-on code )
 2. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
 3. If you rate and recommend it, I will receive a notice and my tedious and sleepy add-ons volunteer work will become more enjoyable and exciting.(This add-on is developed by free volunteer work!👍️)
