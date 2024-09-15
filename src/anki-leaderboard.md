@@ -6,6 +6,9 @@
 
 **<a href="https://ankiweb.net/shared/info/175794613" target="_blank">AnkiWeb Page</a> | Code : `175794613`**
 
+> *This add-on ranks all of its users by the number of cards reviewed today*
+
+
 This add-on is a customized version (fork) of the shutdown <a href="https://github.com/ThoreBor/Anki_Leaderboard" target="_blank">Anki LeaderBoard</a>, originally created by <a href="https://github.com/ThoreBor" target="_blank">Thore Tyborski</a>, and credit goes to him.
 
 
