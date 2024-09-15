@@ -16,6 +16,7 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
 
 <br>
 
+
 - [🏆️Anki leaderboard Wiki](#️anki-leaderboard-wiki)
 - [📖How to use](#how-to-use)
   - [🏆League](#league)
