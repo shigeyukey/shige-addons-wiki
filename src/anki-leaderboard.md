@@ -1,9 +1,12 @@
 # 🏆️Anki leaderboard Wiki
 
-[![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](http://patreon.com/Shigeyuki)   <br>
-**[AnkiWeb Page](https://ankiweb.net/shared/info/175794613) | Code : `175794613`**
+<a href="http://patreon.com/Shigeyuki" target="_blank">
+  <img src="https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb" alt="banner_shigeyuki_2">
+</a> <br>
 
-This add-on is a customized version (fork) of the shutdown [Anki LeaderBoard](https://github.com/ThoreBor/Anki_Leaderboard), originally created by [Thore Tyborski](https://github.com/ThoreBor), and credit goes to him.
+**<a href="https://ankiweb.net/shared/info/175794613" target="_blank">AnkiWeb Page</a> | Code : `175794613`**
+
+This add-on is a customized version (fork) of the shutdown <a href="https://github.com/ThoreBor/Anki_Leaderboard" target="_blank">Anki LeaderBoard</a>, originally created by <a href="https://github.com/ThoreBor" target="_blank">Thore Tyborski</a>, and credit goes to him.
 
 
 
@@ -73,32 +76,32 @@ They will not be notified of your name.
 1. <code>XP = days studied percentage x ((6 x time) + (2 x reviews x retention)) </code>
 
 1. You have to study at least 5 minutes per day. Otherwise, this day won't be counted as “studied”
-(<i><a href="https://github.com/ThoreBor/Anki_Leaderboard/issues/122">See this issue for more info</a></i>).
+(<i><a href="https://github.com/ThoreBor/Anki_Leaderboard/issues/122" target="_blank">See this issue for more info</a></i>).
 1. At the end of each season, the top 20% will be promoted, and the last 20% will be relegated.
 <br>
 
 ## 🌐Leaderboard Web
- * **<a href="https://shigeyuki.pythonanywhere.com/">🌐Anki Leaderboard Web </a>** : You can check the leaderboard on this website. (past 24 hours)<br>
+* **<a href="https://shigeyuki.pythonanywhere.com/" target="_blank">🌐Anki Leaderboard Web </a>** : You can check the leaderboard on this website. (past 24 hours)<br>
 <br>
 
 ## 🔗Related Add-ons
 
-1. <a href="https://ankiweb.net/shared/info/1797615099">📌Rearrange home addons </a><br>
-1. <a href="https://ankiweb.net/shared/info/906950015">🐻TidyAnkiBear - Select and hide Anki menu bar items</a><br>
-1. <a href="https://ankiweb.net/shared/info/33855257">📱Anki Discord Sidebar - Chat room within Anki</a><br>
+1. <a href="https://ankiweb.net/shared/info/1797615099" target="_blank">📌Rearrange home addons </a><br>
+1. <a href="https://ankiweb.net/shared/info/906950015" target="_blank">🐻TidyAnkiBear - Select and hide Anki menu bar items</a><br>
+1. <a href="https://ankiweb.net/shared/info/33855257" target="_blank">📱Anki Discord Sidebar - Chat room within Anki</a><br>
 <br>
 
 ## 💖Credit
-   * Original add-on : [ Anki LeaderBoard ](https://github.com/ThoreBor/Anki_Leaderboard) / Author : [Thore Tyborski](https://github.com/ThoreBor)<br>
-   * Contributions :
-<a href="https://github.com/khonkhortisan"> khonkhortisan</a>,
-<a href="https://github.com/zjosua">zjosua</a>,
-<a href="https://www.reddit.com/user/SmallFluffyIPA/">SmallFluffyIPA</a>,
-<a href="https://github.com/AtilioA">Atílio Antônio Dadalto</a>,
-<a href="https://github.com/rodrigolanes">Rodrigo Lanes</a>,
-<a href="https://github.com/abdnh">Abdo</a>
-
-* Images: Crown icon /<a href="https://www.flaticon.com/de/autoren/freepik" title="Freepik">Freepik</a>, <a href="https://www.flaticon.com/de/" title="Flaticon">flaticon.com</a>, Person icon /<a href="https://www.flaticon.com/de/autoren/iconixar" title="iconixar">iconixar</a>, <a href="https://www.flaticon.com/de/" title="Flaticon">flaticon.com</a>, Settings icon/<a href="https://www.flaticon.com/free-icons/setting" title="setting icons">Phoenix Group, Flaticon</a>, Confetti gif/ <a href="https://giphy.com/stickers/giphycam-rainbow-WNJATm9pwnjpjI1i0g">Giphy</a>
+  * Original add-on : <a href="https://github.com/ThoreBor/Anki_Leaderboard" target="_blank"> Anki LeaderBoard </a> / Author : <a href="https://github.com/ThoreBor" target="_blank">Thore Tyborski</a><br>
+     * Contributions :
+  <a href="https://github.com/khonkhortisan" target="_blank"> khonkhortisan</a>,
+  <a href="https://github.com/zjosua" target="_blank">zjosua</a>,
+  <a href="https://www.reddit.com/user/SmallFluffyIPA/" target="_blank">SmallFluffyIPA</a>,
+  <a href="https://github.com/AtilioA" target="_blank">Atílio Antônio Dadalto</a>,
+  <a href="https://github.com/rodrigolanes" target="_blank">Rodrigo Lanes</a>,
+  <a href="https://github.com/abdnh" target="_blank">Abdo</a>
+  
+  * Images: Crown icon /<a href="https://www.flaticon.com/de/autoren/freepik" title="Freepik" target="_blank">Freepik</a>, <a href="https://www.flaticon.com/de/" title="Flaticon" target="_blank">flaticon.com</a>, Person icon /<a href="https://www.flaticon.com/de/autoren/iconixar" title="iconixar" target="_blank">iconixar</a>, <a href="https://www.flaticon.com/de/" title="Flaticon" target="_blank">flaticon.com</a>, Settings icon/<a href="https://www.flaticon.com/free-icons/setting" title="setting icons" target="_blank">Phoenix Group, Flaticon</a>, Confetti gif/ <a href="https://giphy.com/stickers/giphycam-rainbow-WNJATm9pwnjpjI1i0g" target="_blank">Giphy</a>
 
 
 
@@ -108,10 +111,10 @@ They will not be notified of your name.
 
 If you have any problems or requests feel free to send them to me.
 
-  1. [AnkiWeb (Rate Comment)](https://ankiweb.net/shared/review/175794613) : You can contact me anonymously, and AnkiWeb will send you an email when I reply.
-  1. [Reddit (Fixed add-ons, or DM)](https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/) : You can request me to repair broken Add-ons.
-  1. [Github (Issues)](https://github.com/shigeyukey/my_addons/issues) : Makes it easier to track problems. (I haven't created a repository yet.)
-  1. [Patreon (Direct Message)](https://www.patreon.com/Shigeyuki) : Response will be prioritized.
+  1. <a href="https://ankiweb.net/shared/review/175794613" target="_blank">AnkiWeb (Rate Comment)</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply.
+  1. <a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">Reddit (Fixed add-ons, or DM)</a> : You can request me to repair broken Add-ons.
+  1. <a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">Github (Issues)</a> : Makes it easier to track problems. (I haven't created a repository yet.)
+  1. <a href="https://www.patreon.com/Shigeyuki" target="_blank">Patreon (Direct Message)</a> : Response will be prioritized.
 
 <br><br>
 
