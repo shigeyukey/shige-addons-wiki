@@ -1,16 +1,12 @@
 # 🏆️Anki leaderboard Wiki
 
 [![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](http://patreon.com/Shigeyuki)   <br>
-
-
-\> *This add-on ranks all of its users by the number of cards reviewed today*
+**[AnkiWeb Page](https://ankiweb.net/shared/info/175794613) | Code : `175794613`**
 
 This add-on is a customized version (fork) of the shutdown [Anki LeaderBoard](https://github.com/ThoreBor/Anki_Leaderboard), originally created by [Thore Tyborski](https://github.com/ThoreBor), and credit goes to him.
 
 
-# 🏅Anki Leaderboard
 
-**[AnkiWeb Page](https://ankiweb.net/shared/info/175794613) | Code : `175794613`**
 
 ![335815467-c4817860-498f-4ce0-9fb6-c02981baf517](https://github.com/shigeyukey/my_addons/assets/124401518/3484b23a-7242-4525-99d4-58a2fb833002)<br>
 *(This image is re-uploaded from the original add-on image.)*<br>
@@ -18,7 +14,6 @@ This add-on is a customized version (fork) of the shutdown [Anki LeaderBoard](ht
 <br>
 
 - [🏆️Anki leaderboard Wiki](#️anki-leaderboard-wiki)
-- [🏅Anki Leaderboard](#anki-leaderboard)
 - [📖How to use](#how-to-use)
   - [🏆League](#league)
   - [📅Season (League)](#season-league)
