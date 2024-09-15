@@ -18,6 +18,8 @@ This add-on is a customized version (fork) of the shutdown [Anki LeaderBoard](ht
   - [🏆League](#league)
   - [📅Season (League)](#season-league)
   - [👥Group](#group)
+  - [🤝Friends](#friends)
+  - [🗝️Account](#️account)
   - [📈XP formula](#xp-formula)
   - [🌐Leaderboard Web](#leaderboard-web)
   - [🔗Related Add-ons](#related-add-ons)
@@ -55,6 +57,16 @@ This add-on is a customized version (fork) of the shutdown [Anki LeaderBoard](ht
 1.  By default, there are public groups for Medicine, Language, and Pokemon. (password 1234)<br>
 1.  If you want to delete the group, please contact me.<br>
 1.  If you do not set a password, an error will occur. If anyone can enter, please include the pass in your group name.<br>
+
+## 🤝Friends
+* You can add users to friends and display them like a group.
+They will not be notified of your name.
+
+## 🗝️Account
+* You can Sign-up, Log-in, Delete account, Log-out, Change user name, and Bio.
+* Do not use anything in your name or Bio that would be offensive to other users.
+
+
 <br>
 
 ## 📈XP formula
