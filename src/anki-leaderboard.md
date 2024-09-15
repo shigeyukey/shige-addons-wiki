@@ -1,7 +1,7 @@
-# Anki leaderboard Wiki
+# 🏆️Anki leaderboard Wiki
 
 [![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](http://patreon.com/Shigeyuki)   <br>
-**[AnkiWeb Page](https://ankiweb.net/shared/info/175794613) | Code : `175794613`**
+
 
 \> *This add-on ranks all of its users by the number of cards reviewed today*
 
@@ -10,12 +10,14 @@ This add-on is a customized version (fork) of the shutdown [Anki LeaderBoard](ht
 
 # 🏅Anki Leaderboard
 
+**[AnkiWeb Page](https://ankiweb.net/shared/info/175794613) | Code : `175794613`**
+
 ![335815467-c4817860-498f-4ce0-9fb6-c02981baf517](https://github.com/shigeyukey/my_addons/assets/124401518/3484b23a-7242-4525-99d4-58a2fb833002)<br>
 *(This image is re-uploaded from the original add-on image.)*<br>
 
 <br>
 
-- [Anki leaderboard Wiki](#anki-leaderboard-wiki)
+- [🏆️Anki leaderboard Wiki](#️anki-leaderboard-wiki)
 - [🏅Anki Leaderboard](#anki-leaderboard)
 - [📖How to use](#how-to-use)
   - [🏆League](#league)
@@ -23,9 +25,18 @@ This add-on is a customized version (fork) of the shutdown [Anki LeaderBoard](ht
   - [👥Group](#group)
   - [📈XP formula](#xp-formula)
   - [🌐Leaderboard Web](#leaderboard-web)
+- [❓️Frequently Asked Questions](#️frequently-asked-questions)
+    - [Q. Can I show the leaderboard without opening the add-on window?](#q-can-i-show-the-leaderboard-without-opening-the-add-on-window)
+    - [Q. How do I show the leaderboard after the review is finished?](#q-how-do-i-show-the-leaderboard-after-the-review-is-finished)
+    - [Q. Login keeps failing and sync is not finished, what should I do?](#q-login-keeps-failing-and-sync-is-not-finished-what-should-i-do)
+    - [Q. A user is cheating, what should I do?](#q-a-user-is-cheating-what-should-i-do)
+    - [Q. How do I delete a group?](#q-how-do-i-delete-a-group)
+    - [Q. When will the new league start?](#q-when-will-the-new-league-start)
+- [🚨Report problems or requests](#report-problems-or-requests)
+- [Others](#others)
   - [🔗Related Add-ons](#related-add-ons)
   - [💖Credit](#credit)
-  - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
+- [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
 <br>
 
@@ -63,7 +74,57 @@ This add-on is a customized version (fork) of the shutdown [Anki LeaderBoard](ht
 ## 🌐Leaderboard Web
  * **<a href="https://shigeyuki.pythonanywhere.com/">🌐Anki Leaderboard Web </a>** : You can check the leaderboard on this website. (past 24 hours)<br>
 
-<br>
+<br><br>
+
+
+
+# ❓️Frequently Asked Questions
+
+### Q. Can I show the leaderboard without opening the add-on window?
+* The leaderboard can be displayed in Anki's Home by Config. (Leaderboard Config -> Settings -> Home screen -> Show the home screen leaderboard)
+
+### Q. How do I show the leaderboard after the review is finished?
+* This feature is not yet available, you can sync when the review is finished by Config. (Leaderboard Config -> Settings -> General -> Sync when deck is finished)
+* You can open the leaderboard with a shortcut key. (Shift + L)
+
+
+### Q. Login keeps failing and sync is not finished, what should I do?
+
+* Sometimes bad internet communication can prevent the connection, please try again later.
+* It may work if you remove the add-on and reinstall it.
+
+### Q. A user is cheating, what should I do?
+
+This may not be a cheat because people use Anki in different ways, e.g.
+* Review time is too fast: The learner may be using Anki's option to shorten the time to record.
+* Retention is too high : The learner may be reviewing a batch of cards before the exam.
+
+If you find such users distracting, please hide them. (Double click on user name -> Hide user)
+
+
+### Q. How do I delete a group?
+* The function to delete a group is not yet developed, please contact me.
+
+### Q. When will the new league start?
+* For now I have it set to tally after 3 days and start a new league on the next Monday. Because of time zone differences between countries and the time it takes mobile users to sync leagues on their PC.
+
+
+
+<br><br>
+
+
+# 🚨Report problems or requests
+
+If you have any problems or requests feel free to send them to me.
+
+  1. [AnkiWeb (Rate Comment)](https://ankiweb.net/shared/review/175794613) : You can contact me anonymously, and AnkiWeb will send you an email when I reply.
+  1. [Reddit (Fixed add-ons, or DM)](https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/) : You can request me to repair broken Add-ons.
+  1. [Github (Issues)](https://github.com/shigeyukey/my_addons/issues) : Makes it easier to track problems. (I haven't created a repository yet.)
+  1. [Patreon (Direct Message)](https://www.patreon.com/Shigeyuki) : Response will be prioritized.
+
+
+
+<br><br>
 
 <!--
 # Config
@@ -99,10 +160,9 @@ This add-on is a customized version (fork) of the shutdown [Anki LeaderBoard](ht
 ## others
 
 
+-->
 
 # Others
-
--->
 
 ## 🔗Related Add-ons
 
@@ -112,8 +172,8 @@ This add-on is a customized version (fork) of the shutdown [Anki LeaderBoard](ht
 <br>
 
 ## 💖Credit
-   * Original : [ Anki LeaderBoard ](https://github.com/ThoreBor/Anki_Leaderboard) / Author : [Thore Tyborski](https://github.com/ThoreBor)<br>
-     * Contributions :
+   * Original add-on : [ Anki LeaderBoard ](https://github.com/ThoreBor/Anki_Leaderboard) / Author : [Thore Tyborski](https://github.com/ThoreBor)<br>
+   * Contributions :
 <a href="https://github.com/khonkhortisan"> khonkhortisan</a>,
 <a href="https://github.com/zjosua">zjosua</a>,
 <a href="https://www.reddit.com/user/SmallFluffyIPA/">SmallFluffyIPA</a>,
@@ -121,14 +181,15 @@ This add-on is a customized version (fork) of the shutdown [Anki LeaderBoard](ht
 <a href="https://github.com/rodrigolanes">Rodrigo Lanes</a>,
 <a href="https://github.com/abdnh">Abdo</a>
 
+* Images: Crown icon /<a href="https://www.flaticon.com/de/autoren/freepik" title="Freepik">Freepik</a>, <a href="https://www.flaticon.com/de/" title="Flaticon">flaticon.com</a>, Person icon /<a href="https://www.flaticon.com/de/autoren/iconixar" title="iconixar">iconixar</a>, <a href="https://www.flaticon.com/de/" title="Flaticon">flaticon.com</a>, Settings icon/<a href="https://www.flaticon.com/free-icons/setting" title="setting icons">Phoenix Group, Flaticon</a>, Confetti gif/ <a href="https://giphy.com/stickers/giphycam-rainbow-WNJATm9pwnjpjI1i0g">Giphy</a>
 
-<br>
+<br><br>
 
 
-## 📥 How do I install this add-on?
+# 📥 How do I install this add-on?
 1. Copy and paste the add-on code ( `175794613` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
 2. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
-3. If you rate and recommend it, I will receive a notice and my tedious and sleepy add-ons volunteer work will become more enjoyable and exciting. (This add-on is developed by free volunteer work!👍️)
+3. The leaderboard is a special add-on that uses the server, unless I manage it regularly it will be broken in a few months, so If you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you! 
 
 [Click here and please Rate this add-on, Thank you! :-) <br>
  ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/175794613)
