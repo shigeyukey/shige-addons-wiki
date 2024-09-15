@@ -195,4 +195,3 @@ If you find such users distracting, please hide them. (Double click on user name
 
 [Click here and please Rate this add-on, Thank you! :-) <br>
  ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/175794613)
-
