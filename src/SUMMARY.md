@@ -59,7 +59,7 @@
 
 # Popular Free add-ons
 - [⌛️Progress bar](progress-bar.md)
-- [🏆Anki Leaderboard]()<!--(anki-leaderboard.md)-->
+- [🏆Anki Leaderboard](anki-leaderboard.md)
 - [🎖️Anki Killstreaks]()<!--(anki-killstreaks.md)-->
 - [🔍Zoom 23]()<!--(zoom-23.md)-->
 - [🎮Pokemanki Gold]()<!--(pokemanki-gold.md)-->
