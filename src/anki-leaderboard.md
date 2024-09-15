@@ -61,12 +61,12 @@ This add-on is a customized version (fork) of the shutdown [Anki LeaderBoard](ht
 ## 🤝Friends
 * You can add users to friends and display them like a group.
 They will not be notified of your name.
+<br>
+
 
 ## 🗝️Account
 * You can Sign-up, Log-in, Delete account, Log-out, Change user name, and Bio.
 * Do not use anything in your name or Bio that would be offensive to other users.
-
-
 <br>
 
 ## 📈XP formula
@@ -79,7 +79,6 @@ They will not be notified of your name.
 
 ## 🌐Leaderboard Web
  * **<a href="https://shigeyuki.pythonanywhere.com/">🌐Anki Leaderboard Web </a>** : You can check the leaderboard on this website. (past 24 hours)<br>
-
 <br>
 
 ## 🔗Related Add-ons
