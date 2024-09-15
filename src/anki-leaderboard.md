@@ -25,6 +25,9 @@ This add-on is a customized version (fork) of the shutdown [Anki LeaderBoard](ht
   - [👥Group](#group)
   - [📈XP formula](#xp-formula)
   - [🌐Leaderboard Web](#leaderboard-web)
+  - [🔗Related Add-ons](#related-add-ons)
+  - [💖Credit](#credit)
+- [🚨Report problems or requests](#report-problems-or-requests)
 - [❓️Frequently Asked Questions](#️frequently-asked-questions)
     - [Q. Can I show the leaderboard without opening the add-on window?](#q-can-i-show-the-leaderboard-without-opening-the-add-on-window)
     - [Q. How do I show the leaderboard after the review is finished?](#q-how-do-i-show-the-leaderboard-after-the-review-is-finished)
@@ -32,10 +35,6 @@ This add-on is a customized version (fork) of the shutdown [Anki LeaderBoard](ht
     - [Q. A user is cheating, what should I do?](#q-a-user-is-cheating-what-should-i-do)
     - [Q. How do I delete a group?](#q-how-do-i-delete-a-group)
     - [Q. When will the new league start?](#q-when-will-the-new-league-start)
-- [🚨Report problems or requests](#report-problems-or-requests)
-- [Others](#others)
-  - [🔗Related Add-ons](#related-add-ons)
-  - [💖Credit](#credit)
 - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
 <br>
@@ -74,9 +73,41 @@ This add-on is a customized version (fork) of the shutdown [Anki LeaderBoard](ht
 ## 🌐Leaderboard Web
  * **<a href="https://shigeyuki.pythonanywhere.com/">🌐Anki Leaderboard Web </a>** : You can check the leaderboard on this website. (past 24 hours)<br>
 
+<br>
+
+## 🔗Related Add-ons
+
+1. <a href="https://ankiweb.net/shared/info/1797615099">📌Rearrange home addons </a><br>
+1. <a href="https://ankiweb.net/shared/info/906950015">🐻TidyAnkiBear - Select and hide Anki menu bar items</a><br>
+1. <a href="https://ankiweb.net/shared/info/33855257">📱Anki Discord Sidebar - Chat room within Anki</a><br>
+<br>
+
+## 💖Credit
+   * Original add-on : [ Anki LeaderBoard ](https://github.com/ThoreBor/Anki_Leaderboard) / Author : [Thore Tyborski](https://github.com/ThoreBor)<br>
+   * Contributions :
+<a href="https://github.com/khonkhortisan"> khonkhortisan</a>,
+<a href="https://github.com/zjosua">zjosua</a>,
+<a href="https://www.reddit.com/user/SmallFluffyIPA/">SmallFluffyIPA</a>,
+<a href="https://github.com/AtilioA">Atílio Antônio Dadalto</a>,
+<a href="https://github.com/rodrigolanes">Rodrigo Lanes</a>,
+<a href="https://github.com/abdnh">Abdo</a>
+
+* Images: Crown icon /<a href="https://www.flaticon.com/de/autoren/freepik" title="Freepik">Freepik</a>, <a href="https://www.flaticon.com/de/" title="Flaticon">flaticon.com</a>, Person icon /<a href="https://www.flaticon.com/de/autoren/iconixar" title="iconixar">iconixar</a>, <a href="https://www.flaticon.com/de/" title="Flaticon">flaticon.com</a>, Settings icon/<a href="https://www.flaticon.com/free-icons/setting" title="setting icons">Phoenix Group, Flaticon</a>, Confetti gif/ <a href="https://giphy.com/stickers/giphycam-rainbow-WNJATm9pwnjpjI1i0g">Giphy</a>
+
+
+
 <br><br>
 
+# 🚨Report problems or requests
 
+If you have any problems or requests feel free to send them to me.
+
+  1. [AnkiWeb (Rate Comment)](https://ankiweb.net/shared/review/175794613) : You can contact me anonymously, and AnkiWeb will send you an email when I reply.
+  1. [Reddit (Fixed add-ons, or DM)](https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/) : You can request me to repair broken Add-ons.
+  1. [Github (Issues)](https://github.com/shigeyukey/my_addons/issues) : Makes it easier to track problems. (I haven't created a repository yet.)
+  1. [Patreon (Direct Message)](https://www.patreon.com/Shigeyuki) : Response will be prioritized.
+
+<br><br>
 
 # ❓️Frequently Asked Questions
 
@@ -112,19 +143,6 @@ If you find such users distracting, please hide them. (Double click on user name
 
 <br><br>
 
-
-# 🚨Report problems or requests
-
-If you have any problems or requests feel free to send them to me.
-
-  1. [AnkiWeb (Rate Comment)](https://ankiweb.net/shared/review/175794613) : You can contact me anonymously, and AnkiWeb will send you an email when I reply.
-  1. [Reddit (Fixed add-ons, or DM)](https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/) : You can request me to repair broken Add-ons.
-  1. [Github (Issues)](https://github.com/shigeyukey/my_addons/issues) : Makes it easier to track problems. (I haven't created a repository yet.)
-  1. [Patreon (Direct Message)](https://www.patreon.com/Shigeyuki) : Response will be prioritized.
-
-
-
-<br><br>
 
 <!--
 # Config
@@ -162,28 +180,6 @@ If you have any problems or requests feel free to send them to me.
 
 -->
 
-# Others
-
-## 🔗Related Add-ons
-
-1. <a href="https://ankiweb.net/shared/info/1797615099">📌Rearrange home addons </a><br>
-1. <a href="https://ankiweb.net/shared/info/906950015">🐻TidyAnkiBear - Select and hide Anki menu bar items</a><br>
-1. <a href="https://ankiweb.net/shared/info/33855257">📱Anki Discord Sidebar - Chat room within Anki</a><br>
-<br>
-
-## 💖Credit
-   * Original add-on : [ Anki LeaderBoard ](https://github.com/ThoreBor/Anki_Leaderboard) / Author : [Thore Tyborski](https://github.com/ThoreBor)<br>
-   * Contributions :
-<a href="https://github.com/khonkhortisan"> khonkhortisan</a>,
-<a href="https://github.com/zjosua">zjosua</a>,
-<a href="https://www.reddit.com/user/SmallFluffyIPA/">SmallFluffyIPA</a>,
-<a href="https://github.com/AtilioA">Atílio Antônio Dadalto</a>,
-<a href="https://github.com/rodrigolanes">Rodrigo Lanes</a>,
-<a href="https://github.com/abdnh">Abdo</a>
-
-* Images: Crown icon /<a href="https://www.flaticon.com/de/autoren/freepik" title="Freepik">Freepik</a>, <a href="https://www.flaticon.com/de/" title="Flaticon">flaticon.com</a>, Person icon /<a href="https://www.flaticon.com/de/autoren/iconixar" title="iconixar">iconixar</a>, <a href="https://www.flaticon.com/de/" title="Flaticon">flaticon.com</a>, Settings icon/<a href="https://www.flaticon.com/free-icons/setting" title="setting icons">Phoenix Group, Flaticon</a>, Confetti gif/ <a href="https://giphy.com/stickers/giphycam-rainbow-WNJATm9pwnjpjI1i0g">Giphy</a>
-
-<br><br>
 
 
 # 📥 How do I install this add-on?
