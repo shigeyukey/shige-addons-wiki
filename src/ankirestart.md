@@ -97,11 +97,11 @@ This add-on is separated from Anki in purpose of restarting Anki, so there is a 
 
 If you have any problems or requests feel free to send them to me.
 
-  1. <a href="https://ankiweb.net/shared/review/237169833" target="_blank">Rate Comment</a> : Simple. You can contact me anonymously, and AnkiWeb will send you an email when I reply.
-  2. <a href="https://forums.ankiweb.net/t/ankirestart-support-thread/34465" target="_blank">AnkiForums</a> : You can send images. It is useful when you want to explain in detail or need a reply.
-  3. <a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">Github</a> : For advanced users. Track issues long term and discuss them in detail.
-  4. <a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">Reddit </a> : You can request me to repair broken Add-ons.
-  5. <a href="https://www.patreon.com/Shigeyuki" target="_blank">Patreon</a> : Response will be prioritized.
+  1. <a href="https://ankiweb.net/shared/review/237169833" target="_blank">👍️Rate Comment</a> : Simple. You can contact me anonymously, and AnkiWeb will send you an email when I reply.
+  2. <a href="https://forums.ankiweb.net/t/ankirestart-support-thread/34465" target="_blank">🌟AnkiForums</a> : You can send images. It is useful when you want to explain in detail or need a reply.
+  3. <a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">🐙Github</a> : For developers or advanced users. Track issues long term and discuss them in detail.
+  4. <a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">👩‍🚀Reddit </a> : You can request me to repair broken Add-ons.
+  5. <a href="https://www.patreon.com/Shigeyuki" target="_blank">💖Patreon</a> : Response will be prioritized.
 
 
 
