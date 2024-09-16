@@ -1,12 +1,31 @@
 # 🔂AnkiRestart
 
-#### 🔂AnkiRestart - Quick Aniki Rebooter, for Customize & Develop (Created by Shige)
+**🔂AnkiRestart - Quick Aniki Rebooter, for Customize & Develop (Created by Shige)**
 
 ![banner_AnkiRestart](https://github.com/shigeyukey/AnkiRestart/assets/124401518/c636f95e-0a0a-4548-ac50-4f7aa3001258)
 
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
 
 ### [AnkiWeb Page](https://ankiweb.net/shared/info/237169833) | Code : `237169833`
+
+<br>
+
+- [🔂AnkiRestart](#ankirestart)
+    - [AnkiWeb Page | Code : `237169833`](#ankiweb-page--code--237169833)
+  - [📺️Tutorial video](#️tutorial-video)
+  - [📖Description](#description)
+- [⚙️Options](#️options)
+  - [⚙️Option tab](#️option-tab)
+  - [🔧Develop tab](#develop-tab)
+  - [🔊Sound effect tab](#sound-effect-tab)
+  - [🛠️Custom tab](#️custom-tab)
+  - [⚠️Attention](#️attention)
+  - [🚨Report problems or requests](#report-problems-or-requests)
+      - [\[ 📥 How do I install this add-on? \]](#--how-do-i-install-this-add-on-)
+
+
+
+## 📺️Tutorial video
 
 <iframe src="https://www.youtube.com/embed/q8c_POBOcMg?list=PLZhrgD6s-LFVsEhxRdEHf_OkGVe2YZfeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
 
@@ -28,30 +47,42 @@ When you press the restart button on the menu bar, it skips the sync, waits for 
 You can also use the shortcut keys to restart ( defaults to Ctrl+Shift+R).<br>
 Incidentally, the restart sound will be played.<br>
 
-## ⚙️Options
+# ⚙️Options
 
-![image](https://github.com/shigeyukey/AnkiRestart/assets/124401518/09e910d2-5328-4bb3-b67e-2764c3776c48)
 
-#### 1. ⚙️Option tab
-- show/hide icons on menu bar
-- Restart After Updating Addons(unstable)
+## ⚙️Option tab
+
+![alt text](images/AnkiRestart/01_option.png)
+
+- show/hide icons on menu bar.
+- Restart After Updating Addons.
 - Restart Shortcut key (Default is Ctrl+Shift+R)
+- Disable suto sync when restarting
 
-#### 2. 🔧Develop tab
+## 🔧Develop tab
+
+![alt text](images/AnkiRestart/02_divelop.png)
+
 - Restart SafeMode Enabled
 - Auto Restart After SafeMode
 - Show console(Windows,unstable)
 - No use executable file(Linux/Mac)
 
-#### 3. 🔊Sound effect tab
+## 🔊Sound effect tab
+
+![alt text](images/AnkiRestart/03.png)
+
 - Sound Effect... Play sound when restarting
 - Error Animation... Play animation when an error occurs
 
-#### 4. 🛠️Custom tab
+## 🛠️Custom tab
+
+![alt text](images/AnkiRestart/04.png)
+
 - Use Anki path Manually... Specify directly anki.exe, anki-console.bat, etc.
 - Use custom base folder(-b)... for booting Anki from portable USB.
 
-### 🚨Attention
+## ⚠️Attention
 
 This add-on is separated from Anki in purpose of restarting Anki, so there is a high possibility of mis-detection by antivirus software. This problem is solvable, but requires $200+ per year (Code Signing), so I'm not considering it at now.
 - **1. \[ 🖥️Windows ]** If your antivirus software mis-detects add-on, the ".exe" will be quarantined. It's labeled Trojan but it's a mis-detection, so no danger. In this case, this add-on cannot be used without Allow on device. (Edit : So far there are no reports of this problem, so it may not happen that often?)
@@ -59,6 +90,21 @@ This add-on is separated from Anki in purpose of restarting Anki, so there is a 
 - **3. \[ 🐧Linax ]** The executable file is created in Ubuntu and PyInstaller (AnkiRestart.py), so it may not work properly except in Ubuntu. You can enable "No use executable file (Linux/Mac)" to restart without using the executable file, but it may duplicate instances of Anki.
 
 ![image](https://github.com/shigeyukey/AnkiRestart/assets/124401518/6954b6af-1009-4636-9395-db8f4521100d)
+
+<br>
+
+## 🚨Report problems or requests
+
+If you have any problems or requests feel free to send them to me.
+
+  1. <a href="https://ankiweb.net/shared/review/237169833" target="_blank">Rate Comment</a> : Simple. You can contact me anonymously, and AnkiWeb will send you an email when I reply.
+  2. <a href="https://forums.ankiweb.net/t/ankirestart-support-thread/34465" target="_blank">AnkiForums</a> : You can send images. It is useful when you want to explain in detail or need a reply.
+  3. <a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">Github</a> : For advanced users. Track issues long term and discuss them in detail.
+  4. <a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">Reddit </a> : You can request me to repair broken Add-ons.
+  5. <a href="https://www.patreon.com/Shigeyuki" target="_blank">Patreon</a> : Response will be prioritized.
+
+
+
 
 
 <br><br><br>
