@@ -21,7 +21,7 @@
   - [🛠️Custom tab](#️custom-tab)
   - [⚠️Attention](#️attention)
   - [🚨Report problems or requests](#report-problems-or-requests)
-      - [\[ 📥 How do I install this add-on? \]](#--how-do-i-install-this-add-on-)
+  - [\[ 📥 How do I install this add-on? \]](#--how-do-i-install-this-add-on-)
 
 
 
@@ -46,6 +46,8 @@ It can be used for add-ons that need to be restarted when settings are changed, 
 When you press the restart button on the menu bar, it skips the sync, waits for Anki to close, and then runs a new Anki.<br>
 You can also use the shortcut keys to restart ( defaults to Ctrl+Shift+R).<br>
 Incidentally, the restart sound will be played.<br>
+
+<br><br>
 
 # ⚙️Options
 
@@ -107,10 +109,10 @@ If you have any problems or requests feel free to send them to me.
 
 
 
-<br><br><br>
+<br>
 
 
-#### \[ 📥 How do I install this add-on? ]
+## \[ 📥 How do I install this add-on? ]
 1. Copy and paste the add-on code ( `237169833` )  into Anki and you can install it.<br>
     ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
 2. When I develop bug fixes, create new features, or compatibility for New Anki,<br>
