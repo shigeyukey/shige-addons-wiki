@@ -194,9 +194,7 @@ Run path ' -p "' profile '"'
     ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
 2. When I develop bug fixes, create new features, or compatibility for New Anki,<br>
  I will notify you and you can install it.
-3. If you rate and recommend it, I will receive a notice and my tedious and sleepy<br>
- add-ons volunteer work will become more enjoyable and exciting. <br>
- (This add-on is developed by free volunteer work!👍️)
+3. Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!
 
 <a href="https://ankiweb.net/shared/review/237169833" target="_blank">
     Click here and please Rate this add-on, Thank you! :-) <br>
