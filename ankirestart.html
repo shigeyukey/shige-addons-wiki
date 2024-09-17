@@ -175,13 +175,16 @@
                         <h1 id="ankirestart"><a class="header" href="#ankirestart">🔂AnkiRestart</a></h1>
 <p><strong>🔂AnkiRestart - Quick Aniki Rebooter, for Customize &amp; Develop (Created by Shige)</strong></p>
 <p><img src="https://github.com/shigeyukey/AnkiRestart/assets/124401518/c636f95e-0a0a-4548-ac50-4f7aa3001258" alt="banner_AnkiRestart" /></p>
-<p><a href="https://www.reddit.com/user/Shige-yuki"><img src="https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065" alt="reddit" /></a></p>
-<h3 id="ankiweb-page--code--237169833"><a class="header" href="#ankiweb-page--code--237169833"><a href="https://ankiweb.net/shared/info/237169833">AnkiWeb Page</a> | Code : <code>237169833</code></a></h3>
+<a href="https://www.patreon.com/Shigeyuki" target="_blank">
+    <img src="https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065" alt="reddit">
+</a>
+<h3>
+    <a href="https://ankiweb.net/shared/info/237169833" target="_blank">AnkiWeb Page</a> | Code : <code>237169833</code>
+</h3>
 <br>
 <ul>
 <li><a href="#ankirestart">🔂AnkiRestart</a>
 <ul>
-<li><a href="#ankiweb-page--code--237169833">AnkiWeb Page | Code : <code>237169833</code></a></li>
 <li><a href="#%EF%B8%8Ftutorial-video">📺️Tutorial video</a></li>
 <li><a href="#description">📖Description</a></li>
 </ul>
@@ -194,7 +197,8 @@
 <li><a href="#%EF%B8%8Fcustom-tab">🛠️Custom tab</a></li>
 <li><a href="#%EF%B8%8Fattention">⚠️Attention</a></li>
 <li><a href="#report-problems-or-requests">🚨Report problems or requests</a></li>
-<li><a href="#--how-do-i-install-this-add-on-">[ 📥 How do I install this add-on? ]</a></li>
+<li><a href="#other-tips">💡Other tips</a></li>
+<li><a href="#-how-do-i-install-this-add-on">📥 How do I install this add-on?</a></li>
 </ul>
 </li>
 </ul>
@@ -203,43 +207,99 @@
 <p><a href="https://www.youtube.com/@FixerMed">FixerMed</a> explained how to use it on Youtube! Thank you!🙏</p>
 <iframe src="https://www.youtube.com/embed/8pDTV8sMNEI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
 <h2 id="description"><a class="header" href="#description">📖Description</a></h2>
-<p>This add-on is for quickly restarting Anki.<br></p>
-<p>Anki doesn't allow 2 Anki's to be started at the same time, so to restart Anki, you need to wait a little while until Anki is completely closed.<br>
-This add-on watches for Anki to be completely terminated and automatically restarts it, thus ensuring a reliable restart with one click.<br></p>
-<p>It can be used for add-ons that need to be restarted when settings are changed, or for developing add-ons.<br>
-When you press the restart button on the menu bar, it skips the sync, waits for Anki to close, and then runs a new Anki.<br>
-You can also use the shortcut keys to restart ( defaults to Ctrl+Shift+R).<br>
-Incidentally, the restart sound will be played.<br></p>
-<p><br><br></p>
+<p>This add-on is for quickly restarting Anki. It can be used for add-ons that need to be restarted when settings are changed (e.g.
+<a href="https://ankiweb.net/shared/info/1959668791" target="_blank">Anki Redesign</a>,
+<a href="https://ankiweb.net/shared/info/1136455830" target="_blank">Advanced Review Bottom Bar</a>),
+or for developing add-ons.<br></p>
+<p>Anki doesn't allow 2 Anki's to be started at the same time, so to restart Anki, you need to wait a little while until Anki is completely closed. This add-on watches for Anki to be completely terminated and automatically restarts it, thus ensuring a reliable restart with one click.<br></p>
+<p>When you press the restart button on the menu bar, it skips the sync, waits for Anki to close, and then runs a new Anki.<br>
+You can also use the shortcut keys to restart (defaults to Ctrl+Shift+R).<br></p>
+<br>
 <h1 id="options"><a class="header" href="#options">⚙️Options</a></h1>
 <h2 id="option-tab"><a class="header" href="#option-tab">⚙️Option tab</a></h2>
 <p><img src="images/AnkiRestart/01_option.png" alt="alt text" /></p>
+<ol>
+<li><strong>show/hide icons on menu bar.</strong>
 <ul>
-<li>show/hide icons on menu bar.</li>
-<li>Restart After Updating Addons.</li>
-<li>Restart Shortcut key (Default is Ctrl+Shift+R)</li>
-<li>Disable suto sync when restarting</li>
+<li>Show or hide the restart icon displayed in Anki's menu bar.</li>
 </ul>
+</li>
+<li><strong>Restart After Updating Addons.</strong>
+<ul>
+<li>After updating add-ons at Anki startup or by the addons manager, the AnkiRestart dialog pops up.</li>
+</ul>
+</li>
+<li><strong>Restart Shortcut key (Default is Ctrl+Shift+R)</strong>
+<ul>
+<li>Shortcut keys can be set freely. If it does not work, the key may be wrong or it may interfere with other shortcut keys.</li>
+</ul>
+</li>
+<li><strong>Disable suto sync when restarting</strong>
+<ul>
+<li>This add-on has a function to turn off auto-sync for faster restart.
+Basically auto-sync is restored, but sometimes there is a problem that auto-sync is not restored and is turned off after repeated restarts.
+This can be disabled with this setting.</li>
+</ul>
+</li>
+</ol>
 <h2 id="develop-tab"><a class="header" href="#develop-tab">🔧Develop tab</a></h2>
 <p><img src="images/AnkiRestart/02_divelop.png" alt="alt text" /></p>
+<ol>
+<li><strong>Restart SafeMode Enabled</strong>
 <ul>
-<li>Restart SafeMode Enabled</li>
-<li>Auto Restart After SafeMode</li>
-<li>Show console(Windows,unstable)</li>
-<li>No use executable file(Linux/Mac)</li>
+<li>Enables/disables the function to restart while holding down the Shift key (Safe mode, Start with all add-ons turned off). This restart can be accessed from the menu. Safe mode may be used in case of problems caused by add-ons.</li>
 </ul>
+</li>
+<li><strong>Auto Restart After SafeMode</strong>
+<ul>
+<li>When in safe mode, add-ons are not available thus AnkiRestart is also not available. This option will auto restart Anki when you close Anki in safe mode.</li>
+</ul>
+</li>
+<li><strong>Show console(Windows,unstable)</strong>
+<ul>
+<li>Show console after restarting Anki. (The console is used for add-on or Anki development.) This feature is required only on Windows. It is not necessary on Mac or Linux, as the console is show auto after restarting.</li>
+</ul>
+</li>
+<li><strong>No use executable file(Linux/Mac)</strong>
+<ul>
+<li>On Mac and Linux it may be possible to restart without using the executable file(.exe, .app) for restarting (On Windows it is essential). If you cannot restart successfully, try turning this off.</li>
+</ul>
+</li>
+</ol>
 <h2 id="sound-effect-tab"><a class="header" href="#sound-effect-tab">🔊Sound effect tab</a></h2>
 <p><img src="images/AnkiRestart/03.png" alt="alt text" /></p>
+<ol>
+<li><strong>Sound Effect</strong>
 <ul>
-<li>Sound Effect... Play sound when restarting</li>
-<li>Error Animation... Play animation when an error occurs</li>
+<li>Play sound when restarting. This useless function is embedded in the add-ons I developed for gamification.</li>
 </ul>
+</li>
+<li><strong>Error Animation</strong>
+<ul>
+<li>Play animation when an error occurs. It is developed to display when an executable file (.exe, .app) has been deleted by Virus Buster. There have been no reports of this problem so far so it may not occur.</li>
+</ul>
+</li>
+</ol>
 <h2 id="custom-tab"><a class="header" href="#custom-tab">🛠️Custom tab</a></h2>
 <p><img src="images/AnkiRestart/04.png" alt="alt text" /></p>
+<ol>
+<li><strong>Use Anki path Manually</strong>
 <ul>
-<li>Use Anki path Manually... Specify directly anki.exe, anki-console.bat, etc.</li>
-<li>Use custom base folder(-b)... for booting Anki from portable USB.</li>
+<li>e.g. <code>C:\Program Files\Anki\anki.exe</code>. <code>""</code> is not necessary.</li>
+<li>Specify directly anki.exe, anki-console.bat, etc.</li>
+<li>Setting up anki-console.bat on Windows will almost certainly display the console after restarting Anki.</li>
+<li>If you have multiple Anki installed and set the version, you can start and debug with the old Anki after restarting.</li>
 </ul>
+</li>
+<li><strong>Use custom base folder(-b)</strong>
+<ul>
+<li>e.g. <code>C:\AnkiDataFolder</code>. <code>""</code> and <code>-b</code> are not necessary.</li>
+<li>For booting Anki from portable USB, or another database.</li>
+<li>If you use a different database, you can safely develop without using your study data, or change the add-ons to something else for debugging.</li>
+<li>See AnkiManual for more information on these startup options: <a href="https://docs.ankiweb.net/files.html#startup-options" target="_blank">AnkiManual : startup-options</a></li>
+</ul>
+</li>
+</ol>
 <h2 id="attention"><a class="header" href="#attention">⚠️Attention</a></h2>
 <p>This add-on is separated from Anki in purpose of restarting Anki, so there is a high possibility of mis-detection by antivirus software. This problem is solvable, but requires $200+ per year (Code Signing), so I'm not considering it at now.</p>
 <ul>
@@ -259,7 +319,51 @@ Incidentally, the restart sound will be played.<br></p>
 <li><a href="https://www.patreon.com/Shigeyuki" target="_blank">💖Patreon</a> : Response will be prioritized.</li>
 </ol>
 <br>
-<h2 id="--how-do-i-install-this-add-on-"><a class="header" href="#--how-do-i-install-this-add-on-">[ 📥 How do I install this add-on? ]</a></h2>
+<h2 id="other-tips"><a class="header" href="#other-tips">💡Other tips</a></h2>
+<p>
+    According to <a href="https://forums.ankiweb.net/t/ankirestart-support-thread/34465/15" target="_blank">basiskarten's post</a>, this code in AutoHotkey will restart Anki with a shortcut key.
+</p>
+<blockquote>
+<p>I use the following AutoHotkey (v2) script to quickly restart Anki by pressing Win+N when Anki’s main window is active. When I press Control+Win+N the script also toggles night mode on or off before restarting. (For languages other than German the script would have to be modified slightly for this to work.)</p>
+</blockquote>
+<div style="width: 600px; height: 200px; overflow: auto; border: 1px solid #ccc; padding: 10px;">
+<pre>
+<code>
+#SingleInstance Force
+#Requires AutoHotkey v2.0-
+<p>#HotIf WinActive("ahk_exe anki.exe")</p>
+<p>#HotIf WinActive("- Anki")</p>
+<p>#N:: ; Restart Anki with the same profile by pressing Win+N when the Anki-window is active.
+{
+profile := RegExReplace(WinGetTitle("A"), " - Anki$")
+path := WinGetProcessPath("A")
+Send "!{F4}"
+ProcessWaitClose("anki.exe")
+Run path ' -p "' profile '"'
+}</p>
+<p>^#N:: ; Restart Anki with the same profile by pressing Win+N when the Anki-window is active - but also toggle nightmode
+{
+profile := RegExReplace(WinGetTitle("A"), " - Anki$")
+path := WinGetProcessPath("A")
+Send "^p"
+WinWaitActive("Einstellungen")
+MouseClick("Left", 47, 74)
+Send "{Tab 7}{Space}{Esc}"
+WinWaitActive("Anki")
+Send "{Enter}"
+WinWaitActive(profile)
+Send "!{F4}"
+ProcessWaitClose("anki.exe")
+Run path ' -p "' profile '"'
+}</p>
+<p>#HotIf</p>
+<p>#HotIf
+</code>
+</pre></p>
+</div>
+<br>
+<br>
+<h2 id="-how-do-i-install-this-add-on"><a class="header" href="#-how-do-i-install-this-add-on">📥 How do I install this add-on?</a></h2>
 <ol>
 <li>Copy and paste the add-on code ( <code>237169833</code> )  into Anki and you can install it.<br>
 ( <em>Menu -&gt; Tools -&gt; Add-ons -&gt; Get Add-ons -&gt; Code [ add-on code ]</em> )</li>
@@ -269,8 +373,10 @@ I will notify you and you can install it.</li>
 add-ons volunteer work will become more enjoyable and exciting. <br>
 (This add-on is developed by free volunteer work!👍️)</li>
 </ol>
-<p><a href="https://ankiweb.net/shared/review/237169833">Click here and please Rate this add-on, Thank you! :-) <br>
-<img src="https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif" alt="Please rate this" /></a></p>
+<a href="https://ankiweb.net/shared/review/237169833" target="_blank">
+    Click here and please Rate this add-on, Thank you! :-) <br>
+    <img src="https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif" alt="Please rate this">
+</a>
 
                     </main>
 
