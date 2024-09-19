@@ -78,6 +78,13 @@ You can customize the text shown on mouse hover.
 
 
 
+### Subdecks
+<!-- ｻﾌﾞﾃﾞｯｷ -->
+When you consider a deck which has subdecks, a true value considers cards in its subdecks; a false value ignores cards in its child subdecks.
+<!-- ｻﾌﾞﾃﾞｯｷを持つﾃﾞｯｷを考慮する場合､trueの値はｻﾌﾞﾃﾞｯｷ内のｶｰﾄﾞを考慮し､falseの値は子ｻﾌﾞﾃﾞｯｷ内のｶｰﾄﾞを無視します｡ -->
+
+
+
 ### Color
 You can set the color of the numbers in this column.
 
