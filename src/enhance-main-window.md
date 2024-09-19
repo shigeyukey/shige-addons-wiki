@@ -45,6 +45,12 @@ Click on a Column to open a menu.
      1. Tools -> Add-ons -> Enhance main window -> Config
 
 
+
+# Options
+
+![alt text](<images/Enhanced Main Window/enhance_main_window.gif>)
+
+
 ## Option 1
 
 ![alt text](<images/Enhanced Main Window/04.png>)
