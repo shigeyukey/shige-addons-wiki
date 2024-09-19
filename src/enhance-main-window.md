@@ -51,6 +51,10 @@ Click on a Column to open a menu.
 ![alt text](<images/Enhanced Main Window/enhance_main_window.gif>)
 
 
+### Name of selected column
+The name of the currently selected Column is displayed. Options 1-3 allow you to customize only this currently selected column. If you want to customize another column, close the window and select it again.
+
+
 ## Option 1
 
 ![alt text](<images/Enhanced Main Window/04.png>)
