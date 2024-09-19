@@ -88,6 +88,7 @@
 ---
 
 - [Fixed add-ons]()
+  - [📊Enhance main window](enhance-main-window.md)
   - [🩸Leech Toolkit]()
   - [🏃🏻No Space Dash]()
   - [⏩Preview Slideshow]()
