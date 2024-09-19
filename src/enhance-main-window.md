@@ -16,6 +16,47 @@ Original Add-on: [Enhance main window](https://ankiweb.net/shared/info/877182321
 *(This image is re-uploaded from the original add-on image.)*<br>
 
 
+- [📊Enhance main window](#enhance-main-window)
+    - [AnkiWeb Page | Code : `911023479`](#ankiweb-page--code--911023479)
+  - [Basic how to use](#basic-how-to-use)
+    - [Drag and drop](#drag-and-drop)
+    - [Click Menu](#click-menu)
+    - [Config](#config)
+- [Options](#options)
+    - [Name of selected column](#name-of-selected-column)
+  - [Option 1](#option-1)
+    - [Show this column](#show-this-column)
+    - [Header](#header)
+  - [Option 2](#option-2)
+  - [Tooltip](#tooltip)
+    - [Show tooltip](#show-tooltip)
+    - [Description](#description)
+    - [Color](#color)
+  - [Option 3](#option-3)
+    - [Show percent](#show-percent)
+    - [Show absolute numbers](#show-absolute-numbers)
+    - [Subdecks](#subdecks)
+  - [Global 1](#global-1)
+    - [Toggle on or off all columns](#toggle-on-or-off-all-columns)
+    - [hide values of parent decks](#hide-values-of-parent-decks)
+    - [hide values of parent decks when subdecks are shown](#hide-values-of-parent-decks-when-subdecks-are-shown)
+    - [Show name of deck option](#show-name-of-deck-option)
+  - [Color](#color-1)
+      - [Default column color](#default-column-color)
+      - [Color empty](#color-empty)
+      - [Color empty descendant](#color-empty-descendant)
+      - [Marked background color](#marked-background-color)
+      - [ended marked background color](#ended-marked-background-color)
+    - [color zero](#color-zero)
+  - [Global 2](#global-2)
+    - [Do color marked and Do color empty](#do-color-marked-and-do-color-empty)
+    - [Dot in numbers](#dot-in-numbers)
+    - [cap value](#cap-value)
+      - [End symbol](#end-symbol)
+      - [Given up symbol](#given-up-symbol)
+      - [Pause symbol](#pause-symbol)
+  - [🚨Report](#report)
+  - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
 
 
@@ -210,7 +251,7 @@ If you have any problems or requests feel free to send them to me.
   3. <a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">Github </a> : Makes it easier to track problems. (I haven't created a repository yet.)
   4. <a href="https://www.patreon.com/Shigeyuki" target="_blank">Patreon DM</a> : Response will be prioritized.
 
-
+<br><br>
 
 ## 📥 How do I install this add-on?
 1. Copy and paste the add-on code ( `911023479` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
