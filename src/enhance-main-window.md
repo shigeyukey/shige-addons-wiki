@@ -12,8 +12,10 @@ Original Add-on: [Enhance main window](https://ankiweb.net/shared/info/877182321
 <br>
 
 
-![alt text](<images/Enhanced Main Window/01.png>)
-*(This image is re-uploaded from the original add-on image.)*<br>
+![alt text](<images/Enhanced Main Window/enhance_main.png>)<br>
+
+<!-- ![alt text](<images/Enhanced Main Window/01.png>)
+*(This image is re-uploaded from the original add-on image.)*<br> -->
 
 
 - [📊Enhance main window](#enhance-main-window)
