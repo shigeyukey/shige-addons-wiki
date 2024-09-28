@@ -31,6 +31,7 @@ The Pokemanki Gold is customized version of the [Pokemanki](https://ankiweb.net/
     - [🗑️Reset](#️reset)
     - [🤝Open trade when Anki start up](#open-trade-when-anki-start-up)
     - [📊Show Pokemon in Home and Overview](#show-pokemon-in-home-and-overview)
+    - [🎥PokeType](#poketype)
     - [⚙️Advanced Settings](#️advanced-settings)
   - [🌐Related add-ons](#related-add-ons)
   - [💖Credit](#credit)
@@ -107,6 +108,10 @@ The Pokemanki Gold is customized version of the [Pokemanki](https://ankiweb.net/
 
 ### 📊Show Pokemon in Home and Overview
 1. Show Pokemon in Anki's home and Overview, this function can be optionally disabled. (e.g. if your deck takes a long time to load turn it off.)
+
+### 🎥PokeType
+1. You can switch between animated and non-animated Pokemon images.
+
 
 ### ⚙️Advanced Settings
 1. From Anki's add-on menu you can access Pokemanki's config settings, which allows you to choose whether your Pokemon get X or Y mega evolutions, and what generation of Pokemon are available to be caught.
