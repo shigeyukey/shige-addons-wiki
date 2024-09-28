@@ -13,7 +13,7 @@ Raising Pokemon with Anki (Customized by Shige)<br>
 
 >*Pokemanki is an add-on that keeps you motivated to keep doing Anki by allowing you to catch and train Pokemon!*<br>
 
-The Pokemanki Gold is customized version of the [Pokemanki](https://ankiweb.net/shared/info/1041307953) (fork), most parts of the code are credited to the authors [sivenchinniah](https://github.com/sivenchinniah), [BlueGreenMagick](https://ko-fi.com/bluegreenmagick), [Zjosua](https://github.com/zjosua), and other contributors.  Pokemanki is a fan game for gamification learning developed by volunteers, not related to official Anki or official Pokemon.<br>
+Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemanki](https://ankiweb.net/shared/info/1041307953) (fork), most parts of the code are credited to the authors [sivenchinniah](https://github.com/sivenchinniah), [BlueGreenMagick](https://ko-fi.com/bluegreenmagick), [Zjosua](https://github.com/zjosua), and other contributors.  Pokemanki is a fan game for gamification learning developed by volunteers, not related to official Anki or official Pokemon.<br>
 
 
 - [🎮️Pokemanki Gold](#️pokemanki-gold)
