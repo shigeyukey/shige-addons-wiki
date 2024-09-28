@@ -16,8 +16,9 @@ Raising Pokemon with Anki (Customized by Shige)<br>
 Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemanki](#credit) (fork), most parts of the code are credited to the authors [sivenchinniah](https://github.com/sivenchinniah), [BlueGreenMagick](https://ko-fi.com/bluegreenmagick), [Zjosua](https://github.com/zjosua), and other contributors.  Pokemanki is a fan game for gamification learning developed by volunteers, not related to official Anki or official Pokemon.<br>
 
 
+
 - [🎮️Pokemanki Gold](#️pokemanki-gold)
-- [📖How to use {#how-to-use}](#how-to-use-how-to-use)
+- [📖How to use](#how-to-use)
   - [📊Show your Pokemon](#show-your-pokemon)
     - [🤝Today's Trades](#todays-trades)
   - [⚙️Options](#️options)
@@ -40,7 +41,8 @@ Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemank
 
 <br>
 
-# 📖How to use {#how-to-use}
+
+# 📖How to use
 *(Some of these descriptions are based on the original Pokemanki description.)*
 
 * Pokemanki gives you a Pokemon (or an egg which will hatch into a Pokemon) for each lowest-level deck (deck without sub-decks) in your collection that you have started learning. As you learn and review the cards in that deck, your Pokemon will level up and may even evolve!
