@@ -1,15 +1,19 @@
 # 🎮️Pokemanki Gold
 
 Raising Pokemon with Anki (Customized by Shige)<br>
+
+
+
 **[AnkiWeb Page](https://ankiweb.net/shared/info/1677779223) | Code : `1677779223`**
+
+[![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](https://www.patreon.com/Shigeyuki)   <br>
 
 ![alt text](images/pokemanki/pokemanki.gif)
 
 
-*>Pokemanki is an add-on that keeps you motivated to keep doing Anki by allowing you to catch and train Pokemon!*<br>
+>*Pokemanki is an add-on that keeps you motivated to keep doing Anki by allowing you to catch and train Pokemon!*<br>
 
-The Pokemanki Gold is customized version of the [Pokemanki](https://ankiweb.net/shared/info/1041307953) (fork), most parts of the code are credited to the authors [sivenchinniah](https://github.com/sivenchinniah), [BlueGreenMagick](https://ko-fi.com/bluegreenmagick), [Zjosua](https://github.com/zjosua), and other contributors.<br>
- Pokemanki is a fan game for gamification learning developed by volunteers, not related to official Anki or official Pokemon.<br>
+The Pokemanki Gold is customized version of the [Pokemanki](https://ankiweb.net/shared/info/1041307953) (fork), most parts of the code are credited to the authors [sivenchinniah](https://github.com/sivenchinniah), [BlueGreenMagick](https://ko-fi.com/bluegreenmagick), [Zjosua](https://github.com/zjosua), and other contributors.  Pokemanki is a fan game for gamification learning developed by volunteers, not related to official Anki or official Pokemon.<br>
 
 
 - [🎮️Pokemanki Gold](#️pokemanki-gold)
