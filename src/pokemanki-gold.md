@@ -1,4 +1,4 @@
-# 🎮️Pokemanki Gold
+# Pokemanki Gold
 
 Raising Pokemon with Anki (Customized by Shige)<br>
 
@@ -17,23 +17,23 @@ Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemank
 
 
 
-- [🎮️Pokemanki Gold](#️pokemanki-gold)
+- [Pokemanki Gold](#pokemanki-gold)
 - [📖How to use](#how-to-use)
   - [📊Show your Pokemon](#show-your-pokemon)
     - [🤝Today's Trades](#todays-trades)
-  - [⚙️Options](#️options)
-    - [📁Decks vs. 🏷️Tags](#decks-vs-️tags)
-    - [🖊️Nicknames](#️nicknames)
-    - [⬇️Prestige Menu](#️prestige-menu)
+  - [Options](#options)
+    - [📁Decks vs. Tags](#decks-vs-tags)
+    - [Nicknames](#nicknames)
+    - [Prestige Menu](#prestige-menu)
     - [🪨Everstone](#everstone)
     - [💎Mega Stone](#mega-stone)
     - [🌴Alolan Passport](#alolan-passport)
     - [🤝Trade](#trade)
-    - [🗑️Reset](#️reset)
+    - [Reset](#reset)
     - [🤝Open trade when Anki start up](#open-trade-when-anki-start-up)
     - [📊Show Pokemon in Home and Overview](#show-pokemon-in-home-and-overview)
     - [🎥PokeType](#poketype)
-    - [⚙️Advanced Settings](#️advanced-settings)
+    - [Advanced Settings](#advanced-settings)
   - [🌐Related add-ons](#related-add-ons)
   - [💖Credit](#credit)
   - [🚨Report](#report)
@@ -69,18 +69,18 @@ Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemank
 
 <br>
 
-## ⚙️Options
+## Options
 <!-- Pokemankiのﾒﾆｭｰ -->
 
-### 📁Decks vs. 🏷️Tags
+### 📁Decks vs. Tags
 1.  You can choose whether Pokemon is calculated based on decks or tags.
 1.  Tag mode does not have all features, e.g. trade is not available in tag mode.
 
-### 🖊️Nicknames
+### Nicknames
 1. Make your Pokemon yours by giving them a nickname!
 <!-- ﾆｯｸﾈｰﾑ: ﾎﾟｹﾓﾝにﾆｯｸﾈｰﾑを付けて自分のものにしましょう！ -->
 
-### ⬇️Prestige Menu
+### Prestige Menu
 1. Lower the level of a Pokemon that has reached its maximum level of 100 by 50 so they can keep growing.
 <!-- ﾌﾟﾚｽﾃｰｼﾞﾒﾆｭｰ: ﾎﾟｹﾓﾝのﾚﾍﾞﾙを50下げて､成長を続けられるようにします｡ -->
 
@@ -101,7 +101,7 @@ Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemank
 1. Open the Trade window to exchange your Pokemon.
 <!-- 交換: ﾎﾟｹﾓﾝを交換するための交換ｳｨﾝﾄﾞｳを開きます｡ -->
 
-### 🗑️Reset
+### Reset
 1. Reset your Pokemon and all of the add-on's configuration.
 1. Pokemon levels are calculated based on your deck's learning data, so resetting the data will not reset the levels.
 <!-- ﾘｾｯﾄ: ﾎﾟｹﾓﾝとｱﾄﾞｵﾝのすべての設定をﾘｾｯﾄします｡ -->
@@ -116,7 +116,7 @@ Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemank
 1. You can switch between animated and non-animated Pokemon images.
 
 
-### ⚙️Advanced Settings
+### Advanced Settings
 1. From Anki's add-on menu you can access Pokemanki's config settings, which allows you to choose whether your Pokemon get X or Y mega evolutions, and what generation of Pokemon are available to be caught.
 2. Changing Pokemon generation settings may reset data.
 3. Pokemon is available from the first to the fifth generation.
