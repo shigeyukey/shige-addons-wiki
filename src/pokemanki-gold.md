@@ -123,6 +123,10 @@ The Pokemanki Gold is customized version of the [Pokemanki](https://ankiweb.net/
     1. It's a new Pokemon add-on with a different mechanism, I recommend this for Pokemon fans.
 1. [📌Rearrange home addons ](https://ankiweb.net/shared/info/1797615099) / Author : me  
     1. You can rearrange the add-ons shown in Anki's Home.
+2. [🔍️Zoom for Anki24 - Keep zoom level after reboot ](https://ankiweb.net/shared/info/1923741581) / Author : me  
+   1. You can keep the zoom value of the statistics window.
+
+
 
 <br>
 
