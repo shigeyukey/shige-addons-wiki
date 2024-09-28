@@ -69,7 +69,7 @@ Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemank
 
 <br>
 
-## Options
+## <!-- ⚙️ -->Options
 <!-- Pokemankiのﾒﾆｭｰ -->
 
 ### 📁Decks vs. Tags
