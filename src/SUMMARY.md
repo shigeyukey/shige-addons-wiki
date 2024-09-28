@@ -62,7 +62,7 @@
 - [🏆Anki Leaderboard](anki-leaderboard.md)
 - [🎖️Anki Killstreaks]()<!--(anki-killstreaks.md)-->
 - [🔍Zoom 23]()<!--(zoom-23.md)-->
-- [🎮Pokemanki Gold]()<!--(pokemanki-gold.md)-->
+- [🎮Pokemanki Gold](pokemanki-gold.md)<!--(pokemanki-gold.md)-->
 - [🤖Anki Terminator](AnkiTerminator/anki_terminator_00.md)
 - [🖥️No Distractions Full Screen]()<!--(no-distractions-full-screen.md)-->
 - [🔝Always On Top]()<!--(always-on-top.md) -->
