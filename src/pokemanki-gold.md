@@ -21,7 +21,7 @@ Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemank
 - [📖How to use](#how-to-use)
   - [📊Show your Pokemon](#show-your-pokemon)
     - [🤝Today's Trades](#todays-trades)
-  - [Options](#options)
+  - [⚙️Options](#️options-options-id)
     - [📁Decks vs. Tags](#decks-vs-tags)
     - [Nicknames](#nicknames)
     - [Prestige Menu](#prestige-menu)
@@ -38,6 +38,7 @@ Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemank
   - [💖Credit](#credit)
   - [🚨Report](#report)
   - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
+
 
 <br>
 
@@ -69,8 +70,9 @@ Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemank
 
 <br>
 
-## <!-- ⚙️ -->Options
+<!-- ## Options -->
 <!-- Pokemankiのﾒﾆｭｰ -->
+## ⚙️Options {options-id}
 
 ### 📁Decks vs. Tags
 1.  You can choose whether Pokemon is calculated based on decks or tags.
