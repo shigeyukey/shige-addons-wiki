@@ -47,6 +47,8 @@ The Pokemanki Gold is customized version of the [Pokemanki](https://ankiweb.net/
 * Pokemanki gives you a Pokemon (or an egg which will hatch into a Pokemon) for each lowest-level deck (deck without sub-decks) in your collection that you have started learning. As you learn and review the cards in that deck, your Pokemon will level up and may even evolve!
 * For larger decks, it takes longer until the first Pokemon hatches.
 
+![starter_pokemon](images/pokemanki/choose_starter_pokemon.png)
+
 
 <br>
 
