@@ -131,9 +131,11 @@ Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemank
 ## 🌐Related add-ons
 1. [ Ankimon ](https://ankiweb.net/shared/info/1908235722) / Author : [Unlucky-Life](https://github.com/Unlucky-Life)  
     1. It's a new Pokemon add-on with a different mechanism, I recommend this for Pokemon fans.
+1. [🔂AnkiRestart - Quick Aniki Rebooter, for Customize & Develop](https://ankiweb.net/shared/info/237169833) / Author : me  
+    1. Pokemanki requires Anki to be restarted when a profile is changed, this add-on allows for a quick restart.
 1. [📌Rearrange home addons ](https://ankiweb.net/shared/info/1797615099) / Author : me  
     1. You can rearrange the add-ons shown in Anki's Home.
-2. [🔍️Zoom for Anki24 - Keep zoom level after reboot ](https://ankiweb.net/shared/info/1923741581) / Author : me  
+1. [🔍️Zoom for Anki24 - Keep zoom level after reboot ](https://ankiweb.net/shared/info/1923741581) / Author : me  
    1. You can keep the zoom value of the statistics window.
 
 
@@ -142,10 +144,11 @@ Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemank
 
 ## 💖Credit
 
+The Pokemanki Gold is customized version of the Pokemanki (fork), most parts of the code are credited to the authors [sivenchinniah](https://github.com/sivenchinniah), [BlueGreenMagick](https://ko-fi.com/bluegreenmagick), [Zjosua](https://github.com/zjosua), and other contributors.  Pokemanki is a fan game for gamification learning developed by volunteers, not related to official Anki or official Pokemon.
 
  1. Original Pokemanki : [Pokemanki ](https://ankiweb.net/shared/info/633922407) / Author : [sivenchinniah](https://github.com/sivenchinniah), [BlueGreenMagick](https://ko-fi.com/bluegreenmagick)  
- 1. Fork Pokemanki : [Pokemanki ](https://ankiweb.net/shared/info/1041307953) / Author : [Zjosua](https://github.com/zjosua)
- 1.  Pokemanki uses [Libaddon](https://github.com/glutanimate/anki-libaddon/) by [Glutanimate](https://glutanimate.com/tip-jar/).  
+ 2. Fork Pokemanki : [Pokemanki](https://ankiweb.net/shared/info/1041307953) / Author : [Zjosua](https://github.com/zjosua)
+ 3. Pokemanki uses [Libaddon](https://github.com/glutanimate/anki-libaddon/) by [Glutanimate](https://glutanimate.com/tip-jar/).  
 
 
 <br>
