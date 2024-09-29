@@ -1,5 +1,7 @@
 # 🧟‍♀Resident Anki
 
+This add-on is part of [AnkiArcade](../Home.md), if you become a Patron you can use it. 
+
 ![banner_resident_anki (3)](https://github.com/shigeyukey/AnkiArcade/assets/124401518/0e135d45-286f-4342-a46a-de519293b021)  
 
 * vs mini zombies 300.  

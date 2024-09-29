@@ -1,6 +1,8 @@
 # 🧟‍♀Study with Zombie
 
-![292660416-a1091a1f-18de-4902-99f3-03c1589ffce1](https://github.com/shigeyukey/AnkiArcade/assets/124401518/370e0523-7052-4616-981f-edb7f7e715bb)
+This add-on is part of [AnkiArcade](../Home.md), if you become a Patron you can use it. 
+
+<iframe src="https://www.youtube.com/embed/twJ6PRkbEUE?list=PLZhrgD6s-LFVsEhxRdEHf_OkGVe2YZfeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
 
 * Fight Parasite Zombie like 3D FPS Game.
     * \[ Easy ] Gunfire and triple explosions, zombie is knocked down.
@@ -12,4 +14,4 @@
 * The zombie is translucent.
 
 
-<iframe src="https://www.youtube.com/embed/twJ6PRkbEUE?list=PLZhrgD6s-LFVsEhxRdEHf_OkGVe2YZfeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
+
