@@ -26,9 +26,9 @@
  *  [ 🖥️No Distractions Full Screen ](https://ankiweb.net/shared/info/1370336700)
 
 
-#### [ 📥 How do I install this add-on? ]
+#### \[ 📥 How do I install this add-on? ]
 1. Copy and paste the add-on code ( `174058935` )  into Anki and you can install it.<br>
-    ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code [ add-on code ]* )
+    ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
 2. When I develop bug fixes, create new features, or compatibility for New Anki,<br>
  I will notify you and you can install it.
 3. If you rate and recommend it, I will receive a notice and my tedious and sleepy<br>

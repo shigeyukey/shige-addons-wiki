@@ -222,16 +222,13 @@ When this setting is enabled, a custom URL will be added to the \[ AI ] at the t
 
 ### 🚨Report a problem or request
 
-1. [**RateThis**](https://ankiweb.net/shared/review/1468920185)
+If you have any problems or requests feel free to send them to me.
 
-1. [ **Reddit** ](https://new.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/)
-
-1. [ **Forums**](https://forums.ankiweb.net/t/addon-support-ankiterminator-chatgpt-sidebar-for-anki-review-googlebard-bingchat-by-shige/41090) 
-
-1. [ **Github** ](https://github.com/shigeyukey/Anki-Terminator-/issues) 
-
-1. [ **Patreon** ](https://www.patreon.com/posts/free-add-on-anki-96989326?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
-
+1. <a href="https://ankiweb.net/shared/review/1468920185" target="_blank">**RateThis**</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development.
+2. <a href="https://forums.ankiweb.net/t/addon-support-ankiterminator-chatgpt-sidebar-for-anki-review-googlebard-bingchat-by-shige/41090" target="_blank">**Forums**</a> : Makes it easier to track problems.
+3. <a href="https://github.com/shigeyukey/Anki-Terminator-/issues" target="_blank">**Github**</a> : Makes it easier to track problems.
+4. <a href="https://new.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">**Reddit**</a> : You can request me to repair broken Add-ons.
+5. <a href="https://www.patreon.com/posts/free-add-on-anki-96989326?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link" target="_blank">**Patreon**</a> : Response will be prioritized.
 
 <br><br>
 
