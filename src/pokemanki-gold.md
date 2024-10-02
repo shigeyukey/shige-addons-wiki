@@ -88,7 +88,6 @@ Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemank
 
 ### 🪨Everstone
 1. Keep a Pokemon in their current evolution form, regardless of level.
-1. ⚠️This function is currently broken.
 <!-- かわらずのいし: ﾎﾟｹﾓﾝをﾚﾍﾞﾙに関係なく現在の進化形態に保ちます｡ -->
 
 ### 💎Mega Stone
