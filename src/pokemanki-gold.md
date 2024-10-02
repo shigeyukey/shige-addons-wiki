@@ -33,6 +33,7 @@ Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemank
     - [🤝Open trade when Anki start up](#open-trade-when-anki-start-up)
     - [📊Show Pokemon in Home and Overview](#show-pokemon-in-home-and-overview)
     - [🎥PokeType](#poketype)
+    - [🖱️Click Action](#️click-action)
     - [Advanced Settings](#advanced-settings)
   - [🌐Related add-ons](#related-add-ons)
   - [💖Credit](#credit)
@@ -56,8 +57,13 @@ Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemank
 
 ## 📊Show your Pokemon
 
-1. **📊Stats :** Open Anki's Statistics (Stats) to see the Pokemon in the current deck. Select "Collection" and you should see the Pokemon for all decks.
-2. **🏠️Home and OverView :** Show Pokemon in Anki's home and Overview, this function can be optionally disabled. (e.g. if your deck takes a long time to load turn it off.)
+1. **📊Stats** 
+   1. Open Anki's Statistics (Stats) to see the Pokemon in the current deck. Select "Collection" and you should see the Pokemon for all decks.
+2. **🏠️Home and OverView**
+   1.  Show Pokemon in Anki's home and Overview, this function can be optionally disabled. (e.g. if your deck takes a long time to load turn it off.)
+   2. The recalculation will be triggered at these times.
+        1. When finished the review.
+        2. When sync the decks (for reflecting the mobile data)
 
 <br>
 
@@ -115,6 +121,15 @@ Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemank
 
 ### 🎥PokeType
 1. You can switch between animated and non-animated Pokemon images.
+
+
+### 🖱️Click Action
+1. Click on the name of the Pokemon<br>
+     2. Search for Pokemon on the Web and open Pokédex.
+1. Click on Pokemon<br>
+     2. The Pokemon will jump and make a squealing sound.
+
+
 
 
 ### Advanced Settings
