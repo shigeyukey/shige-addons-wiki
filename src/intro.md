@@ -12,7 +12,7 @@ This wiki is how to use [ <img src="https://raw.githubusercontent.com/shigeyukey
    * I developing Anki add-ons for gamification of learning.
  * [📺️Youtube Channel : Shigeuyki](https://www.youtube.com/@shigeyuki5397/videos)
    * I create videos on how to use add-ons.
- * [🌐AnkiWeb : Shigeyuki](https://ankiweb.net/shared/by-author/1428126516)
+ * [🌐AnkiWeb : Shigeyuki](https://ankiweb.net/shared/addons?search=by%20Shige)
    * All uploaded add-ons to AnkiWeb.
 
 
