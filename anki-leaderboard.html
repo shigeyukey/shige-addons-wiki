@@ -208,6 +208,8 @@
 <li><a href="#q-a-user-is-cheating-what-should-i-do">Q. A user is cheating, what should I do?</a></li>
 <li><a href="#q-how-do-i-delete-a-group">Q. How do I delete a group?</a></li>
 <li><a href="#q-when-will-the-new-league-start">Q. When will the new league start?</a></li>
+<li><a href="#q-why-doesnt-my-xp-match-when-i-calculate-it-manually">Q. Why doesn't my XP match when I calculate it manually?</a></li>
+<li><a href="#q-what-is-the-reason-for-using-the-bonus-instead-of-real-retention">Q. What is the reason for using the bonus instead of real retention?</a></li>
 </ul>
 </li>
 <li><a href="#-how-do-i-install-this-add-on">📥 How do I install this add-on?</a></li>
@@ -256,10 +258,7 @@ They will not be notified of your name.
 </li>
 <li>
 <p>You have to study at least 5 minutes per day. Otherwise, this day won't be counted as “studied”
-(<i><a href="https://github.com/ThoreBor/Anki_Leaderboard/issues/122" target="_blank">See this issue for more info</a></i>).</p>
-</li>
-<li>
-<p>At the end of each season, the top 20% will be promoted, and the last 20% will be relegated.
+(<i><a href="https://github.com/ThoreBor/Anki_Leaderboard/issues/122" target="_blank">See this issue for more info</a></i>).
 <br></p>
 </li>
 </ol>
@@ -304,35 +303,90 @@ They will not be notified of your name.
 </ol>
 <p><br><br></p>
 <h1 id="frequently-asked-questions"><a class="header" href="#frequently-asked-questions">❓️Frequently Asked Questions</a></h1>
+<hr />
 <h3 id="q-can-i-show-the-leaderboard-without-opening-the-add-on-window"><a class="header" href="#q-can-i-show-the-leaderboard-without-opening-the-add-on-window">Q. Can I show the leaderboard without opening the add-on window?</a></h3>
 <ul>
 <li>The leaderboard can be displayed in Anki's Home by Config. (Leaderboard Config -&gt; Settings -&gt; Home screen -&gt; Show the home screen leaderboard)</li>
 </ul>
+<hr />
 <h3 id="q-how-do-i-show-the-leaderboard-after-the-review-is-finished"><a class="header" href="#q-how-do-i-show-the-leaderboard-after-the-review-is-finished">Q. How do I show the leaderboard after the review is finished?</a></h3>
 <ul>
 <li>This feature is not yet available, you can sync when the review is finished by Config. (Leaderboard Config -&gt; Settings -&gt; General -&gt; Sync when deck is finished)</li>
 <li>You can open the leaderboard with a shortcut key. (Shift + L)</li>
 </ul>
+<hr />
 <h3 id="q-login-keeps-failing-and-sync-is-not-finished-what-should-i-do"><a class="header" href="#q-login-keeps-failing-and-sync-is-not-finished-what-should-i-do">Q. Login keeps failing and sync is not finished, what should I do?</a></h3>
 <ul>
 <li>Sometimes bad internet communication can prevent the connection, please try again later.</li>
 <li>It may work if you remove the add-on and reinstall it.</li>
 </ul>
+<hr />
 <h3 id="q-a-user-is-cheating-what-should-i-do"><a class="header" href="#q-a-user-is-cheating-what-should-i-do">Q. A user is cheating, what should I do?</a></h3>
-<p>This may not be a cheat because people use Anki in different ways, e.g.</p>
+<p>There are two ways to Hide or Report a user.</p>
+<p><strong>1. Hide user</strong></p>
+<p>Basically if you find such users distracting, please hide them.</p>
 <ul>
-<li>Review time is too fast: The learner may be using Anki's option to shorten the time to record.</li>
-<li>Retention is too high : The learner may be reviewing a batch of cards before the exam.</li>
+<li>Double click on user name -&gt; Hide user</li>
 </ul>
-<p>If you find such users distracting, please hide them. (Double click on user name -&gt; Hide user)</p>
+<p><strong>2. Report</strong></p>
+<p>These are some of the most commonly reported examples of suspected cheats:</p>
+<ol>
+<li>Review time is too fast</li>
+<li>Retention is too high</li>
+</ol>
+<p>However these may not be cheats because learner use Anki in different ways, these are possibilities:</p>
+<ol>
+<li>The learner may be reviewing a batch of cards before the exams.</li>
+<li>The learner reviews a lot of easy cards.</li>
+<li>The Learner is delayed review and trying to catch up.</li>
+<li>The learner may be using Anki's option to shorten the time to record.</li>
+</ol>
+<hr />
 <h3 id="q-how-do-i-delete-a-group"><a class="header" href="#q-how-do-i-delete-a-group">Q. How do I delete a group?</a></h3>
 <ul>
 <li>The function to delete a group is not yet developed, please contact me.</li>
 </ul>
+<hr />
 <h3 id="q-when-will-the-new-league-start"><a class="header" href="#q-when-will-the-new-league-start">Q. When will the new league start?</a></h3>
 <ul>
 <li>For now I have it set to tally after 3 days and start a new league on the next Monday. Because of time zone differences between countries and the time it takes mobile users to sync leagues on their PC.</li>
 </ul>
+<hr />
+<h3 id="q-why-doesnt-my-xp-match-when-i-calculate-it-manually"><a class="header" href="#q-why-doesnt-my-xp-match-when-i-calculate-it-manually">Q. Why doesn't my XP match when I calculate it manually?</a></h3>
+<ul>
+<li>
+<p>The cause of this problem is that the XP formula is partially omitted.</p>
+<ul>
+<li><strong>days studied percentage :</strong> This value is calculated  as a number (0-100), not percentage (0%-100%).</li>
+<li><strong>Retention :</strong>
+<ul>
+<li>Retention is bonus is added, so it will be a little larger than the actual value. (e.g. 70% -&gt; 85%, 40% -&gt; 55% )
+<pre><code class="language-text">Retention Bonus:
+85%-100% -&gt; 100%
+70%-84%  -&gt; 85%
+55%-69%  -&gt; 70%
+40%-54%  -&gt; 55%
+25%-39%  -&gt; 40%
+10%-24%  -&gt; 25%
+0%-9%   -&gt; 0%
+</code></pre>
+</li>
+<li>This value is first calculated as a number (0-100) and then converted to a percentage (0%-100%).</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="q-what-is-the-reason-for-using-the-bonus-instead-of-real-retention"><a class="header" href="#q-what-is-the-reason-for-using-the-bonus-instead-of-real-retention">Q. What is the reason for using the bonus instead of real retention?</a></h3>
+<p>The reason for this is that retention is calculated by ranges.<br><br>
+Basically the retention rate recommended by Anki is 80-90%, and dedicated learners may aim for 90-95% or so. It is possible to aim for 95%-100%, but this is not efficient because the learning workload increases significantly, like this:<br></p>
+<p><img src="images/AnkiTorminator/workload.png" alt="workload" /></p>
+ <br>
+ This means that Anki retention rates are not recommended to be perfect or as high as possible, and possibly slightly lower is more efficient for learning.
+ <br> <br>
+So I think 85% would be a reasonable range to be in the same range as 100%, 85% users do not need to go higher, and 95%+ users can lower the retention rate to make learning more efficient and not affect XP. (If the retention rate is changed to the same value as it is, users may make learning inefficient by making the retention rate as high as possible.)
+<hr />
 <p><br><br></p>
 <!--
 # Config
