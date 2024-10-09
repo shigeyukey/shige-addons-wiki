@@ -39,6 +39,8 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
     - [Q. A user is cheating, what should I do?](#q-a-user-is-cheating-what-should-i-do)
     - [Q. How do I delete a group?](#q-how-do-i-delete-a-group)
     - [Q. When will the new league start?](#q-when-will-the-new-league-start)
+    - [Q. Why doesn't my XP match when I calculate it manually?](#q-why-doesnt-my-xp-match-when-i-calculate-it-manually)
+    - [Q. What is the reason for using the bonus instead of real retention?](#q-what-is-the-reason-for-using-the-bonus-instead-of-real-retention)
 - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
 <br>
@@ -81,7 +83,6 @@ They will not be notified of your name.
 
 1. You have to study at least 5 minutes per day. Otherwise, this day won't be counted as “studied”
 (<i><a href="https://github.com/ThoreBor/Anki_Leaderboard/issues/122" target="_blank">See this issue for more info</a></i>).
-1. At the end of each season, the top 20% will be promoted, and the last 20% will be relegated.
 <br>
 
 ## 🌐Leaderboard Web
@@ -124,35 +125,97 @@ If you have any problems or requests feel free to send them to me.
 
 # ❓️Frequently Asked Questions
 
+---
+
 ### Q. Can I show the leaderboard without opening the add-on window?
 * The leaderboard can be displayed in Anki's Home by Config. (Leaderboard Config -> Settings -> Home screen -> Show the home screen leaderboard)
+
+---
 
 ### Q. How do I show the leaderboard after the review is finished?
 * This feature is not yet available, you can sync when the review is finished by Config. (Leaderboard Config -> Settings -> General -> Sync when deck is finished)
 * You can open the leaderboard with a shortcut key. (Shift + L)
 
+---
 
 ### Q. Login keeps failing and sync is not finished, what should I do?
 
 * Sometimes bad internet communication can prevent the connection, please try again later.
 * It may work if you remove the add-on and reinstall it.
 
+---
+
 ### Q. A user is cheating, what should I do?
 
-This may not be a cheat because people use Anki in different ways, e.g.
-* Review time is too fast: The learner may be using Anki's option to shorten the time to record.
-* Retention is too high : The learner may be reviewing a batch of cards before the exam.
+There are two ways to Hide or Report a user.
 
-If you find such users distracting, please hide them. (Double click on user name -> Hide user)
+**1. Hide user**
 
+Basically if you find such users distracting, please hide them.
+* Double click on user name -> Hide user
+
+**2. Report**
+
+These are some of the most commonly reported examples of suspected cheats:
+
+1. Review time is too fast
+1. Retention is too high
+
+However these may not be cheats because learner use Anki in different ways, these are possibilities:
+
+  1. The learner may be reviewing a batch of cards before the exams.
+  1. The learner reviews a lot of easy cards.
+  1. The Learner is delayed review and trying to catch up.
+  1. The learner may be using Anki's option to shorten the time to record.
+
+
+
+---
 
 ### Q. How do I delete a group?
 * The function to delete a group is not yet developed, please contact me.
 
+---
+
 ### Q. When will the new league start?
 * For now I have it set to tally after 3 days and start a new league on the next Monday. Because of time zone differences between countries and the time it takes mobile users to sync leagues on their PC.
 
+---
 
+### Q. Why doesn't my XP match when I calculate it manually?
+
+* The cause of this problem is that the XP formula is partially omitted.
+
+    * **days studied percentage :** This value is calculated  as a number (0-100), not percentage (0%-100%).
+    * **Retention :**
+      * Retention is bonus is added, so it will be a little larger than the actual value. (e.g. 70% -> 85%, 40% -> 55% )
+        ```text
+        Retention Bonus:
+        85%-100% -> 100%
+        70%-84%  -> 85%
+        55%-69%  -> 70%
+        40%-54%  -> 55%
+        25%-39%  -> 40%
+        10%-24%  -> 25%
+        0%-9%   -> 0%
+        ```
+      * This value is first calculated as a number (0-100) and then converted to a percentage (0%-100%).
+
+---
+
+### Q. What is the reason for using the bonus instead of real retention?
+
+The reason for this is that retention is calculated by ranges.<br><br>
+Basically the retention rate recommended by Anki is 80-90%, and dedicated learners may aim for 90-95% or so. It is possible to aim for 95%-100%, but this is not efficient because the learning workload increases significantly, like this:<br>
+
+![workload](images/AnkiTorminator/workload.png)
+
+ <br>
+ This means that Anki retention rates are not recommended to be perfect or as high as possible, and possibly slightly lower is more efficient for learning.
+ <br> <br>
+So I think 85% would be a reasonable range to be in the same range as 100%, 85% users do not need to go higher, and 95%+ users can lower the retention rate to make learning more efficient and not affect XP. (If the retention rate is changed to the same value as it is, users may make learning inefficient by making the retention rate as high as possible.)
+
+---
 
 <br><br>
 
