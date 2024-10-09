@@ -4,7 +4,8 @@
   <img src="https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb" alt="banner_shigeyuki_2">
 </a> <br>
 
-**<a href="https://ankiweb.net/shared/info/175794613" target="_blank">AnkiWeb Page</a> | Code : `175794613`**
+* **<a href="https://ankiweb.net/shared/info/175794613" target="_blank">AnkiWeb * Page</a> | Code : `175794613`**<br>
+* **<a href="https://shigeyuki.pythonanywhere.com/" target="_blank">🌐Anki Leaderboard Web </a>** : You can check the leaderboard on this website.<br>
 
 > *This add-on ranks all of its users by the number of cards reviewed today*
 
@@ -168,7 +169,8 @@ However these may not be cheats because learner use Anki in different ways, thes
   1. The Learner is delayed review and trying to catch up.
   1. The learner may be using Anki's option to shorten the time to record.
 
-
+In my opinion these learning methods are not malicious so they do not deserve a ban (perhaps the calculation method needs to be changed).<br>
+In any way we lack development resources yet at the moment, so basically please address this problem with hide user.
 
 ---
 
