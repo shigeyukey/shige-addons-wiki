@@ -32,7 +32,7 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
   - [🔗Related Add-ons](#related-add-ons)
   - [💖Credit](#credit)
 - [🚨Report problems or requests](#report-problems-or-requests)
-- [❓️Frequently Asked Questions](#️frequently-asked-questions)
+- [`❓️`Frequently Asked Questions](#️frequently-asked-questions)
     - [Q. Can I show the leaderboard without opening the add-on window?](#q-can-i-show-the-leaderboard-without-opening-the-add-on-window)
     - [Q. How do I show the leaderboard after the review is finished?](#q-how-do-i-show-the-leaderboard-after-the-review-is-finished)
     - [Q. Login keeps failing and sync is not finished, what should I do?](#q-login-keeps-failing-and-sync-is-not-finished-what-should-i-do)
@@ -123,7 +123,7 @@ If you have any problems or requests feel free to send them to me.
 
 <br><br>
 
-# ❓️Frequently Asked Questions
+# `❓️`Frequently Asked Questions
 
 ---
 
