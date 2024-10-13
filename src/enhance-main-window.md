@@ -6,7 +6,7 @@
 
 ### [AnkiWeb Page](https://ankiweb.net/shared/info/911023479) | Code : `911023479`
 
-This add-on is a fixed and customized version of the "Enhance main window" for Anki24+ (Fork), most parts of the code are credited to the author Arthur Milchior. This version fixed a bug and enhanced the user interface.<br>
+This add-on is a fixed and customized version of the "Enhance main window" for Anki24+ (Fork), most parts of the code are credited to the author Arthur Milchior. This custom version fixes bugs, enhances the user interface, and added some new columns.<br>
 
 Original Add-on: [Enhance main window](https://ankiweb.net/shared/info/877182321) / Author : [Arthur Milchior](https://github.com/Arthur-Milchior)
 <br>
@@ -42,7 +42,6 @@ Original Add-on: [Enhance main window](https://ankiweb.net/shared/info/877182321
     - [Toggle on or off all columns](#toggle-on-or-off-all-columns)
     - [hide values of parent decks](#hide-values-of-parent-decks)
     - [hide values of parent decks when subdecks are shown](#hide-values-of-parent-decks-when-subdecks-are-shown)
-    - [Show name of deck option](#show-name-of-deck-option)
   - [Color](#color-1)
       - [Default column color](#default-column-color)
       - [Color empty](#color-empty)
@@ -78,8 +77,11 @@ These descriptions are based on the original Enhance main Window description.
 ![alt text](<images/Enhanced Main Window/02.png>)
 
 Click on a Column to open a menu.
-1. Open the options for the currently selected Column.
-2. Delete Column
+1. ⚙️Custom
+   1. Open the options for the currently selected Column.
+2. ✅️All colums
+   1. Clicki the button open a window and you can change to show or hide all the columns. -> [Toggle on or off all columns](#toggle-on-or-off-all-columns)
+3. 🗑️Delete Column
      1. Columns that have been deleted can be redisplayed from the options.
      2. Custom -> Global 1 -> Toggle on off all columns
 
@@ -171,9 +173,9 @@ If a deck has children, its number are not shown.
 Similar to last option, but it hides number only if the subdecks are shown.
 <!-- 前のｵﾌﾟｼｮﾝと似ていますが､ｻﾌﾞﾃﾞｯｷが表示されている場合にのみ数値を非表示にします｡ -->
 
-### Show name of deck option
+<!-- ### Show name of deck option -->
 <!-- ｵﾌﾟｼｮﾝ -->
-Whether you want to display the deck option's name at the end of its line.
+<!-- Whether you want to display the deck option's name at the end of its line. -->
 <!-- ﾃﾞｯｷｵﾌﾟｼｮﾝの名前をその行の最後に表示するかどうか｡ -->
 
 ## Color
