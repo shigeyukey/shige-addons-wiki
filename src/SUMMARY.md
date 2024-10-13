@@ -69,7 +69,7 @@
 - [🎨Anki Redesign]()<!--(anki-redesign.md)-->
 - [🔂AnkiRestart](ankirestart.md)
 - [☕Break Timer](break-timer.md)
-
+- [📊Enhance main window](enhance-main-window.md)
 ---
 
 # Free add-ons
@@ -88,7 +88,6 @@
 ---
 
 - [Fixed add-ons]()
-  - [📊Enhance main window](enhance-main-window.md)
   - [🩸Leech Toolkit]()
   - [🏃🏻No Space Dash]()
   - [⏩Preview Slideshow]()
