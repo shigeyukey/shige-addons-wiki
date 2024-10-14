@@ -210,9 +210,14 @@
 <li><a href="#related-add-ons">🌐Related add-ons</a></li>
 <li><a href="#credit">💖Credit</a></li>
 <li><a href="#report">🚨Report</a></li>
-<li><a href="#-how-do-i-install-this-add-on">📥 How do I install this add-on?</a></li>
 </ul>
 </li>
+<li><a href="#frequently-asked-questions">💡Frequently Asked Questions</a>
+<ul>
+<li><a href="#q-when-i-start-anki-it-is-still-loading-and-i-cannot-operate-anki">Q. When I start Anki it is still loading and I cannot operate Anki.</a></li>
+</ul>
+</li>
+<li><a href="#-how-do-i-install-this-add-on">📥 How do I install this add-on?</a></li>
 </ul>
 <br>
 <h1 id="how-to-use"><a class="header" href="#how-to-use">📖How to use</a></h1>
@@ -362,8 +367,50 @@
 <li><a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">👩‍🚀Reddit</a> : You can request me to repair broken Add-ons.</li>
 <li><a href="https://www.patreon.com/Shigeyuki" target="_blank">💖Patreon DM</a> : Response will be prioritized.</li>
 </ol>
+<br>
+<br>
+<h1 id="frequently-asked-questions"><a class="header" href="#frequently-asked-questions">💡Frequently Asked Questions</a></h1>
+<hr />
+<h3 id="q-when-i-start-anki-it-is-still-loading-and-i-cannot-operate-anki"><a class="header" href="#q-when-i-start-anki-it-is-still-loading-and-i-cannot-operate-anki">Q. When I start Anki it is still loading and I cannot operate Anki.</a></h3>
+<p>New version has been added to show Pokemon in Home when Anki is launched, so if your deck is too large this may be causing an error (so far this problem seems to be very rare). In this case I think you can turn off all the functions to display in Home from Config.</p>
+<p>please try this:</p>
+<ol>
+<li>Start Anki while holding down the Shift key (all add-ons will be disabled).</li>
+<li>With Anki in safe mode open the Config of the add-ons
+<ul>
+<li>Tools -&gt; Add-ons -&gt; Select Pokemanki Gold -&gt; Config</li>
+</ul>
+</li>
+<li>Overwrite Config with this text and save it:</li>
+</ol>
+<pre><code>{
+    "Number of deck name splits": 3,
+    "PokeType": true,
+    "X_or_Y_mega_evolutions": "X",
+    "align_cards": "scrollbox",
+    "auto_open_trade": false,
+    "gen2": true,
+    "gen3": true,
+    "gen4": true,
+    "gen4_evolutions": true,
+    "gen5": true,
+    "is_change_log_2024_03_26": true,
+    "is_rate_this": true,
+    "max_height_px": "500",
+
+    "show_pokemon_in_reviewer": false,
+    "hide_pokeball_in_toolbar": true,
+    "Show Pokemon in Home and overview": false,
+    "auto_open_trade": false
+}
+</code></pre>
+<ol start="4">
+<li>Restart Anki.</li>
+<li>All Pokemanki options that run when Anki starts will be turned off.</li>
+</ol>
+<hr />
 <p><br><br><br></p>
-<h2 id="-how-do-i-install-this-add-on"><a class="header" href="#-how-do-i-install-this-add-on">📥 How do I install this add-on?</a></h2>
+<h1 id="-how-do-i-install-this-add-on"><a class="header" href="#-how-do-i-install-this-add-on">📥 How do I install this add-on?</a></h1>
 <ol>
 <li>Copy and paste the add-on code ( <code>1677779223</code> )  into Anki and you can install it. ( <em>Menu -&gt; Tools -&gt; Add-ons -&gt; Get Add-ons -&gt; Code [ add-on code ]</em> )</li>
 <li>When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.</li>
