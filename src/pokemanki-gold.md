@@ -38,7 +38,9 @@ Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemank
   - [🌐Related add-ons](#related-add-ons)
   - [💖Credit](#credit)
   - [🚨Report](#report)
-  - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
+- [💡Frequently Asked Questions](#frequently-asked-questions)
+    - [Q. When I start Anki it is still loading and I cannot operate Anki.](#q-when-i-start-anki-it-is-still-loading-and-i-cannot-operate-anki)
+- [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
 
 <br>
@@ -178,10 +180,60 @@ If you have any problems or requests feel free to send them to me.
 
 
 
+
+<br>
+<br>
+
+# 💡Frequently Asked Questions
+
+---
+
+### Q. When I start Anki it is still loading and I cannot operate Anki.
+
+New version has been added to show Pokemon in Home when Anki is launched, so if your deck is too large this may be causing an error (so far this problem seems to be very rare). In this case I think you can turn off all the functions to display in Home from Config.
+
+please try this:
+
+1. Start Anki while holding down the Shift key (all add-ons will be disabled).
+2. With Anki in safe mode open the Config of the add-ons
+	* Tools -> Add-ons -> Select Pokemanki Gold -> Config
+3. Overwrite Config with this text and save it:
+
+```
+{
+    "Number of deck name splits": 3,
+    "PokeType": true,
+    "X_or_Y_mega_evolutions": "X",
+    "align_cards": "scrollbox",
+    "auto_open_trade": false,
+    "gen2": true,
+    "gen3": true,
+    "gen4": true,
+    "gen4_evolutions": true,
+    "gen5": true,
+    "is_change_log_2024_03_26": true,
+    "is_rate_this": true,
+    "max_height_px": "500",
+
+    "show_pokemon_in_reviewer": false,
+    "hide_pokeball_in_toolbar": true,
+    "Show Pokemon in Home and overview": false,
+    "auto_open_trade": false
+}
+```
+4. Restart Anki.
+5. All Pokemanki options that run when Anki starts will be turned off.
+
+
+---
+
+
+
+
 <br><br><br>
 
 
-## 📥 How do I install this add-on?
+# 📥 How do I install this add-on?
 1. Copy and paste the add-on code ( `1677779223` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
 2. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
 3. Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!
