@@ -10,13 +10,17 @@
 > *This add-on ranks all of its users by the number of cards reviewed today*
 
 
-This add-on is a customized version (fork) of the shutdown <a href="https://github.com/ThoreBor/Anki_Leaderboard" target="_blank">Anki LeaderBoard</a>, originally created by <a href="https://github.com/ThoreBor" target="_blank">Thore Tyborski</a>, and credit goes to him.
+This add-on is a customized version (fork) of the shutdown <a href="https://github.com/ThoreBor/Anki_Leaderboard" target="_blank">Anki LeaderBoard</a>, originally created by <a href="https://github.com/ThoreBor" target="_blank">Thore Tyborski</a> and credit goes to him.
 
 
+![leaderboard](images/Leaderboard/00_leaderboard_dark_700.png)
+<br>
+ *I've enhanced graphics by adding countries, ranks, tooltips, etc. If you find it distracting you can disable it in the settings. (Config -> others tab -> add Pic country and league)*
+<br>
+![alt text](images/Leaderboard/tooltip.gif)<br>
+*(This image is a sample so all user names are hidden.)*
 
 
-![335815467-c4817860-498f-4ce0-9fb6-c02981baf517](https://github.com/shigeyukey/my_addons/assets/124401518/3484b23a-7242-4525-99d4-58a2fb833002)<br>
-*(This image is re-uploaded from the original add-on image.)*<br>
 
 <br>
 
