@@ -68,9 +68,10 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
 <br>
 
 ## 👥Group
-1.  By default, there are public groups for Medicine, Language, and Pokemon. (password 1234)<br>
-1.  If you want to delete the group, please contact me.<br>
-1.  If you do not set a password, an error will occur. If anyone can enter, please include the pass in your group name.<br>
+1.  Groups is the function to create private leaderboards. e.g. if you create a group with your schoolmates or friends only users who know the password can use the leaderboard. Anyone can freely create groups. If you want anyone to be able to join your group please include the password in the group name.
+2.  By default, there are public groups for Medicine, Language, and Pokemon. (password 1234)<br>
+3.  If you want to delete the group, please contact me.<br>
+4.  If you do not set a password, an error will occur. <br>
 
 ## 🤝Friends
 * You can add users to friends and display them like a group.
