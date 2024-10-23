@@ -92,7 +92,7 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
 1. Click on the dropbox to toggle the account options.<br>
 ![02_config_login_options](images/Leaderboard/02_config_login_options.png)
 
-1. 🚨Do not use a name or biography that would offend other users, I often receive such reports and users who do not correct them will be banned.
+1. 🚨Note: Do not use a name or biography that would offend other users, I often receive such reports and users who do not correct them will be banned.
 <br>
 
 
