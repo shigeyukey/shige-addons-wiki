@@ -134,7 +134,7 @@ I added function to display profile icons (prototype). Icons are displayed on th
    4. The cache of icons deleted from the server is auto deleted from the icon cache user_file folder of add-on.
    5. These functions run a bit slowly in the background, so they should not affect Anki's operation and your review. (Anki23+ is required)
    6. **🚨Note:**
-      1. Each icon is about 7-10KB so 1,000 user icons will require about 10MB of cache, thus if the number of users suddenly increases too much the cache may increase too much (e.g. 10,000users->100MB, 100,000users->1GB). I plan to develop workarounds for this once the server icons actually increase.
+      1. Each icon is about 7-10KB so 1,000 user icons will require about 10MB of cache, thus if the number of users suddenly increases too much the cache may increase too much (e.g. 10,000users->100MB). I plan to develop workarounds for this once the server icons actually increase.
 
 
 
