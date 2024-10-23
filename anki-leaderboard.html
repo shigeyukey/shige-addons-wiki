@@ -271,7 +271,7 @@
 <img src="images/Leaderboard/02_config_login_options.png" alt="02_config_login_options" /></p>
 </li>
 <li>
-<p>🚨Note: Do not use a name or biography that would offend other users, I often receive such reports and users who do not correct them will be banned.
+<p><strong>🚨Note:</strong> Do not use a name or biography that would offend other users, I often receive such reports and users who do not correct them will be banned.
 <br></p>
 </li>
 </ol>
@@ -295,23 +295,52 @@
 <br></li>
 </ul>
 <h2 id="profile-icon"><a class="header" href="#profile-icon">📸Profile icon</a></h2>
+<p>I added function to display profile icons (prototype). Icons are displayed on the leaderboard and tooltip. If you find it distracting you can disable it in the settings: Config -&gt; others tab -&gt; add Pic country and league.</p>
 <ol>
-<li>I added function to display profile icons (prototype). Icons are displayed on the leaderboard and tooltip.</li>
-<li>You can upload your pictures to the server from the new menu.
+<li>
+<p><strong>📤Upload Icon:</strong></p>
 <ol>
-<li>(Menu - &gt; Leaderboard -&gt; Upload profile image)</li>
-<li>Icons can be overwritten when uploaded again.
-<img src="images/Leaderboard/06_tooltip.png" alt="alt text" /></li>
+<li>
+<p>You can upload your pictures to the server from the new menu.</p>
+</li>
+<li>
+<p>Menu - &gt; Leaderboard -&gt; Upload profile image
+<img src="images/Leaderboard/06_tooltip.png" alt="alt text" /></p>
+</li>
+<li>
+<p>Uploaded images are automatically edited -&gt; Height 64px Width 64px Circle</p>
+</li>
+<li>
+<p>Icons can be overwritten when uploaded again.</p>
+</li>
+<li>
+<p><strong>🚨Note:</strong></p>
+<ol>
+<li>Icons will be displayed on leaderboards, tooltips, website leaderboards, etc. and will be stored in add-on as a cache (binary). If you are concerned about your privacy do not use it.</li>
+<li>Do not use photos that would be offensive to other users, I often receive such reports and users who do not correct them will be banned.</li>
 </ol>
 </li>
-<li><strong>📁Icons Cache:</strong> User icons are stored in a binary cache in the add-on's user folder for optimized display.
-<ol>
-<li>Downloading of the cache of icons from the server is done only while the leaderboard window is open.</li>
-<li>Each icon is about 7-10KB, so 1000 user icons will require about 10MB of cache. (Functions to manage these will be developed later.)</li>
-<li>If there are a lot of icons on the server it may take a long time to download the cache. In this case the order of downloading is like this: Friends -&gt; Country -&gt; Group -&gt; Global -&gt; League</li>
 </ol>
 </li>
-<li>🚨Note: Do not use photos that would be offensive to other users, I often receive such reports and users who do not correct them will be banned.</li>
+<li>
+<p><strong>📁Profile Icons Cache :</strong></p>
+<ol>
+<li>This function works by downloading icons from the server and storing them as a binary cache in the add-on's user_file folder.</li>
+<li>If there are a lot of icons on the server it may take a long time to download the cache. In this case the order of downloading is like this:
+<ol>
+<li>Friends -&gt; Country -&gt; Group -&gt; Global -&gt; League</li>
+</ol>
+</li>
+<li>Downloading of the cache of icons from the server is done only while the leaderboard window is open. If you close the window it will be interrupted.</li>
+<li>The cache of icons deleted from the server is auto deleted from the icon cache user_file folder of add-on.</li>
+<li>These functions run a bit slowly in the background, so they should not affect Anki's operation and your review. (Anki23+ is required)</li>
+<li><strong>🚨Note:</strong>
+<ol>
+<li>Each icon is about 7-10KB so 1,000 user icons will require about 10MB of cache, thus if the number of users suddenly increases too much the cache may increase too much (e.g. 10,000users-&gt;100MB, 100,000users-&gt;1GB). I plan to develop workarounds for this once the server icons actually increase.</li>
+</ol>
+</li>
+</ol>
+</li>
 </ol>
 <h2 id="rank-icons"><a class="header" href="#rank-icons"><img src="images/Leaderboard/rank_icons/alpha_12.png" alt="tooltip icon" width="20" height="20">Rank icons</a></h2>
 <ol>
