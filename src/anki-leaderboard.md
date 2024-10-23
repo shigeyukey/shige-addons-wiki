@@ -92,7 +92,7 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
 1. Click on the dropbox to toggle the account options.<br>
 ![02_config_login_options](images/Leaderboard/02_config_login_options.png)
 
-1. 🚨Note: Do not use a name or biography that would offend other users, I often receive such reports and users who do not correct them will be banned.
+1. **🚨Note:** Do not use a name or biography that would offend other users, I often receive such reports and users who do not correct them will be banned.
 <br>
 
 
@@ -112,19 +112,29 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
 
 ## 📸Profile icon
 
-1. I added function to display profile icons (prototype). Icons are displayed on the leaderboard and tooltip.
-2. You can upload your pictures to the server from the new menu.
-   1. (Menu - > Leaderboard -> Upload profile image)
-   2. Icons can be overwritten when uploaded again.
-  ![alt text](images/Leaderboard/06_tooltip.png)
-1. **📁Icons Cache:** User icons are stored in a binary cache in the add-on's user folder for optimized display.
-   1. Downloading of the cache of icons from the server is done only while the leaderboard window is open.
-   2. Each icon is about 7-10KB, so 1000 user icons will require about 10MB of cache. (Functions to manage these will be developed later.)
-   3. If there are a lot of icons on the server it may take a long time to download the cache. In this case the order of downloading is like this: Friends -> Country -> Group -> Global -> League
-2. 🚨Note: Do not use photos that would be offensive to other users, I often receive such reports and users who do not correct them will be banned.
+I added function to display profile icons (prototype). Icons are displayed on the leaderboard and tooltip. If you find it distracting you can disable it in the settings: Config -> others tab -> add Pic country and league.
+
+1. **📤Upload Icon:**
+   1. You can upload your pictures to the server from the new menu.
+   2. Menu - > Leaderboard -> Upload profile image
+   ![alt text](images/Leaderboard/06_tooltip.png)
+   3. Uploaded images are automatically edited -> Height 64px Width 64px Circle
+   4. Icons can be overwritten when uploaded again.
+
+   5. **🚨Note:**
+      1. Icons will be displayed on leaderboards, tooltips, website leaderboards, etc. and will be stored in add-on as a cache (binary). If you are concerned about your privacy do not use it.
+      2. Do not use photos that would be offensive to other users, I often receive such reports and users who do not correct them will be banned.
 
 
-
+2. **📁Profile Icons Cache :** 
+   1. This function works by downloading icons from the server and storing them as a binary cache in the add-on's user_file folder.
+   2. If there are a lot of icons on the server it may take a long time to download the cache. In this case the order of downloading is like this:
+      1.  Friends -> Country -> Group -> Global -> League
+   3. Downloading of the cache of icons from the server is done only while the leaderboard window is open. If you close the window it will be interrupted.
+   4. The cache of icons deleted from the server is auto deleted from the icon cache user_file folder of add-on.
+   5. These functions run a bit slowly in the background, so they should not affect Anki's operation and your review. (Anki23+ is required)
+   6. **🚨Note:**
+      1. Each icon is about 7-10KB so 1,000 user icons will require about 10MB of cache, thus if the number of users suddenly increases too much the cache may increase too much (e.g. 10,000users->100MB, 100,000users->1GB). I plan to develop workarounds for this once the server icons actually increase.
 
 
 
