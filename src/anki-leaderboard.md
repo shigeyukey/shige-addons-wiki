@@ -121,7 +121,7 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
    1. Downloading of the cache of icons from the server is done only while the leaderboard window is open.
    2. Each icon is about 7-10KB, so 1000 user icons will require about 10MB of cache. (Functions to manage these will be developed later.)
    3. If there are a lot of icons on the server it may take a long time to download the cache. In this case the order of downloading is like this: Friends -> Country -> Group -> Global -> League
-
+2. 🚨Note: Do not use photos that would be offensive to other users, I often receive such reports and users who do not correct them will be banned.
 
 
 
