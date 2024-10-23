@@ -4,7 +4,7 @@
   <img src="https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb" alt="banner_shigeyuki_2">
 </a> <br>
 
-* **<a href="https://ankiweb.net/shared/info/175794613" target="_blank">AnkiWeb * Page</a> | Code : `175794613`**<br>
+* **<a href="https://ankiweb.net/shared/info/175794613" target="_blank">AnkiWeb Page</a> | Code : `175794613`**<br>
 * **<a href="https://shigeyuki.pythonanywhere.com/" target="_blank">🌐Anki Leaderboard Web </a>** : You can check the leaderboard on this website.<br>
 
 > *This add-on ranks all of its users by the number of cards reviewed today*
@@ -28,12 +28,14 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
 - [🏆️Anki leaderboard Wiki](#️anki-leaderboard-wiki)
 - [📖How to use](#how-to-use)
   - [🏆League](#league)
-  - [📅Season (League)](#season-league)
+    - [📅Season (League)](#season-league)
   - [👥Group](#group)
   - [🤝Friends](#friends)
   - [🗝️Account](#️account)
   - [📈XP formula](#xp-formula)
   - [🌐Leaderboard Web](#leaderboard-web)
+  - [📸Profile icon](#profile-icon)
+  - [🎖️Rank icons](#️rank-icons)
   - [🔗Related Add-ons](#related-add-ons)
   - [💖Credit](#credit)
 - [🚨Report problems or requests](#report-problems-or-requests)
@@ -60,40 +62,104 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
 
 ## 🏆League
 1. In the league tab, you see everyone who synced at least once during the current season. There are four leagues. (Alpha, Beta, Gamma, and Delta)
-1. The top 20% will be promoted, and the bottom 20% will be demoted. (Start -> Delta -> Gamma -> Beta -> Alpha)
+   ![League](images/Leaderboard/04_league.png)
+3. The top 20% will be promoted, and the bottom 20% will be demoted. (Start -> Delta -> Gamma -> Beta -> Alpha)
 <br>
 
-## 📅Season (League)
+### 📅Season (League)
 1. A season lasts two weeks. You don't have to sync every day. For now I have it set to tally after 3 days and start a new league on the next Monday. (Because of time zone differences between countries and the time it takes mobile users to sync leagues on their PC)
 <br>
 
 ## 👥Group
+
 1.  Groups is the function to create private leaderboards. e.g. if you create a group with your schoolmates or friends only users who know the password can use the leaderboard. Anyone can freely create groups. If you want anyone to be able to join your group please include the password in the group name.
+    ![03_groups](images/Leaderboard/03_groups.png)
 2.  By default, there are public groups for Medicine, Language, and Pokemon. (password 1234)<br>
 3.  If you want to delete the group, please contact me.<br>
 4.  If you do not set a password, an error will occur. <br>
 
 ## 🤝Friends
-* You can add users to friends and display them like a group.
-They will not be notified of your name.
+1. You can add users to friends and display them like a group. (If you add a user as a friend, they will not be notified or see your name.)
+   ![alt text](images/Leaderboard/05_friends.png)
+1. To add a user as a friend, double-click on the user's name and click the “Add friend” button or enter the name in Config.
 <br>
 
 
 ## 🗝️Account
-* You can Sign-up, Log-in, Delete account, Log-out, Change user name, and Bio.
-* Do not use anything in your name or Bio that would be offensive to other users.
+
+1. You can Sign-up, Log-in, Delete account, Log-out, Change user name, and Biography.
+
+1. Click on the dropbox to toggle the account options.<br>
+![02_config_login_options](images/Leaderboard/02_config_login_options.png)
+
+1. 🚨Do not use a name or biography that would offend other users, I often receive such reports and users who do not correct them will be banned.
 <br>
+
 
 ## 📈XP formula
 1. <code>XP = days studied percentage x ((6 x time) + (2 x reviews x retention)) </code>
 
 1. You have to study at least 5 minutes per day. Otherwise, this day won't be counted as “studied”
 (<i><a href="https://github.com/ThoreBor/Anki_Leaderboard/issues/122" target="_blank">See this issue for more info</a></i>).
+1. [Q. Why doesn't my XP match when I calculate it manually?](#q-why-doesnt-my-xp-match-when-i-calculate-it-manually)
+
 <br>
+
 
 ## 🌐Leaderboard Web
 * **<a href="https://shigeyuki.pythonanywhere.com/" target="_blank">🌐Anki Leaderboard Web </a>** : You can check the leaderboard on this website. (past 24 hours)<br>
 <br>
+
+## 📸Profile icon
+
+1. I added function to display profile icons (prototype). Icons are displayed on the leaderboard and tooltip.
+2. You can upload your pictures to the server from the new menu.
+   1. (Menu - > Leaderboard -> Upload profile image)
+   2. Icons can be overwritten when uploaded again.
+  ![alt text](images/Leaderboard/06_tooltip.png)
+1. **📁Icons Cache:** User icons are stored in a binary cache in the add-on's user folder for optimized display.
+   1. Downloading of the cache of icons from the server is done only while the leaderboard window is open.
+   2. Each icon is about 7-10KB, so 1000 user icons will require about 10MB of cache. (Functions to manage these will be developed later.)
+   3. If there are a lot of icons on the server it may take a long time to download the cache. In this case the order of downloading is like this: Friends -> Country -> Group -> Global -> League
+
+
+
+
+
+
+
+## 🎖️Rank icons
+
+1. I've enhanced graphics by adding countries, ranks, tooltips, etc.
+2.  If you find it distracting you can disable it in the settings: Config -> others tab -> add Pic country and league.
+    ![alt text](images/Leaderboard/tooltip.gif)
+
+3. There are three types of rank icons on the leaderboard, each with 10 ranks in each of the leagues.
+
+   1. **Color (User's current league) :**
+      1. <img src="images/Leaderboard/rank_icons/alpha_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Hexagon/alpha_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Diamond/alpha_12.png" alt="tooltip icon" width="20" height="20"> <img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"> Alpha (Gold)
+      2. <img src="images/Leaderboard/rank_icons/beta_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Hexagon/beta_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Diamond/beta_12.png" alt="tooltip icon" width="20" height="20"> <img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"> Beta (Silver)
+      3. <img src="images/Leaderboard/rank_icons/gamma_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Hexagon/gamma_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Diamond/gamma_12.png" alt="tooltip icon" width="20" height="20"> <img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"> Gamma (Sapphire)
+      4. <img src="images/Leaderboard/rank_icons/delta_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Hexagon/delta_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Diamond/delta_12.png" alt="tooltip icon" width="20" height="20"> <img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"> Delta (Wood)
+   2. **Type (Each Leaderboard) :**
+        1. <img src="images/Leaderboard/Hexagon/delta_12.png" alt="tooltip icon" width="20" height="20"> Global (Hexagon)
+        2. <img src="images/Leaderboard/Diamond/delta_12.png" alt="tooltip icon" width="20" height="20"> Friends/Country/Group (Diamond)
+        3. <img src="images/Leaderboard/rank_icons/delta_12.png" alt="tooltip icon" width="20" height="20"> League (Shield)
+   3. **Grades (Each Leaderboard):**
+        1. <img src="images/Leaderboard/Grades/delta_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_12.png" alt="tooltip icon" width="20" height="20"> **A+** (Top 10%)
+        2. <img src="images/Leaderboard/Grades/delta_11.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_11.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_11.png" alt="tooltip icon" width="20" height="20"> **A**  (Top 10-20%)
+        3. <img src="images/Leaderboard/Grades/delta_10.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_10.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_10.png" alt="tooltip icon" width="20" height="20"> **B+** (Top 20-30%)
+        4. <img src="images/Leaderboard/Grades/delta_09.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_09.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_09.png" alt="tooltip icon" width="20" height="20"> **B**  (Mid 30-40%)
+        5. <img src="images/Leaderboard/Grades/delta_08.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_08.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_08.png" alt="tooltip icon" width="20" height="20"> **C+** (Mid 40-50%)
+        6. <img src="images/Leaderboard/Grades/delta_07.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_07.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_07.png" alt="tooltip icon" width="20" height="20"> **C**  (Mid 50-60%)
+        7. <img src="images/Leaderboard/Grades/delta_06.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_06.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_06.png" alt="tooltip icon" width="20" height="20"> **D+** (Lower 60-70%)
+        8. <img src="images/Leaderboard/Grades/delta_05.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_05.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_05.png" alt="tooltip icon" width="20" height="20"> **D**  (Lower 70-80%)
+        9. <img src="images/Leaderboard/Grades/delta_02.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_02.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_02.png" alt="tooltip icon" width="20" height="20"> **E**  (Bottom 80-90%)
+        10. <img src="images/Leaderboard/Grades/delta_01.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_01.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_01.png" alt="tooltip icon" width="20" height="20"> **F**  (Bottom 90-100%)
+
+
+E.g. if a user is B (Mid 30-40%) on the global leaderboard the rank icon will be <img src="images/Leaderboard/Grades/delta_09.png" alt="icon" width="20" height="20"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"> but if the user's current league is Gamma the color will change and the rank icon will be <img src="images/Leaderboard/Grades/gamma_09.png" alt="icon" width="20" height="20"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15">.
+
 
 ## 🔗Related Add-ons
 
@@ -113,6 +179,8 @@ They will not be notified of your name.
   <a href="https://github.com/abdnh" target="_blank">Abdo</a>
   
   * Images: Crown icon /<a href="https://www.flaticon.com/de/autoren/freepik" title="Freepik" target="_blank">Freepik</a>, <a href="https://www.flaticon.com/de/" title="Flaticon" target="_blank">flaticon.com</a>, Person icon /<a href="https://www.flaticon.com/de/autoren/iconixar" title="iconixar" target="_blank">iconixar</a>, <a href="https://www.flaticon.com/de/" title="Flaticon" target="_blank">flaticon.com</a>, Settings icon/<a href="https://www.flaticon.com/free-icons/setting" title="setting icons" target="_blank">Phoenix Group, Flaticon</a>, Confetti gif/ <a href="https://giphy.com/stickers/giphycam-rainbow-WNJATm9pwnjpjI1i0g" target="_blank">Giphy</a>
+  * <div>Rank icons : <a href="https://x.com/rhosgfx">Rhos @RhosGFX</a></div>
+  * <div>Star icon : <a href="https://commons.wikimedia.org/wiki/File:Star_icon_stylized.svg">Clip Art Library </a></div>
 
 
 
@@ -226,42 +294,6 @@ So I think 85% would be a reasonable range to be in the same range as 100%, 85% 
 
 <br><br>
 
-
-<!--
-# Config
-
-## Account
-
-### Sign-up
-#### Sign-up
-#### Log-in
-#### Delete account
-#### Log-out
-#### Change user name
-
-### Bio
-
-
-
-## Settings
-
-### Country
-
-* The next day starts
-* Sort by:
-* Default Leaderboard
-* 
-
-## Groups
-
-## Friends
-
-## Hidden Users
-
-## others
-
-
--->
 
 
 
