@@ -177,7 +177,7 @@
   <img src="https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb" alt="banner_shigeyuki_2">
 </a> <br>
 <ul>
-<li><strong><a href="https://ankiweb.net/shared/info/175794613" target="_blank">AnkiWeb * Page</a> | Code : <code>175794613</code></strong><br></li>
+<li><strong><a href="https://ankiweb.net/shared/info/175794613" target="_blank">AnkiWeb Page</a> | Code : <code>175794613</code></strong><br></li>
 <li><strong><a href="https://shigeyuki.pythonanywhere.com/" target="_blank">🌐Anki Leaderboard Web </a></strong> : You can check the leaderboard on this website.<br></li>
 </ul>
 <blockquote>
@@ -195,13 +195,18 @@
 <li><a href="#%EF%B8%8Fanki-leaderboard-wiki">🏆️Anki leaderboard Wiki</a></li>
 <li><a href="#how-to-use">📖How to use</a>
 <ul>
-<li><a href="#league">🏆League</a></li>
+<li><a href="#league">🏆League</a>
+<ul>
 <li><a href="#season-league">📅Season (League)</a></li>
+</ul>
+</li>
 <li><a href="#group">👥Group</a></li>
 <li><a href="#friends">🤝Friends</a></li>
 <li><a href="#%EF%B8%8Faccount">🗝️Account</a></li>
 <li><a href="#xp-formula">📈XP formula</a></li>
 <li><a href="#leaderboard-web">🌐Leaderboard Web</a></li>
+<li><a href="#profile-icon">📸Profile icon</a></li>
+<li><a href="#%EF%B8%8Frank-icons">🎖️Rank icons</a></li>
 <li><a href="#related-add-ons">🔗Related Add-ons</a></li>
 <li><a href="#credit">💖Credit</a></li>
 </ul>
@@ -231,34 +236,45 @@
 </ol>
 <h2 id="league"><a class="header" href="#league">🏆League</a></h2>
 <ol>
-<li>In the league tab, you see everyone who synced at least once during the current season. There are four leagues. (Alpha, Beta, Gamma, and Delta)</li>
+<li>In the league tab, you see everyone who synced at least once during the current season. There are four leagues. (Alpha, Beta, Gamma, and Delta)
+<img src="images/Leaderboard/04_league.png" alt="League" /></li>
 <li>The top 20% will be promoted, and the bottom 20% will be demoted. (Start -&gt; Delta -&gt; Gamma -&gt; Beta -&gt; Alpha)
 <br></li>
 </ol>
-<h2 id="season-league"><a class="header" href="#season-league">📅Season (League)</a></h2>
+<h3 id="season-league"><a class="header" href="#season-league">📅Season (League)</a></h3>
 <ol>
 <li>A season lasts two weeks. You don't have to sync every day. For now I have it set to tally after 3 days and start a new league on the next Monday. (Because of time zone differences between countries and the time it takes mobile users to sync leagues on their PC)
 <br></li>
 </ol>
 <h2 id="group"><a class="header" href="#group">👥Group</a></h2>
 <ol>
-<li>Groups is the function to create private leaderboards. e.g. if you create a group with your schoolmates or friends only users who know the password can use the leaderboard. Anyone can freely create groups. If you want anyone to be able to join your group please include the password in the group name.</li>
+<li>Groups is the function to create private leaderboards. e.g. if you create a group with your schoolmates or friends only users who know the password can use the leaderboard. Anyone can freely create groups. If you want anyone to be able to join your group please include the password in the group name.
+<img src="images/Leaderboard/03_groups.png" alt="03_groups" /></li>
 <li>By default, there are public groups for Medicine, Language, and Pokemon. (password 1234)<br></li>
 <li>If you want to delete the group, please contact me.<br></li>
 <li>If you do not set a password, an error will occur. <br></li>
 </ol>
 <h2 id="friends"><a class="header" href="#friends">🤝Friends</a></h2>
-<ul>
-<li>You can add users to friends and display them like a group.
-They will not be notified of your name.
+<ol>
+<li>You can add users to friends and display them like a group. (If you add a user as a friend, they will not be notified or see your name.)
+<img src="images/Leaderboard/05_friends.png" alt="alt text" /></li>
+<li>To add a user as a friend, double-click on the user's name and click the “Add friend” button or enter the name in Config.
 <br></li>
-</ul>
+</ol>
 <h2 id="account"><a class="header" href="#account">🗝️Account</a></h2>
-<ul>
-<li>You can Sign-up, Log-in, Delete account, Log-out, Change user name, and Bio.</li>
-<li>Do not use anything in your name or Bio that would be offensive to other users.
-<br></li>
-</ul>
+<ol>
+<li>
+<p>You can Sign-up, Log-in, Delete account, Log-out, Change user name, and Biography.</p>
+</li>
+<li>
+<p>Click on the dropbox to toggle the account options.<br>
+<img src="images/Leaderboard/02_config_login_options.png" alt="02_config_login_options" /></p>
+</li>
+<li>
+<p>🚨Do not use a name or biography that would offend other users, I often receive such reports and users who do not correct them will be banned.
+<br></p>
+</li>
+</ol>
 <h2 id="xp-formula"><a class="header" href="#xp-formula">📈XP formula</a></h2>
 <ol>
 <li>
@@ -266,15 +282,81 @@ They will not be notified of your name.
 </li>
 <li>
 <p>You have to study at least 5 minutes per day. Otherwise, this day won't be counted as “studied”
-(<i><a href="https://github.com/ThoreBor/Anki_Leaderboard/issues/122" target="_blank">See this issue for more info</a></i>).
-<br></p>
+(<i><a href="https://github.com/ThoreBor/Anki_Leaderboard/issues/122" target="_blank">See this issue for more info</a></i>).</p>
+</li>
+<li>
+<p><a href="#q-why-doesnt-my-xp-match-when-i-calculate-it-manually">Q. Why doesn't my XP match when I calculate it manually?</a></p>
 </li>
 </ol>
+<br>
 <h2 id="leaderboard-web"><a class="header" href="#leaderboard-web">🌐Leaderboard Web</a></h2>
 <ul>
 <li><strong><a href="https://shigeyuki.pythonanywhere.com/" target="_blank">🌐Anki Leaderboard Web </a></strong> : You can check the leaderboard on this website. (past 24 hours)<br>
 <br></li>
 </ul>
+<h2 id="profile-icon"><a class="header" href="#profile-icon">📸Profile icon</a></h2>
+<ol>
+<li>I added function to display profile icons (prototype). Icons are displayed on the leaderboard and tooltip.</li>
+<li>You can upload your pictures to the server from the new menu.
+<ol>
+<li>(Menu - &gt; Leaderboard -&gt; Upload profile image)</li>
+<li>Icons can be overwritten when uploaded again.
+<img src="images/Leaderboard/06_tooltip.png" alt="alt text" /></li>
+</ol>
+</li>
+<li><strong>📁Icons Cache:</strong> User icons are stored in a binary cache in the add-on's user folder for optimized display.
+<ol>
+<li>Downloading of the cache of icons from the server is done only while the leaderboard window is open.</li>
+<li>Each icon is about 7-10KB, so 1000 user icons will require about 10MB of cache. (Functions to manage these will be developed later.)</li>
+<li>If there are a lot of icons on the server it may take a long time to download the cache. In this case the order of downloading is like this: Friends -&gt; Country -&gt; Group -&gt; Global -&gt; League</li>
+</ol>
+</li>
+</ol>
+<h2 id="rank-icons"><a class="header" href="#rank-icons">🎖️Rank icons</a></h2>
+<ol>
+<li>
+<p>I've enhanced graphics by adding countries, ranks, tooltips, etc.</p>
+</li>
+<li>
+<p>If you find it distracting you can disable it in the settings: Config -&gt; others tab -&gt; add Pic country and league.
+<img src="images/Leaderboard/tooltip.gif" alt="alt text" /></p>
+</li>
+<li>
+<p>There are three types of rank icons on the leaderboard, each with 10 ranks in each of the leagues.</p>
+<ol>
+<li><strong>Color (User's current league) :</strong>
+<ol>
+<li><img src="images/Leaderboard/rank_icons/alpha_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Hexagon/alpha_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Diamond/alpha_12.png" alt="tooltip icon" width="20" height="20"> <img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"> Alpha (Gold)</li>
+<li><img src="images/Leaderboard/rank_icons/beta_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Hexagon/beta_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Diamond/beta_12.png" alt="tooltip icon" width="20" height="20"> <img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"> Beta (Silver)</li>
+<li><img src="images/Leaderboard/rank_icons/gamma_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Hexagon/gamma_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Diamond/gamma_12.png" alt="tooltip icon" width="20" height="20"> <img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"> Gamma (Sapphire)</li>
+<li><img src="images/Leaderboard/rank_icons/delta_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Hexagon/delta_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Diamond/delta_12.png" alt="tooltip icon" width="20" height="20"> <img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"> Delta (Wood)</li>
+</ol>
+</li>
+<li><strong>Type (Each Leaderboard) :</strong>
+<ol>
+<li><img src="images/Leaderboard/Hexagon/delta_12.png" alt="tooltip icon" width="20" height="20"> Global (Hexagon)</li>
+<li><img src="images/Leaderboard/Diamond/delta_12.png" alt="tooltip icon" width="20" height="20"> Friends/Country/Group (Diamond)</li>
+<li><img src="images/Leaderboard/rank_icons/delta_12.png" alt="tooltip icon" width="20" height="20"> League (Shield)</li>
+</ol>
+</li>
+<li><strong>Grades (Each Leaderboard):</strong>
+<ol>
+<li><img src="images/Leaderboard/Grades/delta_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_12.png" alt="tooltip icon" width="20" height="20"> <strong>A+</strong> (Top 10%)</li>
+<li><img src="images/Leaderboard/Grades/delta_11.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_11.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_11.png" alt="tooltip icon" width="20" height="20"> <strong>A</strong>  (Top 10-20%)</li>
+<li><img src="images/Leaderboard/Grades/delta_10.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_10.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_10.png" alt="tooltip icon" width="20" height="20"> <strong>B+</strong> (Top 20-30%)</li>
+<li><img src="images/Leaderboard/Grades/delta_09.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_09.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_09.png" alt="tooltip icon" width="20" height="20"> <strong>B</strong>  (Mid 30-40%)</li>
+<li><img src="images/Leaderboard/Grades/delta_08.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_08.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_08.png" alt="tooltip icon" width="20" height="20"> <strong>C+</strong> (Mid 40-50%)</li>
+<li><img src="images/Leaderboard/Grades/delta_07.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_07.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_07.png" alt="tooltip icon" width="20" height="20"> <strong>C</strong>  (Mid 50-60%)</li>
+<li><img src="images/Leaderboard/Grades/delta_06.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_06.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_06.png" alt="tooltip icon" width="20" height="20"> <strong>D+</strong> (Lower 60-70%)</li>
+<li><img src="images/Leaderboard/Grades/delta_05.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_05.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_05.png" alt="tooltip icon" width="20" height="20"> <strong>D</strong>  (Lower 70-80%)</li>
+<li><img src="images/Leaderboard/Grades/delta_02.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_02.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_02.png" alt="tooltip icon" width="20" height="20"> <strong>E</strong>  (Bottom 80-90%)</li>
+<li><img src="images/Leaderboard/Grades/delta_01.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades02/delta_01.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Grades03/delta_01.png" alt="tooltip icon" width="20" height="20"> <strong>F</strong>  (Bottom 90-100%)</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p>E.g. if a user is B (Mid 30-40%) on the global leaderboard the rank icon will be <img src="images/Leaderboard/Grades/delta_09.png" alt="icon" width="20" height="20"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"> but if the user's current league is Gamma the color will change and the rank icon will be <img src="images/Leaderboard/Grades/gamma_09.png" alt="icon" width="20" height="20"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15">.</p>
 <h2 id="related-add-ons"><a class="header" href="#related-add-ons">🔗Related Add-ons</a></h2>
 <ol>
 <li><a href="https://ankiweb.net/shared/info/1797615099" target="_blank">📌Rearrange home addons </a><br></li>
@@ -298,6 +380,10 @@ They will not be notified of your name.
 </li>
 <li>
 <p>Images: Crown icon /<a href="https://www.flaticon.com/de/autoren/freepik" title="Freepik" target="_blank">Freepik</a>, <a href="https://www.flaticon.com/de/" title="Flaticon" target="_blank">flaticon.com</a>, Person icon /<a href="https://www.flaticon.com/de/autoren/iconixar" title="iconixar" target="_blank">iconixar</a>, <a href="https://www.flaticon.com/de/" title="Flaticon" target="_blank">flaticon.com</a>, Settings icon/<a href="https://www.flaticon.com/free-icons/setting" title="setting icons" target="_blank">Phoenix Group, Flaticon</a>, Confetti gif/ <a href="https://giphy.com/stickers/giphycam-rainbow-WNJATm9pwnjpjI1i0g" target="_blank">Giphy</a></p>
+</li>
+<li><div>Rank icons : <a href="https://x.com/rhosgfx">Rhos @RhosGFX</a></div>
+</li>
+<li><div>Star icon : <a href="https://commons.wikimedia.org/wiki/File:Star_icon_stylized.svg">Clip Art Library </a></div>
 </li>
 </ul>
 <p><br><br></p>
@@ -398,41 +484,6 @@ Basically the retention rate recommended by Anki is 80-90%, and dedicated learne
 So I think 85% would be a reasonable range to be in the same range as 100%, 85% users do not need to go higher, and 95%+ users can lower the retention rate to make learning more efficient and not affect XP. (If the retention rate is changed to the same value as it is, users may make learning inefficient by making the retention rate as high as possible.)
 <hr />
 <p><br><br></p>
-<!--
-# Config
-
-## Account
-
-### Sign-up
-#### Sign-up
-#### Log-in
-#### Delete account
-#### Log-out
-#### Change user name
-
-### Bio
-
-
-
-## Settings
-
-### Country
-
-* The next day starts
-* Sort by:
-* Default Leaderboard
-* 
-
-## Groups
-
-## Friends
-
-## Hidden Users
-
-## others
-
-
--->
 <h1 id="-how-do-i-install-this-add-on"><a class="header" href="#-how-do-i-install-this-add-on">📥 How do I install this add-on?</a></h1>
 <ol>
 <li>Copy and paste the add-on code ( <code>175794613</code> )  into Anki and you can install it. ( <em>Menu -&gt; Tools -&gt; Add-ons -&gt; Get Add-ons -&gt; Code [ add-on code ]</em> )</li>
