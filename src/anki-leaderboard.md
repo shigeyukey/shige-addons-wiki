@@ -131,7 +131,7 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
 ## 🎖️Rank icons
 
 1. I've enhanced graphics by adding countries, ranks, tooltips, etc.
-2.  If you find it distracting you can disable it in the settings: Config -> others tab -> add Pic country and league.
+2.  If you find it distracting you can disable it in the settings: Config -> others tab -> add Pic country and league.<br>
     ![alt text](images/Leaderboard/tooltip.gif)
 
 3. There are three types of rank icons on the leaderboard, each with 10 ranks in each of the leagues.
