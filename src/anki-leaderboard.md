@@ -35,7 +35,7 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
   - [📈XP formula](#xp-formula)
   - [🌐Leaderboard Web](#leaderboard-web)
   - [📸Profile icon](#profile-icon)
-  - [🎖️Rank icons](#️rank-icons)
+  - [�Rank icons](#rank-icons)
   - [🔗Related Add-ons](#related-add-ons)
   - [💖Credit](#credit)
 - [🚨Report problems or requests](#report-problems-or-requests)
@@ -128,7 +128,7 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
 
 
 
-## 🎖️Rank icons
+## 🏅Rank icons
 
 1. I've enhanced graphics by adding countries, ranks, tooltips, etc.
 2.  If you find it distracting you can disable it in the settings: Config -> others tab -> add Pic country and league.<br>
