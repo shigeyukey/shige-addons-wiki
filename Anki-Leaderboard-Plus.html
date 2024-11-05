@@ -173,24 +173,153 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="anki-leaderboard-plus"><a class="header" href="#anki-leaderboard-plus">🏆️Anki Leaderboard Plus</a></h1>
+<a href="http://patreon.com/Shigeyuki" target="_blank">
+  <img src="https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb" alt="banner_shigeyuki_2">
+</a> <br>
+<p><em>⚠️This is an add-on for patrons who supported my volunteer Anki add-on development and it is not available for free. Please wait.</em></p>
+<hr />
+<p><img src="images/AnkiLeaderboardPlus/_Thumbnail.png" alt="alt text" /></p>
+<p>This add-on is for real-time synchronization of the Anki Leaderbord during review (prototype). The leaderbord is displayed on the top bar of Anki and updates as you review. User icons, country icons, and rank icons are displayed.</p>
+<hr />
+<br>
 <ul>
-<li><a href="#%EF%B8%8Fanki-leaderboard-plus">🏆️Anki Leaderboard Plus</a>
+<li><a href="#%EF%B8%8Fanki-leaderboard-plus">🏆️Anki Leaderboard Plus</a></li>
+<li><a href="#how-to-use">📖How to use</a>
+<ul>
+<li><a href="#reviewer--sync">Reviewer &amp; Sync</a></li>
+</ul>
+</li>
+<li><a href="#options">Options</a>
 <ul>
 <li><a href="#leaderbord-type">Leaderbord Type</a></li>
-<li><a href="#chase-mode">Chase Mode</a></li>
+<li><a href="#chase-mode">Chase Mode</a>
+<ul>
+<li><a href="#chase-mode-enable-default">Chase Mode Enable (default)</a></li>
+<li><a href="#chase-mode-disabled">Chase mode Disabled</a></li>
+</ul>
+</li>
 <li><a href="#battle-mode">Battle mode</a></li>
 <li><a href="#display-info">Display Info</a></li>
 <li><a href="#bar-position">Bar Position</a></li>
 <li><a href="#color">Color</a></li>
+<li><a href="#credit">Credit</a></li>
+<li><a href="#frequently-asked-questions">💡Frequently Asked Questions</a>
+<ul>
+<li><a href="#q-why-is-this-not-free">Q. Why is this not free?</a></li>
+</ul>
+</li>
+<li><a href="#report-problems-or-requests">🚨Report problems or requests</a></li>
+<li><a href="#download">📥Download</a></li>
 </ul>
 </li>
 </ul>
+<br>
+<h1 id="how-to-use"><a class="header" href="#how-to-use">📖How to use</a></h1>
+<ol>
+<li>
+<p>🚨This add-on will not work without the Anki leaderboard. If you don't have it yet, <a href="anki-leaderboard.html">please download it from AnkiWeb and register. (Free)</a></p>
+</li>
+<li>
+<p>🚨To use this add-on you need to sync your leaderboard settings to AnkiWeb. Please turn on this new setting in the leaderboard.</p>
+</li>
+</ol>
+<p>Leaderboard Config -&gt; Others tab -&gt; Sync multiple devices -&gt; Auto save this devices Config data to AnkiWeb [ ON ]</p>
+<h2 id="reviewer--sync"><a class="header" href="#reviewer--sync">Reviewer &amp; Sync</a></h2>
+<ol>
+<li>The bar's leaderboard is updated when a card is reviewed.</li>
+<li>It may take a few seconds to update the leaderboard.</li>
+<li>The bar leaderboard is updated after the deck is synced.</li>
+<li>When you press "Decks" on Anki top toolbar it will sync.</li>
+</ol>
+<br>
+<h1 id="options"><a class="header" href="#options">Options</a></h1>
+<p>🖱️Click on the bar to see the options.</p>
+<p><img src="images/AnkiLeaderboardPlus/08.png" alt="alt text" /></p>
 <h2 id="leaderbord-type"><a class="header" href="#leaderbord-type">Leaderbord Type</a></h2>
+<p>Toggles the type of leaderboard displayed in the bar.</p>
+<p><img src="images/AnkiLeaderboardPlus/01.png" alt="alt text" /></p>
+<ol>
+<li>Use “Auto” to use the default leaderboard used in the original leaderboard.</li>
+<li>This option is local, so changing it will not change the original leaderboard default. (e.g. if a group is displayed in Anki's Home, changing this option to Global will not change the leaderboard in Home)</li>
+<li>League leaderboards only work during the season.</li>
+</ol>
 <h2 id="chase-mode"><a class="header" href="#chase-mode">Chase Mode</a></h2>
+<p><img src="image-2.png" alt="alt text" /></p>
+<p>When enabled, the users displayed will be you and the user whose rank is one higher than yours. The idea for this feature was inspired by the chase mode in Anki-Kill-Streaks.</p>
+<h3 id="chase-mode-enable-default"><a class="header" href="#chase-mode-enable-default">Chase Mode Enable (default)</a></h3>
+<p><img src="images/AnkiLeaderboardPlus/02.png" alt="alt text" /></p>
+<ol>
+<li>The center of the bar shows the difference between the user and your review (or XP): <img src="images/AnkiLeaderboardPlus/05.png" alt="alt text" /></li>
+<li>The color of the bar will change based on the difference in reviews.
+e.g. If you have more reviews than your opponent, the color will be more blue. Conversely if the other party has more reviews than you, the color will be more red: <img src="images/AnkiLeaderboardPlus/07.png" alt="alt text" /></li>
+<li>This color can optionally be reversed or the color can be disabled.</li>
+<li>🖱️Double click on the right or left side of the bar to open user info: <img src="images/AnkiLeaderboardPlus/09.png" alt="alt text" /></li>
+</ol>
+<h3 id="chase-mode-disabled"><a class="header" href="#chase-mode-disabled">Chase mode Disabled</a></h3>
+<p><img src="images/AnkiLeaderboardPlus/10.png" alt="alt text" /></p>
+<ol>
+<li>The bar displays about 30 users.</li>
+<li>Your user name is auto displayed in the center of bar.</li>
+<li>Your friends' names are blue.</li>
+<li>The statuses displayed are review and time or xp and review. (You can optionally add more info)</li>
+<li>The bar can be moved left or right. -&gt; Mouse wheel scroll (up/down) or arrow keys (left/right)</li>
+</ol>
 <h2 id="battle-mode"><a class="header" href="#battle-mode">Battle mode</a></h2>
+<p>This option allows you to fix the users to be displayed in the bar. (The user does not auto change)</p>
+<p><img src="images/AnkiLeaderboardPlus/13.png" alt="alt text" /></p>
+<p><img src="images/AnkiLeaderboardPlus/03.png" alt="alt text" /></p>
+<ol>
+<li>When you set a user, the name will be displayed on the right side of the option.</li>
+<li>Values are displayed as negative or positive.(Not displayed when not in battle mode)</li>
+<li>Press the reset button to exit battle mode.</li>
+<li>If you use this option the user will not be notified. (At the moment there is no any communication feature on the leaderboard.)</li>
+<li>If the user is not found, it will not be displayed even if set. (e.g. the user is not logged in yet today, or the leaderboard of the league but you and the user are in different leagues)</li>
+</ol>
 <h2 id="display-info"><a class="header" href="#display-info">Display Info</a></h2>
+<p><img src="images/AnkiLeaderboardPlus/04.png" alt="alt text" /></p>
+<p><img src="images/AnkiLeaderboardPlus/06.png" alt="alt text" /></p>
+<ol>
+<li>You can customize the info displayed on the bar. In Global reviewers are always displayed, in League XP is always displayed.</li>
+</ol>
 <h2 id="bar-position"><a class="header" href="#bar-position">Bar Position</a></h2>
+<p>Top:<br>
+<img src="images/AnkiLeaderboardPlus/14.png" alt="alt text" /></p>
+<p>Bottom:<br>
+<img src="images/AnkiLeaderboardPlus/15.png" alt="alt text" /></p>
+<ol>
+<li>You can change the bar position to the top or bottom of Anki.
+Default is the top.</li>
+<li>If you set the bar at the bottom, Anki's auto-hide answer bar feature may not work. This issue has not yet been resolved.</li>
+</ol>
 <h2 id="color"><a class="header" href="#color">Color</a></h2>
+<ol>
+<li><strong>Bacgtound Color Enable:</strong> Enables or disables the background color of the bar: <img src="images/AnkiLeaderboardPlus/11.png" alt="alt text" /></li>
+<li><strong>Color Reverse:</strong> Reverse the bar colors red on the left and blue on the right: <img src="images/AnkiLeaderboardPlus/12.png" alt="alt text" /></li>
+</ol>
+<h2 id="credit"><a class="header" href="#credit">Credit</a></h2>
+<ol>
+<li>This add-on is a customized version of the shutdown Anki LeaderBoard, originally created by Thore Tyborski and credit goes to him. <a href="anki-leaderboard.html#credit">All Credit</a></li>
+<li>The idea for this feature was inspired by Anki KillStreaks Chase Mode.</li>
+</ol>
+<br>
+<hr />
+<h2 id="frequently-asked-questions"><a class="header" href="#frequently-asked-questions">💡Frequently Asked Questions</a></h2>
+<hr />
+<h3 id="q-why-is-this-not-free"><a class="header" href="#q-why-is-this-not-free">Q. Why is this not free?</a></h3>
+<p>Basically the free leaderboard sync with the server only about 10 times per user/day, currently there are about 2,500 active users (2024-10-31).</p>
+<p>This Plus add-on sync with every review so the server load increases from hundreds to thousands per one user, it is probably the same as the load increase in the number of users to about 250,000 to 25 million (maybe) so this feature is not sustainable for free for now.</p>
+<p>In other words I plan to develop high risk functions with server load on this Plus and functions that are not server load will be developed on the free leaderboard.</p>
+<hr />
+<br>
+<h2 id="report-problems-or-requests"><a class="header" href="#report-problems-or-requests">🚨Report problems or requests</a></h2>
+<ol>
+<li><a href="https://www.patreon.com/Shigeyuki" target="_blank">Patreon (Direct Message)</a> : Feel free to contact me via DM on Patreon or in the comments of the post.</li>
+</ol>
+<br>
+<h2 id="download"><a class="header" href="#download">📥Download</a></h2>
+<ul>
+<li>Download the .ankiaddon file and open it with a double-click, or install it from the "Install from file" menu in the Anki add-ons management screen. (Please note that you cannot install the file by dragging and dropping it into Anki) If you have any problems, questions or requests feel free to send them to me.</li>
+</ul>
 
                     </main>
 
