@@ -12,6 +12,10 @@
 
 This add-on is for real-time synchronization of the Anki Leaderbord during review (prototype). The leaderbord is displayed on the top bar of Anki and updates as you review. User icons, country icons, and rank icons are displayed.
 
+**\[ Download page ]** [🏆️Anki Leaderboard Plus (Anki Add-on Download Page, For Patrons Only)](https://www.patreon.com/posts/anki-leaderboard-115088003?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
+
+
+
 ---
 
 <br>
@@ -32,6 +36,7 @@ This add-on is for real-time synchronization of the Anki Leaderbord during revie
   - [Credit](#credit)
   - [💡Frequently Asked Questions](#frequently-asked-questions)
     - [Q. Why is this not free?](#q-why-is-this-not-free)
+    - [Q. When will it be free?](#q-when-will-it-be-free)
   - [🚨Report problems or requests](#report-problems-or-requests)
   - [📥Download](#download)
 
@@ -171,6 +176,18 @@ In other words I plan to develop high risk functions with server load on this Pl
 
 ---
 
+### Q. When will it be free?
+
+Leaderboard is not my original add-on so I want to make it free as soon as possible. It will be free when I develop a lot of workarounds, I plan to develop them in the future, e.g:
+1. Make it work offline
+1. Separate servers
+1. Allow users to use their own servers
+1. Disable servers only when they are busy
+
+However the disadvantage of these is that development costs are a bit higher and server functions are power down. (e.g., splitting the server reduces costs but reduces users.)
+
+
+
 <br>
 
 ## 🚨Report problems or requests
@@ -182,3 +199,4 @@ In other words I plan to develop high risk functions with server load on this Pl
 
 * Download the .ankiaddon file and open it with a double-click, or install it from the "Install from file" menu in the Anki add-ons management screen. (Please note that you cannot install the file by dragging and dropping it into Anki) If you have any problems, questions or requests feel free to send them to me.
 
+* **\[ Download page ]** [🏆️Anki Leaderboard Plus (Anki Add-on Download Page, For Patrons Only)](https://www.patreon.com/posts/anki-leaderboard-115088003?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
