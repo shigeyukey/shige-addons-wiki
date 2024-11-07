@@ -32,6 +32,8 @@ This add-on is for real-time synchronization of the Anki Leaderbord during revie
   - [Battle mode](#battle-mode)
   - [Display Info](#display-info)
   - [Bar Position](#bar-position)
+    - [1. Display the bar at the Top](#1-display-the-bar-at-the-top)
+    - [2. Enable and display the Bar](#2-enable-and-display-the-bar)
   - [Color](#color)
   - [Credit](#credit)
   - [💡Frequently Asked Questions](#frequently-asked-questions)
@@ -142,6 +144,8 @@ This option allows you to fix the users to be displayed in the bar. (The user do
 
 ## Bar Position
 
+### 1. Display the bar at the Top
+
 Top:<br>
 ![alt text](images/AnkiLeaderboardPlus/14.png)
 
@@ -151,6 +155,12 @@ Bottom:<br>
 1. You can change the bar position to the top or bottom of Anki.
 Default is the top.
 1. If you set the bar at the bottom, Anki's auto-hide answer bar feature may not work. This issue has not yet been resolved.
+
+### 2. Enable and display the Bar
+
+1. Turning it off disables the add-on and hides the bar.
+To show the bar again, use “Plus Config” in the leaderboard menu, or go to Tools -> Add-ons -> Select Leadearboard Plus -> Config
+
 
 ## Color
 
