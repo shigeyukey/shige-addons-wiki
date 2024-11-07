@@ -61,9 +61,15 @@ Leaderboard Config -> Others tab -> Sync multiple devices -> Auto save this devi
 
 # Options
 
-🖱️Click on the bar to see the options.
+1.🖱️Click on the bar to see the options.
 
 ![alt text](images/AnkiLeaderboardPlus/08.png)
+
+1. Or select "Plus Config" from the leaderboard menu.
+
+![alt text](images/AnkiLeaderboardPlus/16.png)
+
+
 
 ## Leaderbord Type
 
