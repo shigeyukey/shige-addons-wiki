@@ -6,30 +6,30 @@ This add-on is a customized version(fork) for Anki24+ of a discontinued developm
 
 ![alt text](images/Ankicord/01.png)
 
-**Credit**
+## Credit
 * Original: [Ankicord - Discord Rich Presence (discontinued)](https://github.com/STadas/Ankicord/) / Author : [STadas](https://github.com/STadas)
 * Bundle: [pypresence (MIT License)](https://github.com/qwertyquerty/pypresence)
 <br>
 
- **📖How to use :** <br>
+## 📖How to use
  1. You only need to install the Add-on to use it, no initial setup is required. (Discord must be downloaded to your PC)
  1. You can customize it with Config: Tools -> Add-ons -> Select Ankicord -> Config
 
 <br>
 
- **Note:**<br>
+## Note
  1. The code has been partially updated but functionally it is the same as the original add-on for now. This add-on is similar to Leaderboard so I want to enhance it later.
 
 <br>
 
- **Related add-ons**
+## Related add-ons
  1. [📱Anki Discord Sidebar - Chat room within Anki (Created by Shige)](https://ankiweb.net/shared/info/33855257)
  1. [🏆Anki Leaderboard - Compete with friends to boost motivation (Fork by Shige)](https://ankiweb.net/shared/info/175794613)
 
 
 
 
-# 🚨Report problems or requests
+## 🚨Report problems or requests
 
 If you have any problems or requests feel free to send them to me.
 
@@ -51,7 +51,7 @@ If you have any problems or requests feel free to send them to me.
 <br>
 
 
-#### \[ 📥 How do I install this add-on? ]
+## \[ 📥 How do I install this add-on? ]
 1. Copy and paste the add-on code ( `933207442` )  into Anki and you can install it.<br>
     ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
 2. When I develop bug fixes, create new features, or compatibility for New Anki,<br>
