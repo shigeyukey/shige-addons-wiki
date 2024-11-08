@@ -90,6 +90,7 @@
 ---
 
 - [Fixed add-ons]()
+  - [📱AnkiCord](ankicord.md)
   - [🩸Leech Toolkit]()
   - [🏃🏻No Space Dash]()
   - [⏩Preview Slideshow]()

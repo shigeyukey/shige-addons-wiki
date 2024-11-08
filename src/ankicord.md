@@ -26,6 +26,26 @@ This add-on is a customized version(fork) for Anki24+ of a discontinued developm
  1. [📱Anki Discord Sidebar - Chat room within Anki (Created by Shige)](https://ankiweb.net/shared/info/33855257)
  1. [🏆Anki Leaderboard - Compete with friends to boost motivation (Fork by Shige)](https://ankiweb.net/shared/info/175794613)
 
+
+
+
+# 🚨Report problems or requests
+
+If you have any problems or requests feel free to send them to me.
+
+  1. <a href="https://ankiweb.net/shared/review/933207442" target="_blank">AnkiWeb (Rate Comment)</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development.
+  2. <a href="https://forums.ankiweb.net/t/simple-fix-of-broken-add-ons-for-the-latest-anki-by-shige/41650" target="_blank">AnkiForums</a> : Official AnkiForums, it's a good place for open discussion.
+  3. <a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">Reddit (Fixed add-ons, or DM)</a> : You can request me to repair broken Add-ons.
+  4. <a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">Github (Issues)</a> : Makes it easier to track problems.
+  5. <a href="https://www.patreon.com/Shigeyuki" target="_blank">Patreon (Direct Message)</a> : Response will be prioritized.
+
+  6. <a href="https://github.com/shigeyukey/Ankicord" target="_blank">Github Repository:</a> for Development.
+
+<br><br>
+
+
+
+
 <br>
 <br>
 <br>
