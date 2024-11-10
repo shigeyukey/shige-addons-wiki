@@ -15,7 +15,12 @@ Raising Pokemon with Anki (Customized by Shige)<br>
 
 Hello Pokemon Trainer! The Pokemanki Gold is customized version of the [Pokemanki](#credit) (fork), most parts of the code are credited to the authors [sivenchinniah](https://github.com/sivenchinniah), [BlueGreenMagick](https://ko-fi.com/bluegreenmagick), [Zjosua](https://github.com/zjosua), and other contributors.  Pokemanki is a fan game for gamification learning developed by volunteers, not related to official Anki or official Pokemon.<br>
 
+<br>
+[💡New ] Added function to show the current card deck or tag Pokemon in the toolbar during review. If distracting, you can optionally hide it.
 
+![alt text](images/pokemanki/01.png)
+
+<br>
 
 - [Pokemanki Gold](#pokemanki-gold)
 - [📖How to use](#how-to-use)
