@@ -15,10 +15,11 @@
 
 This progress bar add-on is a fork for Anki24+. How to use it, please refer to the original Add-ons.<br>
 
-* **How to use :**
+* **Credit :**
     * **Fork : [ Progress Bar ](https://ankiweb.net/shared/info/2091361802) / Author : [Glutanimate](https://glutanimate.com/tip-jar/)**
     * **Fork :  [ Progress Bar ](https://ankiweb.net/shared/info/1685464019) / Author : [BluMist](https://github.com/BluMist)**
     * **Original :**  (deleted) Progress Bar / Author : nest0r/Ja-Dark
+    * Time left is based on the code from “[More Decks Stats and Time Left](https://ankiweb.net/shared/info/1556734708)” by author [Carlos Duarte](https://github.com/cjdduarte).
 
 <br><br>
 To make it easier to customize options I developed and added a UI window.<br>
