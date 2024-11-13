@@ -26,7 +26,12 @@ This add-on is for add-on developers, not for general learners. It displays debu
 
 ## Related Add-on
 
-1. [🔂AnkiRestart - Quick Aniki Rebooter, for Customize & Develop](ankirestart.md)
+[🔂AnkiRestart - Quick Aniki Rebooter, for Customize & Develop](ankirestart.md)
+
+If AnkiRestart is installed, add a button to restart Anki:
+![alt text](images/debugInfo/08.png)
+
+<br>
 
 
 ## 🚨Report problems or requests
