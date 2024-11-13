@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>📱AnkiCord - Shige addons Wiki</title>
+        <title>🐞Custom Debug Info - Shige addons Wiki</title>
 
 
         <!-- Custom HTML head -->
@@ -151,80 +151,43 @@
 
                 <div id="content" class="content">
                     <main>
-                        <p><a href="http://patreon.com/Shigeyuki"><img src="https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb" alt="banner_shigeyuki_Fixed" /></a>   <br></p>
-<p>&gt;<em>An add-on that utilizes the pypresence library and updates your Discord status (Rich Presence) to display your Anki activity.</em></p>
-<p>This add-on is a customized version(fork) for Anki24+ of a discontinued development Ankicord, most of the code is credited to the author, STadas.</p>
-<p><img src="images/Ankicord/01.png" alt="alt text" /></p>
-<h2 id="credit"><a class="header" href="#credit">Credit</a></h2>
-<ul>
-<li>Original: <a href="https://github.com/STadas/Ankicord/">Ankicord - Discord Rich Presence (discontinued)</a> / Author : <a href="https://github.com/STadas">STadas</a></li>
-<li>Bundle: <a href="https://github.com/qwertyquerty/pypresence">pypresence (MIT License)</a>
-<br></li>
-</ul>
-<h2 id="how-to-use"><a class="header" href="#how-to-use">📖How to use</a></h2>
+                        <h1 id="custom-debug-info"><a class="header" href="#custom-debug-info">🐞Custom Debug Info</a></h1>
+<p><a href="https://www.reddit.com/user/Shige-yuki"><img src="https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065" alt="reddit" /></a><br></p>
+<p>This add-on is for add-on developers, not for general learners. It displays debug info directly and makes errors easier to read. (It does nothing unless an error occurs.)</p>
+<p><img src="images/debugInfo/03.png" alt="alt text" /></p>
+<h2 id="how-to-use"><a class="header" href="#how-to-use">📖How to Use</a></h2>
 <ol>
-<li>You only need to install the Add-on to use it, no initial setup is required. (Discord must be downloaded to your PC)</li>
-<li>You can customize it with Config: Tools -&gt; Add-ons -&gt; Select Ankicord -&gt; Config</li>
+<li>Default debug info is not displayed.</li>
+<li>Add-ons info is not displayed.</li>
+<li>Font size and colors can be customized in Config.</li>
+<li>When you resize the window the size is auto saved.</li>
 </ol>
-<br>
+<h2 id="avoid-anki-freeze"><a class="header" href="#avoid-anki-freeze">Avoid Anki freeze</a></h2>
+<ol>
+<li>If the same error occurs continuously due to an infinite loop, etc., the popup is stopped and a tooltip is displayed.</li>
+<li>If there are three or more error windows a new window will not be created.<br>
+<img src="images/debugInfo/04.png" alt="alt text" /></li>
+</ol>
 <h2 id="note"><a class="header" href="#note">Note</a></h2>
 <ol>
-<li>The code has been partially updated but functionally it is the same as the original add-on for now. This add-on is similar to Leaderboard so I want to enhance it later.</li>
+<li>🚨If a problem occurs with this add-on all errors may not be displayed correctly.</li>
+<li>It uses monkey patches and is fragile.</li>
+<li>Only tested on Windows, Anki24.10.</li>
 </ol>
-<br>
-<h2 id="related-add-ons"><a class="header" href="#related-add-ons">Related add-ons</a></h2>
+<h2 id="related-add-on"><a class="header" href="#related-add-on">Related Add-on</a></h2>
 <ol>
-<li><a href="https://ankiweb.net/shared/info/33855257">📱Anki Discord Sidebar - Chat room within Anki (Created by Shige)</a></li>
-<li><a href="https://ankiweb.net/shared/info/175794613">🏆Anki Leaderboard - Compete with friends to boost motivation (Fork by Shige)</a></li>
+<li><a href="ankirestart.html">🔂AnkiRestart - Quick Aniki Rebooter, for Customize &amp; Develop</a></li>
 </ol>
-<h2 id="report-problems-or-requests"><a class="header" href="#report-problems-or-requests">🚨Report problems or requests</a></h2>
-<p>If you have any problems or requests feel free to send them to me.</p>
-<ol>
-<li>
-<p><a href="https://ankiweb.net/shared/review/933207442" target="_blank">AnkiWeb (Rate Comment)</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development.</p>
-</li>
-<li>
-<p><a href="https://forums.ankiweb.net/t/simple-fix-of-broken-add-ons-for-the-latest-anki-by-shige/41650" target="_blank">AnkiForums</a> : Official AnkiForums, it's a good place for open discussion.</p>
-</li>
-<li>
-<p><a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">Reddit (Fixed add-ons, or DM)</a> : You can request me to repair broken Add-ons.</p>
-</li>
-<li>
-<p><a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">Github (Issues)</a> : Makes it easier to track problems.</p>
-</li>
-<li>
-<p><a href="https://www.patreon.com/Shigeyuki" target="_blank">Patreon (Direct Message)</a> : Response will be prioritized.</p>
-</li>
-<li>
-<p><a href="https://github.com/shigeyukey/Ankicord" target="_blank">Github Repository:</a> for Development.</p>
-</li>
-</ol>
-<p><br><br></p>
-<br>
-<br>
-<br>
-<h2 id="--how-do-i-install-this-add-on-"><a class="header" href="#--how-do-i-install-this-add-on-">[ 📥 How do I install this add-on? ]</a></h2>
-<ol>
-<li>Copy and paste the add-on code ( <code>933207442</code> )  into Anki and you can install it.<br>
-( <em>Menu -&gt; Tools -&gt; Add-ons -&gt; Get Add-ons -&gt; Code [ add-on code ]</em> )</li>
-<li>When I develop bug fixes, create new features, or compatibility for New Anki,<br>
-I will notify you and you can install it.</li>
-<li>If you rate and recommend it, I will receive a notice and my tedious and sleepy<br>
-add-ons volunteer work will become more enjoyable and exciting. <br>
-(This add-on is developed by free volunteer work!👍️)</li>
-</ol>
-<p><a href="https://ankiweb.net/shared/review/933207442">Click here and please Rate this add-on, Thank you! :-) <br>
-<img src="https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif" alt="Please rate this" /></a></p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="debug_info.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="today-again-count.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="anki_manuals_jp.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="ankicord.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -234,11 +197,11 @@ add-ons volunteer work will become more enjoyable and exciting. <br>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="debug_info.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="today-again-count.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="anki_manuals_jp.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="ankicord.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
