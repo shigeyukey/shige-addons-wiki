@@ -51,3 +51,16 @@ If you have any problems or requests feel free to send them to me.
   1. <a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">Reddit (Fixed add-ons, or DM)</a> : You can request me to repair broken Add-ons.
   2. <a href="https://github.com/shigeyukey/Custom-debug-Info/issues" target="_blank">Github (Issues)</a> : Makes it easier to track problems.
   3. <a href="https://www.patreon.com/Shigeyuki" target="_blank">Patreon (Direct Message)</a> : Response will be prioritized.
+
+
+
+<br><br><br>
+
+
+#### \[ 📥 How do I install this add-on? ]
+1. Copy and paste the add-on code ( `1616945135` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
+2. When I develop bug fixes, create new features, or compatibility for New Anki,  I will notify you and you can install it.
+3.  The leaderboard is a special add-on that uses the server, unless I manage it regularly it will be broken in a few months, so If you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you! 
+
+[Click here and please Rate this add-on, Thank you! :-) <br>
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/1616945135)
