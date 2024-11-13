@@ -78,6 +78,7 @@
 
 - [Shige add-ons]()
   - [🎮Today Again Count](today-again-count.md)
+  - [🐞Custom Debug Info](debug_info.md)
   - [📌Rearrange home addons]()<!--(rearrange-home-addons.md)-->
   - [🐻TidyAnkiBear]()<!--(tidyankibear.md)-->
   - [🦾Bulk Image Downloader]()<!--(bulk-image-downloader.md)-->
