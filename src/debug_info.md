@@ -47,7 +47,7 @@ If AnkiRestart is installed, add a button to restart Anki:<br>
 If you have any problems or requests feel free to send them to me.
 
   1. <a href="https://ankiweb.net/shared/review/1616945135" target="_blank">AnkiWeb (Rate Comment)</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development.
-  <!-- 2. <a href="https://forums.ankiweb.net/t/add-on-support-thread-anki-leaderboard-by-shige/51634" target="_blank">AnkiForums</a> : Official AnkiForums support thread, it's a good place for open discussion. -->
+  2. <a href="https://forums.ankiweb.net/t/addon-support-thread-custom-debug-info-by-shige/51911" target="_blank">AnkiForums</a> : Official AnkiForums support thread, it's a good place for open discussion.
   1. <a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">Reddit (Fixed add-ons, or DM)</a> : You can request me to repair broken Add-ons.
   2. <a href="https://github.com/shigeyukey/Custom-debug-Info/issues" target="_blank">Github (Issues)</a> : Makes it easier to track problems.
   3. <a href="https://www.patreon.com/Shigeyuki" target="_blank">Patreon (Direct Message)</a> : Response will be prioritized.
