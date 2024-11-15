@@ -39,7 +39,7 @@
 # Patreon add-ons
 - [🏆️Anki Leaderboard Plus](Anki-Leaderboard-Plus.md)
 
-- [📊Progress bar for Anki](progress-bar-for-anki.md)
+- [⌛️Chunk Progressbar](progress-bar-for-anki.md)
 <!-- - [🌱New Card Farm](new-card-farm/new-card-farm.md) -->
 - [🌱New Card Farm 2](new-card-farm/new-card-farm-02.md)
   - [🌱New Card Farm (Old ver)](new-card-farm/new-card-farm-01.md)

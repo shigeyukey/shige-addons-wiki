@@ -1,5 +1,6 @@
 
-# Progress bar for Anki
+# ⌛️Chunk Progressbar
+
 
 [![patreon](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.patreon.com/Shigeyuki)<br>
 
