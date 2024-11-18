@@ -153,12 +153,55 @@
                     <main>
                         <h1 id="progress-bars"><a class="header" href="#progress-bars">⌛️Progress Bars</a></h1>
 <p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/47a96f15-11e5-49ed-a7d8-ce9b8d48401d" alt="image" /></p>
-<ol>
-<li>Top Bar</li>
-<li>Second Bar</li>
-<li>10 sec count Bar</li>
-<li>Review or All Cards Mode</li>
-</ol>
+<ul>
+<li><a href="#%EF%B8%8Fprogress-bars">⌛️Progress Bars</a>
+<ul>
+<li><a href="#1-top-bar">1. Top Bar</a>
+<ul>
+<li><a href="#1-largest-chunk">1. largest chunk</a></li>
+</ul>
+</li>
+<li><a href="#2-second-bar">2. Second Bar</a>
+<ul>
+<li><a href="#1-small-chunk">1. Small chunk</a></li>
+<li><a href="#1-change-target-number-of-cards">1. Change target number of cards</a></li>
+<li><a href="#2-example-of-counts">2. Example of counts</a></li>
+</ul>
+</li>
+<li><a href="#3-10-sec-count-bar">3. 10 sec count Bar</a>
+<ul>
+<li><a href="#1-counts-10-seconds">1. counts 10 seconds</a></li>
+<li><a href="#2-compatible-with-speed-focus-mode">2. Compatible with Speed Focus mode</a></li>
+</ul>
+</li>
+<li><a href="#4-review-or-all-cards-mode">4. Review or All Cards Mode</a>
+<ul>
+<li><a href="#1-review-cards-mode">1. Review Cards Mode</a></li>
+<li><a href="#2-all-cards-mode">2. All Cards Mode</a></li>
+<li><a href="#2-toggle-review-or-all-cards-mode">2. Toggle Review or All Cards Mode</a></li>
+</ul>
+</li>
+<li><a href="#display-numbers">Display Numbers</a>
+<ul>
+<li><a href="#-target-card-values-1---100-">[ Target card values 1 - 100 ]</a>
+<ul>
+<li><a href="#-1--value-5">[ 1 ] Value 5</a></li>
+<li><a href="#-2--value-20">[ 2 ] Value 20</a></li>
+<li><a href="#-3--value-100">[ 3 ] Value 100</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#calculation-method">Calculation Method</a>
+<ul>
+<li><a href="#-1--count-each-deck-default">[ 1 ] Count Each Deck (default)</a></li>
+<li><a href="#-2--count-all-decks">[ 2 ] Count All Decks</a></li>
+<li><a href="#-3--for-filtered-decks">[ 3 ] For Filtered Decks</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <br>
 <h2 id="1-top-bar"><a class="header" href="#1-top-bar">1. Top Bar</a></h2>
 <h3 id="1-largest-chunk"><a class="header" href="#1-largest-chunk">1. largest chunk</a></h3>
@@ -206,6 +249,24 @@ start counting all new cards and relearning cards.<br />
 <h3 id="2-toggle-review-or-all-cards-mode"><a class="header" href="#2-toggle-review-or-all-cards-mode">2. Toggle Review or All Cards Mode</a></h3>
 <p>This function can be disabled by unchecking "Count only review cards at first".</p>
 <p><img src="https://github.com/shigeyukey/AnkiArcade/assets/124401518/7a5adcf8-1f4b-4e81-aa4a-64b35bbde05b" alt="image" /></p>
+<p><br><br></p>
+<h2 id="display-numbers"><a class="header" href="#display-numbers">Display Numbers</a></h2>
+<h3 id="-target-card-values-1---100-"><a class="header" href="#-target-card-values-1---100-">[ Target card values 1 - 100 ]</a></h3>
+<p>Adjusting the target card values will change the bar chunks. It can be used to review 5 cards at a time or 20 cards at a time. The minimum is 1 and the maximum is 100.<br></p>
+<h4 id="-1--value-5"><a class="header" href="#-1--value-5">[ 1 ] Value 5</a></h4>
+<p><img src="https://github.com/shigeyukey/my_addons/assets/124401518/73254ea2-4a3b-41de-8607-a68304534826" alt="image" /><br></p>
+<h4 id="-2--value-20"><a class="header" href="#-2--value-20">[ 2 ] Value 20</a></h4>
+<p><img src="https://github.com/shigeyukey/my_addons/assets/124401518/bb4dec1c-4b8e-4dd2-81d1-9c70ff44f024" alt="image" /><br></p>
+<h4 id="-3--value-100"><a class="header" href="#-3--value-100">[ 3 ] Value 100<br></a></h4>
+<p><img src="https://github.com/shigeyukey/my_addons/assets/124401518/ed29a93a-2bd8-4b91-afcb-b5c1b51b3cd2" alt="image" /><br></p>
+<h2 id="calculation-method"><a class="header" href="#calculation-method">Calculation Method</a></h2>
+<p>You can change the calculation method of the cards for the progress bar. There are three types.<br></p>
+<h3 id="-1--count-each-deck-default"><a class="header" href="#-1--count-each-deck-default">[ 1 ] Count Each Deck (default)</a></h3>
+<p>Calculates the progress bar for each deck. It retrieves card data, so cards reviewed on mobile are also calculated. So even after restarting Anki, the reviewed cards' values are retained. The progress bar will advance when a card is answered correctly and the due date is after the next day.<br></p>
+<h3 id="-2--count-all-decks"><a class="header" href="#-2--count-all-decks">[ 2 ] Count All Decks</a></h3>
+<p>Cards from all decks are totaled and calculated. Otherwise it is the same as the progress bar [1].<br></p>
+<h3 id="-3--for-filtered-decks"><a class="header" href="#-3--for-filtered-decks">[ 3 ] For Filtered Decks</a></h3>
+<p>This is automatically used when reviewing with filter decks. It is calculated for each deck, but does not collect data on previous cards. So when you restart Anki, the card data is reset and mobile reviews are not used. This can be used instead of [1] and [2] progress bar when there is a problem.<br></p>
 
                     </main>
 
