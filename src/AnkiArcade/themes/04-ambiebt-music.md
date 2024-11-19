@@ -1,4 +1,4 @@
-# ⭐Ambiebt Music
+# ⭐Ambient Music
 
 This add-on is part of [AnkiArcade](../Home.md), if you become a Patron you can use it. 
 

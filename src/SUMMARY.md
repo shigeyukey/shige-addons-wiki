@@ -11,7 +11,7 @@
 - [⚔️Anki Knights & Doragons](AnkiArcade/themes/01-anki-knights--doragons.md)
 - [💎Little Ankimares](AnkiArcade/themes/02-little-ankimares.md)
 - [🐈CatGirl & Sushi](AnkiArcade/themes/03-catgirl--sushi.md)
-- [⭐Ambiebt Music](AnkiArcade/themes/04-ambiebt-music.md)
+- [⭐Ambient Music](AnkiArcade/themes/04-ambiebt-music.md)
 - [🧟‍♀Study with Zombie](AnkiArcade/themes/05-study-with-zombie.md)
 - [🧟‍♀Resident Anki](AnkiArcade/themes/06-resident-anki.md)
 - [🐈️Cat Gathering in Anki](AnkiArcade/themes/07-️cat-gathering-in-anki.md)
