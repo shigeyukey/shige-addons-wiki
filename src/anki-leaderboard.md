@@ -48,6 +48,7 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
     - [Q. When will the new league start?](#q-when-will-the-new-league-start)
     - [Q. Why doesn't my XP match when I calculate it manually?](#q-why-doesnt-my-xp-match-when-i-calculate-it-manually)
     - [Q. What is the reason for using the bonus instead of real retention?](#q-what-is-the-reason-for-using-the-bonus-instead-of-real-retention)
+    - [Q. Why doesn't the leaderboard sort order help my learning?](#q-why-doesnt-the-leaderboard-sort-order-help-my-learning)
 - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
 <br>
@@ -302,6 +303,51 @@ Basically the retention rate recommended by Anki is 80-90%, and dedicated learne
 So I think 85% would be a reasonable range to be in the same range as 100%, 85% users do not need to go higher, and 95%+ users can lower the retention rate to make learning more efficient and not affect XP. (If the retention rate is changed to the same value as it is, users may make learning inefficient by making the retention rate as high as possible.)
 
 ---
+
+
+### Q. Why doesn't the leaderboard sort order help my learning?
+
+For now there are workarounds for these, try these settings if you haven't already:<br>
+
+\[1] Sorting<br>
+You can change the sort order of the leaderboards. (Today's Reviews, Today's Time, Streak, Reviews in the past 31 days, and Retention)
+e.g. Sort by past31days to exclude all users who reviewed a lot just today.<br>
+Config -> Settings -> Genearl -> Sortby<br>
+
+\[2] League<br>
+Leagues are regularly scheduled for 2 weeks and are calculated by XP, not by reviews. It is a system that requires long term learning, so short term learners will not be able to get to the top. So far about half of the top rankers are medical students, and language learners seem to be a relatively small minority.<br>
+
+\[3] Changing the default leaderboard<br>
+You can change the default leaderboard to be displayed. (Global, Friends, Groups, and Leagues)<br>
+Config -> Settings -> Genearl -> Default Leaderboard<br>
+e.g. if you are only interested in groups of medical students you can set the group of medical students as your default leaderboard. The medical students group has the most active users 334. (Languages have 136 users, 2024-11-18). The number of active users is small for now but the total number of active users is increasing by about 1000 every few months, so I guess it will be solved in the long run.<br>
+
+\[4] Hide users<br>
+If there are users who are offensive to you, you can hide them by using the hide user option: Double-click on the user's name<br>
+
+\[5] Report Users<br>
+If you report a user you can contact me and I can ban the offending user, basically I do not reply to reports but I read all of them: Double click on the user's name<br>
+
+But even if we use all of these functions I think it is still insufficient, so currently the functions under development are like these:
+
+\[1] XP enhancements<br>
+Use XP or score in global leaderboards.<br>
+
+\[2] Display of past history<br>
+e.g. Leaderboards for yesterday, this week, a month, all periods. Leagues for groups, history.<br>
+
+\[3] Auto hide users in bulk<br>
+e.g. Hide users who review too quickly in bulk, hide all users using offensive words, hide all users who have joined a particular group.<br>
+
+\[4] Enhancement of ban function<br>
+e.g. Make it impossible to avoid banning by re-registering, introduce stealth BANs.<br>
+
+All of these functions are technically developable but will still take some time to develop, this free add-on is developed and maintained by me as an individual free volunteer(In short it's just a hobby when I get bored of it it's over), and basically fixing bugs and supporting the latest Anki is a high priority.
+
+-----
+
+
+
 
 <br><br>
 
