@@ -36,6 +36,7 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
   - [🌐Leaderboard Web](#leaderboard-web)
   - [📸Profile icon](#profile-icon)
   - [Rank icons](#rank-icons)
+  - [💻️Sync multiple devices](#️sync-multiple-devices)
   - [🔗Related Add-ons](#related-add-ons)
   - [💖Credit](#credit)
 - [🚨Report problems or requests](#report-problems-or-requests)
@@ -170,6 +171,26 @@ I added function to display profile icons (prototype). Icons are displayed on th
 
 
 E.g. if a user is B (Mid 30-40%) on the global leaderboard the rank icon will be <img src="images/Leaderboard/Grades/delta_09.png" alt="icon" width="20" height="20"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"> but if the user's current league is Gamma the color will change and the rank icon will be <img src="images/Leaderboard/Grades/gamma_09.png" alt="icon" width="20" height="20"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15">.
+
+
+## 💻️Sync multiple devices
+
+I added workaround for problem with multiple devices.<br>
+
+![alt text](<images/Leaderboard/07_Sync multiple device.png>)
+
+1. Save data to AnkiWeb from your login device:
+   * Config -> Others tab -> Sync multiple devices -> Auto save this device's config dat to AnkiWeb\[ON]
+2. Sync Anki decks.
+3. Sync Anki's deck on the second device.
+4. Download the config data on the second device:
+   * Sync multiple devices -> Download Config data from AnkiWeb
+
+This saved data has nothing to do with the server's leaderboard data, so you can either delete it or not after a successful login. (Sync multiple devices -> Delete AnkiWeb config data)
+
+
+
+
 
 
 ## 🔗Related Add-ons
