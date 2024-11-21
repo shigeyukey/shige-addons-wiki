@@ -175,7 +175,7 @@ E.g. if a user is B (Mid 30-40%) on the global leaderboard the rank icon will be
 
 ## 💻️Sync multiple devices
 
-I added workaround for problem with multiple devices.<br>
+The default leaderboard does not allow multiple devices to log in at the same time. I added workaround for problem with multiple devices.<br>
 
 ![alt text](<images/Leaderboard/07_Sync multiple device.png>)
 
