@@ -16,9 +16,9 @@ This wiki is how to use [ <img src="https://raw.githubusercontent.com/shigeyukey
    * All uploaded add-ons to AnkiWeb.
 
 
-## 📨Contact
-
+### [📨Contact](contact.md)
+<!-- 
 1. [💖Patreon : Shigeyuki](https://www.patreon.com/Shigeyuki)
 2. [👩‍🚀Reddit : Shige-yuki](https://www.reddit.com/user/Shige-yuki)
 3. [🌟AnkiForums : Shigeyuki](https://forums.ankiweb.net/u/shigeyuki/summary)
-4. [🐙Github : shigeyukey](https://github.com/shigeyukey/)
+4. [🐙Github : shigeyukey](https://github.com/shigeyukey/) -->
