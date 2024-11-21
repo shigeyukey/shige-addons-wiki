@@ -16,7 +16,7 @@ This wiki is how to use [ <img src="https://raw.githubusercontent.com/shigeyukey
    * All uploaded add-ons to AnkiWeb.
 
 
-### [📨Contact](contact.md)
+### [📨Report and Request](contact.md)
 <!-- 
 1. [💖Patreon : Shigeyuki](https://www.patreon.com/Shigeyuki)
 2. [👩‍🚀Reddit : Shige-yuki](https://www.reddit.com/user/Shige-yuki)

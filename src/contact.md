@@ -1,8 +1,8 @@
-# 📨 Contact
+# 📨Report and Request
 
 
 
-- [📨 Contact](#-contact)
+- [📨Report and Request](#report-and-request)
   - [💖Patreon](#patreon)
   - [🌐AnkiWeb](#ankiweb)
   - [👨‍🚀Reddit](#reddit)

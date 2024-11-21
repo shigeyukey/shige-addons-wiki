@@ -3,7 +3,7 @@
 # Shige Add-ons Wiki
 
 - [Introduction](intro.md)
-- [contact](contact.md)
+- [📨Report and Request](contact.md)
 
 # AnkiArcade
 
