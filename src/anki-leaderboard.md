@@ -36,7 +36,7 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
   - [🌐Leaderboard Web](#leaderboard-web)
   - [📸Profile icon](#profile-icon)
   - [Rank icons](#rank-icons)
-  - [💻️Sync multiple devices](#️sync-multiple-devices)
+  - [Sync multiple devices](#sync-multiple-devices)
   - [🔗Related Add-ons](#related-add-ons)
   - [💖Credit](#credit)
 - [🚨Report problems or requests](#report-problems-or-requests)
@@ -173,7 +173,7 @@ I added function to display profile icons (prototype). Icons are displayed on th
 E.g. if a user is B (Mid 30-40%) on the global leaderboard the rank icon will be <img src="images/Leaderboard/Grades/delta_09.png" alt="icon" width="20" height="20"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"> but if the user's current league is Gamma the color will change and the rank icon will be <img src="images/Leaderboard/Grades/gamma_09.png" alt="icon" width="20" height="20"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15">.
 
 
-## 💻️Sync multiple devices
+## Sync multiple devices
 
 The default leaderboard does not allow multiple devices to log in at the same time. I added workaround for problem with multiple devices.<br>
 
