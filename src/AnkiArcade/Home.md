@@ -7,7 +7,7 @@ AnkiArcade is an add-on with multiple mini games, progress bar, pomodoro timer, 
 This is a prototype add-on that I personally developed for the [open source flashcard app Anki.](https://apps.ankiweb.net/)<br>
 if you [become a Patreon](https://www.patreon.com/Shigeyuki), you will get early access to Prototype.(It's not related to the official Anki)<br> 
 
-* ### [ [ Latest Version v1.7.0 ]  Download Page (Patreon)](https://www.patreon.com/posts/ankiarcade-1-7-0-101482750?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
+* ### [ [ Latest Version v1.8.0  (95 MB) ]  Download Page (Patreon)](https://www.patreon.com/posts/ankiarcade-1-8-0-116494987?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) 2024-11-22
 
   * [ **[ Change log ]** ](09.-Changelog.md)  Older versions are available from the Change log, if you have problems with the new versions try them.
 
