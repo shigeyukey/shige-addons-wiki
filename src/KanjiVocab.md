@@ -48,7 +48,8 @@ This add-on is a fixed version (fork) of the "KanjiVocab" for Anki24+ (Qt6, Qt5)
 ### Quick Start
 
 1. Add fields to your kanji deck, named "KanjiVocabQuestion", "KanjiVocabAnswer" and "KanjiVocabExtra". 
-2. Edit the card template. Add "KanjiVocabQuestion" to the front of the card, and the other two to the back of the card. They contain furigana, so use {{furigana:KanjiVocabQuestion}} etc. 
+2. Edit the card template. Add "KanjiVocabQuestion" to the front of the card, and the other two to the back of the card. They contain furigana, so use {{furigana:KanjiVocabQuestion}} etc.
+3. Restart Anki after installing the addon, and "KanjiVocab..." should appear on the Tools menu. This opens a dialog with the various options. 
 
 ### Notes :
 1. If you are concerned make a backup of your decks before using the add-on.
