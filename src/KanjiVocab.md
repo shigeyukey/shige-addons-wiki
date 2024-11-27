@@ -11,7 +11,7 @@ This add-on is a fixed version (fork) of the "KanjiVocab" for Anki24+ (Qt6, Qt5)
 (If the original add-on has been updated to Anki 24+ this fork is not required.)
 
 ### Credit:
-   * Original add-on：[KanjiVocab - smart automatic vocab for RTK](https://ankiweb.net/shared/info/1600796261) / Author : [Helen Foster](https://github.com/HelenFoster)
+   * Original add-on：[KanjiVocab - smart automatic vocab for RTK](https://github.com/HelenFoster/KanjiVocab) / Author : [Helen Foster](https://github.com/HelenFoster)
 
 <br>
 
