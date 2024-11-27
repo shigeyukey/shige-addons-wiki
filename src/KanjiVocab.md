@@ -2,7 +2,8 @@
 
 [![banner_shigeyuki_Fixed](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](http://patreon.com/Shigeyuki)   <br>
 
-### [AnkiWeb page](https://ankiweb.net/shared/info/887572166)
+### [AnkiWeb Page](https://ankiweb.net/shared/info/887572166) | Code : `887572166`
+
 
 \> *This Anki addon adds Japanese words to a kanji writing deck (such as Remembering The Kanji), using known words from other decks.*
 
@@ -23,7 +24,7 @@ This add-on is a fixed version (fork) of the "KanjiVocab" for Anki24+ (Qt6, Qt5)
 
 
 - [🍣KanjiVocab - smart automatic vocab for RTK Fixed by Shige](#kanjivocab---smart-automatic-vocab-for-rtk-fixed-by-shige)
-    - [AnkiWeb page](#ankiweb-page)
+    - [AnkiWeb Page | Code : `887572166`](#ankiweb-page--code--887572166)
     - [Credit:](#credit)
   - [📖How to use](#how-to-use)
     - [Quick Start](#quick-start)
@@ -37,7 +38,7 @@ This add-on is a fixed version (fork) of the "KanjiVocab" for Anki24+ (Qt6, Qt5)
     - [Settings Dialog](#settings-dialog)
   - [🚨Report](#report)
   - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
-    - [AnkiWeb page](#ankiweb-page-1)
+    - [AnkiWeb Page | Code : `887572166`](#ankiweb-page--code--887572166-1)
 
 
 ## 📖How to use
@@ -181,8 +182,7 @@ If you have any problems or requests feel free to send them to me.
 [Click here and please Rate this add-on, Thank you! :-) <br>
  ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/887572166)
 <br>
-### [AnkiWeb page](https://ankiweb.net/shared/info/887572166)
-<br>
+### [AnkiWeb Page](https://ankiweb.net/shared/info/887572166) | Code : `887572166`<br>
 <br>
 <br>
 <br>
