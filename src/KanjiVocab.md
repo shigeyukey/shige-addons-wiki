@@ -2,6 +2,8 @@
 
 [![banner_shigeyuki_Fixed](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](http://patreon.com/Shigeyuki)   <br>
 
+### [AnkiWeb page](https://ankiweb.net/shared/info/887572166)
+
 \> *This Anki addon adds Japanese words to a kanji writing deck (such as Remembering The Kanji), using known words from other decks.*
 
 This add-on is a fixed version (fork) of the "KanjiVocab" for Anki24+ (Qt6, Qt5).<br>
@@ -18,6 +20,24 @@ This add-on is a fixed version (fork) of the "KanjiVocab" for Anki24+ (Qt6, Qt5)
 <br>
 ![alt text](images/KanjiVocab/KanjiVocab_02.gif)
 
+
+
+- [🍣KanjiVocab - smart automatic vocab for RTK Fixed by Shige](#kanjivocab---smart-automatic-vocab-for-rtk-fixed-by-shige)
+    - [AnkiWeb page](#ankiweb-page)
+    - [Credit:](#credit)
+  - [📖How to use](#how-to-use)
+    - [Quick Start](#quick-start)
+    - [Notes :](#notes-)
+  - [Detailed Description](#detailed-description)
+      - [KanjiVocab - smart automatic vocab for RTK](#kanjivocab---smart-automatic-vocab-for-rtk)
+      - [Introduction](#introduction)
+    - [Installation](#installation)
+    - [Field Setup](#field-setup)
+    - [CSS Setup](#css-setup)
+    - [Settings Dialog](#settings-dialog)
+  - [🚨Report](#report)
+  - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
+    - [AnkiWeb page](#ankiweb-page-1)
 
 
 ## 📖How to use
@@ -145,19 +165,23 @@ In the "Cards to scan" tab, each row can be set to a different scan:
 
 If you have any problems or requests feel free to send them to me.
 
-  <!-- 1. <a href="https://ankiweb.net/shared/review/🟢" target="_blank">👍️Rate Comment</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development. -->
+  1. <a href="https://ankiweb.net/shared/review/887572166" target="_blank">👍️Rate Comment</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development.
   2. <a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">👩‍🚀Reddit</a> : You can request me to repair broken Add-ons.
   3. <a href="https://forums.ankiweb.net/t/simple-fix-of-broken-add-ons-for-the-latest-anki-by-shige/41650" target="_blank">🌟AnkiForums</a> : You can request me to repair broken Add-ons, and it is ideal for open discussions.
   4. <a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">🐙Github </a> : Makes it easier to track problems.
   5. <a href="https://www.patreon.com/Shigeyuki" target="_blank">💖Patreon DM</a> : Response will be prioritized.
 
+<br><br><br>
+
+## 📥 How do I install this add-on?
+1. Copy and paste the add-on code ( `887572166` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
+2. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
+3. Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!
+
+[Click here and please Rate this add-on, Thank you! :-) <br>
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/887572166)
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+### [AnkiWeb page](https://ankiweb.net/shared/info/887572166)
 <br>
 <br>
 <br>
