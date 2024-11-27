@@ -77,9 +77,9 @@
 
 # Free add-ons
 
-- [Shige add-ons]()
   - [🎮Today Again Count](today-again-count.md)
   - [🐞Custom Debug Info](debug_info.md)
+- [Shige add-ons]()
   - [📌Rearrange home addons]()<!--(rearrange-home-addons.md)-->
   - [🐻TidyAnkiBear]()<!--(tidyankibear.md)-->
   - [🦾Bulk Image Downloader]()<!--(bulk-image-downloader.md)-->
@@ -91,8 +91,13 @@
 
 ---
 
+# Fixed add-ons
+
+- [🍣KanjiVocab](KanjiVocab.md)
+- [📱AnkiCord](ankicord.md)
+
 - [Fixed add-ons]()
-  - [📱AnkiCord](ankicord.md)
+
   - [🩸Leech Toolkit]()
   - [🏃🏻No Space Dash]()
   - [⏩Preview Slideshow]()
