@@ -94,6 +94,7 @@
 # Fixed add-ons
 
 - [🍣KanjiVocab](KanjiVocab.md)
+- [🔓️Kanji Unlock Addon](kanji_unlocked.md)
 - [📱AnkiCord](ankicord.md)
 
 - [Fixed add-ons]()
