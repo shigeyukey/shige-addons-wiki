@@ -5,7 +5,7 @@
 
 
 <!-- This add-on is a fixed version of the "Kanji Unlock Addon" for Anki24+. -->
-This add-on is a fixed version for Anki24+ of the broken addon <a href="https://ankiweb.net/shared/info/953200781" target="_blank">"Kanji Unlock Addon"</a>, originally created by <a href="https://github.com/pons-deluxe" target="_blank">nico</a> and credit goes to them.
+This add-on is a fixed version for Anki24+ of the broken addon <a href="https://github.com/pons-deluxe/kanji-unlock-addon" target="_blank">"Kanji Unlock Addon"</a>, originally created by <a href="https://github.com/pons-deluxe" target="_blank">nico</a> and credit goes to them.
 
 
 
