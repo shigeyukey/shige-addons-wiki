@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>📱AnkiCord - Shige addons Wiki</title>
+        <title>🔓️Kanji Unlock Addon - Shige addons Wiki</title>
 
 
         <!-- Custom HTML head -->
@@ -151,80 +151,78 @@
 
                 <div id="content" class="content">
                     <main>
-                        <p><a href="http://patreon.com/Shigeyuki"><img src="https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb" alt="banner_shigeyuki_Fixed" /></a>   <br></p>
-<p>&gt;<em>An add-on that utilizes the pypresence library and updates your Discord status (Rich Presence) to display your Anki activity.</em></p>
-<p>This add-on is a customized version(fork) for Anki24+ of a discontinued development Ankicord, most of the code is credited to the author, STadas.</p>
-<p><img src="images/Ankicord/01.png" alt="alt text" /></p>
-<h2 id="credit"><a class="header" href="#credit">Credit</a></h2>
-<ul>
-<li>Original: <a href="https://github.com/STadas/Ankicord/">Ankicord - Discord Rich Presence (discontinued)</a> / Author : <a href="https://github.com/STadas">STadas</a></li>
-<li>Bundle: <a href="https://github.com/qwertyquerty/pypresence">pypresence (MIT License)</a>
-<br></li>
-</ul>
+                        <h1 id="kanji-unlock-addon"><a class="header" href="#kanji-unlock-addon">🔓️Kanji Unlock Addon</a></h1>
+<p><a href="https://www.reddit.com/user/Shige-yuki"><img src="https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb" alt="banner_shigeyuki_2" /></a>   <br></p>
+<!-- ### [AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢` -->
+<!-- This add-on is a fixed version of the "Kanji Unlock Addon" for Anki24+. -->
+<p>This add-on is a fixed version for Anki24+ of the broken addon <a href="https://ankiweb.net/shared/info/953200781" target="_blank">"Kanji Unlock Addon"</a>, originally created by <a href="https://github.com/pons-deluxe" target="_blank">nico</a> and credit goes to them.</p>
 <h2 id="how-to-use"><a class="header" href="#how-to-use">📖How to use</a></h2>
+<p><em>(These descriptions are from the original add-on and partially edited.)</em></p>
+<ul>
+<li><a href="#%EF%B8%8Fkanji-unlock-addon">🔓️Kanji Unlock Addon</a>
+<ul>
+<li><a href="#how-to-use">📖How to use</a></li>
+<li><a href="#use">Use</a></li>
+<li><a href="#setting-up">Setting up</a>
+<ul>
+<li><a href="#suspend-kanji-cards">Suspend kanji cards</a></li>
+<li><a href="#setting-deckfield-names">Setting deck/field names</a>
+<ul>
+<li><a href="#components-field">Components field</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>This Anki add-on automatically unsuspends cards from a <strong>kanji deck</strong> according to what words have already been seen in a Japanese <strong>vocabulary deck</strong>, with the goal of matching progress between knowledge of vocabulary and knowledge of kanji.</p>
+<p><img src="images/kanji_unlock/01.png" alt="alt text" /></p>
+<p>This is only useful for people who prefer to simultaneously study vocabulary <strong>and</strong> kanji.</p>
+<p>The order that kanji appear in a kanji deck typically differs from the order in which they are first seen in a vocabulary deck. As an example, you may see the word 日曜日 (Sunday) in the first 50 words of a vocabulary deck, but the middle kanji 曜 may be placed much farther in a kanji deck. Not fun having to learn 600 other kanji before getting to see what 曜 means!</p>
+<p>Only useful kanji seen in actual words will be unsuspended and studied, easying up the workload.</p>
+<h2 id="use"><a class="header" href="#use">Use</a></h2>
+<p>Two menu items are added to the Tools menu.</p>
+<p><img src="images/kanji_unlock/02.png" alt="alt text" /></p>
+<p>Selecting <strong>KanjiUnlockAddon: Unsuspend new kanji</strong> will take the newly learned vocabulary cards and check what kanji they contain. Those kanji will be unsuspended in the kanji deck. The tag '<strong>kanjiunsuspended</strong>' will be added to those vocabulary cards.<br />
+That's it!</p>
+<h2 id="setting-up"><a class="header" href="#setting-up">Setting up</a></h2>
+<h3 id="suspend-kanji-cards"><a class="header" href="#suspend-kanji-cards">Suspend kanji cards</a></h3>
+<p>Since this add-on works by unsuspending kanji cards, they must be suspended for it to do anything. Cards can be suspended in the Anki card browser. Typically all kanji cards would be suspended before letting the add-on unsuspend the useful ones.</p>
+<h3 id="setting-deckfield-names"><a class="header" href="#setting-deckfield-names">Setting deck/field names</a></h3>
+<p>Before the add-on can work, it needs to know which deck is the <strong>Vocabulary deck</strong> and which is the <strong>Kanji deck</strong>.<br />
+These can be set with <strong>Tools &gt; KanjiUnlockAddon: Set vocabulary/kanji decks</strong>.</p>
+<p><img src="images/kanji_unlock/03.png" alt="alt text" /></p>
+<ul>
+<li>Sample decks:
 <ol>
-<li>You only need to install the Add-on to use it, no initial setup is required. (Discord must be downloaded to your PC)</li>
-<li>You can customize it with Config: Tools -&gt; Add-ons -&gt; Select Ankicord -&gt; Config</li>
+<li>Kanji deck: <a href="https://ankiweb.net/shared/info/798002504">All in One Kanji Deck</a></li>
+<li>Vocab deck: <a href="https://ankiweb.net/shared/info/1880390099">Japanese Core 2k/6k</a></li>
 </ol>
-<br>
-<h2 id="note"><a class="header" href="#note">Note</a></h2>
-<ol>
-<li>The code has been partially updated but functionally it is the same as the original add-on for now. This add-on is similar to Leaderboard so I want to enhance it later.</li>
-</ol>
-<br>
-<h2 id="related-add-ons"><a class="header" href="#related-add-ons">Related add-ons</a></h2>
-<ol>
-<li><a href="https://ankiweb.net/shared/info/33855257">📱Anki Discord Sidebar - Chat room within Anki (Created by Shige)</a></li>
-<li><a href="https://ankiweb.net/shared/info/175794613">🏆Anki Leaderboard - Compete with friends to boost motivation (Fork by Shige)</a></li>
-</ol>
-<h2 id="report-problems-or-requests"><a class="header" href="#report-problems-or-requests">🚨Report problems or requests</a></h2>
-<p>If you have any problems or requests feel free to send them to me.</p>
-<ol>
-<li>
-<p><a href="https://ankiweb.net/shared/review/933207442" target="_blank">AnkiWeb (Rate Comment)</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development.</p>
 </li>
-<li>
-<p><a href="https://forums.ankiweb.net/t/simple-fix-of-broken-add-ons-for-the-latest-anki-by-shige/41650" target="_blank">AnkiForums</a> : Official AnkiForums, it's a good place for open discussion.</p>
-</li>
-<li>
-<p><a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">Reddit (Fixed add-ons, or DM)</a> : You can request me to repair broken Add-ons.</p>
-</li>
-<li>
-<p><a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">Github (Issues)</a> : Makes it easier to track problems.</p>
-</li>
-<li>
-<p><a href="https://www.patreon.com/Shigeyuki" target="_blank">Patreon (Direct Message)</a> : Response will be prioritized.</p>
-</li>
-<li>
-<p><a href="https://github.com/shigeyukey/Ankicord" target="_blank">Github Repository:</a> for Development.</p>
-</li>
-</ol>
-<p><br><br></p>
-<br>
-<br>
-<br>
-<h2 id="--how-do-i-install-this-add-on-"><a class="header" href="#--how-do-i-install-this-add-on-">[ 📥 How do I install this add-on? ]</a></h2>
-<ol>
-<li>Copy and paste the add-on code ( <code>933207442</code> )  into Anki and you can install it.<br>
-( <em>Menu -&gt; Tools -&gt; Add-ons -&gt; Get Add-ons -&gt; Code [ add-on code ]</em> )</li>
-<li>When I develop bug fixes, create new features, or compatibility for New Anki,<br>
-I will notify you and you can install it.</li>
-<li>If you rate and recommend it, I will receive a notice and my tedious and sleepy<br>
-add-ons volunteer work will become more enjoyable and exciting. <br>
-(This add-on is developed by free volunteer work!👍️)</li>
-</ol>
-<p><a href="https://ankiweb.net/shared/review/933207442">Click here and please Rate this add-on, Thank you! :-) <br>
-<img src="https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif" alt="Please rate this" /></a></p>
+</ul>
+<p>The <strong>Kanji field</strong> should be set to the field that contains <em>just</em> the Kanji.</p>
+<p>The <strong>Word field</strong> should contain just the Japanese word.</p>
+<h4 id="components-field"><a class="header" href="#components-field">Components field</a></h4>
+<p>The kanji deck should ideally contain a field with the kanji's radicals, so that they are unlocked as well.<br />
+As an example, the kanji deck that was tested has a field called <em>Components</em>.</p>
+<p>The kanji note for 時 has in its <em>Components</em> field</p>
+<p>      日: day; sun; Japan; counter for days<br />
+      寺: Buddhist temple</p>
+<p>And 寺 itself has in its <em>Components</em>:</p>
+<p>      土: soil; earth; ground; Turkey<br />
+      寸: measurement; foot/10</p>
+<p>As such, if there is a proper field selected for <strong>Kanji radicals/components field</strong>, the vocabulary word 時 would unlock not only the kanji card 時 but also the cards for 日, 寺, 土, and 寸.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="kanji_unlocked.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="KanjiVocab.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="anki_manuals_jp.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="ankicord.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -234,11 +232,11 @@ add-ons volunteer work will become more enjoyable and exciting. <br>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="kanji_unlocked.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="KanjiVocab.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="anki_manuals_jp.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="ankicord.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
