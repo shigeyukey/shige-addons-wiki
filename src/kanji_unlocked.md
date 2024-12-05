@@ -1,7 +1,7 @@
 # 🔓️Kanji Unlock Addon
 
 [![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](https://www.reddit.com/user/Shige-yuki)   <br>
-<!-- ### [AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢` -->
+### [AnkiWeb Page](https://ankiweb.net/shared/info/817904532) | Code : `817904532`
 
 
 <!-- This add-on is a fixed version of the "Kanji Unlock Addon" for Anki24+. -->
@@ -14,12 +14,15 @@ This add-on is a fixed version for Anki24+ of the broken addon <a href="https://
 *(These descriptions are from the original add-on and partially edited.)*
 
 - [🔓️Kanji Unlock Addon](#️kanji-unlock-addon)
+    - [AnkiWeb Page | Code : `817904532`](#ankiweb-page--code--817904532)
   - [📖How to use](#how-to-use)
   - [Use](#use)
   - [Setting up](#setting-up)
     - [Suspend kanji cards](#suspend-kanji-cards)
     - [Setting deck/field names](#setting-deckfield-names)
       - [Components field](#components-field)
+  - [🚨Report](#report)
+      - [\[ 📥 How do I install this add-on? \]](#--how-do-i-install-this-add-on-)
 
 
 This Anki add-on automatically unsuspends cards from a **kanji deck** according to what words have already been seen in a Japanese **vocabulary deck**, with the goal of matching progress between knowledge of vocabulary and knowledge of kanji.
@@ -83,5 +86,33 @@ And 寺 itself has in its *Components*:
 
 As such, if there is a proper field selected for **Kanji radicals/components field**, the vocabulary word 時 would unlock not only the kanji card 時 but also the cards for 日, 寺, 土, and 寸.
 
+
+<br><br>
+
+## 🚨Report
+
+If you have any problems or requests feel free to send them to me.
+
+  1. <a href="https://ankiweb.net/shared/review/817904532" target="_blank">👍️Rate Comment</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development.
+  2. <a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">👩‍🚀Reddit</a> : You can request me to repair broken Add-ons.
+  2. <a href="https://forums.ankiweb.net/t/simple-fix-of-broken-add-ons-for-the-latest-anki-by-shige/41650" target="_blank">🌟AnkiForums</a> : You can request me to repair broken Add-ons, and it is ideal for open discussions.
+  3. <a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">🐙Github </a> : Makes it easier to track problems.
+  4. <a href="https://www.patreon.com/Shigeyuki" target="_blank">💖Patreon DM</a> : Response will be prioritized.
+
+
+<br><br><br>
+
+
+#### \[ 📥 How do I install this add-on? ]
+1. Copy and paste the add-on code ( `817904532` )  into Anki and you can install it.<br>
+    ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
+2. When I develop bug fixes, create new features, or compatibility for New Anki,<br>
+ I will notify you and you can install it.
+3. If you rate and recommend it, I will receive a notice and my tedious and sleepy<br>
+ add-ons volunteer work will become more enjoyable and exciting. <br>
+ (This add-on is developed by free volunteer work!👍️)
+
+[Click here and please Rate this add-on, Thank you! :-) <br>
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/817904532)
 
 
