@@ -7,7 +7,7 @@ Ankimote - remote to control Anki from your phone
 <!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
 
 
-This add-on is a customized version of the <a href="https://github.com/TheDabblingDuck/ankimote" target="_blank">"Ankimote"</a> add-on, originally created by <a href="https://github.com/TheDabblingDuck" target="_blank">TheDabblingDuck</a> and credit goes to them. This version fixed the bug in some devices not working, enhanced the user interface, added new options, etc.
+This add-on is a customized version of the <a href="https://github.com/TheDabblingDuck/ankimote" target="_blank">"Ankimote"</a> add-on, originally created by <a href="https://github.com/TheDabblingDuck" target="_blank">TheDabblingDuck</a> and credit goes to them. This version fixed the bug in some devices not working, enhanced the user interface, added new options, etc. You can try this if the original Ankimote does not work well on your device.
 
 
 # Ankimote
