@@ -38,12 +38,12 @@ If you have any problems or requests feel free to send them to me.
 
 
 ## 📥 How do I install this add-on?
-1. Copy and paste the add-on code ( `887572166` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
+1. Copy and paste the add-on code ( `🟢` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
 2. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
 3. Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!
 
 [Click here and please Rate this add-on, Thank you! :-) <br>
- ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/887572166)
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/🟢)
 
 
 
@@ -53,7 +53,7 @@ If you have any problems or requests feel free to send them to me.
 
  [**[ Please Support Shige's Anki add-ons development! ]**](http://patreon.com/Shigeyuki) <br>
 [![Patreon_banner_3_mini](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/patreon_gif_mini.gif)](http://patreon.com/Shigeyuki)  <br>
-Hello, thank you for using this add-on, I'm Shige!😆<br>
+Hello, thank you for using this add-on, I'm Shige!ඞ<br>
 I development of Anki add-ons for gamification learning [(youtube)](https://www.youtube.com/@shigeyuki5397/videos),<br>
 and so far I fixed 49+ broken add-ons [(Free) ]((https://new.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/)). <br>
 
