@@ -7,7 +7,7 @@ Ankimote - remote to control Anki from your phone
 <!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
 
 
-This add-on is a customized version of the <a href="https://github.com/TheDabblingDuck/ankimote" target="_blank">"Ankimote"</a> add-on, which has not been updated in recent years. Originally created by <a href="https://github.com/TheDabblingDuck" target="_blank">TheDabblingDuck</a> and credit goes to them. This version fixed the bug in some devices not working, enhanced the user interface, added new options, etc.
+This add-on is a customized version of the <a href="https://github.com/TheDabblingDuck/ankimote" target="_blank">"Ankimote"</a> add-on, originally created by <a href="https://github.com/TheDabblingDuck" target="_blank">TheDabblingDuck</a> and credit goes to them. This version fixed the bug in some devices not working, enhanced the user interface, added new options, etc.
 
 
 # Ankimote
@@ -155,11 +155,9 @@ The original Ankimote is MIT licensed but PyQt is AGPL so I added AGPL to the fi
 ## About Development Support
 
 The original authors are inactive as of 2022-2024
-(they are medical students so they are probably currently working in the medical field and could be busy) but they are accepting donations for development via paypal -> [The Original Ankimote add-on page](https://ankiweb.net/shared/info/149004221)
+(they are medical students so they are probably currently working in the medical field and could be busy) but they are accepting donations for development via paypal -> [The Original Ankimote](https://ankiweb.net/shared/info/149004221)
 
 Please note that these are different developments, and donating to me will not support the original authors. (Anki add-ons are open source so developers are free to use them)
-
-If the author restarts development this custom version will no longer be needed and development may be closed (cause I want to save development costs).
 
 
 ## Credit
