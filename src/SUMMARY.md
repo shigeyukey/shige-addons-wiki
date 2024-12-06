@@ -96,6 +96,7 @@
 - [🍣KanjiVocab](KanjiVocab.md)
 - [🔓️Kanji Unlock Addon](kanji_unlocked.md)
 - [📱AnkiCord](ankicord.md)
+- [📱Ankimote](ankimote.md)
 
 - [Fixed add-ons]()
 
