@@ -1,10 +1,11 @@
-# 📱Ankimote
+# 🕹️Ankimote
 
-Ankimote - remote to control Anki from your phone
+🕹️Ankimote - Free Anki Remote by Smartphone via Wifi (Custom by Shigeඞ)
 
 [![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](https://www.reddit.com/user/Shige-yuki)   <br>
 
 <!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
+
 
 
 This add-on is a customized version of the <a href="https://github.com/TheDabblingDuck/ankimote" target="_blank">"Ankimote"</a> add-on, originally created by <a href="https://github.com/TheDabblingDuck" target="_blank">TheDabblingDuck</a> and credit goes to them. This version fixed the bug in some devices not working, enhanced the user interface, added new options, etc. You can try this if the original Ankimote does not work well on your device.
@@ -157,7 +158,7 @@ The original Ankimote is MIT licensed but PyQt is AGPL so I added AGPL to the fi
 The original authors are inactive as of 2022-2024
 (they are medical students so they are probably currently working in the medical field and could be busy) but they are accepting donations for development via paypal -> [The Original Ankimote](https://ankiweb.net/shared/info/149004221)
 
-Please note that these are different developments, and donating to me will not support the original authors. (Anki add-ons are open source so developers are free to use them)
+Please note that these are different developments, and donating to me will not support the original authors. (Anki add-ons are open source so developers are free to use them, include my add-ons)
 
 
 ## Credit
