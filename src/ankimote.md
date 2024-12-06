@@ -101,19 +101,21 @@ If you encounter connection problems, please read [Troubleshooting](#troubleshoo
 
 ### Anser Feedback
 
-Enables or disables visual feedback. (🚨This will not work on the Mac. Workaround is under development, please wait.)
+* Enables or disables visual feedback. (🚨This will not work on the Mac. Workaround is under development, please wait.)
 
 ### Show top Toolbar
 
-Hide the button for the QR code that is displayed on Anki's top toolbar. Need to restart Anki.
+* Hide the button for the QR code that is displayed on Anki's top toolbar. Need to restart Anki.
 
 ### Startup
 
-Ankimote QR code is auto displayed when Anki is launched.
+1. Ankimote QR code is auto displayed when Anki is launched.
+1. **Startup delay:** Delays startup for a few seconds. If there is an add-on that refreshes the add-on Home QR will be removed
+(e.g. [Rearrange home add-ons](https://ankiweb.net/shared/info/1797615099)), in this case setting the delay to about 7 seconds works.
 
 ### Shortcut key
 
-You can change the shortcut key for displaying the QR Code.
+* You can change the shortcut key for displaying the QR Code.
 The default setting is `Ctrl+Shift+J`. Need to restart Anki.
 
 
@@ -192,7 +194,7 @@ The original authors are inactive as of 2022-2024
 ## Credit
 
 * [The Original Ankimote add-on page](https://ankiweb.net/shared/info/149004221) / Author : [TheDabblingDuck](https://github.com/TheDabblingDuck)
-* Contributors ([Short cutkey](https://github.com/TheDabblingDuck/ankimote/pull/45)) / [akavi1](https://github.com/akavi1)
+* Contributor ([Short cutkey](https://github.com/TheDabblingDuck/ankimote/pull/45)) / [akavi1](https://github.com/akavi1)
 
 
 ## Troubleshooting
