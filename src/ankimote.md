@@ -8,7 +8,7 @@
 
 
 
-This add-on is a customized version of the <a href="https://github.com/TheDabblingDuck/ankimote" target="_blank">"Ankimote"</a> add-on, originally created by <a href="https://github.com/TheDabblingDuck" target="_blank">TheDabblingDuck</a> and credit goes to them. This version fixed the bug in some devices not working, enhanced the user interface, added new options, etc. You can try this if the original Ankimote does not work well on your device.
+This add-on is a customized version of the <a href="https://ankiweb.net/shared/info/149004221" target="_blank">"Ankimote"</a> add-on, originally created by <a href="https://github.com/TheDabblingDuck" target="_blank">TheDabblingDuck</a> and credit goes to them. This version fixed the bug in some devices not working, enhanced the user interface, added new options, etc. You can try this if the original Ankimote does not work well on your device.
 
 
 # Ankimote
