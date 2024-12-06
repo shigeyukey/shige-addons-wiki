@@ -154,10 +154,10 @@ The original Ankimote is MIT licensed but PyQt is AGPL so I added AGPL to the fi
 
 ## About Development Support
 
-The original authors are inactive as of 2022-2024
-(they are medical students so they are probably currently working in the medical field and could be busy) but they are accepting donations for development via paypal -> [The Original Ankimote](https://ankiweb.net/shared/info/149004221)
-
 Please note that these are different developments, and donating to me will not support the original authors. (Anki add-ons are open source so developers are free to use them, include my add-ons)
+
+The original authors are inactive as of 2022-2024
+(they are medical students so they are probably currently working in the medical field and could be busy) but they are accepting donations for development via paypal -> [The Original Ankimote addon page](https://ankiweb.net/shared/info/149004221)
 
 
 ## Credit
