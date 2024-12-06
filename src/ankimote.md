@@ -7,7 +7,7 @@
 <!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
 
 
-This add-on is a customized version of the <a href="https://ankiweb.net/shared/info/149004221" target="_blank">"Ankimote"</a> add-on, originally created by <a href="https://github.com/TheDabblingDuck" target="_blank">TheDabblingDuck</a> and credit goes to them. This version fixed the bug in some devices not working, enhanced the user interface, added new options, etc. You can try this if the original Ankimote does not work well on your device.
+This add-on is a customized version of the <a href="https://github.com/TheDabblingDuck/ankimote" target="_blank">"Ankimote"</a> add-on, originally created by <a href="https://github.com/TheDabblingDuck" target="_blank">TheDabblingDuck</a> and credit goes to them. This version fixed the bug in some devices not working, enhanced the user interface, added new options, etc. You can try this if the original Ankimote does not work well on your device.
 
 
 # Ankimote
@@ -32,6 +32,14 @@ Swipe mode and swipe settings
 
 Connect by scanning a QR or visiting the URL from a phone or other device that is on the same local network.
 <img src="images/Ankimote/01.png" width="90%" >
+
+QR can be displayed in these ways:
+1. Click on “✘” on the top toolbar
+1. Tools -> Ankimote -> Connect Ankimote
+1. Shortcut key 'Ctrl+Shift+J'
+1. Optionally auto display on Anki startup.
+
+![alt text](images/Ankimote/09.png)
 
 Visual feedback in the desktop Anki app. (🚨This will not work on the Mac. Workaround is under development, please wait.)
 <img src="images/Ankimote/02.png" width="90%" >
