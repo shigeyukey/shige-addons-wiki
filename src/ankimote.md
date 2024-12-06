@@ -10,6 +10,26 @@
 This add-on is a customized version of the <a href="https://github.com/TheDabblingDuck/ankimote" target="_blank">"Ankimote"</a> add-on, originally created by <a href="https://github.com/TheDabblingDuck" target="_blank">TheDabblingDuck</a> and credit goes to them. This version fixed the bug in some devices not working, enhanced the user interface, added new options, etc. You can try this if the original Ankimote does not work well on your device.
 
 
+- [🕹️Ankimote](#️ankimote)
+- [Ankimote](#ankimote)
+  - [Screenshots](#screenshots)
+  - [Features](#features)
+  - [Limitations](#limitations)
+  - [Settings](#settings)
+    - [Anser Feedback](#anser-feedback)
+    - [Show top Toolbar](#show-top-toolbar)
+    - [Startup](#startup)
+    - [Shortcut key](#shortcut-key)
+    - [Custom Commands](#custom-commands)
+    - [Custom JavaScript](#custom-javascript)
+  - [Privacy](#privacy)
+  - [License](#license)
+  - [About Development Support](#about-development-support)
+  - [Credit](#credit)
+  - [Troubleshooting](#troubleshooting)
+  - [🚨Report](#report)
+
+
 # Ankimote
 
 *(These descriptions and images are from the original add-on and partially edited.)*
@@ -72,7 +92,8 @@ Advanced features (see addon config in Anki):
 
 * The network must allow local communication (public networks like coffee shops and some schools may not work)
 
-* Workaround: when the above conditions cannot be met, try enabling Bluetooth tethering on your phone and connect your computer to your phone's Bluetooth. In your computer's Bluetooth settings, use "connect to network" or similar to create an internet connection over Bluetooth between the two devices. Then find your phone's IP address on the Bluetooth connection, and use that IP address instead of the one Ankimote displays. Use the same port displayed by Ankimote.
+If you encounter connection problems, please read [Troubleshooting](#troubleshooting).
+
 
 ## Settings
 
@@ -173,6 +194,24 @@ The original authors are inactive as of 2022-2024
 * [The Original Ankimote add-on page](https://ankiweb.net/shared/info/149004221) / Author : [TheDabblingDuck](https://github.com/TheDabblingDuck)
 * Contributors ([Short cutkey](https://github.com/TheDabblingDuck/ankimote/pull/45)) / [akavi1](https://github.com/akavi1)
 
+
+## Troubleshooting
+
+1. Both devices must be on the same network (usually the same WiFi name)
+
+1. The network must allow local communication (public networks like coffee shops and some schools may not work)
+
+1. Workaround: when the above conditions cannot be met, try enabling Bluetooth tethering on your phone and connect your computer to your phone's Bluetooth. In your computer's Bluetooth settings, use "connect to network" or similar to create an internet connection over Bluetooth between the two devices. Then find your phone's IP address on the Bluetooth connection, and use that IP address instead of the one Ankimote displays. Use the same port displayed by Ankimote.
+
+1. If the page never loads on your phone, make sure you have [allowed Anki firewall access on both public and private networks.](https://ankiweb.net/shared/info/149004221#:~:text=If%20the%20page%20never%20loads%20on%20your%20phone%2C%20make%20sure%20you%20have%20allowed%20Anki%20firewall%20access%20on%20both%20public%20and%20private%20networks.)
+
+1. The connection may be blocked by antivirus software such as McAfee. Try turning off the firewall temporarily to see if that is not the cause.
+
+1. VPN must be off on both phone and computer.
+
+1. If you experience bugs after updating this addon, clear browser cache on your phone, as browsers will sometimes use a cached older versions of web page components
+
+1. May be incompatible with some addons that modify the answer buttons.
 
 
 ## 🚨Report
