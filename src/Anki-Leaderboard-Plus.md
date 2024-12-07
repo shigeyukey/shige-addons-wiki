@@ -28,8 +28,8 @@ This add-on is for real-time synchronization of the Anki Leaderbord during revie
   - [Leaderbord Type](#leaderbord-type)
   - [Chase Mode](#chase-mode)
     - [Chase Mode Enable (default)](#chase-mode-enable-default)
+      - [Target Rank (multiples)](#target-rank-multiples)
     - [Chase mode Disabled](#chase-mode-disabled)
-    - [Target Rank (multiples)](#target-rank-multiples)
   - [Battle mode](#battle-mode)
   - [Display Info](#display-info)
   - [Bar Position](#bar-position)
@@ -101,6 +101,16 @@ e.g. If you have more reviews than your opponent, the color will be more blue. C
 1. This color can optionally be reversed or the color can be disabled.
 2. 🖱️Double click on the right or left side of the bar to open user info: ![alt text](images/AnkiLeaderboardPlus/09.png)
 
+#### Target Rank (multiples)
+
+
+![alt text](images/AnkiLeaderboardPlus/17.png)
+
+You can adjust the rank of users to be displayed. If you set it to 10, users with a multiple of 10 will be displayed. e.g.
+1. Target rank: 1 -> other user rank 158, your rank : 159
+1. Target rank: 10 -> other user rank 150, your rank : 159
+1. Target rank: 100 -> other user rank 100, your rank : 159
+
 
 
 ### Chase mode Disabled
@@ -114,15 +124,7 @@ e.g. If you have more reviews than your opponent, the color will be more blue. C
 3. The bar can be moved left or right. -> Mouse wheel scroll (up/down) or arrow keys (left/right)
 
 
-### Target Rank (multiples)
 
-
-![alt text](images/AnkiLeaderboardPlus/17.png)
-
-You can adjust the rank of users to be displayed. If you set it to 10, users with a multiple of 10 will be displayed. e.g.
-1. Target rank: 1 -> other user rank 158, your rank : 159
-1. Target rank: 10 -> other user rank 150, your rank : 159
-1. Target rank: 100 -> other user rank 100, your rank : 159
 
 
 ## Battle mode
