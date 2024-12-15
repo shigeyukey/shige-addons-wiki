@@ -5,10 +5,12 @@
 
 Hello! I'm developer Shige. I'm repairing broken add-ons on the latest Anki. So far I fixed about 50+ add-ons for free. If you have any broken add-ons in the latest Anki feel free to contact me so I can look into it.
 
- *  [📨Report and Request](contact.md)
- *  [💖Patreon](https://www.patreon.com/Shigeyuki)
-
-
+ * [📨Report and Request](contact.md)
+ * [💖Patreon](https://www.patreon.com/Shigeyuki)
+ * [Reddit (post)](https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/)
+ * [Github (Issues)](https://github.com/shigeyukey/my_addons/issues)
+ * [AnkiForums (Threads)](https://forums.ankiweb.net/t/simple-fix-of-broken-add-ons-for-the-latest-anki-by-shige/41650)
+ * [Patreon (post)](https://www.patreon.com/posts/free-simple-fix-99149368?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
 
 ## Q & A
 
@@ -142,5 +144,4 @@ Yes, developers are free to use Anki's add-ons under the license and Anki's Term
 
 That's all about repairs. If you have any broken add-ons feel free to contact me. Thank you!
 
- *  [📨Report and Request](contact.md)
- *  [💖Patreon](https://www.patreon.com/Shigeyuki)
+- [🛠️Fix Broken Anki Add-ons for latest Anki by Shigeඞ](#️fix-broken-anki-add-ons-for-latest-anki-by-shigeඞ)
