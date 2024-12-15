@@ -93,6 +93,8 @@
 
 # Fixed add-ons
 
+ [🛠️Fix Broken Anki Add-ons Q&A](fixed_addons.md)
+
 - [🍣KanjiVocab](KanjiVocab.md)
 - [🔓️Kanji Unlock Addon](kanji_unlocked.md)
 - [📱AnkiCord](ankicord.md)
