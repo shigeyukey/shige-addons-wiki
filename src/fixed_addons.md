@@ -143,3 +143,6 @@ Yes, developers are free to use Anki's add-ons under the license and Anki's Term
 <br>
 
 That's all about repairs. If you have any broken add-ons feel free to contact me. Thank you!
+
+ * [📨Report and Request](contact.md)
+ * [💖Patreon](https://www.patreon.com/Shigeyuki)
