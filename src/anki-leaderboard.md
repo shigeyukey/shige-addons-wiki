@@ -12,6 +12,8 @@
 
 This add-on is a customized version (fork) of the shutdown <a href="https://github.com/ThoreBor/Anki_Leaderboard" target="_blank">Anki LeaderBoard</a>, originally created by <a href="https://github.com/ThoreBor" target="_blank">Thore Tyborski</a> and credit goes to him.
 
+<iframe src="https://www.youtube.com/embed/nJvFxID874g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
+
 
 ![leaderboard](images/Leaderboard/00_leaderboard_dark_700.png)
 <br>

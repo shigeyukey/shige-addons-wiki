@@ -8,7 +8,11 @@
 *⚠️This is an add-on for patrons who supported my volunteer Anki add-on development and it is not available for free. Please wait.*
 
 ---
-![alt text](images/AnkiLeaderboardPlus/_Thumbnail.png)
+<!-- ![alt text](images/AnkiLeaderboardPlus/_Thumbnail.png) -->
+
+
+<iframe src="https://www.youtube.com/embed/CAQLDcZhTME" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
+
 
 This add-on is for real-time synchronization of the Anki Leaderbord during review (prototype). The leaderbord is displayed on the top bar of Anki and updates as you review. User icons, country icons, and rank icons are displayed.
 
