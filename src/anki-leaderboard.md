@@ -48,6 +48,7 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
     - [Q. Login keeps failing and sync is not finished, what should I do?](#q-login-keeps-failing-and-sync-is-not-finished-what-should-i-do)
     - [Q. A user is cheating, what should I do?](#q-a-user-is-cheating-what-should-i-do)
     - [Q. How do I delete a group?](#q-how-do-i-delete-a-group)
+    - [Q. Why doesn't my Anki Streaks match the leaderboard streaks?](#q-why-doesnt-my-anki-streaks-match-the-leaderboard-streaks)
     - [Q. When will the new league start?](#q-when-will-the-new-league-start)
     - [Q. Why doesn't my XP match when I calculate it manually?](#q-why-doesnt-my-xp-match-when-i-calculate-it-manually)
     - [Q. What is the reason for using the bonus instead of real retention?](#q-what-is-the-reason-for-using-the-bonus-instead-of-real-retention)
@@ -286,6 +287,14 @@ In any way we lack development resources yet at the moment, so basically please 
 * The function to delete a group is not yet developed, please contact me.
 
 ---
+
+### Q. Why doesn't my Anki Streaks match the leaderboard streaks?
+
+If you customized “Next day starts at” you will need to set it manually. Please check if these settings match:
+
+* Leadearboard: Config -> Settings -> General -> The next day starts \[...] hours past midnight
+* Anki: Tools -> Preferences -> Review -> Scheduler -> Next day starts at \[...]
+
 
 ### Q. When will the new league start?
 * For now I have it set to tally after 3 days and start a new league on the next Monday. Because of time zone differences between countries and the time it takes mobile users to sync leagues on their PC.
