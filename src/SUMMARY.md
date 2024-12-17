@@ -38,13 +38,12 @@
 
 ---
 # Patreon add-ons
-- [🏆️Anki Leaderboard Plus](Anki-Leaderboard-Plus.md)
 
-- [⌛️Chunk Progressbar](progress-bar-for-anki.md)
 <!-- - [🌱New Card Farm](new-card-farm/new-card-farm.md) -->
 - [🌱New Card Farm 2](new-card-farm/new-card-farm-02.md)
   - [🌱New Card Farm (Old ver)](new-card-farm/new-card-farm-01.md)
-
+- [⌛️Chunk Progressbar](progress-bar-for-anki.md)
+- [🏆️Anki Leaderboard Plus](Anki-Leaderboard-Plus.md)
 - [📅New Card Heatmap](new-card-heatmap.md)
 - [🎖️additional animation coins](additional-animation-coins.md)
 - [🎨Top toolbar icons](top-toolbar-icons.md)
