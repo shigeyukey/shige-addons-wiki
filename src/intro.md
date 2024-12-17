@@ -2,9 +2,9 @@
 
 <!-- <iframe src="https://www.youtube.com/embed/t50NZagCsYk?list=PLZhrgD6s-LFVsEhxRdEHf_OkGVe2YZfeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe> -->
 
+[![alt text](images/_promotion/promotion_00.gif)](https://www.patreon.com/Shigeyuki)
 
 This wiki is how to use [ <img src="https://raw.githubusercontent.com/shigeyukey/Anki-Manuals-jp/main/Shigeyuki_icon.png" style="width: 1.2em; height: 2 em;"> Shigeyuki's ](http://patreon.com/Shigeyuki) Anki add-ons. Anki geek who develops add-ons for gamification of learning, not official Anki.
-
 
 ## 📂Content
 
