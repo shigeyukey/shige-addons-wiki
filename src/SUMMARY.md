@@ -3,6 +3,7 @@
 # Shige Add-ons Wiki
 
 - [Introduction](intro.md)
+- [Patrons Q and A](patrons_q_and_a.md)
 - [📨Report and Request](contact.md)
 
 # AnkiArcade
