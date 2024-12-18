@@ -14,7 +14,7 @@
     - [Q. Is it legal to buy and sell Anki add-ons?](#q-is-it-legal-to-buy-and-sell-anki-add-ons)
 
 ### Q. How can I get Patrons only add-ons?
-If you support me on Patreon you can download all Patrons only add-ons ($5/month): [Patreon: Shigeyuki](https://www.patreon.com/Shigeyuki)
+If you support my volunteer development on Patreon you can download all Patrons only add-ons. ($5/month): [Patreon: Shigeyuki](https://www.patreon.com/Shigeyuki)
 
 
 ### Q. What is Patreon?
