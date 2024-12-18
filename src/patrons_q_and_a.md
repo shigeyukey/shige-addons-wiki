@@ -36,7 +36,7 @@ If add-ons do not work as expected, please request a repair or improvement, or r
 
 If it is within 3 months of payment, Patreon's feature allows me to refund you quickly. Please contact me via direct message on Patreon.
 
-If you have paid incorrectly for more than 3 months (e.g. completely forgot to cancel), we need some other refund way, in this case please contact me.
+If you have paid incorrectly for more than 3 months (e.g. forgot to cancel), we need some other refund way, in this case please contact me.
 
 ### Q. Is it legal to buy and sell Anki add-ons?
 
