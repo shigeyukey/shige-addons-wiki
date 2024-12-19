@@ -72,20 +72,18 @@ and so far I fixed 49+ broken add-ons [(Free) ]((https://new.reddit.com/r/Anki/c
 
 <br><br><br>
 
- [**[ Please Support Shige's Anki add-ons development! ]**](http://patreon.com/Shigeyuki) <br>
-[![Patreon_banner_3_mini](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/patreon_gif_mini.gif)](http://patreon.com/Shigeyuki)  <br>
-Hello, thank you for using this add-on, I'm Shige!ඞ<br>
-I development of Anki add-ons for gamification learning [(youtube)](https://www.youtube.com/@shigeyuki5397/videos),<br>
-and so far I fixed 49+ broken add-ons [(Free) ]((https://new.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/)). <br>
+#### [ [ 💖Please Support Shige's Anki add-ons development! ]](http://patreon.com/Shigeyuki)
 
-* [**[ 💖Donation (Patreon) ]**](http://patreon.com/Shigeyuki)<br>
- If you support my volunteer development, you will get add-ons for patrons.<br>
- ( about 28 items, $5/month )<br>
-     [![Patreon_banner_3_mini](https://github.com/shigeyukey/my_addons/blob/main/media_files/output_08.gif?raw=true)](https://youtu.be/t50NZagCsYk)<br>
+Hello thank you for using this add-on, I'm Shigeඞ! I development of Anki add-ons for [Gamification of learning](https://www.youtube.com/@shigeyuki5397/videos) and so far [I fixed 50+ broken add-ons (Free).]((https://new.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/)) If you support my volunteer development on Patreon you can download all Patrons only add-ons. ($5/month)
+
+![alt text](src/images/_promotion/00_animation.webp)
+
+[![patrons_banner](https://shigeyukey.github.io/shige-addons-wiki/images/_promotion/promotion_00.gif)](http://patreon.com/Shigeyuki)<br>
+[Get Patrons only addons](https://www.patreon.com/Shigeyuki) | [Patrons Q and A](https://shigeyukey.github.io/shige-addons-wiki/patrons_q_and_a.html) | [Contact](https://shigeyukey.github.io/shige-addons-wiki/contact.html) <br>
 
 
-    \[ Special Thanks  ] <br>
-    Without the support of my Patrons I would never have been able to develop this.<br>
-    Thank you very much!🙏<br>
-     \[ Patrons ] *🟢*<br>
+**\[ Special Thanks ]** <br>
+ So far I received donations from 233 patrons and without their support I never could develop this and release for free, thank you very much!🙏<br><br>
+  **Patrons:** *Arthur Bookstein, Haruka, Luis Alberto, Letona Quispe, GP O'Byrne, Tobias Klös, 07951350313540, Ernest Chan, Lily, Daniel Kohl-Fink, Tim, Kurt Grabow, Kyle Mondlak, Jesse Asiedu, Gabriel Vinicio Guedes, NamelessGO, Fahim Shaik, Douglas Beeman, Ketan Pal, ElAnki, Tae Lee, Ashok Rajpurohit, NoirHassassin, Jake Stucki, Haley Schwarz, Jk, Cole Krueger, K, KM, Oleksandr Pashchenko, Alba Grecia Suárez Recuay, Alex D, oiuhroiehg, Aaron Buckley, Abhi S, Robert Malone, Wei, Tyler Schulte, Jonathan Contreras, Osasere Osula, Morgan Torres, Keeler Kime, Sean Voiers, Renoaldo Costa Silva Junior, Felipe Dias, Adrine, Matthew Hartford, Victor Evangelista, Leah Rohrer, Augusto Stein, Corentin, Yitzhak Bar Geva, 龍星 武田, Muneeb Khan, Jason Liu, Hikori, Lê Hoàng Phúc, anonymous, Tobias Günther, Michael Pekala, Isabel Guan, Stellate ggl, Aurora Dzurko, Aayush Bhatawadekar, tarek, adam Katz, K, iuventius, Patrick ellis, thunderdunk, Ansel Ng, Moritz Bluhm, Maik C., Tarek Bouamoud, Robert Wiebalck, Klara Spring, Jordan Garnier, Raffaele Russo, Ricardo Escobar, Daniel Valcárcel Málaga, Lerner Alcala, Divyang Golani, Blake, Foxy_null, Rogelio Rojas, Bunion Bandit, ifjymk, mootcourt, Melchior Schilling, Адріан Недбайло, 철수 박, Lisette Lerma, On The Path Of Righteousness, Sneed100, Nadia Esparza, Leo K Nguyen, Oroygutan, Luke VIP, Ujwal Chadha, Izz Aryan, Jeanna* [...full list](https://shigeyukey.github.io/shige-addons-wiki/patrons_credit.html#patrons)
+
 
