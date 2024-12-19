@@ -1,3 +1,3 @@
 # skip anki home and deck overview
 
-https://ankiweb.net/shared/info/295525470
+* [Add-on Page: 295525470](https://ankiweb.net/shared/info/295525470)

@@ -1,3 +1,4 @@
 # no distractions full screen
 
-https://ankiweb.net/shared/info/1370336700
+* [Add-on Page: 1370336700](https://ankiweb.net/shared/info/1370336700)
+

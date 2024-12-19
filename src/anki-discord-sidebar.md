@@ -1,3 +1,3 @@
 # anki discord sidebar
 
-https://ankiweb.net/shared/info/33855257
+* [Add-on Page: 33855257](https://ankiweb.net/shared/info/33855257)
