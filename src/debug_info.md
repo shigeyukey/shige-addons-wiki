@@ -32,12 +32,15 @@ This add-on is for add-on developers, not for general learners. It displays debu
 
 <br>
 
-## Related Add-on
+## Related Add-on for Development
 
 * [🔂AnkiRestart - Quick Aniki Rebooter, for Customize & Develop](https://shigeyukey.github.io/shige-addons-wiki/ankirestart.html)
 
 If AnkiRestart is installed, add a button to restart Anki:<br>
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/debugInfo/08.png)
+
+* [⚙️Meta json Formatter](meta_json_fomatter.md)
+
 
 <br>
 
