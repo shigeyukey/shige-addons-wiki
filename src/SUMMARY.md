@@ -88,6 +88,7 @@
   - [⏩️Skip Anki home and deck overview](skip-anki-home-and-deck-overview.md)
 
 # For Development add-ons
+  - [🔂AnkiRestart](ankirestart.md)
   - [🐞Custom Debug Info](debug_info.md)
   - [⚙️Meta json Formatter](meta_json_fomatter.md)
 
