@@ -1,5 +1,7 @@
 # ⚙️Meta json Formatter
 
+[![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
+
 This add-on is for add-on developers, not for general learners. When "meta.json (add-ons config)" is saved it is automatically formatted to make the code easier to read.
 
 ![alt text](images/meta_json_formatter/01.png)
