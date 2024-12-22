@@ -78,7 +78,6 @@
 # Free add-ons
 
   - [🎮Today Again Count](today-again-count.md)
-  - [🐞Custom Debug Info](debug_info.md)
   - [📌Rearrange home addons](rearrange-home-addons.md)
   - [🐻TidyAnkiBear](tidyankibear.md)
   - [🦾Bulk Image Downloader](bulk-image-downloader.md)
@@ -87,6 +86,11 @@
   - [🖌️Auto Highlight Cloze in Browser](auto-highlight-cloze-in-browser.md)
   - [🖍️Review Highlighter](review-highlighter.md)
   - [⏩️Skip Anki home and deck overview](skip-anki-home-and-deck-overview.md)
+
+# For Development add-ons
+  - [🐞Custom Debug Info](debug_info.md)
+  - [⚙️Meta json Formatter](meta_json_fomatter.md)
+
 
 ---
 
