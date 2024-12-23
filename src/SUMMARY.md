@@ -43,6 +43,7 @@
 
 - [🌱New Card Farm 2](new-card-farm/new-card-farm-02.md)
   - [🌱New Card Farm (Old ver)](new-card-farm/new-card-farm-01.md)
+- [🌽Review Card Farm](review-card-farm.md)
 - [⌛️Chunk Progressbar](progress-bar-for-anki.md)
 - [🍅PomoTimer](pomotimer.md)
 - [🦖Dino Timer](dino-timer.md)
