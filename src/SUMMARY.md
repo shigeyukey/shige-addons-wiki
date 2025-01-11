@@ -106,6 +106,7 @@
 - [🔓️Kanji Unlock Addon](kanji_unlocked.md)
 - [📱AnkiCord](ankicord.md)
 - [🕹️Ankimote](ankimote.md)
+- [📂expand collapse deck](expand-collapse-deck.md)
 
 ---
 
