@@ -20,7 +20,7 @@ Use from the option in the deck's gear icon:
    2. It can also be used from Tools.
 
 ![alt text](<images/expand collapse deck/00.png>)
-
+<!-- ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/expand%20collapse%20deck/00.png) -->
 
 ## Credit
 1. Expand and Collapse Decks (Anki2.0) | Author : Unknown -2020?
@@ -46,7 +46,7 @@ Hello thank you for using this add-on, I'm Shigeඞ! I development of Anki add-o
 <br>
 
 #### \[ 📥 How do I install this add-on? ]
-1. Copy and paste the add-on code ( `🟢` )  into Anki and you can install it.<br>
+1. Copy and paste the add-on code ( `1920182966` )  into Anki and you can install it.<br>
     ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
 2. When I develop bug fixes, create new features, or compatibility for New Anki,<br>
  I will notify you and you can install it.
@@ -55,4 +55,4 @@ Hello thank you for using this add-on, I'm Shigeඞ! I development of Anki add-o
  (This add-on is developed by free volunteer work!👍️)
 
 [Click here and please Rate this add-on, Thank you! :-) <br>
- ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/🟢)
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/1920182966)
