@@ -3,7 +3,7 @@
 This add-on saves and restores currently enabled add-ons (Enable or Disabled). And it has a feature to semi-automatically detect an add-on that is causing the problem.
 
 
-![alt text](images/save_and_enable/01.png)
+![alt text](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/01.png)
 
 
 
@@ -17,14 +17,14 @@ You can use it from Tools.
 
 You can save and load currently enabled add-ons.
 
-![alt text](images/save_and_enable/08.png)
+![alt text](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/08.png)
 
 1. **📤Load:** Load a saved data. Restart is required to activate add-ons.
-1. **📥Save:** Save the currently enabled add-ons.
-2. **🖌️Rename:** Rename the saved data. The default name is date + number of enabled add-ons.
-3. **📝EditData:** You can manually edit the saved data. Checked add-ons are saved add-ons. After editing, press the Save button.
-     ![alt text](images/save_and_enable/07.png)
-4. **🗑️Delete:** Delete selected saved data.
+2. **📥Save:** Save the currently enabled add-ons.
+3. **🖌️Rename:** Rename the saved data. The default name is date + number of enabled add-ons.
+4. **📝EditData:** You can manually edit the saved data. Checked add-ons are saved add-ons. After editing, press the Save button.
+     ![alt text](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/07.png)
+5. **🗑️Delete:** Delete selected saved data.
 
 <br>
 
@@ -51,23 +51,24 @@ Here's the procedure
 
 Click on "Addon Bug Detector Mode" to start.
 
-![alt text](images/save_and_enable/02.png)
+![alt text](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/02.png)
 
 Press Yes to disable half of the add-ons and restart Anki. A popup will show up automatically, check if you can reproduce the problem. If you can reproduce the problem, press Reproducible. If you cannot reproduce the problem, press Not Reproducible.
 
-![alt text](images/save_and_enable/03.png)
+![alt text](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/03.png)
 
 Press the button to disable half of the add-ons again and restart Anki.
 
 If AnkiRestart is installed, a popup will be shown for restarting Anki automatically. (If not, restart Anki manually)  Add-on: [🔂AnkiRestart](https://ankiweb.net/shared/info/237169833)
 
 
-![alt text](images/save_and_enable/04.png)
+![alt text](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/04.png)
 
 Repeat this 6-8 times to detect the add-on that is causing the problem. When detection is complete the name of the add-on is displayed.
 
 
-![alt text](images/save_and_enable/05.png)
+![alt text](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/05.png)
+
 
 Finally, restarting Anki will restore the add-ons pre-detection state.
 
@@ -84,7 +85,7 @@ If Cancel is pressed during the process, the detection is terminated and add-ons
 
 Add-ons needed for debugging are excluded from the save list and always enabled. (Otherwise it would be impossible to restart, restore the add-ons state, or identify the problem.)
 
-![alt text](images/save_and_enable/06.png)
+![alt text](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/06.png)
 
  By default these add-ons are included (Even if these are not installed the add-on will work.):
 
@@ -100,12 +101,11 @@ Add-ons needed for debugging are excluded from the save list and always enabled.
 
 This exception list can be edited manually. After editing, press the Save button.
 
-![alt text](images/save_and_enable/10.png)
-
+![alt text](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/10.png)
 
 ### Bottom buttons
 
-![alt text](images/save_and_enable/09.png)
+![alt text](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/09.png)
 
 1. **⚙️Add-ons:** Open the native Anki Add-ons dialog. (Tools -> Add-ons)
 2. **🔁Restart:** If AnkiRestart is installed, restart Anki.
