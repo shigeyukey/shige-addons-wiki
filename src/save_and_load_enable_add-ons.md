@@ -1,5 +1,12 @@
 # 📥Addon Bug Detector - Save and Load Enable Add-ons
 
+[![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
+
+<!-- ### [AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`
+**[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
+
+
+
 This add-on saves and restores currently enabled add-ons (Enable or Disabled). And it has a feature to semi-automatically detect an add-on that is causing the problem. This add-on saves only Enable and Disable, so it does not save the settings (config) of each add-ons.
 
 
@@ -13,8 +20,8 @@ This add-on saves and restores currently enabled add-ons (Enable or Disabled). A
     - [Exception add-ons](#exception-add-ons)
       - [⛔Add Except](#add-except)
     - [Bottom buttons](#bottom-buttons)
-  - [🚨Report](#report)
-      - [ \[ 💖Please Support Shige's Anki add-ons development! \]](#--please-support-shiges-anki-add-ons-development-)
+    - [🚨Report](#report)
+
 
 
 ## How to use
@@ -122,11 +129,9 @@ This exception list can be edited manually. After editing, press the Save button
 2. **🔁Restart:** If AnkiRestart is installed, restart Anki.
 3. **❌️Close:** Close the window.
 
+<br>
 
-
-<br><br>
-
-## 🚨Report
+### 🚨Report
 
 If you have any problems or requests feel free to send them to me.
 
@@ -139,7 +144,7 @@ If you have any problems or requests feel free to send them to me.
 
 <br><br><br>
 
-#### [ [ 💖Please Support Shige's Anki add-ons development! ]](http://patreon.com/Shigeyuki)
+<h4><a href="http://patreon.com/Shigeyuki">💖Please Support Shige's Anki add-ons development!</a></h4>
 
 Hello thank you for using this add-on, I'm Shigeඞ! I development of Anki add-ons for [Gamification of learning](https://www.youtube.com/@shigeyuki5397/videos) and so far [I fixed 50+ broken add-ons (Free).]((https://new.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/)) If you support my volunteer development on Patreon you can download all Patrons only add-ons. ($5/month)
 

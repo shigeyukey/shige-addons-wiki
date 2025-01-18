@@ -1,5 +1,13 @@
 # add-on name
 
+<!-- Created -->
+[![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
+
+<!-- Customized -->
+[![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](https://www.reddit.com/user/Shige-yuki)
+
+
+
 
 ### [AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`
 **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`**
@@ -72,18 +80,16 @@ and so far I fixed 49+ broken add-ons [(Free) ]((https://new.reddit.com/r/Anki/c
 
 <br><br><br>
 
-#### [ [ 💖Please Support Shige's Anki add-ons development! ]](http://patreon.com/Shigeyuki)
+<h4><a href="http://patreon.com/Shigeyuki">💖Please Support Shige's Anki add-ons development!</a></h4>
 
 Hello thank you for using this add-on, I'm Shigeඞ! I development of Anki add-ons for [Gamification of learning](https://www.youtube.com/@shigeyuki5397/videos) and so far [I fixed 50+ broken add-ons (Free).]((https://new.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/)) If you support my volunteer development on Patreon you can download all Patrons only add-ons. ($5/month)
-
-![alt text](src/images/_promotion/00_animation.webp)
 
 [![patrons_banner](https://shigeyukey.github.io/shige-addons-wiki/images/_promotion/promotion_00.gif)](http://patreon.com/Shigeyuki)<br>
 [Get Patrons only addons](https://www.patreon.com/Shigeyuki) | [Patrons Q and A](https://shigeyukey.github.io/shige-addons-wiki/patrons_q_and_a.html) | [Contact](https://shigeyukey.github.io/shige-addons-wiki/contact.html) <br>
 
 
 **\[ Special Thanks ]** <br>
- So far I received donations from 233 patrons and without their support I never could develop this and release for free, thank you very much!🙏<br><br>
-  **Patrons:** *Arthur Bookstein, Haruka, Luis Alberto, Letona Quispe, GP O'Byrne, Tobias Klös, 07951350313540, Ernest Chan, Lily, Daniel Kohl-Fink, Tim, Kurt Grabow, Kyle Mondlak, Jesse Asiedu, Gabriel Vinicio Guedes, NamelessGO, Fahim Shaik, Douglas Beeman, Ketan Pal, ElAnki, Tae Lee, Ashok Rajpurohit, NoirHassassin, Jake Stucki, Haley Schwarz, Jk, Cole Krueger, K, KM, Oleksandr Pashchenko, Alba Grecia Suárez Recuay, Alex D, oiuhroiehg, Aaron Buckley, Abhi S, Robert Malone, Wei, Tyler Schulte, Jonathan Contreras, Osasere Osula, Morgan Torres, Keeler Kime, Sean Voiers, Renoaldo Costa Silva Junior, Felipe Dias, Adrine, Matthew Hartford, Victor Evangelista, Leah Rohrer, Augusto Stein, Corentin, Yitzhak Bar Geva, 龍星 武田, Muneeb Khan, Jason Liu, Hikori, Lê Hoàng Phúc, anonymous, Tobias Günther, Michael Pekala, Isabel Guan, Stellate ggl, Aurora Dzurko, Aayush Bhatawadekar, tarek, adam Katz, K, iuventius, Patrick ellis, thunderdunk, Ansel Ng, Moritz Bluhm, Maik C., Tarek Bouamoud, Robert Wiebalck, Klara Spring, Jordan Garnier, Raffaele Russo, Ricardo Escobar, Daniel Valcárcel Málaga, Lerner Alcala, Divyang Golani, Blake, Foxy_null, Rogelio Rojas, Bunion Bandit, ifjymk, mootcourt, Melchior Schilling, Адріан Недбайло, 철수 박, Lisette Lerma, On The Path Of Righteousness, Sneed100, Nadia Esparza, Leo K Nguyen, Oroygutan, Luke VIP, Ujwal Chadha, Izz Aryan, Jeanna* [...full list](https://shigeyukey.github.io/shige-addons-wiki/patrons_credit.html#patrons)
+ So far I received donations from 266 patrons and without their support I never could develop this and release for free, thank you very much!🙏<br><br>
+  **Patrons:** *Arthur Bookstein, Haruka, Luis Alberto, Letona Quispe, GP O'Byrne, Tobias Klös, 07951350313540, Lily, Ernest Chan, Daniel Kohl-Fink, Tim, Kurt Grabow, Kyle Mondlak, Jesse Asiedu, NamelessGO, Fahim Shaik, ElAnki, Tae Lee, Ashok Rajpurohit, Jake Stucki, Gabriel Vinicio Guedes, Douglas Beeman, Ketan Pal, NoirHassassin, KM, Haley Schwarz, Jk, Cole Krueger, K, Abhi S, Robert Malone, Wei, Tyler Schulte, Jonathan Contreras, Morgan Torres, Keeler Kime, Sean Voiers, Adrine, Oleksandr Pashchenko, Matthew Hartford, ellie, Augusto Stein, Alba Grecia Suárez Recuay, 龍星 武田, Alex D, oiuhroiehg, Aaron Buckley, Osasere Osula, Isabel Guan, Stellate ggl, Aurora Dzurko, Aayush Bhatawadekar, tarek, adam Katz, K, iuventius, Renoaldo Costa Silva Junior, Felipe Dias, Patrick ellis, thunderdunk, Victor Evangelista, Tarek Bouamoud, Robert Wiebalck, Klara Spring, Raffaele Russo, Corentin, Yitzhak Bar Geva, Muneeb Khan, Jason Liu, Hikori, Lê Hoàng Phúc, anonymous, Tobias Günther, mootcourt, Michael Pekala, Sneed100, Izz Aryan, Jeanna, J P, Juan Salgado, Ansel Ng, Azfar Hussain, Moritz Bluhm, Maik C., sab hoque, Jordan Garnier, Matt LeRoux, Ricardo Escobar, Daniel Valcárcel Málaga, Lerner Alcala, Divyang Golani, Blake, J, Chanho Youne, Foxy_null, Rogelio Rojas, Bunion Bandit, ifjymk, Melchior Schilling, Адріан Недбайло, 철수 박* [...full list](https://shigeyukey.github.io/shige-addons-wiki/patrons_credit.html#patrons)
 
 
