@@ -157,7 +157,7 @@ Hello thank you for using this add-on, I'm Shigeඞ! I development of Anki add-o
   **Patrons:** *Arthur Bookstein, Haruka, Luis Alberto, Letona Quispe, GP O'Byrne, Tobias Klös, 07951350313540, Lily, Ernest Chan, Daniel Kohl-Fink, Tim, Kurt Grabow, Kyle Mondlak, Jesse Asiedu, NamelessGO, Fahim Shaik, ElAnki, Tae Lee, Ashok Rajpurohit, Jake Stucki, Gabriel Vinicio Guedes, Douglas Beeman, Ketan Pal, NoirHassassin, KM, Haley Schwarz, Jk, Cole Krueger, K, Abhi S, Robert Malone, Wei, Tyler Schulte, Jonathan Contreras, Morgan Torres, Keeler Kime, Sean Voiers, Adrine, Oleksandr Pashchenko, Matthew Hartford, ellie, Augusto Stein, Alba Grecia Suárez Recuay, 龍星 武田, Alex D, oiuhroiehg, Aaron Buckley, Osasere Osula, Isabel Guan, Stellate ggl, Aurora Dzurko, Aayush Bhatawadekar, tarek, adam Katz, K, iuventius, Renoaldo Costa Silva Junior, Felipe Dias, Patrick ellis, thunderdunk, Victor Evangelista, Tarek Bouamoud, Robert Wiebalck, Klara Spring, Raffaele Russo, Corentin, Yitzhak Bar Geva, Muneeb Khan, Jason Liu, Hikori, Lê Hoàng Phúc, anonymous, Tobias Günther, mootcourt, Michael Pekala, Sneed100, Izz Aryan, Jeanna, J P, Juan Salgado, Ansel Ng, Azfar Hussain, Moritz Bluhm, Maik C., sab hoque, Jordan Garnier, Matt LeRoux, Ricardo Escobar, Daniel Valcárcel Málaga, Lerner Alcala, Divyang Golani, Blake, J, Chanho Youne, Foxy_null, Rogelio Rojas, Bunion Bandit, ifjymk, Melchior Schilling, Адріан Недбайло, 철수 박* [...full list](https://shigeyukey.github.io/shige-addons-wiki/patrons_credit.html#patrons)
 
 
-
+<br><br>
 
 ## 📥 How do I install this add-on?
 1. Copy and paste the add-on code ( `179790125` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
