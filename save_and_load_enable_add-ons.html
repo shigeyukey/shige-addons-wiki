@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>⚙️Meta json Formatter - Shige addons Wiki</title>
+        <title>📥Addon Bug Detector - Shige addons Wiki</title>
 
 
         <!-- Custom HTML head -->
@@ -151,47 +151,111 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="meta-json-formatter"><a class="header" href="#meta-json-formatter">⚙️Meta json Formatter</a></h1>
-<p><a href="https://www.reddit.com/user/Shige-yuki"><img src="https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065" alt="reddit" /></a></p>
-<p>This add-on is for add-on developers, not for general learners. When "meta.json (add-ons config)" is saved it is automatically formatted to make the code easier to read.</p>
-<p><img src="images/meta_json_formatter/01.png" alt="alt text" /></p>
-<h2 id="note"><a class="header" href="#note">Note</a></h2>
+                        <h1 id="addon-bug-detector---save-and-load-enable-add-ons"><a class="header" href="#addon-bug-detector---save-and-load-enable-add-ons">📥Addon Bug Detector - Save and Load Enable Add-ons</a></h1>
+<p>This add-on saves and restores currently enabled add-ons (Enable or Disabled). And it has a feature to semi-automatically detect an add-on that is causing the problem.</p>
+<p><img src="https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/01.png" alt="alt text" /></p>
 <ul>
-<li>This add-on has only been tested with Anki24.11. If a problem occurs config may not be able to be saved.</li>
+<li><a href="#addon-bug-detector---save-and-load-enable-add-ons">📥Addon Bug Detector - Save and Load Enable Add-ons</a>
+<ul>
+<li><a href="#how-to-use">How to use</a>
+<ul>
+<li><a href="#save-and-load">📥Save and Load</a></li>
+<li><a href="#addon-bug-detector-mode">Addon Bug Detector Mode</a></li>
+<li><a href="#exception-add-ons">Exception add-ons</a>
+<ul>
+<li><a href="#add-except">⛔Add Except</a></li>
 </ul>
-<h2 id="related-add-on-for-development"><a class="header" href="#related-add-on-for-development">Related Add-on for Development</a></h2>
+</li>
+<li><a href="#bottom-buttons">Bottom buttons</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="how-to-use"><a class="header" href="#how-to-use">How to use</a></h2>
+<p>You can use it from Tools.</p>
+<ul>
+<li>Tools -&gt; 📥Save and Load Enable Add-ons</li>
+</ul>
+<h3 id="save-and-load"><a class="header" href="#save-and-load">📥Save and Load</a></h3>
+<p>You can save and load currently enabled add-ons.</p>
+<p><img src="https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/08.png" alt="alt text" /></p>
 <ol>
-<li><a href="https://shigeyukey.github.io/shige-addons-wiki/ankirestart.html">🔂AnkiRestart - Quick Aniki Rebooter, for Customize &amp; Develop</a></li>
-<li><a href="debug_info.html">🐞Custom Debug Info</a></li>
-</ol>
-<h2 id="report"><a class="header" href="#report">🚨Report</a></h2>
-<p>If you have any problems or requests feel free to send them to me.</p>
-<ol>
-<li><a href="https://ankiweb.net/shared/review/1984416286" target="_blank">👍️Rate Comment</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development.</li>
-<li><a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">👩‍🚀Reddit</a> : You can request me to repair broken Add-ons.</li>
-<li><a href="https://forums.ankiweb.net/t/simple-fix-of-broken-add-ons-for-the-latest-anki-by-shige/41650" target="_blank">🌟AnkiForums</a> : You can request me to repair broken Add-ons, and it is ideal for open discussions.</li>
-<li><a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">🐙Github </a> : Makes it easier to track problems.</li>
-<li><a href="https://www.patreon.com/Shigeyuki" target="_blank">💖Patreon DM</a> : Response will be prioritized.</li>
+<li><strong>📤Load:</strong> Load a saved data. Restart is required to activate add-ons.</li>
+<li><strong>📥Save:</strong> Save the currently enabled add-ons.</li>
+<li><strong>🖌️Rename:</strong> Rename the saved data. The default name is date + number of enabled add-ons.</li>
+<li><strong>📝EditData:</strong> You can manually edit the saved data. Checked add-ons are saved add-ons. After editing, press the Save button.
+<img src="https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/07.png" alt="alt text" /></li>
+<li><strong>🗑️Delete:</strong> Delete selected saved data.</li>
 </ol>
 <br>
-<h2 id="-how-do-i-install-this-add-on"><a class="header" href="#-how-do-i-install-this-add-on">📥 How do I install this add-on?</a></h2>
+<h3 id="addon-bug-detector-mode"><a class="header" href="#addon-bug-detector-mode">Addon Bug Detector Mode</a></h3>
+<p>It has a feature to semi-automatically detect an add-on that is causing the problem.</p>
+<p>This feature can be used for these purposes:</p>
 <ol>
-<li>Copy and paste the add-on code ( <code>1984416286</code> )  into Anki and you can install it. ( <em>Menu -&gt; Tools -&gt; Add-ons -&gt; Get Add-ons -&gt; Code [ add-on code ]</em> )</li>
-<li>When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.</li>
-<li>Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!</li>
+<li>Identify an add-on that is causing a bug</li>
+<li>Identify an add-on that is causing Anki delays</li>
+<li>Identify an add-on of unknown name</li>
 </ol>
-<p><a href="https://ankiweb.net/shared/review/1984416286">Click here and please Rate this add-on, Thank you! :-) <br>
-<img src="https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif" alt="Please rate this" /></a></p>
+<p><img src="https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/05.png" alt="alt text" /></p>
+<p>Here's the procedure</p>
+<ol>
+<li>Half of the Add-ons will be automatically disabled.</li>
+<li>Restart Anki.</li>
+<li>Check if the problem is reproduced.</li>
+<li>Press the button on the pop-up that shows up automatically (Reproducible or Not Reproducible)</li>
+<li>Half of the remaining add-ons will be automatically disabled. Restart Anki.</li>
+<li>Repeat these steps until the problem add-on is identified. (about 6-8 times)</li>
+</ol>
+<p>Click on "Addon Bug Detector Mode" to start.</p>
+<p><img src="https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/02.png" alt="alt text" /></p>
+<p>Press Yes to disable half of the add-ons and restart Anki. A popup will show up automatically, check if you can reproduce the problem. If you can reproduce the problem, press Reproducible. If you cannot reproduce the problem, press Not Reproducible.</p>
+<p><img src="https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/03.png" alt="alt text" /></p>
+<p>Press the button to disable half of the add-ons again and restart Anki.</p>
+<p>If AnkiRestart is installed, a popup will be shown for restarting Anki automatically. (If not, restart Anki manually)  Add-on: <a href="https://ankiweb.net/shared/info/237169833">🔂AnkiRestart</a></p>
+<p><img src="https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/04.png" alt="alt text" /></p>
+<p>Repeat this 6-8 times to detect the add-on that is causing the problem. When detection is complete the name of the add-on is displayed.</p>
+<p>Finally, restarting Anki will restore the add-ons pre-detection state.</p>
+<p>If Cancel is pressed during the process, the detection is terminated and add-ons is restored to the state below.</p>
+<p><strong>🚨Note:</strong> In these cases the problem may not be detected.</p>
+<ol>
+<li>The reproducible button is pressed incorrectly.</li>
+<li>There are two or more add-ons causing the problem.</li>
+<li>The problem is caused by the interference of multiple add-ons.</li>
+</ol>
+<br>
+<h3 id="exception-add-ons"><a class="header" href="#exception-add-ons">Exception add-ons</a></h3>
+<p>Add-ons needed for debugging are excluded from the save list and always enabled. (Otherwise it would be impossible to restart, restore the add-ons state, or identify the problem.)</p>
+<p><img src="https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/06.png" alt="alt text" /></p>
+<p>By default these add-ons are included (Even if these are not installed the add-on will work.):</p>
+<ol>
+<li>This add-on (Addon Bug Detector)</li>
+<li><a href="https://ankiweb.net/shared/info/237169833">🔂AnkiRestart</a></li>
+<li><a href="https://ankiweb.net/shared/info/1616945135">🐞Custom Debug Info</a></li>
+<li><a href="https://ankiweb.net/shared/info/1984416286">⚙️Meta json Formatter</a></li>
+<li><a href="https://ankiweb.net/shared/info/31746032">AnkiWebView Inspector</a></li>
+<li><a href="https://ankiweb.net/shared/info/561945101">add-on dialog search/filter bar</a></li>
+</ol>
+<h4 id="add-except"><a class="header" href="#add-except">⛔Add Except</a></h4>
+<p>This exception list can be edited manually. After editing, press the Save button.</p>
+<p><img src="https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/10.png" alt="alt text" /></p>
+<h3 id="bottom-buttons"><a class="header" href="#bottom-buttons">Bottom buttons</a></h3>
+<p><img src="https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/09.png" alt="alt text" /></p>
+<ol>
+<li><strong>⚙️Add-ons:</strong> Open the native Anki Add-ons dialog. (Tools -&gt; Add-ons)</li>
+<li><strong>🔁Restart:</strong> If AnkiRestart is installed, restart Anki.</li>
+<li><strong>❌️Close:</strong> Close the window.</li>
+</ol>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="debug_info.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="meta_json_fomatter.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="save_and_load_enable_add-ons.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="fixed_addons.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -201,11 +265,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="debug_info.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="meta_json_fomatter.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="save_and_load_enable_add-ons.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="fixed_addons.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
