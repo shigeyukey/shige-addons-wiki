@@ -32,7 +32,11 @@ You can use it from Tools.
 
 ### 📥Save and Load
 
-You can save and load currently enabled add-ons.
+You can save and load currently enabled add-ons. This feature can be used for these purposes:
+
+1. Save currently enabled add-ons and distinguish them from disabled add-ons.
+1. Disable add-ons that are not used often and batch enable them only when used.
+1. Enable/Disable multiple game add-ons at once.
 
 ![alt text](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/08.png)
 
