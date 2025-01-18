@@ -15,7 +15,6 @@ This add-on saves and restores currently enabled add-ons (Enable or Disabled). A
     - [Bottom buttons](#bottom-buttons)
 
 
-
 ## How to use
 
 You can use it from Tools.
