@@ -6,6 +6,15 @@ This add-on saves and restores currently enabled add-ons (Enable or Disabled). A
 ![alt text](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/01.png)
 
 
+- [📥Addon Bug Detector - Save and Load Enable Add-ons](#addon-bug-detector---save-and-load-enable-add-ons)
+  - [How to use](#how-to-use)
+    - [📥Save and Load](#save-and-load)
+    - [Addon Bug Detector Mode](#addon-bug-detector-mode)
+    - [Exception add-ons](#exception-add-ons)
+      - [⛔Add Except](#add-except)
+    - [Bottom buttons](#bottom-buttons)
+
+
 
 ## How to use
 
@@ -38,6 +47,8 @@ This feature can be used for these purposes:
 1. Identify an add-on that is causing Anki delays
 1. Identify an add-on of unknown name
 
+![alt text](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/05.png)
+
 
 Here's the procedure
 
@@ -67,7 +78,6 @@ If AnkiRestart is installed, a popup will be shown for restarting Anki automatic
 Repeat this 6-8 times to detect the add-on that is causing the problem. When detection is complete the name of the add-on is displayed.
 
 
-![alt text](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/save_and_enable/05.png)
 
 
 Finally, restarting Anki will restore the add-ons pre-detection state.
