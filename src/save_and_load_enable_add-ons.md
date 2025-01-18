@@ -100,6 +100,7 @@ If Cancel is pressed during the process, the detection is terminated and add-ons
 1. The reproducible button is pressed incorrectly.
 2. There are two or more add-ons causing the problem.
 3. The problem is caused by the interference of multiple add-ons.
+4. If the bug causes Anki to become uncontrollable this add-on cannot be used and will not work (e.g. crash, freeze).
 
 <br>
 
