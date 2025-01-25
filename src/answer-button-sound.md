@@ -9,10 +9,15 @@ This add-on is a fixed version for Anki25+ of the addon <a href="https://ankiweb
 
 It is a simple add-on with only 4 sound files, when you answer a sound will play. You can change the sound by changing the file (mp3).
 
-There are no options, If you want to use advanced features, please use another add-on [“Advanced Answer Sounds”](https://ankiweb.net/shared/info/1951446409).
+### Related Addons
 
+If you want to use advanced features please use another add-on [“Advanced Answer Sounds”](https://ankiweb.net/shared/info/1951446409).
 
-<br><br>
+* What is the difference between this add-on and other add-ons?
+    1. This add-on uses only Anki features and plays it simple so it is relatively unbreakable.
+    2. If you are a developer a simple add-on is easier to read and customize.
+
+<br>
 
 <h4><a href="http://patreon.com/Shigeyuki">💖Please Support Shige's Anki add-ons development!</a></h4>
 
