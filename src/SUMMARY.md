@@ -76,7 +76,7 @@
 - [📊Enhance main window](enhance-main-window.md)
 ---
 
-# Free add-ons
+# Free add-ons by Shige
 
   - [🎮Today Again Count](today-again-count.md)
   - [📌Rearrange home addons](rearrange-home-addons.md)
@@ -87,6 +87,7 @@
   - [🖌️Auto Highlight Cloze in Browser](auto-highlight-cloze-in-browser.md)
   - [🖍️Review Highlighter](review-highlighter.md)
   - [⏩️Skip Anki home and deck overview](skip-anki-home-and-deck-overview.md)
+  - [🩸Hide Leech Notification](hide-leech_notification.md)
 
 
 # For Development add-ons
