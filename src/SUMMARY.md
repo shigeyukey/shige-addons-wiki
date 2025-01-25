@@ -108,7 +108,7 @@
 - [📱AnkiCord](ankicord.md)
 - [🕹️Ankimote](ankimote.md)
 - [📂expand collapse deck](expand-collapse-deck.md)
-
+- [🎧️Advanced Answer sound](advanced-answer-sound.md)
 ---
 
 - [🩸Leech Toolkit](leech-toolkit.md)
