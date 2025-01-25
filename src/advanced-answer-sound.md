@@ -12,9 +12,12 @@ This add-on is a fixed and customized version of the addon <a href="https://anki
 
 It plays ambient music when Anki is started and plays audio when buttons are pressed.
 
-![alt text](images/advanced-answer-sound/01.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/advanced-answer-sound/01.png)
 
 ### How to use
+
+All sounds are enabled by default. If you do not need them, change them in the settings: Tools -> Advanced Answer Sound Settings
+
 
 Audio files can be customized.
 
@@ -22,6 +25,13 @@ Audio files can be customized.
 1. Ambient music supports mp3.
 
 For more info see the <a href="https://ankiweb.net/shared/info/1167194350" target="_blank">original add-on page.</a>
+
+
+### Credit
+
+* <a href="https://ankiweb.net/shared/info/679615590" target="_blank">Answer Button Sounds</a> Author: [Kyle Mills](https://github.com/khonkhortisan)
+* <a href="https://ankiweb.net/shared/info/1167194350" target="_blank">Advanced Answer Sounds</a> Author: Unknown
+
 
 <br><br>
 
