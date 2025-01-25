@@ -3,18 +3,18 @@
 
 [![banner_shigeyuki_Original](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](http://patreon.com/Shigeyuki)
 
-### How To Use
+### How To Use (For Desktop)
 
-Just a small add-on for hide Leech notifications (Should not affect auto adding Leech tags). I recommend checking to see if it works correctly before using it. (e.g. temporarily set the Leech threshold to 1 and press Again.)
+Just a small add-on for hide Leech notifications, once installed, it will be enabled (Should not affect auto adding Leech tags). I recommend checking to see if it works correctly before using it. (e.g. temporarily set the Leech threshold to 1 and press Again.)
 
 
-### For AnkiMobile (iPhone & iPad)
+### AnkiMobile (For iPhone & iPad)
 
-I added a function to toggle [AnkiMobile's Leech notifications ON/OFF](https://forums.ankiweb.net/t/feature-request-option-to-disable-leech-notification/41089/9). This function is available from the Addons Dialog. After changing the settings, please sync Anki for Desktop and AnkiMobile.
-
-Tools -> Add-ons -> Hide Leech Notification
+I added a function to toggle [AnkiMobile's Leech notifications ON/OFF](https://forums.ankiweb.net/t/feature-request-option-to-disable-leech-notification/41089/9). This function is available from the Addons Dialog. After changing the settings, please sync Anki for Desktop and AnkiMobile. 
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/hide-leech-notification/01.png)
+
+Tools -> Add-ons -> Hide Leech Notification
 
 🚨Note that this setting cannot be changed in AnkiMobile at this time.
 
