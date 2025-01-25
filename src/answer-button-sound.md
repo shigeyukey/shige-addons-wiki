@@ -13,9 +13,10 @@ It is a simple add-on with only 4 sound files, when you answer a sound will play
 
 If you want to use advanced features please use another add-on [“Advanced Answer Sounds”](https://ankiweb.net/shared/info/1951446409).
 
-* What is the difference between this add-on and other add-ons?
-    1. This add-on uses only Anki features and plays it simple so it is relatively unbreakable.
-    2. If you are a developer a simple add-on is easier to read and customize.
+* Q. What is the difference between this add-on and other add-ons?
+    1. Perhaps some users prefer simple rather than complex.
+    2. This add-on uses only Anki features and plays it simple so it is relatively unbreakable.
+    3. If you are a developer a simple add-on is easier to read and customize.
 
 <br>
 
