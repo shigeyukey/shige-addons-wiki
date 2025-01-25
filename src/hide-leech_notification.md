@@ -14,7 +14,7 @@ I added a function to toggle [AnkiMobile's Leech notifications ON/OFF](https://f
 
 Tools -> Add-ons -> Hide Leech Notification
 
-![alt text](images/hide-leech-notification/01.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/hide-leech-notification/01.png)
 
 🚨Note that this setting cannot be changed in AnkiMobile at this time.
 
@@ -22,11 +22,14 @@ Tools -> Add-ons -> Hide Leech Notification
 <br>
 
 ### Related addon
-*  [🩸Leech Toolkit - Advanced leech tag management (Fixed by Shigeඞ)](https://ankiweb.net/shared/info/1633380637)
+*  [🩸Leech Toolkit - Advanced leech tag management](https://ankiweb.net/shared/info/1633380637)
+*  [🖥️No Distractions Full Screen](https://ankiweb.net/shared/info/1370336700)
+*  [🐻TidyAnkiBear - Select and hide Anki menu bar items](https://ankiweb.net/shared/info/906950015)
+*  [👻Remove tooltip for Answer buttons](https://ankiweb.net/shared/info/1845966780)
 
 <br>
 
-<br><br>
+<br>
 
 <h4><a href="http://patreon.com/Shigeyuki">💖Please Support Shige's Anki add-ons development!</a></h4>
 
