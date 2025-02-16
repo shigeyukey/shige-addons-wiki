@@ -1,5 +1,10 @@
 # add-on name
 
+![nolonger_needed](src/images/template/nolonger_needed.png)
+
+
+
+
 <!-- Created -->
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
 
@@ -75,7 +80,6 @@ and so far I fixed 49+ broken add-ons [(Free) ]((https://new.reddit.com/r/Anki/c
     Without the support of my Patrons I would never have been able to develop this.<br>
     Thank you very much!🙏<br>
      \[ Patrons ] *🟢*<br>
-
 
 
 <br><br><br>
