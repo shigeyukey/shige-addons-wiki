@@ -1,6 +1,6 @@
 # add-on name
 
-![nolonger_needed](src/images/template/nolonger_needed.png)
+![nolonger_needed](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/template/nolonger_needed.png)
 
 
 
