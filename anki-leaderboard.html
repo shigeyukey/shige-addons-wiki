@@ -164,12 +164,13 @@
 </blockquote>
 <p>This add-on is a customized version (fork) of the shutdown <a href="https://github.com/ThoreBor/Anki_Leaderboard" target="_blank">Anki LeaderBoard</a>, originally created by <a href="https://github.com/ThoreBor" target="_blank">Thore Tyborski</a> and credit goes to him.</p>
 <iframe src="https://www.youtube.com/embed/nJvFxID874g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
-<p><img src="images/Leaderboard/00_leaderboard_dark_700.png" alt="leaderboard" />
+<p><img src="images/Leaderboard/main-image/main-image-v2.png" alt="leaderboard" /></p>
+<!-- ![leaderboard](images/Leaderboard/00_leaderboard_dark_700.png) -->
 <br>
-<em>I've enhanced graphics by adding countries, ranks, tooltips, etc. If you find it distracting you can disable it in the settings. (Config -&gt; others tab -&gt; add Pic country and league)</em>
+ *I've enhanced graphics by adding countries, ranks, tooltips, etc. If you find it distracting you can disable it in the settings. (Config -> others tab -> add Pic country and league)*
 <br>
-<img src="images/Leaderboard/tooltip.gif" alt="alt text" /><br>
-<em>(This image is a sample so all user names are hidden.)</em></p>
+![alt text](images/Leaderboard/tooltip.gif)<br>
+*(This image is a sample so all user names are hidden.)*
 <br>
 <ul>
 <li><a href="#%EF%B8%8Fanki-leaderboard-wiki">🏆️Anki leaderboard Wiki</a></li>
@@ -188,6 +189,29 @@
 <li><a href="#profile-icon">📸Profile icon</a></li>
 <li><a href="#rank-icons">Rank icons</a></li>
 <li><a href="#sync-multiple-devices">Sync multiple devices</a></li>
+<li><a href="#%EF%B8%8Fgamification-mode">🎮️Gamification Mode</a>
+<ul>
+<li><a href="#online-status">Online Status</a></li>
+<li><a href="#review-progressbar">Review ProgressBar</a>
+<ul>
+<li><a href="#alert-emoji">Alert Emoji</a></li>
+</ul>
+</li>
+<li><a href="#time-ranks">Time Ranks</a></li>
+<li><a href="#review-orb-and-crystal">Review Orb and Crystal</a></li>
+<li><a href="#streaks-tree">Streaks Tree</a>
+<ul>
+<li><a href="#cracker">Cracker</a></li>
+</ul>
+</li>
+<li><a href="#retention-weather">Retention Weather</a></li>
+<li><a href="#xp-progressbars">XP ProgressBars</a>
+<ul>
+<li><a href="#level-calculation-formula">Level calculation formula</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><a href="#related-add-ons">🔗Related Add-ons</a></li>
 <li><a href="#credit">💖Credit</a></li>
 </ul>
@@ -388,6 +412,40 @@
 </li>
 </ol>
 <p>This saved data has nothing to do with the server's leaderboard data, so you can either delete it or not after a successful login. (Sync multiple devices -&gt; Delete AnkiWeb config data)</p>
+<h2 id="gamification-mode"><a class="header" href="#gamification-mode">🎮️Gamification Mode</a></h2>
+<p><img src="images/Leaderboard/game-mode/game-modev2.png" alt="game-mode" /></p>
+<p>Enhanced gamification with more icons and numerical feedback. If you don't like it, you can disable it at once in the options(Config -&gt; Oters tab).
+The code is not optimized yet, so there is a disadvantage for now that it increases the delay before the window is displayed.</p>
+<h3 id="online-status"><a class="header" href="#online-status">Online Status</a></h3>
+<p><img src="images/Leaderboard/online-status/online-status.png" alt="online-status" /></p>
+<p>Display of yesterday's users. Added a function to display the scores of users who logged in yesterday and not only today. Users who logged in today will see a green dot. If you do not like this yesterday, you can optionally disable it (Show only today's users).</p>
+<h3 id="review-progressbar"><a class="header" href="#review-progressbar">Review ProgressBar</a></h3>
+<p><img src="images/Leaderboard/review-progress-bar/review-progress.png" alt="review-progress" /></p>
+<p>This will reach 100% when the average number of reviews for the month is reached.</p>
+<h4 id="alert-emoji"><a class="header" href="#alert-emoji">Alert Emoji</a></h4>
+<p><img src="images/Leaderboard/review-progress-bar/alert-emoji.png" alt="alert-emoji" /></p>
+<p>Added a function to display seconds in review. The 0-2 seconds/card is indicated by a patlamp. (Since the most common reason reported so far is that the review is too fast.) This function is only for display, so there is no penalty for now. If you are reviewing too fast for some reason, I recommend you to write the reason in Bio. (Because Bio will be displayed when someone reports a user.)</p>
+<h3 id="time-ranks"><a class="header" href="#time-ranks">Time Ranks</a></h3>
+<p><img src="images/Leaderboard/time/time-02.png" alt="time-02" /></p>
+<p>The rank changes by the learning time. Maximum 12 hours.</p>
+<h3 id="review-orb-and-crystal"><a class="header" href="#review-orb-and-crystal">Review Orb and Crystal</a></h3>
+<p><img src="images/Leaderboard/orb_and_crystal/orb-and-crystal-v2.png" alt="orb_and_crystal" /></p>
+<p>Colorful orbs and crystals are displayed based on the average number of reviews in the last 31 days (or 2 weeks of league). The orb will change color and shape for every 100 reviews, counting in 10 steps until 3000 reviews. After that, the orb counts every 1000 reviews up to a maximum of 10,000 reviews.</p>
+<h3 id="streaks-tree"><a class="header" href="#streaks-tree">Streaks Tree</a></h3>
+<p><img src="images/Leaderboard/StreaksTree/StreaksTree.png" alt="StreaksTree" /></p>
+<p>A tree grows after one week and can grow up a maximum of 3 years.</p>
+<h4 id="cracker"><a class="header" href="#cracker">Cracker</a></h4>
+<p><img src="images/Leaderboard/StreaksTree/StreaksCracker.png" alt="StreaksCracker" /></p>
+<p>Added a function that sometimes display cracker or cake by streaks.</p>
+<h3 id="retention-weather"><a class="header" href="#retention-weather">Retention Weather</a></h3>
+<p><img src="images/Leaderboard/Retention/retention.png" alt="retention" /></p>
+<p>The weather icon changes according to the retention rate.</p>
+<h3 id="xp-progressbars"><a class="header" href="#xp-progressbars">XP ProgressBars</a></h3>
+<p><img src="images/Leaderboard/XP-progress/xp-progress.png" alt="xp-progress" /></p>
+<p>Calculates and displays the level from the XP (League Only). The blue progress bar indicates the XP required for the next level.</p>
+<h4 id="level-calculation-formula"><a class="header" href="#level-calculation-formula">Level calculation formula</a></h4>
+<p>Calculated to be level 100 at approximately the top of the Alpha League, for now. (EXP 20,000,000)</p>
+<p>python: <code>math.floor(math.sqrt(exp / 2000))</code></p>
 <h2 id="related-add-ons"><a class="header" href="#related-add-ons">🔗Related Add-ons</a></h2>
 <ol>
 <li><a href="https://ankiweb.net/shared/info/1797615099" target="_blank">📌Rearrange home addons </a><br></li>
@@ -515,7 +573,8 @@ In any way we lack development resources yet at the moment, so basically please 
 <h3 id="q-what-is-the-reason-for-using-the-bonus-instead-of-real-retention"><a class="header" href="#q-what-is-the-reason-for-using-the-bonus-instead-of-real-retention">Q. What is the reason for using the bonus instead of real retention?</a></h3>
 <p>The reason for this is that retention is calculated by ranges.<br><br>
 Basically the retention rate recommended by Anki is 80-90%, and dedicated learners may aim for 90-95% or so. It is possible to aim for 95%-100%, but this is not efficient because the learning workload increases significantly, like this:<br></p>
-<p><img src="images/AnkiTorminator/workload.png" alt="workload" /></p>
+<!-- ![workload](images/AnkiTorminator/workload.png) -->
+<p><img src="images/AnkiTorminator/workload-mini.png" alt="alt text" /></p>
  <br>
  This means that Anki retention rates are not recommended to be perfect or as high as possible, and possibly slightly lower is more efficient for learning.
  <br> <br>
