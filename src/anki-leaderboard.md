@@ -14,8 +14,9 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
 
 <iframe src="https://www.youtube.com/embed/nJvFxID874g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
 
+![leaderboard](images/Leaderboard/main-image/main-image-v2.png)
 
-![leaderboard](images/Leaderboard/00_leaderboard_dark_700.png)
+<!-- ![leaderboard](images/Leaderboard/00_leaderboard_dark_700.png) -->
 <br>
  *I've enhanced graphics by adding countries, ranks, tooltips, etc. If you find it distracting you can disable it in the settings. (Config -> others tab -> add Pic country and league)*
 <br>
@@ -39,6 +40,17 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
   - [📸Profile icon](#profile-icon)
   - [Rank icons](#rank-icons)
   - [Sync multiple devices](#sync-multiple-devices)
+  - [🎮️Gamification Mode](#️gamification-mode)
+    - [Online Status](#online-status)
+    - [Review ProgressBar](#review-progressbar)
+      - [Alert Emoji](#alert-emoji)
+    - [Time Ranks](#time-ranks)
+    - [Review Orb and Crystal](#review-orb-and-crystal)
+    - [Streaks Tree](#streaks-tree)
+      - [Cracker](#cracker)
+    - [Retention Weather](#retention-weather)
+    - [XP ProgressBars](#xp-progressbars)
+      - [Level calculation formula](#level-calculation-formula)
   - [🔗Related Add-ons](#related-add-ons)
   - [💖Credit](#credit)
 - [🚨Report problems or requests](#report-problems-or-requests)
@@ -192,8 +204,76 @@ The default leaderboard does not allow multiple devices to log in at the same ti
 This saved data has nothing to do with the server's leaderboard data, so you can either delete it or not after a successful login. (Sync multiple devices -> Delete AnkiWeb config data)
 
 
+## 🎮️Gamification Mode
+
+![game-mode](images/Leaderboard/game-mode/game-modev2.png)
+
+Enhanced gamification with more icons and numerical feedback. If you don't like it, you can disable it at once in the options(Config -> Oters tab).
+The code is not optimized yet, so there is a disadvantage for now that it increases the delay before the window is displayed.
+
+### Online Status
+
+![online-status](images/Leaderboard/online-status/online-status.png)
+
+Display of yesterday's users. Added a function to display the scores of users who logged in yesterday and not only today. Users who logged in today will see a green dot. If you do not like this yesterday, you can optionally disable it (Show only today's users).
 
 
+### Review ProgressBar
+
+![review-progress](images/Leaderboard/review-progress-bar/review-progress.png)
+
+This will reach 100% when the average number of reviews for the month is reached.
+
+#### Alert Emoji
+
+![alert-emoji](images/Leaderboard/review-progress-bar/alert-emoji.png)
+
+Added a function to display seconds in review. The 0-2 seconds/card is indicated by a patlamp. (Since the most common reason reported so far is that the review is too fast.) This function is only for display, so there is no penalty for now. If you are reviewing too fast for some reason, I recommend you to write the reason in Bio. (Because Bio will be displayed when someone reports a user.)
+
+### Time Ranks
+
+![time-02](images/Leaderboard/time/time-02.png)
+
+The rank changes by the learning time. Maximum 12 hours.
+
+### Review Orb and Crystal
+
+![orb_and_crystal](images/Leaderboard/orb_and_crystal/orb-and-crystal-v2.png)
+
+ Colorful orbs and crystals are displayed based on the average number of reviews in the last 31 days (or 2 weeks of league). The orb will change color and shape for every 100 reviews, counting in 10 steps until 3000 reviews. After that, the orb counts every 1000 reviews up to a maximum of 10,000 reviews.
+
+
+
+
+### Streaks Tree
+
+![StreaksTree](images/Leaderboard/StreaksTree/StreaksTree.png)
+
+A tree grows after one week and can grow up a maximum of 3 years.
+
+#### Cracker
+
+![StreaksCracker](images/Leaderboard/StreaksTree/StreaksCracker.png)
+
+Added a function that sometimes display cracker or cake by streaks.
+
+### Retention Weather
+
+![retention](images/Leaderboard/Retention/retention.png)
+
+The weather icon changes according to the retention rate.
+
+### XP ProgressBars
+
+![xp-progress](images/Leaderboard/XP-progress/xp-progress.png)
+
+Calculates and displays the level from the XP (League Only). The blue progress bar indicates the XP required for the next level.
+
+#### Level calculation formula
+
+Calculated to be level 100 at approximately the top of the Alpha League, for now. (EXP 20,000,000)
+
+python: `math.floor(math.sqrt(exp / 2000))`
 
 
 ## 🔗Related Add-ons
@@ -327,7 +407,8 @@ If you customized “Next day starts at” you will need to set it manually. Ple
 The reason for this is that retention is calculated by ranges.<br><br>
 Basically the retention rate recommended by Anki is 80-90%, and dedicated learners may aim for 90-95% or so. It is possible to aim for 95%-100%, but this is not efficient because the learning workload increases significantly, like this:<br>
 
-![workload](images/AnkiTorminator/workload.png)
+<!-- ![workload](images/AnkiTorminator/workload.png) -->
+![alt text](images/AnkiTorminator/workload-mini.png)
 
  <br>
  This means that Anki retention rates are not recommended to be perfect or as high as possible, and possibly slightly lower is more efficient for learning.
