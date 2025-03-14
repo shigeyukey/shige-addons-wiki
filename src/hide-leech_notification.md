@@ -1,7 +1,9 @@
 # 🩸Hide Leech Notification (Created by Shigeඞ)
 
-
 [![banner_shigeyuki_Original](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](http://patreon.com/Shigeyuki)
+
+**[AnkiWeb Page](https://ankiweb.net/shared/info/324600677) | Code : `324600677`**
+
 
 ### How To Use (For Desktop)
 
@@ -43,5 +45,5 @@ Hello thank you for using this add-on, I'm Shigeඞ! I development of Anki add-o
  So far I received donations from 267 patrons and without their support I never could develop this and release for free, thank you very much!🙏<br><br>
   **Patrons:** *Arthur Bookstein, Haruka, Luis Alberto, Letona Quispe, GP O'Byrne, Tobias Klös, 07951350313540, Daniel Kohl-Fink, Lily, Ernest Chan, Kyle Mondlak, Tim, NamelessGO, Kurt Grabow, Jesse Asiedu, Fahim Shaik, ElAnki, Tae Lee, Ashok Rajpurohit, Jake Stucki, Gabriel Vinicio Guedes, Douglas Beeman, Ketan Pal, NoirHassassin, KM, Abhi S, Haley Schwarz, Jk, Cole Krueger, K, Robert Malone, Wei, Tyler Schulte, Jonathan Contreras, Morgan Torres, Keeler Kime, Sean Voiers, Isabel Guan, Adrine, Oleksandr Pashchenko, Matthew Hartford, ellie, Augusto Stein, Alba Grecia Suárez Recuay, 龍星 武田, Alex D, oiuhroiehg, Aaron Buckley, Osasere Osula, Stellate ggl, Aurora Dzurko, Aayush Bhatawadekar, tarek, adam Katz, K, iuventius, Izz Aryan, Jeanna, Renoaldo Costa Silva Junior, Felipe Dias, Patrick ellis, thunderdunk, Victor Evangelista, Tarek Bouamoud, Robert Wiebalck, Klara Spring, Raffaele Russo, Corentin, Yitzhak Bar Geva, Muneeb Khan, Jason Liu, Hikori, Lê Hoàng Phúc, anonymous, Tobias Günther, mootcourt, Michael Pekala, Sneed100, J P, Juan Salgado, Ansel Ng, Azfar Hussain, Moritz Bluhm, Maik C., sab hoque, Jordan Garnier, Matt LeRoux, Ricardo Escobar, Daniel Valcárcel Málaga, Lerner Alcala, Divyang Golani, Siva Garapati, Blake, J, Chanho Youne, Foxy_null, Rogelio Rojas, Bunion Bandit, ifjymk, Melchior Schilling, Адріан Недбайло* [...full list](https://shigeyukey.github.io/shige-addons-wiki/patrons_credit.html#patrons)
 
-<br><br>
 
+**[AnkiWeb Page](https://ankiweb.net/shared/info/324600677) | Code : `324600677`**
