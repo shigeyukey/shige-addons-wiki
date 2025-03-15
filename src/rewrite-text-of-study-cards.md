@@ -2,7 +2,7 @@
 
 [![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](https://www.reddit.com/user/Shige-yuki)
 
-<!-- ### [AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢` -->
+### [AnkiWeb Page](https://ankiweb.net/shared/info/428359194) | Code : `428359194`
 
 This is a small add-on to rewrite the text of Anki's Home. You can use HTML.
 
@@ -51,3 +51,32 @@ This add-on uses <a href="https://ankiweb.net/shared/info/2133933791" target="_b
  6.  <a href="https://shigeyukey.github.io/shige-addons-wiki/enhance-main-window.html" target="_blank">📊Enhance main window (Fork by Shigeඞ)</a>
  8.  <a href="https://ankiweb.net/shared/info/1845966780" target="_blank">👻Remove tooltip for Answer buttons (Fork by Shigeඞ)</a>
  7.  <a href="https://shigeyukey.github.io/shige-addons-wiki/hide-leech_notification.html" target="_blank">🩸Hide Leech Notification (Created by Shigeඞ)</a>
+
+
+<br><br><br>
+
+<h4><a href="http://patreon.com/Shigeyuki">💖Please Support Shige's Anki add-ons development!</a></h4>
+
+Hello thank you for using this add-on, I'm Shigeඞ! I development of Anki add-ons for [Gamification of learning](https://www.youtube.com/@shigeyuki5397/videos) and so far [I fixed 50+ broken add-ons (Free).]((https://new.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/)) If you support my volunteer development on Patreon you can download all Patrons only add-ons. ($5/month)
+
+[![patrons_banner](https://shigeyukey.github.io/shige-addons-wiki/images/_promotion/promotion_00.gif)](http://patreon.com/Shigeyuki)<br>
+[Get Patrons only addons](https://www.patreon.com/Shigeyuki) | [Patrons Q and A](https://shigeyukey.github.io/shige-addons-wiki/patrons_q_and_a.html) | [Contact](https://shigeyukey.github.io/shige-addons-wiki/contact.html) <br>
+
+
+**\[ Special Thanks ]** <br>
+ So far I received donations from 320 patrons and without their support I never could develop this and release for free, thank you very much!🙏<br><br>
+  **Patrons:** *Arthur Bookstein, Haruka, Luis Alberto, Letona Quispe, 07951350313540, GP O'Byrne, Lily, Ernest Chan, Daniel Kohl-Fink, Tobias Klös, Tim, Kyle Mondlak, NamelessGO, Jesse Asiedu, ElAnki, Kurt Grabow, Jake Stucki, KM, Fahim Shaik, Tae Lee, Ashok Rajpurohit, NoirHassassin, Abhi S, Jonathan Contreras, Morgan Torres, Gabriel Vinicio Guedes, ellie, Matthew Hartford, Douglas Beeman, Ketan Pal, Tyler Schulte, Keeler Kime, Isabel Guan, Aurora Dzurko, tarek, adam Katz, K, iuventius, Patrick ellis, findus161, Augusto Stein, Haley Schwarz, Jk, Cole Krueger, mootcourt, K, Robert Malone, Wei, Sean Voiers, Stellate ggl, Aayush Bhatawadekar, Jeanna, J P, Juan Salgado, Victor Evangelista, Adrine, Oleksandr Pashchenko, Alba Grecia Suárez Recuay, 龍星 武田, Alex D, oiuhroiehg, Aaron Buckley, Osasere Osula, Izz Aryan, qiting zeng, Renoaldo Costa Silva Junior, Felipe Dias, Ansel Ng, Temi Jide, Stephen Ankoma, Azfar Hussain, Jordan Garnier, sab hoque, Tarek Bouamoud, Robert Wiebalck, Raffaele Russo, Corentin, Ythalo Vlogs, Yitzhak Bar Geva, Muneeb Khan, Jason Liu, Hikori, Lê Hoàng Phúc, anonymous, Tobias Günther, Michael Pekala, Sneed100, Elisabeth Barber, Yaeerrrrrr, Christopher Lam, Steven Banner, Alex Kaiser, Svel1989, Matheus Chagas, Tina Weingarten, Benjamin Tarnowski, David C, Moritz Bluhm, Maik C., Matt LeRoux, Lis Y.* [...full list](https://shigeyukey.github.io/shige-addons-wiki/patrons_credit.html#patrons)
+
+
+<br>
+
+## 📥 How do I install this add-on?
+1. Copy and paste the add-on code ( `428359194` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
+2. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
+3. Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!
+
+[Click here and please Rate this add-on, Thank you! :-) <br>
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/428359194)
+
+
+### [AnkiWeb Page](https://ankiweb.net/shared/info/428359194) | Code : `428359194`
