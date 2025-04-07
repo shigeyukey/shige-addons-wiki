@@ -2,10 +2,13 @@
 
 # Shige Add-ons Wiki
 
-- [Introduction](intro.md)
-- [Patrons Q and A](patrons_q_and_a.md)
-- [Credit](patrons_credit.md)
+- [📖Introduction](intro.md)
+- [❓️Patrons Q and A](patrons_q_and_a.md)
+- [💖Credit](patrons_credit.md)
 - [📨Report and Request](contact.md)
+
+[⭐️Anki-tan](Anki-tan.md)
+
 
 # AnkiArcade
 
