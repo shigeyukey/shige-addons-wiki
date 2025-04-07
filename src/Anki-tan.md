@@ -8,7 +8,7 @@
     - [What is Anki-tan?](#what-is-anki-tan)
     - [Gallery](#gallery)
     - [Anki-tan App icon](#anki-tan-app-icon)
-    - [Anki-tan License](#anki-tan-license)
+    - [License](#license)
       - [What is CC-BY-SA 4.0?](#what-is-cc-by-sa-40)
         - [Other Notes](#other-notes)
 
@@ -48,7 +48,7 @@ This add-on does not exist because I drew it on April Fool's Day.
 ![alt text](Anki-tan-illust/011.png)
 
 
-### Anki-tan License
+### License
 
 [CC4 (CC-BY-SA 4.0) <br>
 ![alt text](Anki-tan-illust/cc-by-sa.png)](https://creativecommons.org/licenses/by-sa/4.0/)
