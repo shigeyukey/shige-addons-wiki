@@ -6,7 +6,8 @@
 - [❓️Patrons Q and A](patrons_q_and_a.md)
 - [💖Credit](patrons_credit.md)
 - [📨Report and Request](contact.md)
-- [⭐️Anki-tan](Anki-tan.md)
+
+[⭐️Anki-tan](Anki-tan.md)
 
 
 # AnkiArcade
@@ -73,7 +74,6 @@
 - [🖥️No Distractions Full Screen](no-distractions-full-screen.md)
 - [🔝Always On Top](always-on-top.md)
 - [🎨Anki Redesign](anki-redesign.md)
-- [🔂AnkiRestart](ankirestart.md)
 - [☕Break Timer](break-timer.md)
 - [📊Enhance main window](enhance-main-window.md)
 ---
