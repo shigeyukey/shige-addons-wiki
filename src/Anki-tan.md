@@ -10,7 +10,7 @@
     - [Anki-tan App icon](#anki-tan-app-icon)
     - [License](#license)
       - [What is CC-BY-SA 4.0?](#what-is-cc-by-sa-40)
-        - [Other Notes](#other-notes)
+      - [Other Notes](#other-notes)
 
 
 ### What is Anki-tan?
@@ -62,5 +62,5 @@ I licensed Anki-tan as CC4. (CC-BY-SA 4.0, I referred to the license of [Wikipe-
 3. Commercial use is possible, but since it is CC4, purchasers are free to use Anki-tan's illustrations and designs. (e.g. Purchasers can customize their purchased Anki-tan illustrations to create new products and sell them on CC4.)
 4. This license already allows free use, so you don't need to ask me for permission.
 
-##### Other Notes
+#### Other Notes
 * If you want to use Anki's official logo you probably need to make it clear that it is not the official Anki project. -> [Anki License](https://github.com/ankitects/anki/blob/main/LICENSE)
