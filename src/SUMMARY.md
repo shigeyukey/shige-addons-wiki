@@ -6,8 +6,7 @@
 - [❓️Patrons Q and A](patrons_q_and_a.md)
 - [💖Credit](patrons_credit.md)
 - [📨Report and Request](contact.md)
-
-[⭐️Anki-tan](Anki-tan.md)
+- [⭐️Anki-tan](Anki-tan.md)
 
 
 # AnkiArcade
