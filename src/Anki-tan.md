@@ -53,7 +53,11 @@ This add-on does not exist because I drew it on April Fool's Day.
 [CC4 (CC-BY-SA 4.0) <br>
 ![alt text](Anki-tan-illust/cc-by-sa.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-I licensed Anki-tan as CC4 (CC-BY-SA 4.0) the same license as   [Wikipe-tan.](https://hero.fandom.com/wiki/Wikipe-tan)) It's also the closest to the Open Source license used in the Anki.
+I licensed Anki-tan as CC4 (CC-BY-SA 4.0), because I received several inquiries confirming permission for them to draw Anki-tan.
+
+This license is the same license as Wikipe-tan, and is close to the open source that Anki's program uses.
+
+> *In short, these licenses mean that anybody can use the character, as long as they give appropriate credit to the creator and all derivative work uses the same licensing. ([Wikipe-tan wiki](https://hero.fandom.com/wiki/Wikipe-tan))*
 
 #### What is CC-BY-SA 4.0?
 
