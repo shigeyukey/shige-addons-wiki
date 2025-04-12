@@ -41,6 +41,10 @@ This add-on does not exist because I drew it on April Fool's Day.
 
 ![alt text](Anki-tan-illust/007.png)
 
+
+![alt text](Anki-tan-illust/012.png)
+
+
 ### Anki-tan App icon
 
 256x256, Transparent png.
