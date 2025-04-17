@@ -105,4 +105,4 @@ Hello thank you for using this add-on, I'm Shigeඞ! I development of Anki add-o
 Shigeyuki :
 Hi thanks for using this add-on, I'm Shige!😆
 
-I'm looking for supporters for my add-ons development, because I like Anki! So far I fixed and customized 60+ discontinued add-ons and created 30+ new add-ons. If you support my volunteer development you will get 14 add-ons for patrons only and 15 game themes included in AnkiArcade. Of course even if you are not a supporter feel free to send me your ideas and requests, thanks!
+I'm looking for supporters for my add-ons development, because I like Anki! So far I fixed and customized 60+ discontinued add-ons and created 30+ new add-ons. If you support my volunteer development you will get 14 add-ons for patrons only and 15 game themes included in AnkiArcade. If you have any ideas or requests feel free to send them to me., thanks! :D
