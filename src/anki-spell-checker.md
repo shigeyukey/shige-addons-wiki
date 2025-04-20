@@ -5,7 +5,9 @@
 
 <!-- ### [AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢` -->
 
-![spell check image](images/AnkiSpellChecker/04.png)
+![spell check image](https://shigeyukey.github.io/shige-addons-wiki/https://shigeyukey.github.io/shige-addons-wiki/images/AnkiSpellChecker/04.png)
+
+
 
  Add spell check functionality to Anki by downloading dictionaries (Editor Only). This add-on is a fixed and customized version of <a href="https://github.com/lovac42/SpellingPolice" target="_blank">SpellingPolice</a> by <a href="https://github.com/lovac42" target="_blank">lovac42</a> and <a href="https://github.com/ValentinSchmitz/spell-checker" target="_blank">Spell Checker</a> by <a href="https://github.com/ValentinSchmitz" target="_blank">Valentin</a>, and credit goes to them.
 
@@ -18,7 +20,7 @@ This add-on needs to download a dictionary before you can use it. Click on "🔍
 
 Basically the spell checker should work with just this tab. It supports Windows, Linux, and Mac.
 
-![Dict tab image](images/AnkiSpellChecker/01.png)
+![Dict tab image](https://shigeyukey.github.io/shige-addons-wiki/images/AnkiSpellChecker/01.png)
 
 1. Add New Dict: Download downloads available dictionaries.
 2. Delete: Deletes a dictionary that has already been downloaded.
@@ -34,7 +36,7 @@ Note:
 
 This tab has the same features as the original spell checker. For now it supports Windows and Linux, Mac support is still under development. (This tab is not essential so if you are not sure how to use it feel free to ignore it.)
 
-![Advanced tab image](images/AnkiSpellChecker/02.png)
+![Advanced tab image](https://shigeyukey.github.io/shige-addons-wiki/images/AnkiSpellChecker/02.png)
 
 For detailed instructions on how to use this tab please read the original Add-on page.
  * How to use: <a href="https://github.com/ValentinSchmitz/spell-checker?tab=readme-ov-file#spell-checker-for-anki" target="_blank">Spell Checker</a> by Valentin</a>
@@ -52,7 +54,7 @@ Note: This compile function is relatively fragile, if it does not work well plea
 
 This add-on only works in the Editor for now. Spell check is only available for the field you are typing in.
 
-![Editor image](images/AnkiSpellChecker/05.png)
+![Editor image](https://shigeyukey.github.io/shige-addons-wiki/images/AnkiSpellChecker/05.png)
 
 1. Click the top right button to enable or disable SpellChecker.
 1. Right click on a spell checked word to see the suggested words, and click on it to replace it with the correct word.
