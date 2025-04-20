@@ -106,7 +106,7 @@
 - [🛠️Fix Broken Anki Add-ons Q&A](fixed_addons.md)
 
 ---
-
+- [✅️Anki Spell Checker (New!)](anki-spell-checker.md)
 - [🍣KanjiVocab](KanjiVocab.md)
 - [🔓️Kanji Unlock Addon](kanji_unlocked.md)
 - [📱AnkiCord](ankicord.md)
