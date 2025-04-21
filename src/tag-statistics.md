@@ -10,7 +10,7 @@ This is a fixed and customized Add-on for the latest version of Anki (Anki23 ~ A
 *  Original add-on: [ Tag Statistics ](https://ankiweb.net/shared/info/1909213926) / Author : [fonol](https://github.com/fonol)<br>
 <br>
 
-![Tag image](images/tag_statistics/00.png)
+![Tag image](https://shigeyukey.github.io/shige-addons-wiki/images/tag_statistics/00.png)
 
 ### 📖 How to use
 
