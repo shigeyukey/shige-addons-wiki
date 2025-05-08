@@ -18,17 +18,16 @@ The original Review Lookup was not broken and did not need to be repaired but it
 ## 📖How to use
 
 
-
-![alt text](<images/Review lookup/04.png>)
+![alt text](<https://shigeyukey.github.io/shige-addons-wiki/images/Review%20lookup/04.png>)
 
 Select text in the reviewer and right-click to search and the results will pop up. You can also search for text in the tooltip.
 
 
-![alt text](<images/Review lookup/05.png>)
+![alt text](<https://shigeyukey.github.io/shige-addons-wiki/images/Review%20lookup/05.png>)
 
 ### Option
 
-![alt text](<images/Review lookup/06.png>)
+![alt text](<https://shigeyukey.github.io/shige-addons-wiki/images/Review%20lookup/06.png>)
 
 The options can be accessed from the gear icon in the tooltip or add-ons tools.
 
@@ -50,7 +49,7 @@ Changes to options will not take effect during the review, so you need to finish
 
 ### Include Decks
 
-![alt text](<images/Review lookup/07.png>)
+![alt text](<https://shigeyukey.github.io/shige-addons-wiki/images/Review%20lookup/07.png>)
 
 You can specify which decks to include or exclude from the search. If the search is slow, try reducing the number of too large decks. You can change the checks in bulk by right-clicking.
 
@@ -72,5 +71,5 @@ Hi thank you for using this add-on, I'm Shigeඞ! I'm looking for supporters for
 [Get Patrons only addons](https://www.patreon.com/Shigeyuki) | [Patrons Q and A](https://shigeyukey.github.io/shige-addons-wiki/patrons_q_and_a.html) | [Contact](https://shigeyukey.github.io/shige-addons-wiki/contact.html) <br>
 
 **\[ Special Thanks ]** <br>
- So far I received donations from 354 patrons and without their support I never could develop this and release for free, thank you very much!🙏<br><br>
-  **Patrons:** *Arthur Bookstein, Haruka, Luis Alberto, Letona Quispe, 07951350313540, Lily, Ernest Chan, Daniel Kohl-Fink, GP O'Byrne, Tim, Kyle Mondlak, Jesse Asiedu, Tobias Klös, NamelessGO, ElAnki, Jake Stucki, KM, Abhi S, Kurt Grabow, Jonathan Contreras, Keeler Kime, ellie, Matthew Hartford, Fahim Shaik, Augusto Stein, Tae Lee, Ashok Rajpurohit, NoirHassassin, Morgan Torres, Isabel Guan, tarek, adam Katz, K, iuventius, Patrick ellis, Gabriel Vinicio Guedes, findus161, Douglas Beeman, Ketan Pal, mootcourt, Tyler Schulte, Aurora Dzurko, Juan Salgado, sab hoque, Haley Schwarz, Jk, Cole Krueger, K, Robert Malone, Wei, Sean Voiers, Stellate ggl, Aayush Bhatawadekar, Jeanna, J P, qiting zeng, Temi Jide, Azfar Hussain, Ansel Ng, Victor Evangelista, Adrine, Oleksandr Pashchenko, Lis Y., Ythalo Vlogs, Alba Grecia Suárez Recuay, 龍星 武田, Alex D, oiuhroiehg, Aaron Buckley, Osasere Osula, Izz Aryan, Elisabeth Barber, Yaeerrrrrr, Christopher Lam, Steven Banner, Kaitlyn Bowler, Alex Kaiser, Svel1989, Jordan Brown, Lincoln Jacobs, Heidi, Gabriel Farrugia, Matheus Chagas, Renoaldo Costa Silva Junior, Felipe Dias, Simeon, Tina Weingarten, Benjamin Tarnowski, Stephen Ankoma, David C, Jordan Garnier, Tarek Bouamoud, Robert Wiebalck, Raffaele Russo, Corentin, Yitzhak Bar Geva, Muneeb Khan, Jason Liu, Hikori, Lê Hoàng Phúc, anonymous* [...full list](https://shigeyukey.github.io/shige-addons-wiki/patrons_credit.html#patrons)
+ So far I received donations from 379 patrons and without their support I never could develop this and release for free, thank you very much!🙏<br><br>
+  **Patrons:** *Arthur Bookstein, Haruka, Luis Alberto, Letona Quispe, 07951350313540, Daniel Kohl-Fink, Tim, Lily, Ernest Chan, Kyle Mondlak, GP O'Byrne, NamelessGO, Jesse Asiedu, ElAnki, Tobias Klös, KM, Jake Stucki, Abhi S, Jonathan Contreras, Matthew Hartford, Patrick ellis, Kurt Grabow, Keeler Kime, Isabel Guan, ellie, findus161, Fahim Shaik, Augusto Stein, Tae Lee, Ashok Rajpurohit, NoirHassassin, mootcourt, Morgan Torres, tarek, adam Katz, K, iuventius, Juan Salgado, Gabriel Vinicio Guedes, Douglas Beeman, Ketan Pal, Tyler Schulte, Aurora Dzurko, qiting zeng, Ansel Ng, sab hoque, Ythalo Vlogs, Haley Schwarz, Jk, Cole Krueger, K, Robert Malone, Wei, Sean Voiers, Stellate ggl, Aayush Bhatawadekar, Jeanna, J P, Elisabeth Barber, Yaeerrrrrr, Christopher Lam, Steven Banner, Kaitlyn Bowler, Svel1989, Matheus Chagas, Temi Jide, Azfar Hussain, David C, Victor Evangelista, Adrine, Oleksandr Pashchenko, Lis Y., Alba Grecia Suárez Recuay, 龍星 武田, Alex D, oiuhroiehg, Aaron Buckley, Osasere Osula, Izz Aryan, Alex Kaiser, Jordan Brown, Lincoln Jacobs, Kolorophyll, Heidi, Gabriel Farrugia, Leonora Lomoki Akporyoe, Andrew Yang, Mac, Kylie, Renoaldo Costa Silva Junior, Felipe Dias, Simeon, Tina Weingarten, Bryn Price, Benjamin Tarnowski, Y L, Stephen Ankoma, Jordan Garnier, Tarek Bouamoud, Robert Wiebalck, Raffaele Russo* [...full list](https://shigeyukey.github.io/shige-addons-wiki/patrons_credit.html#patrons)
