@@ -9,7 +9,7 @@ Search and Popup cards by selected text (Customized by Shigeඞ)
 
 This add-on is a customized version of the discontinued add-on <a href="https://github.com/fonol/anki-review-lookup" target="_blank">"Review Lookup"</a>. The original Review Lookup code was developed by <a href="https://github.com/fonol" target="_blank">fonol (prollo, Tom, 2022)</a> and credit goes to them, and the idea of Review Lookup was inspired by [Glutanimate (Aristotelis P.)](https://glutanimate.com/), [Pop-up Dictionary](https://ankiweb.net/shared/info/153625306).
 
-The original Review Lookup was not broken and did not need to be repaired but it is no longer available for download because it was [discontinued](https://ankiweb.net/shared/info/1745211643), so I re-uploaded and customized the add-on (AGPL). This customized version has enhanced user interface, added options, and optimized calculations.
+The original Review Lookup was not broken and did not need to be repaired but it is no longer available for download because it was [discontinued](https://ankiweb.net/shared/info/1745211643) so I re-uploaded and customized the add-on (GNU Affero General Public License). This customized version has enhanced user interface, added options, and optimized calculations.
 
 <!-- https://github.com/fonol/anki-review-lookup -->
 
