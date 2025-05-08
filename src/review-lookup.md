@@ -56,6 +56,11 @@ You can specify which decks to include or exclude from the search. If the search
 
 You need to specify the exact deck that contains the cards, excluding only the parent deck will not exclude cards in the child decks.
 
+### Note
+
+Search may not work well for some languages. (e.g. Japanese, Chinese) If you want to add support for new languages please send me a request.
+
+
 
 <br>
 <h4><a href="http://patreon.com/Shigeyuki">💖Please Support Shige's Anki add-ons development!</a></h4>
