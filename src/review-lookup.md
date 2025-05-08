@@ -1,7 +1,7 @@
 # 🔍️Review Lookup
 Search and Popup cards by selected text (Customized by Shigeඞ)
 
-<!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
+**[AnkiWeb Page](https://ankiweb.net/shared/info/364219370) | Code : `364219370`**
 
 <!-- Customized -->
 [![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](https://www.reddit.com/user/Shige-yuki)
@@ -73,3 +73,12 @@ Hi thank you for using this add-on, I'm Shigeඞ! I'm looking for supporters for
 **\[ Special Thanks ]** <br>
  So far I received donations from 379 patrons and without their support I never could develop this and release for free, thank you very much!🙏<br><br>
   **Patrons:** *Arthur Bookstein, Haruka, Luis Alberto, Letona Quispe, 07951350313540, Daniel Kohl-Fink, Tim, Lily, Ernest Chan, Kyle Mondlak, GP O'Byrne, NamelessGO, Jesse Asiedu, ElAnki, Tobias Klös, KM, Jake Stucki, Abhi S, Jonathan Contreras, Matthew Hartford, Patrick ellis, Kurt Grabow, Keeler Kime, Isabel Guan, ellie, findus161, Fahim Shaik, Augusto Stein, Tae Lee, Ashok Rajpurohit, NoirHassassin, mootcourt, Morgan Torres, tarek, adam Katz, K, iuventius, Juan Salgado, Gabriel Vinicio Guedes, Douglas Beeman, Ketan Pal, Tyler Schulte, Aurora Dzurko, qiting zeng, Ansel Ng, sab hoque, Ythalo Vlogs, Haley Schwarz, Jk, Cole Krueger, K, Robert Malone, Wei, Sean Voiers, Stellate ggl, Aayush Bhatawadekar, Jeanna, J P, Elisabeth Barber, Yaeerrrrrr, Christopher Lam, Steven Banner, Kaitlyn Bowler, Svel1989, Matheus Chagas, Temi Jide, Azfar Hussain, David C, Victor Evangelista, Adrine, Oleksandr Pashchenko, Lis Y., Alba Grecia Suárez Recuay, 龍星 武田, Alex D, oiuhroiehg, Aaron Buckley, Osasere Osula, Izz Aryan, Alex Kaiser, Jordan Brown, Lincoln Jacobs, Kolorophyll, Heidi, Gabriel Farrugia, Leonora Lomoki Akporyoe, Andrew Yang, Mac, Kylie, Renoaldo Costa Silva Junior, Felipe Dias, Simeon, Tina Weingarten, Bryn Price, Benjamin Tarnowski, Y L, Stephen Ankoma, Jordan Garnier, Tarek Bouamoud, Robert Wiebalck, Raffaele Russo* [...full list](https://shigeyukey.github.io/shige-addons-wiki/patrons_credit.html#patrons)
+
+
+## 📥 How do I install this add-on?
+1. Copy and paste the add-on code ( `364219370` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
+2. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
+3. Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!
+
+[Click here and please Rate this add-on, Thank you! :-) <br>
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/364219370)
