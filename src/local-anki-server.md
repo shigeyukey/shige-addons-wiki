@@ -66,8 +66,7 @@ When you start Anki the local server is auto started. The default username and p
 
 3. You will need storage for the decks. This means that storing sync data on a laptop doubles the file size. (e.g. decks for review + decks for sync)
 
-4. Basically the self-hosted server is a feature for advanced Anki users so there is no official Anki support.
-
+4. Basically the self-hosted server is a feature for advanced Anki users so there is no official Anki support. This add-on is developed by me and is not related to the official Anki, and there is no warranty for any problems or damages that may occur.
 
 #### Notes
 
@@ -193,6 +192,7 @@ Tailscale is a popular service that automatically sets up almost all of these co
 #### Notes
 
 1. This option is there to make the server URL easier to read, so if you already know the exact URL you can use the server without entering this option, because the laptop already has access to the local wifi.
+2. Tailscale uses the free and open source WireGuard, so maybe advanced users can connect using WireGuard instead of Tailscale.
 
 ### Documents
 
