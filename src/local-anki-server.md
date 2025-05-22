@@ -10,35 +10,6 @@ Use self-hosted server with Wifi
 <!-- Created -->
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
 
-<div style="margin: 20px 0;">
-  <select id="translateLanguage" style="padding: 5px; margin-right: 10px;">
-    <option value="en">English</option>
-    <option value="ja">日本語</option>
-    <option value="es">Español</option>
-    <option value="fr">Français</option>
-    <option value="de">Deutsch</option>
-    <option value="zh-CN">简体中文</option>
-    <option value="zh-TW">繁體中文</option>
-    <option value="ko">한국어</option>
-    <option value="ru">Русский</option>
-    <option value="pt">Português</option>
-    <option value="it">Italiano</option>
-  </select>
-  <button onclick="translatePage()" style="padding: 5px 10px; cursor: pointer;">
-    <span style="vertical-align: middle;">Translation</span>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Google_Translate_logo.svg" alt="Google翻訳" style="height: 16px; vertical-align: middle; margin-left: 5px;">
-  </button>
-</div>
-
-<script>
-function translatePage() {
-  const targetLang = document.getElementById('translateLanguage').value;
-  const currentUrl = window.location.href;
-  const googleTranslateUrl = `https://translate.google.com/translate?sl=auto&tl=${targetLang}&u=${encodeURIComponent(currentUrl)}`;
-  window.location.href = googleTranslateUrl;
-}
-</script>
-
 
 
 ### What is this Add-on?
