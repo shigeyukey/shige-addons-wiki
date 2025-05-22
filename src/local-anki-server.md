@@ -68,6 +68,8 @@ When you start Anki the local server is auto started. The default username and p
 
 3. You will need storage for the decks. This means that storing sync data on a laptop doubles the file size. (e.g. decks for review + decks for sync)
 
+4. The server built into Anki is intended for personal use so it is simple. It's not possible to review only with a browser like AnkiWeb.
+
 4. Basically the self-hosted server is a feature for advanced Anki users so there is no official Anki support. This add-on is developed by me and is not related to the official Anki, and there is no warranty for any problems or damages that may occur (because this Free add-on is developed by me as a personal hobby volunteer, not for work or business).
 
 #### Notes
