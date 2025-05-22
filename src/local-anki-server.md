@@ -119,7 +119,7 @@ Enter this URL into the AnkiMobile or AnkiDroid options to access the local serv
 
 #### OR code
 
-Instead of manually typing the URL into your mobile device, you can use the QR code to display and copy the URL. Laptop and mobile must be connected to the same Wifi.
+Instead of manually typing the URL into your mobile device, you can use the QR code to display and copy the URL. Laptop and mobile must be connected to the same Wifi. If you want to use an online server URL additional setup is required (VPN).
 
 ![alt text](images/local-anki-server/05.png)
 
