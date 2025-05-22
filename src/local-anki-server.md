@@ -108,7 +108,7 @@ When you press Save, or when you log in a new user, the server will exit and res
 
 You can open this add-on option from Tools. If you want to use the server only with local Wifi then the options in this tab should work well enough. (Just login and use the server URL.)
 
-![alt text](images/local-anki-server/01.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/01.png)
 
 
 #### User Setting
@@ -124,7 +124,7 @@ Enter this URL into the AnkiMobile or AnkiDroid options to access the local serv
 
 Instead of manually typing the URL into your mobile device, you can use the QR code to display and copy the URL. Laptop and mobile must be connected to the same Wifi. If you want to use an online server URL additional setup is required (VPN).
 
-![alt text](images/local-anki-server/05.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/05.png)
 
 #### User Self-hosted server
 
@@ -139,7 +139,7 @@ Or if you want to enter manually instead of automatically:
 
 The options on this tab are set automatically, so basically you don't need to change them unless you want to.
 
-![alt text](images/local-anki-server/03.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/03.png)
 
 #### Custom Anki Path
 You can specify the path to the Anki executable. If the auto-detected path is wrong, you can set the correct path. e.g. `C:\Users\UserName\AppData\Local\Programs\Anki\anki.exe`
@@ -174,7 +174,7 @@ You can change the number of the server host to be used locally. This is needed 
 
 You can add users to be used on the server.
 
-![alt text](images/local-anki-server/04.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/04.png)
 
  It is needed if you want to use multiple profiles and accounts, at the moment up to 7 users can be added. When you add a user, a new folder will be created in the Sync Base Path. To change the username and password, please read [Custom Sync Base Path](#custom-sync-base-path).
 
@@ -183,7 +183,7 @@ You can add users to be used on the server.
 
 This option is for accessing your home wifi from outsid, if you want to use it only with local Wifi you don't need to setup it. If the server is not working locally yet this option will not work so please make sure the server is working with your local wifi first. I recommend Tailscale because it is very easy to get a host.
 
-![alt text](images/local-anki-server/02.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/02.png)
 
 
 #### Why Tailscale?
