@@ -78,7 +78,7 @@ When you start Anki the local server is auto started. The default username and p
 
 1. If you do not log in for about 6 months, your AnkiWeb account will be deleted by the official Anki. So if you want to keep your AnkiWeb account, I recommend you to sync with AnkiWeb from time to time to back up your decks.
 
-1. The local server depends on the server built into Anki. So major changes to the official Anki server may cause problems.
+1. The local server depends on the server built into Anki. In other words this add-on does not create a server it only controls the server built into Anki. So a major update to the latest Anki may cause errors and problems just like normal add-ons.
 
 5. The server communicates via wifi, so if your antivirus software or firewall blocks access to the server and Anki, you may not be able to connect even if you setup this add-on correctly (of, Wifi at school or company prohibits access). If so, the solution is different for each device and software so I cannot support it.
 
