@@ -174,7 +174,7 @@ You can add users to be used on the server.
 
 ![alt text](images/local-anki-server/04.png)
 
- It is needed if you want to use multiple profiles and accounts, at the moment up to 7 users can be added. When you add a user, a new folder will be created in the Sync Base Path. To change the username and password, please read [Custom sync base path](https://shigeyukey.github.io/shige-addons-wiki/local-anki-server.html#custom-sync-base-path).
+ It is needed if you want to use multiple profiles and accounts, at the moment up to 7 users can be added. When you add a user, a new folder will be created in the Sync Base Path. To change the username and password, please read [Custom Sync Base Path](#custom-sync-base-path).
 
 
 ### Online Tab
