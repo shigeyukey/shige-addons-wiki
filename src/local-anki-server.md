@@ -4,7 +4,7 @@ Use self-hosted server with Wifi
 <!-- 🌐Local Anki Server - Use self-hosted server with Wifi (Created by Shigeඞ) -->
 
 
-<!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
+**[AnkiWeb Page](https://ankiweb.net/shared/info/49665391) | Code : `49665391`**
 
 
 <!-- Created -->
@@ -45,6 +45,7 @@ This is an add-on to use a local server instead of AnkiWeb server. The latest ve
     - [Documents](#documents)
       - [Info for developer](#info-for-developer)
   - [🚨Report](#report)
+  - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
 ## Introduction
 
@@ -226,7 +227,7 @@ If you want to read the debug info of the server please display the console when
 
 If you have any problems or requests feel free to send them to me.
 
-  <!-- 1. <a href="https://ankiweb.net/shared/review/🟢" target="_blank">👍️Rate Comment</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development. -->
+  1. <a href="https://ankiweb.net/shared/review/49665391" target="_blank">👍️Rate Comment</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development.
   2. <a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">👩‍🚀Reddit</a> : You can request me to repair broken Add-ons.
   2. <a href="https://forums.ankiweb.net/t/simple-fix-of-broken-add-ons-for-the-latest-anki-by-shige/41650" target="_blank">🌟AnkiForums</a> : You can request me to repair broken Add-ons, and it is ideal for open discussions.
   3. <a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">🐙Github </a> : Makes it easier to track problems.
@@ -248,12 +249,15 @@ Hi thank you for using this add-on, I'm Shigeඞ! I'm looking for supporters for
  So far I received donations from 393 patrons and without their support I never could develop this and release for free, thank you very much!🙏<br><br>
   **Patrons:** *Arthur Bookstein, Haruka, Luis Alberto, Letona Quispe, 07951350313540, Daniel Kohl-Fink, Lily, Tim, Ernest Chan, Kyle Mondlak, GP O'Byrne, NamelessGO, Jesse Asiedu, ElAnki, Tobias Klös, KM, Abhi S, Jake Stucki, Jonathan Contreras, ellie, Matthew Hartford, Patrick ellis, Kurt Grabow, Keeler Kime, Isabel Guan, tarek, adam Katz, K, iuventius, findus161, Fahim Shaik, Augusto Stein, Tae Lee, Ashok Rajpurohit, NoirHassassin, mootcourt, Morgan Torres, Juan Salgado, Gabriel Vinicio Guedes, sab hoque, Douglas Beeman, Ketan Pal, Tyler Schulte, Aurora Dzurko, qiting zeng, Temi Jide, Ansel Ng, Lis Y., Ythalo Vlogs, Haley Schwarz, Jk, Cole Krueger, K, Robert Malone, Wei, Sean Voiers, Stellate ggl, Aayush Bhatawadekar, Jeanna, J P, Elisabeth Barber, Yaeerrrrrr, Christopher Lam, Steven Banner, Kaitlyn Bowler, Svel1989, Kolorophyll, Heidi, Gabriel Farrugia, Leonora Lomoki Akporyoe, Matheus Chagas, Tina Weingarten, Azfar Hussain, David C, Victor Evangelista, Adrine, Oleksandr Pashchenko, Alba Grecia Suárez Recuay, 龍星 武田, Alex D, oiuhroiehg, Aaron Buckley, Osasere Osula, Ujwal Chadha, Izz Aryan, Alex Kaiser, Jordan Brown, Lincoln Jacobs, Andrew Yang, Mac, Kylie, pie_is_good, gus forester, Woody, Sebastian Bellotti, Renoaldo Costa Silva Junior, Felipe Dias, Simeon, Bryn Price, Benjamin Tarnowski, Xiuxuan Wang* [...full list](https://shigeyukey.github.io/shige-addons-wiki/patrons_credit.html#patrons)
 
+<br><br>
 
-<!-- ## 📥 How do I install this add-on?
-1. Copy and paste the add-on code ( `🟢` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
+## 📥 How do I install this add-on?
+1. Copy and paste the add-on code ( `49665391` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
 2. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
 3. Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!
 
 [Click here and please Rate this add-on, Thank you! :-) <br>
- ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/🟢) -->
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/49665391)
 
+
+**[AnkiWeb Page](https://ankiweb.net/shared/info/49665391) | Code : `49665391`**
