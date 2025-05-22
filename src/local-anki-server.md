@@ -128,7 +128,9 @@ Instead of manually typing the URL into your mobile device, you can use the QR c
 
 Enabling this will automatically set the URL of the new local server to your Anki for desktop. If turned off, it will disable the self-hosted server setup for this Anki for desktop and return it to AnkiWeb. (But the local server will continue to run even if it is turned off.)
 
-Or if you want to enter manually instead of automatically: Tools -> Preferences -> Sync -> Self hosted Sync Server
+Or if you want to enter manually instead of automatically:
+ 1. Disable this option
+ 1. Tools -> Preferences -> Sync -> Self hosted Sync Server
 
 
 ### Custom tab
