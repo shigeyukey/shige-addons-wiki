@@ -199,8 +199,10 @@ Tailscale is a popular service that automatically sets up almost all of these co
 
 #### Notes
 
+1. I cannot provide support on how to use Tailscale. Please contact them directly or search the Tailscale community and ask them.
 1. This option is there to make the server URL easier to read, so if you already know the exact URL you can use the server without entering this option, because the laptop already has access to the local wifi.
-2. Tailscale uses the free and open source WireGuard, so maybe advanced users can connect using WireGuard instead of Tailscale.
+1. Tailscale uses the free and open source WireGuard, so maybe advanced users can connect using WireGuard instead of Tailscale.
+
 
 ### Documents
 
