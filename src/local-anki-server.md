@@ -140,7 +140,7 @@ The options on this tab are set automatically, so basically you don't need to ch
 ![alt text](images/local-anki-server/03.png)
 
 #### Custom Anki Path
-You can specify the path to the Anki executable. e.g. `C:\Users\UserName\AppData\Local\Programs\Anki\anki.exe` If the auto-detected path is wrong, you can set the correct path.
+You can specify the path to the Anki executable. If the auto-detected path is wrong, you can set the correct path. e.g. `C:\Users\UserName\AppData\Local\Programs\Anki\anki.exe`
 
 Or if you have downloaded multiple versions of Anki, you can use the Anki executable to fix the version of Anki to use on the server.
 
