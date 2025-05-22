@@ -44,6 +44,7 @@ This is an add-on to use a local server instead of AnkiWeb server. The latest ve
       - [How to set up a VPN online with Tailscale?](#how-to-set-up-a-vpn-online-with-tailscale)
       - [Notes](#notes-1)
     - [Documents](#documents)
+      - [Info for developer](#info-for-developer)
   - [🚨Report](#report)
 
 ## Introduction
@@ -215,6 +216,10 @@ AnkiManual explains how to use the server built into Anki. If you want to use th
     (Anki FAQ) Are there limits on file sizes on AnkiWeb?</a>
 2. <a href="https://github.com/ankitects/anki/tree/main/docs/syncserver">(For Developers) Building and running Anki sync server in Docker</a>
 
+
+#### Info for developer
+
+If you want to read the debug info of the server please display the console when you start Anki. e.g. Windows -> [anki-console.bat](https://docs.ankiweb.net/platform/windows/startup-issues.html?highlight=console#debugging)
 
 <br><br>
 
