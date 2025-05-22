@@ -79,7 +79,7 @@
 
 # Free add-ons by Shige
 
-  <!-- - [🌐Local Anki Server (New!)](local-anki-server.md) -->
+  - [🌐Local Anki Server (New!)](local-anki-server.md)
   - [🎮Today Again Count](today-again-count.md)
   - [📌Rearrange home addons](rearrange-home-addons.md)
   - [🐻TidyAnkiBear](tidyankibear.md)
