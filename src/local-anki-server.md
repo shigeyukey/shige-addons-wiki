@@ -11,7 +11,6 @@ Use self-hosted server with Wifi
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
 
 
-
 ### What is this Add-on?
 
 This is an add-on to use a local server instead of AnkiWeb server. The latest version of Anki for desktop has a built-in <a href="https://docs.ankiweb.net/sync-server.html">Self-Hosted Sync Server</a></a> for advanced Anki users, this add-on makes that server easier to use for beginner Anki users, so you can easily use the local server by just logging in with very little setup.
