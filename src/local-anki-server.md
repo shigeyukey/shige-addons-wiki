@@ -21,7 +21,7 @@ This is an add-on to use a local server instead of AnkiWeb server. The latest ve
     - [Why use a local server instead of AnkiWeb?](#why-use-a-local-server-instead-of-ankiweb)
     - [What are the disadvantages and risks of a local server?](#what-are-the-disadvantages-and-risks-of-a-local-server)
       - [Notes](#notes)
-    - [How to terminate the server](#how-to-terminate-the-server)
+    - [How to terminate the server?](#how-to-terminate-the-server)
   - [How to use](#how-to-use)
     - [Settings](#settings)
     - [Local tab](#local-tab)
@@ -83,7 +83,7 @@ When you start Anki the local server is auto started. The default username and p
 
 
 
-### How to terminate the server
+### How to terminate the server?
 
 The local sync server will continue to run automatically in the background, and basically the server will automatically terminate when Anki is closed. If for some reason the server does not close automatically, you will need to close it from the Task Manager. (Or restart your laptop.)
 
