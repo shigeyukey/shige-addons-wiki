@@ -148,7 +148,7 @@ Or if you have downloaded multiple versions of Anki, you can use the Anki execut
 
 This is the path to the folder where the server data is stored. The default path is `~.syncserver`. (e.g. `C:\Users\UserName\.syncserver`) You can change the path where decks are stored by setting a new path. This path cannot be the same as the path where Anki's decks are stored. (In other words, the server data must be stored in a different location from where Anki and your decks are stored.)
 
-If you press the button it will open the location of the path where you have saved the decks on the server. Be careful not to accidentally delete your decks.
+If you press the button it will open the location of the path where you have saved the decks on the server. If you want to delete the server data, delete those folders, anb be careful not to delete the account you need by mistake.
 
 ##### How to change username and password?
 The username is used to name the folder. So if you want to change your username, you can open this path and change the folder name directly. Changing the name while the server is running may cause some problems, so I recommend that you close Anki and then change the name. (The server will run automatically until you close Anki.)
