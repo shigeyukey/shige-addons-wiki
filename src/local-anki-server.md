@@ -28,7 +28,7 @@ This is an add-on to use a local server instead of AnkiWeb server. The latest ve
     - [Local tab](#local-tab)
       - [User Setting](#user-setting)
       - [Local Server URL](#local-server-url)
-      - [OR code](#or-code)
+      - [QR code](#qr-code)
       - [User Self-hosted server](#user-self-hosted-server)
     - [Custom tab](#custom-tab)
       - [Custom Anki Path](#custom-anki-path)
@@ -121,7 +121,7 @@ When you press the “Login User 1” button, the username, password, and local 
 
 Enter this URL into the AnkiMobile or AnkiDroid options to access the local server from your mobile. Laptop and mobile must be connected to the same Wifi. The server will be restarted to reflect the latest options.
 
-#### OR code
+#### QR code
 
 Instead of manually typing the URL into your mobile device, you can use the QR code to display and copy the URL. Laptop and mobile must be connected to the same Wifi. If you want to use an online server URL additional setup is required (VPN).
 
