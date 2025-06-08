@@ -15,6 +15,16 @@ This is a free [Anki](https://apps.ankiweb.net/) add-on to generate Anki cards f
 ![alt text](images/patreon-card-generator/05.png)
 
 
+- [Patreon Card Generator](#patreon-card-generator)
+    - [How to use](#how-to-use)
+    - [Purpose of use](#purpose-of-use)
+    - [How to get Patreon API](#how-to-get-patreon-api)
+    - [Options](#options)
+    - [Card Template](#card-template)
+    - [Notes](#notes)
+    - [License and Credit](#license-and-credit)
+  - [🚨Report](#report)
+
 ### How to use
 
 1. Provide something then recruit patrons on [Patreon](https://www.patreon.com/). (e.g. volunteer work)
