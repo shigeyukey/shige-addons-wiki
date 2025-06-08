@@ -12,7 +12,7 @@ This is a free [Anki](https://apps.ankiweb.net/) add-on to generate Anki cards f
 
 
 *Example of a generated card (night mode):*
-![alt text](images/patreon-card-generator/05.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/patreon-card-generator/05.png)
 
 
 ### How to use
@@ -32,13 +32,13 @@ When the number of patrons increases a lot the creator does not know who is supp
 To use this add-on, you need a **“Creator's Access Token”** from the Patreon API.
 
 (Tools -> Patreon card generator)<br>
-![alt text](images/patreon-card-generator/06.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/patreon-card-generator/06.png)
 
 
  Click on “Create Clients” to register your new API. **[Patreon: Register your Client](https://www.patreon.com/portal/registration/register-clients)**
 
 
-![alt text](images/patreon-card-generator/00.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/patreon-card-generator/00.png)
 
 The following four inputs are required.
 
@@ -46,16 +46,16 @@ The following four inputs are required.
 2. **Redirect URL:** This add-on does not use a URL and can be anything. (I use my Patreon URL).
 3. **Clients API:** This should be set to 2. (default).
 
-![alt text](images/patreon-card-generator/01.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/patreon-card-generator/01.png)
 
 If the registration is successful, the new API will be displayed as follows, click the arrow to display.
 
-![alt text](images/patreon-card-generator/03.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/patreon-card-generator/03.png)
 
 Copy this **"Creator's Access Token"** and use it in add-on.
 (Other tokens and the ID are not used.)
 
-![alt text](images/patreon-card-generator/02.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/patreon-card-generator/02.png)
 
 For more info on the meaning of these tokens and notes, please read Patreon's reference.  **[Reference: clients-and-api-keys](https://docs.patreon.com/#clients-and-api-keys)**
 
@@ -63,11 +63,11 @@ For more info on the meaning of these tokens and notes, please read Patreon's re
 * After successful card generation, press "Refresh Token" to update the Creator's Access Token and disable the old token.
 * You can delete the API completely by pressing "Delete Client" and entering "Client Sercret".
 
-![alt text](images/patreon-card-generator/04.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/patreon-card-generator/04.png)
 
 ### Options
 
-![alt text](images/patreon-card-generator/07.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/patreon-card-generator/07.png)
 
 1. Max Cards
    * Limit the maximum number of cards to be generated. The default setting is 30,000 cards. A typical shared Anki deck is about 20,000 cards for a single language or medical student deck so I think about 30,000 is the limit for a typical learner.
@@ -87,7 +87,7 @@ For more info on the meaning of these tokens and notes, please read Patreon's re
 
 Running the add-on will generate a deck, a card template, and a tag named "Patreon". The generated cards have these fields. (Renaming a deck, tag, or template may cause the cards to not update properly.)
 
-![alt text](images/patreon-card-generator/08.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/patreon-card-generator/08.png)
 
 
 1. **PatreonID**
