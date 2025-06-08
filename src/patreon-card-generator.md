@@ -6,13 +6,25 @@
 <!-- Created -->
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
 
-<!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
+**[AnkiWeb Page](https://ankiweb.net/shared/info/1438427983) | Code : `1438427983`**
 
 This is a free [Anki](https://apps.ankiweb.net/) add-on to generate Anki cards from Patreon to memorize all the patrons' names and icons, etc. Retrieves patrons data using the [Patreon API](https://docs.patreon.com/#introduction). This add-on is for Patreon creators, not for general Anki users or Patreon members, and it's not related to official Patreon or official Anki.
 
 
-*Example of a generated card (night mode):*
+*Example of a generated card (night mode):* <br>
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/patreon-card-generator/05.png)
+
+
+- [Patreon Card Generator](#patreon-card-generator)
+    - [How to use](#how-to-use)
+    - [Purpose of use](#purpose-of-use)
+    - [How to get Patreon API](#how-to-get-patreon-api)
+    - [Options](#options)
+    - [Card Template](#card-template)
+    - [Notes](#notes)
+    - [License and Credit](#license-and-credit)
+  - [🚨Report](#report)
+  - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
 
 ### How to use
@@ -124,7 +136,7 @@ The license for this add-on is AGPL3, and this add-on uses the [patreon-python](
 
 If you have any problems or requests feel free to send them to me.
 
-  <!-- 1. <a href="https://ankiweb.net/shared/review/🟢" target="_blank">👍️Rate Comment</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development. -->
+  1. <a href="https://ankiweb.net/shared/review/1438427983" target="_blank">👍️Rate Comment</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development.
   2. <a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">👩‍🚀Reddit</a> : You can request me to repair broken Add-ons.
   2. <a href="https://forums.ankiweb.net/t/simple-fix-of-broken-add-ons-for-the-latest-anki-by-shige/41650" target="_blank">🌟AnkiForums</a> : You can request me to repair broken Add-ons, and it is ideal for open discussions.
   3. <a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">🐙Github </a> : Makes it easier to track problems.
@@ -146,13 +158,13 @@ Hi thank you for using this add-on, I'm Shigeඞ! I'm looking for patrons for my
   **Patrons:** *Arthur Bookstein, Haruka, Luis Alberto, Letona Quispe, 07951350313540, Tim, Daniel Kohl-Fink, Lily, Kyle Mondlak, NamelessGO, Ernest Chan, ElAnki, GP O'Byrne, Jesse Asiedu, KM, Tobias Klös, Abhi S, Jonathan Contreras, Matthew Hartford, Jake Stucki, Isabel Guan, findus161, ellie, Patrick ellis, Kurt Grabow, Keeler Kime, tarek, Peasant of Anki, K, iuventius, Juan Salgado, Fahim Shaik, Augusto Stein, Tae Lee, Ashok Rajpurohit, NoirHassassin, mootcourt, Morgan Torres, Gabriel Vinicio Guedes, sab hoque, Ythalo Vlogs, Matheus Chagas, Douglas Beeman, Ketan Pal, Tyler Schulte, Aurora Dzurko, qiting zeng, Elisabeth Barber, Yaeerrrrrr, Christopher Lam, Steven Banner, Temi Jide, Ansel Ng, David C, Lis Y., Haley Schwarz, Jk, Cole Krueger, K, Robert Malone, Wei, Sean Voiers, Stellate ggl, Aayush Bhatawadekar, Jeanna, J P, Kaitlyn Bowler, Svel1989, Kolorophyll, Heidi, Gabriel Farrugia, Leonora Lomoki Akporyoe, Andrew Yang, Mac, Tina Weingarten, Bryn Price, Azfar Hussain, Victor Evangelista, Adrine, Oleksandr Pashchenko, Alba Grecia Suárez Recuay, 龍星 武田, Alex D, oiuhroiehg, Aaron Buckley, Osasere Osula, Ujwal Chadha, Izz Aryan, Alex Kaiser, Jordan Brown, Lincoln Jacobs, Kylie, pie_is_good, gus forester, Woody, Sebastian Bellotti, Hoang Hung, Mia, Cubli, Renoaldo Costa Silva Junior, Felipe Dias* [...full list](https://shigeyukey.github.io/shige-addons-wiki/patrons_credit.html#patrons)
 
 
-<!-- ## 📥 How do I install this add-on?
-1. Copy and paste the add-on code ( `🟢` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
+## 📥 How do I install this add-on?
+1. Copy and paste the add-on code ( `1438427983` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
 2. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
 3. Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!
 
 [Click here and please Rate this add-on, Thank you! :-) <br>
- ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/🟢) -->
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/1438427983)
 
 
- <!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
+ **[AnkiWeb Page](https://ankiweb.net/shared/info/1438427983) | Code : `1438427983`**
