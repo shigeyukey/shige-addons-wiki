@@ -99,6 +99,7 @@
   - [⚙️Meta json Formatter](meta_json_fomatter.md)
   - [📥Addon Bug Detector](save_and_load_enable_add-ons.md)
   - [⛔Disable update addons](disable_update_addons.md)
+  - [💖Patreon Card Generator (New!)](patreon-card-generator.md)
 
 ---
 
