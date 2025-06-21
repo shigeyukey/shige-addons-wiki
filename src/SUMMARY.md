@@ -79,6 +79,8 @@
 
 # Free add-ons by Shige
 
+  - [🤖PiperTTS (New!)](piper-tts.md)
+  - [🎬️FFmpeg Downloader (New!)](ffmpeg-downloader.md)
   - [🌐Local Anki Server (New!)](local-anki-server.md)
   - [🎮Today Again Count](today-again-count.md)
   - [📌Rearrange home addons](rearrange-home-addons.md)
