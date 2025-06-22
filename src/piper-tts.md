@@ -7,7 +7,7 @@
 
 This is an add-on to generate voice from text and add it to Anki cards, using local AI Text to Speech Piper. After downloading an AI voice from the options, you can quickly generate an AI voice locally from the selected text or notes. Currently about 25 languages are supported.
 
-![alt text](images/piperTTS/00.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/piperTTS/00.png)
 
 * [Piper (open source AI text-to-speech project)](https://github.com/rhasspy/piper)
 * [Sample audio](https://rhasspy.github.io/piper-samples/)
@@ -26,7 +26,7 @@ The default audio file format saved is Wav. To save as mp3 you will need FFmpeg.
 
 * Or, see the “[Watch Foreign Language Movies with Anki](https://ankiweb.net/shared/info/939347702)” add-on page of the popular add-on for clear instructions on how to download FFmeg. add-on:
 
-<!-- If you have difficulty installing FFmpeg, this add-on will automatically download FFmpeg to the add-on folder and use FFmpeg. FFmpeg Downloader Create by Shigeඞ -->
+If you have difficulty installing FFmpeg, this add-on will automatically download FFmpeg to the add-on folder and use FFmpeg. addon: [FFmpeg Downloader (Create by Shigeඞ)](https://ankiweb.net/shared/info/1652323034)
 
 ### Note
 * Not sure if it works on MacOS. (it has not been tested yet)
