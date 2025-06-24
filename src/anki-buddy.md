@@ -17,11 +17,11 @@ This add-on is a fixed version for Anki25+ of the addon <a href="https://ankiweb
 
 Demo: [Video Demo on YouTube](https://www.youtube.com/watch?v=cCn8Hh09s0c)
 
-![alt text](images/anki-buddy/01.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/anki-buddy/01.png)
 
-![alt text](images/anki-buddy/02.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/anki-buddy/02.png)
 
-![alt text](images/anki-buddy/03.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/anki-buddy/03.png)
 
 
 
@@ -35,7 +35,7 @@ This add-on does not write to or modify your existing Anki data at all, it only 
 
 
 
-![alt text](images/anki-buddy/00.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/anki-buddy/00.png)
 
 * List mode for manual practice
     * Custom layout based on card fields
