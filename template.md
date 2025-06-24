@@ -51,9 +51,11 @@ If you have any problems or requests feel free to send them to me.
 
 
 ## 📥 How do I install this add-on?
-1. Copy and paste the add-on code ( `🟢` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
-2. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
-3. Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!
+
+1. This add-on works with Anki for desktop (it does not work on mobile). Download Anki from the [official website](https://apps.ankiweb.net/) if you haven't already.
+2. Copy and paste the add-on code ( `🟢` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
+3. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
+4. Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!
 
 [Click here and please Rate this add-on, Thank you! :-) <br>
  ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/🟢)
@@ -127,3 +129,6 @@ Hi thank you for using this add-on, I'm Shigeඞ! I'm looking for supporters for
 
 
 
+Hi I'm add-ons developer Shige, I fixed this add-on and uploaded it to AnkiWeb.
+🟢 (Fixed by Shigeඞ)
+https://ankiweb.net/shared/info/🟢
