@@ -24,18 +24,26 @@ Demo: [Video Demo on YouTube](https://www.youtube.com/watch?v=cCn8Hh09s0c)
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/anki-buddy/03.png)
 
 
-
 Add-on for Anki with a variety of tools for practice. Create multiple choice, matching, and written answer questions using cards from your Anki deck.
 
 This add-on does not replace the core functionality of Anki. It is designed to be supplemental practice. It has not been tested at length with flashcards, so your mileage may vary.
 
 This add-on does not write to or modify your existing Anki data at all, it only reads the deck information. So, it is safe to use. But keep in mind this is an early version, so some features may not work as intended.
 
-# Features
 
-
+## Basic Usage
+Once the add-on is installed, you can click on the Deck and there will be an extra button, "Study Buddy" on the bottom bar.
+Clicking it will take you to the questions wizard:
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/anki-buddy/00.png)
+
+Here you create new question templates with "New..." to set up the practice mode. Then, when you are ready, you can click "OK" to start practicing.
+
+You can also change the Subset on the right panel from "All" to another option, such as Learned to choose which subset cards you are going to study with. The All Groups checkbox means you will study all of those cards, or if you uncheck it you can break down the subset into smaller groups at a time. You can change how many cards are in a group in the Options.
+
+To view a list of cards, you must first set-up the columns in the Options menu. You have to choose at least one column to display from your deck's model. Then, you can use the List button. You can double-click on anything in the List view to view the card that it came from.
+
+## Features
 
 * List mode for manual practice
     * Custom layout based on card fields
