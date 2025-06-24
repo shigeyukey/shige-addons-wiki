@@ -111,6 +111,7 @@
 
 ---
 
+- [🦉AnkiBuddy (New!)](anki-buddy.md)
 - [🔍️Review Lookup (New!)](review-lookup.md)
 - [✅️Anki Spell Checker (New!)](anki-spell-checker.md)
 - [🍣KanjiVocab](KanjiVocab.md)

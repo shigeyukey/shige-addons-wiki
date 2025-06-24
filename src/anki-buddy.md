@@ -1,3 +1,86 @@
+# 🦉AnkiBuddy
+Custom Practice like Quizlet or Duolingo (Fixed by Shigeඞ)
+
+<!-- Customized -->
+[![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](https://www.reddit.com/user/Shige-yuki)
+
+
+<!-- ### [AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢` -->
+<!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
+
+
+This add-on is a fixed version for Anki25+ of the addon <a href="https://ankiweb.net/shared/info/1704476211" target="_blank">"AnkiBuddy - Custom Practice"</a>, originally created by <a href="https://github.com/axelmoreen/" target="_blank">Axel Moreen</a> and credit goes to them. (if the original add-on has been updated for the latest Anki this custom version is not necessary.)
+
+### How to use
+
+*(Almost all of these descriptions and images are partially edited and re-uploaded from the original add-on page by Axel Moreen.)*
+
+Demo: [Video Demo on YouTube](https://www.youtube.com/watch?v=cCn8Hh09s0c)
+
+![alt text](images/anki-buddy/01.png)
+
+![alt text](images/anki-buddy/02.png)
+
+![alt text](images/anki-buddy/03.png)
+
+
+
+Add-on for Anki with a variety of tools for practice. Create multiple choice, matching, and written answer questions using cards from your Anki deck.
+
+This add-on does not replace the core functionality of Anki. It is designed to be supplemental practice. It has not been tested at length with flashcards, so your mileage may vary.
+
+This add-on does not write to or modify your existing Anki data at all, it only reads the deck information. So, it is safe to use. But keep in mind this is an early version, so some features may not work as intended.
+
+# Features
+
+
+
+![alt text](images/anki-buddy/00.png)
+
+* List mode for manual practice
+    * Custom layout based on card fields
+    * Change size of the group to learn  
+    * Choose subsets of the deck (All, Learned, Lapsed, Unlearned)
+    * Show and hide columns
+    * View card information from list
+    * Export to .csv and to .txt (Experimental)
+* Practice mode for quizzing
+    * Multiple choice - choose the correct answer from options
+    * Matching - match left and right side
+    * Write the Answer - type the answer in a box
+        * Field hints 
+        * Virtual keyboard for language learners to use or reference while typing. (Experimental, Only Japanese supported currently)
+    * Correct / incorrect sound feedback
+    * Supports sound field questions / answers
+    * Supports linked audio to a play on a non-sound field (Experimental) 
+    * Balanced deck or true random
+    * Revisit mistakes
+    * Timed mode or unlimited timer
+    * View cards while practicing
+    * Furigana support
+    * View session stats
+
+The add-on also has an options wizard that lets you customize most aspects, like the font of each field, timer length, sounds, default behavior, etc.
+
+
+
+## Note
+
+* AnkiBuddy does not currently support decks containing multiple note types, if the field names are different an error may occur. A workaround for this problem is still under development, please wait.
+* The code fixes are complete but not all features have been tested yet. If you find any problems please contact me.
+
+<br><br>
+
+<br>
+
+<h4><a href="http://patreon.com/Shigeyuki">💖Please Support Shige's Anki add-ons development!</a></h4>
+
+Hi thank you for using this add-on, I'm Shigeඞ! I'm looking for supporters for my add-ons development, because I like Anki! So far I fixed and customized 60+ discontinued add-ons and created 30+ new add-ons. If you support my volunteer development you will get 14 add-ons for patrons only and 15 game themes included in AnkiArcade ($5/month). If you have any ideas or requests feel free to send them to me, thanks! :D
+
+
+[![patrons_banner](https://shigeyukey.github.io/shige-addons-wiki/images/_promotion/promotion_00.gif)](http://patreon.com/Shigeyuki)<br>
+[Get Patrons only addons](https://www.patreon.com/Shigeyuki) | [Patrons Q and A](https://shigeyukey.github.io/shige-addons-wiki/patrons_q_and_a.html) | [Contact](https://shigeyukey.github.io/shige-addons-wiki/contact.html) <br>
+
 
 **[[ Special Thanks ]](https://shigeyukey.github.io/shige-addons-wiki/patrons_credit.html#patrons)** <br>
  So far I received donations from 415 patrons and without their support I never could develop this, thank you very much!🙏<br><br>
