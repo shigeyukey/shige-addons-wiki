@@ -1,26 +1,31 @@
 # Searching PDF Reading and Note-Taking in Add Dialog
 
+<!-- Customized -->
+[![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](https://www.reddit.com/user/Shige-yuki)
+
+
 ![alt text](images/template/broken.png)
 
-**⚠Oops, this add-on does not work with the latest Anki! The last version that works is Anki25.02 -> [Anki25.02 download page](https://github.com/ankitects/anki/releases/tag/25.02)**
+### ⚠Oops this add-on does not work with the latest Anki! The last version that works is Anki25.02 -> [Anki25.02 download page](https://github.com/ankitects/anki/releases/tag/25.02)
 
 Q. How can I use this with the latest Anki?
 * I'm still repairing it and will release it when the repair is finished.
-This add-on does nothing with Anki25.04+ so if you download this add-on, you will be notified when I upload it, please wait.
+This add-on does nothing with Anki25.04+ (it works in Anki25.02) so if you download this add-on, you will be notified when I upload it, please wait.
 
+### Credit
 
-
+This add-on is a frok version for Anki25.02 of the addon <a href="https://github.com/fonol/anki-search-inside-add-card" target="_blank">"Searching PDF Reading and Note-Taking in Add Dialog"</a>, originally created by <a href="https://github.com/fonol" target="_blank">Tom Z</a> and credit goes to them.
 
 ### How to use
 
-
+*(Almost all of these descriptions and images are partially edited and re-uploaded from the original add-on page.)*
 
 This add-on adds a second pane to the Add dialog, which provides a lot of handy functionality. My main uses for it are:
 
  * Having a managed priority queue for stuff I want to read/watch and which supports me in adding notes from this material.
  * Searching through my collection while adding notes to find related information
 
-Some of the following information might be out-dated. At some point, there will be a documentation page hosted on Github or something similar, but as the add-on features and UI are subject to frequent changes at the moment, I prefer to postpone the documentation part until the feature-set/UI is "stable". My advice to learn how stuff works would be to just slowly try things out, you don't have to use all the features, just pick what is useful to you.
+**Some of the following information might be out-dated. At some point, there will be a documentation page hosted on Github or something similar, but as the add-on features and UI are subject to frequent changes at the moment, I prefer to postpone the documentation part until the feature-set/UI is "stable". My advice to learn how stuff works would be to just slowly try things out, you don't have to use all the features, just pick what is useful to you.**
 
 Features atm include:
 
@@ -51,52 +56,54 @@ Features atm include:
 - Importing PDF notes from Zotero CSV exports or directly from folders
 
 What the search part of the add-on does is to build a search index out of your decks, which can then be queried. When you type, it tries to find the note whose text is the most similar to what you have typed or selected. Because naturally, many common words are present in a lot of notes, there is a list of words that should be ignored (so called stop words). Examples in english would be "the", "a", "I", "for", etc. I cannot know what languages you write your notes in, so you have to build it by yourself. The default configuration contains an english stop word list for starters.
-The stop word list is defined in the config file, and you should fit it to your language(s) before using this add-on.
-Your searching will take longer and be less precise if you don't use stop words.
+
+**The stop word list is defined in the config file, and you should fit it to your language(s) before using this add-on. Your searching will take longer and be less precise if you don't use stop words.**
+
 All UI concerning the search is displayed on the right side of the dialog (it is only displayed above a certain window width and height, so don't be confused if it may not be there when you start). The index is built everytime you start Anki, and by default uses your whole collection.
 At the moment, notes you delete are not deleted from the search index until you restart. Same goes for notes you edit during review or in the browser.
 Notes you edit through the edit button in the Add Card dialog are updated immediately.
 
-Please note that some of the following screenshots might be outdated (UI often changes)
+**Please note that some of the following screenshots might be outdated (UI often changes)**
 
 Switching (when the Add window is small, shortcut is CTRL-F):
 
+![alt text](images/pdf-search/00.png)
 
 Editing:
-
+![alt text](images/pdf-search/01.png)
 
 "Timeline" (CTRL + hover to see the info):
+![alt text](images/pdf-search/02.png)
 
 
 Tag info (a little wonky atm):
-
-
+![alt text](images/pdf-search/03.png)
+![alt text](images/pdf-search/04.png)
 
 Night mode styling:
-
+![alt text](images/pdf-search/08.png)
 
 Reader in night mode styling:
-
+![alt text](images/pdf-search/06.png)
 
 Making Clozes:
-
+![alt text](images/pdf-search/09.gif)
 
 Tomato Timer:
-
+![alt text](images/pdf-search/10.png)
 
 "Full Screen"
-
+![alt text](images/pdf-search/11.gif)
 
 "Pages Read"
-
+![alt text](images/pdf-search/12.png)
 
 "Stats"
-
+![alt text](images/pdf-search/13.png)
 
 "Review before continuing to read"
-
-
-
+![alt text](images/pdf-search/14.png)
+![alt text](images/pdf-search/15.gif)
 
 
 The search results are updated when a field on the left is changed, if a query is entered through the bottom search mask, or if text is selected on the left. Results are notes, not cards, where fields are separated by a | character. Clicking on a note will show some (very basic) evaluation on how you performed on card(s) of the note. 
