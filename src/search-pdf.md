@@ -14,9 +14,9 @@ This add-on does nothing with Anki25.04+ (it works in Anki25.02) so if you downl
 
 ### Credit
 
-This add-on is a frok version for Anki25.02 of the addon <a href="https://github.com/fonol/anki-search-inside-add-card" target="_blank">"Searching PDF Reading and Note-Taking in Add Dialog"</a>, originally created by <a href="https://github.com/fonol" target="_blank">Tom Z</a> and credit goes to them.
+This add-on is a frok version for Anki25.02 of the addon <a href="https://github.com/fonol/anki-search-inside-add-card" target="_blank">"Searching PDF Reading and Note-Taking in Add Dialog"</a>, originally created by <a href="https://github.com/fonol" target="_blank">Tom Z</a> and credit goes to them. (AGPL License)
 
-### How to use
+### How to use (For Anki 25.02 and lower versions)
 
 *(Almost all of these descriptions and images are partially edited and re-uploaded from the original add-on page.)*
 
@@ -115,7 +115,7 @@ If you enter "What is Anki?" on the left side of the dialog, your search results
 If you click on Settings & Info -> Synonyms, you will see a dialog that allows for the input of synonym sets. These are used when searching, but only for the searches done through the add-on, not for the browser search (when the bottom search bar is in Mode: Browser).
 
 Old image, but you get the idea:
-
+![alt text](images/pdf-search/16.png)
 
 Terms are separated by ",". If you click inside a set, you can edit it and confirm by pressing enter.
 If you use synonyms, searching works like follows:
@@ -141,7 +141,7 @@ I am quite sure there are smarter ways to schedule and maybe testing will prove 
 
 There is also the possiblity to schedule notes to be shown at certain times. At the moment, this happens mainly in the Create/Update note dialog. When a note is scheduled for a given day, it will be placed in front of the queue on that day. If multiple notes are scheduled on that day, they are all placed in front, and internally sorted by their priority and time last seen just like normal.
 
-
+![](images/pdf-search/17.png)
 
 
 
@@ -232,5 +232,5 @@ Pasted Text from a PDF looks weird
 Can I port the add-on data to another PC?
 -> The relevant data is in the file siac-notes.db, whose location you can find under Info & Settings -> Info > Path to Notes DB. My advice would be to copy the add-on's folder (1781298089) to your new Anki installation's add-on folder, copy siac-notes.db to some safe location and set Path to Note DB to that location.
 
-Please don't use the reviews for bug reports, instead open an issue on Github:
-https://github.com/fonol/anki-search-inside-add-card
+=== 説明ここまで ===
+
