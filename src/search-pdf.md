@@ -24,7 +24,9 @@ This add-on adds a second pane to the Add dialog, which provides a lot of handy 
  * Having a managed priority queue for stuff I want to read/watch and which supports me in adding notes from this material.
  * Searching through my collection while adding notes to find related information
 
-**Some of the following information might be out-dated. At some point, there will be a documentation page hosted on Github or something similar, but as the add-on features and UI are subject to frequent changes at the moment, I prefer to postpone the documentation part until the feature-set/UI is "stable". My advice to learn how stuff works would be to just slowly try things out, you don't have to use all the features, just pick what is useful to you.**
+<!-- **Some of the following information might be out-dated. At some point, there will be a documentation page hosted on Github or something similar, but as the add-on features and UI are subject to frequent changes at the moment, I prefer to postpone the documentation part until the feature-set/UI is "stable". My advice to learn how stuff works would be to just slowly try things out, you don't have to use all the features, just pick what is useful to you.** -->
+
+**Some of the following information might be out-dated. My advice to learn how stuff works would be to just slowly try things out, you don't have to use all the features, just pick what is useful to you.**
 
 Features atm include:
 
@@ -173,8 +175,8 @@ Some notes:
 3. No warranties about compatibility with other add-ons. I personally don't use that many, and it would be exhausting to test all possible combinations, so you have to find out by yourself. 
 
 
-BUGS: I can't respond to bug reports here, so either post an issue here: https://github.com/fonol/anki-search-inside-add-card or, in case you have a reddit account, please send me a message (or comment in this thread: https://www.reddit.com/r/Anki/comments/axpvjf/search_collection_inside_add_cards_dialog/). Username is Brunzus.
-I will try to look after all bugs as soon as I have time.
+<!-- BUGS: I can't respond to bug reports here, so either post an issue here: https://github.com/fonol/anki-search-inside-add-card or, in case you have a reddit account, please send me a message (or comment in this thread: https://www.reddit.com/r/Anki/comments/axpvjf/search_collection_inside_add_cards_dialog/). Username is Brunzus.
+I will try to look after all bugs as soon as I have time. -->
 
 FAQ
 
