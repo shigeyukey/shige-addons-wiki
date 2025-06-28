@@ -70,39 +70,39 @@ Switching (when the Add window is small, shortcut is CTRL-F):
 
 ![alt text](images/pdf-search/00.png)
 
-Editing:
+Editing:  
 ![alt text](images/pdf-search/01.png)
 
-"Timeline" (CTRL + hover to see the info):
+"Timeline" (CTRL + hover to see the info):  
 ![alt text](images/pdf-search/02.png)
 
 
-Tag info (a little wonky atm):
+Tag info (a little wonky atm):  
 ![alt text](images/pdf-search/03.png)
 ![alt text](images/pdf-search/04.png)
 
-Night mode styling:
+Night mode styling:  
 ![alt text](images/pdf-search/08.png)
 
-Reader in night mode styling:
+Reader in night mode styling:  
 ![alt text](images/pdf-search/06.png)
 
-Making Clozes:
+Making Clozes:  
 ![alt text](images/pdf-search/09.gif)
 
-Tomato Timer:
+Tomato Timer:  
 ![alt text](images/pdf-search/10.png)
 
-"Full Screen"
+"Full Screen"  
 ![alt text](images/pdf-search/11.gif)
 
-"Pages Read"
+"Pages Read"  
 ![alt text](images/pdf-search/12.png)
 
-"Stats"
+"Stats"  
 ![alt text](images/pdf-search/13.png)
 
-"Review before continuing to read"
+"Review before continuing to read"  
 ![alt text](images/pdf-search/14.png)
 ![alt text](images/pdf-search/15.gif)
 
