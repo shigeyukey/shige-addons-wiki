@@ -164,6 +164,7 @@
 ---
 # ⚠️broken
 - [Confirm deletion of the card in Reviewer](confirm-deletion-of-the-card-in-reviewer.md)
+- [Searching PDF Reading and Note-Taking in Add Dialog](search-pdf.md)
 
 ---
 

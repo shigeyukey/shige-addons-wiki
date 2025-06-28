@@ -6,11 +6,10 @@
 
 ![alt text](images/template/broken.png)
 
-### ⚠Oops this add-on does not work with the latest Anki! The last version that works is Anki25.02 -> [Anki25.02 download page](https://github.com/ankitects/anki/releases/tag/25.02)
+### ⚠Oops this add-on is still under repair and does not work with the latest Anki! The last version that works is Anki25.02 -> [Anki25.02 download page](https://github.com/ankitects/anki/releases/tag/25.02)
 
 Q. How can I use this with the latest Anki?
-* I'm still repairing it and will release it when the repair is finished.
-This add-on does nothing with Anki25.04+ (it works in Anki25.02) so if you download this add-on, you will be notified when I upload it, please wait.
+* I'm still repairing it and will release it when the repair is finished. This add-on does nothing with Anki25.04+ (it works in Anki25.02) so if you download this add-on, you will be notified when I upload it, please wait.
 
 ### Credit
 
@@ -232,5 +231,10 @@ Pasted Text from a PDF looks weird
 Can I port the add-on data to another PC?
 -> The relevant data is in the file siac-notes.db, whose location you can find under Info & Settings -> Info > Path to Notes DB. My advice would be to copy the add-on's folder (1781298089) to your new Anki installation's add-on folder, copy siac-notes.db to some safe location and set Path to Note DB to that location.
 
-=== 説明ここまで ===
+*(The explanation of the original add-on page ends here)*
+
+### Others
+
+
+
 
