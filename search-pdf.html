@@ -1,0 +1,401 @@
+<!DOCTYPE HTML>
+<html lang="en" class="navy sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Searching PDF Reading and Note-Taking in Add Dialog - Shige addons Wiki</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "navy";
+            const default_dark_theme = "navy";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('navy')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Shige addons Wiki</h1>
+
+                    <div class="right-buttons">
+                        <a href="https://www.patreon.com/Shigeyuki" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-envelope"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="searching-pdf-reading-and-note-taking-in-add-dialog"><a class="header" href="#searching-pdf-reading-and-note-taking-in-add-dialog">Searching PDF Reading and Note-Taking in Add Dialog</a></h1>
+<!-- Customized -->
+<p><a href="https://www.reddit.com/user/Shige-yuki"><img src="https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb" alt="banner_shigeyuki_2" /></a></p>
+<p><img src="images/template/broken.png" alt="alt text" /></p>
+<h3 id="oops-this-add-on-is-still-under-repair-and-does-not-work-with-the-latest-anki-the-last-version-that-works-is-anki2502---anki2502-download-page"><a class="header" href="#oops-this-add-on-is-still-under-repair-and-does-not-work-with-the-latest-anki-the-last-version-that-works-is-anki2502---anki2502-download-page">⚠Oops this add-on is still under repair and does not work with the latest Anki! The last version that works is Anki25.02 -&gt; <a href="https://github.com/ankitects/anki/releases/tag/25.02">Anki25.02 download page</a></a></h3>
+<p>Q. How can I use this with the latest Anki?</p>
+<ul>
+<li>I'm still repairing it and will release it when the repair is finished. This add-on does nothing with Anki25.04+ (it works in Anki25.02) so if you download this add-on, you will be notified when I upload it, please wait.</li>
+</ul>
+<h3 id="credit"><a class="header" href="#credit">Credit</a></h3>
+<p>This add-on is a frok version for Anki25.02 of the addon <a href="https://github.com/fonol/anki-search-inside-add-card" target="_blank">"Searching PDF Reading and Note-Taking in Add Dialog"</a>, originally created by <a href="https://github.com/fonol" target="_blank">Tom Z</a> and credit goes to them. (AGPL License)</p>
+<h3 id="how-to-use-for-anki-2502-and-lower-versions"><a class="header" href="#how-to-use-for-anki-2502-and-lower-versions">How to use (For Anki 25.02 and lower versions)</a></h3>
+<p><em>(Almost all of these descriptions and images are partially edited and re-uploaded from the original add-on page.)</em></p>
+<p>This add-on adds a second pane to the Add dialog, which provides a lot of handy functionality. My main uses for it are:</p>
+<ul>
+<li>Having a managed priority queue for stuff I want to read/watch and which supports me in adding notes from this material.</li>
+<li>Searching through my collection while adding notes to find related information</li>
+</ul>
+<p><strong>Some of the following information might be out-dated. At some point, there will be a documentation page hosted on Github or something similar, but as the add-on features and UI are subject to frequent changes at the moment, I prefer to postpone the documentation part until the feature-set/UI is "stable". My advice to learn how stuff works would be to just slowly try things out, you don't have to use all the features, just pick what is useful to you.</strong></p>
+<p>Features atm include:</p>
+<ul>
+<li>Selecting text inside a field or inside a displayed note allows to search for it</li>
+<li>Automated searching if you type, or if you input tags</li>
+<li>Edit another note (e.g. from the search results) in the add window</li>
+<li>Timeline to see how productive you have been in the current year (CTRL + hovering will show you the cards added on that day)</li>
+<li>Predefined searches (e.g. last added, lowest pass rate, ...)</li>
+<li>Info dialog for displayed notes (Note properties + stats)</li>
+<li>Browser search mask that works exactly like the search you know from the browser window</li>
+<li>Defining synonyms/related terms to include when searching</li>
+<li>Defining stopwords to ignore when searching</li>
+<li>Defining fields to ignore when searching or to hide in the results</li>
+<li>Unsuspending found cards/notes</li>
+<li>Browsing/searching for tags</li>
+<li>Browsing related tags and their notes by hovering over a tag</li>
+<li>Toggling between normal add dialog view and the add-on (by default CTRL-F)</li>
+<li>Notetaking with taggable and searchable notes</li>
+<li>Watching Youtube videos</li>
+<li>Reading PDFs inside the add window, with
+<ul>
+<li>progress tracking, i.e. marking pages as read</li>
+<li>extracting images</li>
+<li>finding related notes on select</li>
+<li>scheduling notes to read in a priority queue</li>
+<li>defining special scheduling dates for notes in the priority queue</li>
+<li>highlighting text and adding comments</li>
+<li>creating extracts (e.g. chapters) from pdf notes, to have them as independent items in the queue</li>
+</ul>
+</li>
+<li>Importing PDF notes from Zotero CSV exports or directly from folders</li>
+</ul>
+<p>What the search part of the add-on does is to build a search index out of your decks, which can then be queried. When you type, it tries to find the note whose text is the most similar to what you have typed or selected. Because naturally, many common words are present in a lot of notes, there is a list of words that should be ignored (so called stop words). Examples in english would be "the", "a", "I", "for", etc. I cannot know what languages you write your notes in, so you have to build it by yourself. The default configuration contains an english stop word list for starters.</p>
+<p><strong>The stop word list is defined in the config file, and you should fit it to your language(s) before using this add-on. Your searching will take longer and be less precise if you don't use stop words.</strong></p>
+<p>All UI concerning the search is displayed on the right side of the dialog (it is only displayed above a certain window width and height, so don't be confused if it may not be there when you start). The index is built everytime you start Anki, and by default uses your whole collection.
+At the moment, notes you delete are not deleted from the search index until you restart. Same goes for notes you edit during review or in the browser.
+Notes you edit through the edit button in the Add Card dialog are updated immediately.</p>
+<p><strong>Please note that some of the following screenshots might be outdated (UI often changes)</strong></p>
+<p>Switching (when the Add window is small, shortcut is CTRL-F):</p>
+<p><img src="images/pdf-search/00.png" alt="alt text" /></p>
+<p>Editing:
+<img src="images/pdf-search/01.png" alt="alt text" /></p>
+<p>"Timeline" (CTRL + hover to see the info):
+<img src="images/pdf-search/02.png" alt="alt text" /></p>
+<p>Tag info (a little wonky atm):
+<img src="images/pdf-search/03.png" alt="alt text" />
+<img src="images/pdf-search/04.png" alt="alt text" /></p>
+<p>Night mode styling:
+<img src="images/pdf-search/08.png" alt="alt text" /></p>
+<p>Reader in night mode styling:
+<img src="images/pdf-search/06.png" alt="alt text" /></p>
+<p>Making Clozes:
+<img src="images/pdf-search/09.gif" alt="alt text" /></p>
+<p>Tomato Timer:
+<img src="images/pdf-search/10.png" alt="alt text" /></p>
+<p>"Full Screen"
+<img src="images/pdf-search/11.gif" alt="alt text" /></p>
+<p>"Pages Read"
+<img src="images/pdf-search/12.png" alt="alt text" /></p>
+<p>"Stats"
+<img src="images/pdf-search/13.png" alt="alt text" /></p>
+<p>"Review before continuing to read"
+<img src="images/pdf-search/14.png" alt="alt text" />
+<img src="images/pdf-search/15.gif" alt="alt text" /></p>
+<p>The search results are updated when a field on the left is changed, if a query is entered through the bottom search mask, or if text is selected on the left. Results are notes, not cards, where fields are separated by a | character. Clicking on a note will show some (very basic) evaluation on how you performed on card(s) of the note.
+Clicking on a tag of the note will add the tag to the currently edited note. Results can be pinned / removed (this will only remove the displayed result, NOT delete anything!).</p>
+<p>Support for synonyms / query expansion (24-03-19)</p>
+<p>If you enter "What is Anki?" on the left side of the dialog, your search results will only contain notes with "anki" in them. But you might want to retrieve related notes too, that do not contain the term "anki", but maybe something like "spaced repetition". Another use case would be word inflection, because currently, stemming is not activated in the index (that would be language dependent), which means searching for "space" and "spacing" will get different results.
+If you click on Settings &amp; Info -&gt; Synonyms, you will see a dialog that allows for the input of synonym sets. These are used when searching, but only for the searches done through the add-on, not for the browser search (when the bottom search bar is in Mode: Browser).</p>
+<p>Old image, but you get the idea:
+<img src="images/pdf-search/16.png" alt="alt text" /></p>
+<p>Terms are separated by ",". If you click inside a set, you can edit it and confirm by pressing enter.
+If you use synonyms, searching works like follows:</p>
+<ul>
+<li>Suppose you typed "What is Anki?"</li>
+<li>Your stopword list contains "what" and "is", so these are removed</li>
+<li>One of your synonym sets contains "anki", so the query gets expanded by all the terms in the set</li>
+<li>End query: "anki srs spaced repetition"</li>
+</ul>
+<p>You should maybe use this conservatively, since you might see too many results for simple queries otherwise.</p>
+<p>IR / Notetaking / PDF reading</p>
+<p>The idea is that you can create notes that are independent of Anki's notes, which are saved in a sqlite database in a folder you can specify. You can create/edit/delete these notes in the add note dialog. If you type or select text, these notes are included in the search results. They can be tagged, and that way, one can access them over the tag dropdown.
+The dialog for creating these notes allows them to be put in a "queue", the idea behind that is to have something like a reading list, so you can simply take the first (or a random) item from the queue, read a part, and create (regular Anki) notes while reading. When you are done, you can move the item to the end of the queue (or somewhere else).
+I currently use the feature for reading my uni textbooks and slides, pasting articles from the web to read later, to quickly create notes containing links or questions, e.g. for anything that could be converted to Anki notes later.</p>
+<p>Update (09-03-20):
+The queue system now works by assigning priorities to items (1-100, where 100 is the highest). I am testing around with scheduling the notes according to their priority in a smart way.
+A note is placed higher in the queue the higher its priority is and the longer it has been since it was last done.</p>
+<p>That means items with a high priority will land at the end of the queue initially just like low prio items, but climb the queue faster in the following hours/days. Because the prio is capped at 100, but the time difference grows infinitely, it is guaranteed to see low priority items eventually.
+I am quite sure there are smarter ways to schedule and maybe testing will prove the current system to be flawed, so I am totally open to improvement suggestions.</p>
+<p>There is also the possiblity to schedule notes to be shown at certain times. At the moment, this happens mainly in the Create/Update note dialog. When a note is scheduled for a given day, it will be placed in front of the queue on that day. If multiple notes are scheduled on that day, they are all placed in front, and internally sorted by their priority and time last seen just like normal.</p>
+<p><img src="images/pdf-search/17.png" alt="" /></p>
+<p>My current workflow goes like this:</p>
+<ol>
+<li>Add my textbooks, lecture slides etc. as PDF notes</li>
+<li>At the start of a session, I open the queue with the book icon, or by clicking Notes &gt; Read Next, read the first item in the queue for some time (I use 30 min pomodoro slices or or if I feel my workload is high, 15 mins to see more different items), make notes, mark difficult pages or pages I need to revisit again</li>
+<li>Click Done or if I feel I want to see the item more/less often, adjust the priority.</li>
+<li>5/15 min break, then read the next item which has now been moved at the top of the queue.</li>
+</ol>
+<p>If you just want to open pdfs without the queue, you could use the sidebar and organize your PDFs by tags, or simply use the "In Progress" search.
+This is not very practicable if you are the pdf viewer (e.g. would require closing the current pdf first), so from there, you currently have three options to quickly open another PDF:</p>
+<ol>
+<li>Ctrl+O hotkey.</li>
+<li>Queue Manager (from the icon on the pdf viewer bottom bar)</li>
+<li>Click 'Browse' or 'PDFs' on the bottom of the fields area</li>
+</ol>
+<p>Highlighting and Comments</p>
+<p>Just a short explanation how they currently work:
+You can select one of the buttons on the pdf's left side, either a color or the Text ("A") symbol. If you then select text while holding down CTRL, it will be highlighted in the currently selected color.
+The comment ("A") button works a bit differently, here you click somewhere, with CTRL pressed. A comment text area should appear at the given location.
+Highlights can be deleted by simply clicking on them, comments by clicking on them with CTRL pressed.</p>
+<p>Some notes:</p>
+<ol>
+<li>
+<p>Cards edited through the browser or deleted in the current session are not in the index/removed from the index until you restart the program.</p>
+</li>
+<li>
+<p>The background color in the pdf viewer is the same as the background color from the built-in nightmode (requires Anki &gt;= 2.1.20), so in my opinion, it looks best with night mode enabled</p>
+</li>
+<li>
+<p>No warranties about compatibility with other add-ons. I personally don't use that many, and it would be exhausting to test all possible combinations, so you have to find out by yourself.</p>
+</li>
+</ol>
+<p>BUGS: I can't respond to bug reports here, so either post an issue here: https://github.com/fonol/anki-search-inside-add-card or, in case you have a reddit account, please send me a message (or comment in this thread: https://www.reddit.com/r/Anki/comments/axpvjf/search_collection_inside_add_cards_dialog/). Username is Brunzus.
+I will try to look after all bugs as soon as I have time.</p>
+<p>FAQ</p>
+<p>Does the add-on need an internet connection?
+-&gt; It works completely offline, with the small exception that Youtube videos can be opened only with a working internet connection.</p>
+<p>My screen is too small for the add-on
+-&gt; There are some settings you could try out: First, you could increase the right column's size by modifying Left Side Width,
+if that's not enough, you could modify the Zoom setting to some value &lt; 1.0, which will simply scale everything on the right side down a bit.</p>
+<p>When I open the add dialog for the first time, index creation takes too long.
+-&gt; There is not much I can do about that, performance depends on your machine and the size of your collection. You can always exclude decks in the config file to reduce the index size.</p>
+<p>My searches take too long
+-&gt; As stated elsewhere, search time depends on lots of factors, but the most determining one's are: Collection size, type of index used.<br />
+I always get the fastest results with SQLite FTS version 5. You can check your version in the Info dialog. If you are using FTS 3, queries are much slower. I suggest trying to update your system's SQLite installation with one that comes compiled with FTS 5 support if possible. As for collection size, you can choose to limit the decks that go into the index, see the decks config option. And make sure you use a stopwords list for your language, as explained in the second paragraph.</p>
+<p>A note in the results seems to be displayed incorrectly (text flows out of the card).
+-&gt; Some notes might contain html that breaks the container into which they are rendered. I try to catch these cases, but if you stumble upon such a note, please open an issue in the github repo with the note text.</p>
+<p>Sometimes a search is not triggered when selecting
+-&gt; The search is triggered when the mouse up happens inside (!) the note (or field input). So if you mark some text, and leave the note area before
+releasing the mouse, nothing happens.</p>
+<p>Some part of the add-on layout is cut-off
+-&gt; The layout tries to make everything visible on every screen size, but if you have problems (typical ex. would be that the add-on UI covers some part of the editor buttons), it could be that its another add-on modifying the editor UI, e.g. an add-on adding an additional row below the editor buttons or stuff like that.</p>
+<p>I have a note with lots of text, and typing seems to lag at some point
+-&gt; Typing typically lags when the results are rendered. My advice would be to either increase the delayWhileTyping config value, which determines how long to wait after the user has stopped typing (I am a slow typer and have mine set to 1500ms atm), so searches aren't triggered too soon while typing, or to uncheck search while typing and use only the FIELDS button to search for your current input.</p>
+<p>What is this Performance stat?
+-&gt; I wanted to have a stat that includes not only the pass rate of a note's cards, but also how long I took on average to answer these cards.
+So I simply came up with a crude formula that calculates a score (1-100) out of the pass rate and avg. time taken. I am open to suggestions about better stats to display there instead, so if you have any ideas, let me know.</p>
+<p>How are the keywords determined?
+-&gt; The keywords are not really determined in a sophisticated way, it's just the words that appear most often in the top n results (n = 20 atm) , minus any stopwords.</p>
+<p>How do I add a PDF?
+-&gt; Click on Notes -&gt; Create -&gt; PDF. Or use Ctrl+Shift+N. In general, all notes are treated as PDF if their Source is a path to a file ending with .pdf.</p>
+<p>How do I add a Youtube video?
+Open the Create Note dialog and paste the URL of the video into the source field. It will be opened as an embedded video then. Please note that not all Youtube uploaders allow embedding their videos on other sites, so in some cases, it might not work.</p>
+<p>What if I move a PDF file while a note is linked to it?
+-&gt; If you moved the file, nothing really should happen except you cannot open the PDF anymore (because the path in source is now incorrect).
+Reading progress and marks are linked with the ID of the note, so if you change the source of the note to again contain the correct path, everything should be fine.</p>
+<p>What is the "Queue"?
+-&gt; The queue can be used to kind of schedule your reading, by taking the first item out of it (typically a pdf note or a note containing some pasted article from the web), reading some part, creating notes while doing so, then moving it somewhere back in the queue. This might not be fitting for everyone's workflow, but I am quite happy with it.</p>
+<p>Pasted Text from a PDF looks weird
+-&gt; Since some of the latest versions, Anki keeps formatting in pasted text. So your pasted text might contain the dark background of the PDF viewer and similar stuff. I don't exactly know about Mac/Linux, but on Windows, you can paste with Ctrl+Shift+V, which pastes the plain text.</p>
+<p>Can I port the add-on data to another PC?
+-&gt; The relevant data is in the file siac-notes.db, whose location you can find under Info &amp; Settings -&gt; Info &gt; Path to Notes DB. My advice would be to copy the add-on's folder (1781298089) to your new Anki installation's add-on folder, copy siac-notes.db to some safe location and set Path to Note DB to that location.</p>
+<p><em>(The explanation of the original add-on page ends here)</em></p>
+<h3 id="others"><a class="header" href="#others">Others</a></h3>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="confirm-deletion-of-the-card-in-reviewer.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="deck-browser-css.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="confirm-deletion-of-the-card-in-reviewer.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="deck-browser-css.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
