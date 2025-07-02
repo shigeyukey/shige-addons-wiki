@@ -111,6 +111,7 @@
 
 ---
 
+- [📖Searching PDF Reading and Note-Taking in Add Dialog(New!)](search-pdf.md)
 - [🦉AnkiBuddy (New!)](anki-buddy.md)
 - [🔍️Review Lookup (New!)](review-lookup.md)
 - [✅️Anki Spell Checker (New!)](anki-spell-checker.md)
@@ -164,7 +165,7 @@
 ---
 # ⚠️broken
 - [Confirm deletion of the card in Reviewer](confirm-deletion-of-the-card-in-reviewer.md)
-- [Searching PDF Reading and Note-Taking in Add Dialog](search-pdf.md)
+
 
 ---
 

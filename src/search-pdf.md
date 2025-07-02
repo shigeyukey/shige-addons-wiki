@@ -1,21 +1,14 @@
-# Searching PDF Reading and Note-Taking in Add Dialog
+# 📖Searching PDF Reading and Note-Taking in Add Dialog
 
 <!-- Customized -->
 [![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](https://www.reddit.com/user/Shige-yuki)
 
 
-![alt text](images/template/broken.png)
-
-### ⚠Oops this add-on is still under repair and does not work with the latest Anki! The last version that works is Anki25.02 -> [Anki25.02 download page](https://github.com/ankitects/anki/releases/tag/25.02)
-
-Q. How can I use this with the latest Anki?
-* I'm still repairing it and will release it when the repair is finished. This add-on does nothing with Anki25.04+ (it works in Anki25.02) so if you download this add-on, you will be notified when I upload it, please wait.
-
 ### Credit
 
-This add-on is a frok version for Anki25.02 of the addon <a href="https://github.com/fonol/anki-search-inside-add-card" target="_blank">"Searching PDF Reading and Note-Taking in Add Dialog"</a>, originally created by <a href="https://github.com/fonol" target="_blank">Tom Z</a> and credit goes to them. (AGPL License)
+This add-on is fixed and customized version for Anki25.04+ of the addon <a href="https://github.com/fonol/anki-search-inside-add-card" target="_blank">"Searching PDF Reading and Note-Taking in Add Dialog"</a>, originally created by <a href="https://github.com/fonol" target="_blank">Tom Z</a> and credit goes to them and contributors. (AGPL License).
 
-### How to use (For Anki 25.02 and lower versions)
+### How to use
 
 *(Almost all of these descriptions and images are partially edited and re-uploaded from the original add-on page.)*
 
