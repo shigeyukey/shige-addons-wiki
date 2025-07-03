@@ -168,8 +168,11 @@
                         <h1 id="searching-pdf-reading-and-note-taking-in-add-dialog"><a class="header" href="#searching-pdf-reading-and-note-taking-in-add-dialog">📖Searching PDF Reading and Note-Taking in Add Dialog</a></h1>
 <!-- Customized -->
 <p><a href="https://www.reddit.com/user/Shige-yuki"><img src="https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb" alt="banner_shigeyuki_2" /></a></p>
+<p><em>This add-on adds a second pane to the Add dialog, which provides a lot of handy functionality.</em></p>
 <h3 id="credit"><a class="header" href="#credit">Credit</a></h3>
 <p>This add-on is fixed and customized version for Anki25.04+ of the addon <a href="https://github.com/fonol/anki-search-inside-add-card" target="_blank">"Searching PDF Reading and Note-Taking in Add Dialog"</a>, originally created by <a href="https://github.com/fonol" target="_blank">Tom Z</a> and credit goes to them and contributors. (AGPL License).</p>
+<p><em>Switching (when the Add window is small, shortcut is CTRL-F):</em><br>
+<img src="images/pdf-search/00.png" alt="alt text" /></p>
 <h3 id="how-to-use"><a class="header" href="#how-to-use">How to use</a></h3>
 <p><em>(Almost all of these descriptions and images are partially edited and re-uploaded from the original add-on page.)</em></p>
 <p>This add-on adds a second pane to the Add dialog, which provides a lot of handy functionality. My main uses for it are:</p>
@@ -216,8 +219,6 @@
 At the moment, notes you delete are not deleted from the search index until you restart. Same goes for notes you edit during review or in the browser.
 Notes you edit through the edit button in the Add Card dialog are updated immediately.</p>
 <p><strong>Please note that some of the following screenshots might be outdated (UI often changes)</strong></p>
-<p>Switching (when the Add window is small, shortcut is CTRL-F):</p>
-<p><img src="images/pdf-search/00.png" alt="alt text" /></p>
 <p>Editing:<br />
 <img src="images/pdf-search/01.png" alt="alt text" /></p>
 <p>"Timeline" (CTRL + hover to see the info):<br />
@@ -341,7 +342,77 @@ Reading progress and marks are linked with the ID of the note, so if you change 
 <p>Can I port the add-on data to another PC?
 -&gt; The relevant data is in the file siac-notes.db, whose location you can find under Info &amp; Settings -&gt; Info &gt; Path to Notes DB. My advice would be to copy the add-on's folder (1781298089) to your new Anki installation's add-on folder, copy siac-notes.db to some safe location and set Path to Note DB to that location.</p>
 <p><em>(The explanation of the original add-on page ends here)</em></p>
-<h3 id="others"><a class="header" href="#others">Others</a></h3>
+<h3 id="change-log"><a class="header" href="#change-log">Change log</a></h3>
+<p>2025-07-04: First Release (Fixed by Shige, Fork)</p>
+<ol>
+<li>
+<p>Support for Anki25.04+</p>
+<ul>
+<li>Fixed a problem with the add-on not working with the latest Anki security update. (content security policies)</li>
+<li>Fixed all inline javascript in Python code.</li>
+<li>Fixed all inline javascript in HTML.</li>
+<li>Isolate all dynamically generated JavaScript.</li>
+</ul>
+</li>
+<li>
+<p>Added support for Anki25.02+</p>
+<ul>
+<li>Added PyQt6 support.</li>
+<li>Updated deprecated old code.</li>
+</ul>
+</li>
+<li>
+<p>Partial support for future Anki</p>
+<ul>
+<li>Added support for future Editors under development by Anki.</li>
+<li>(Not released yet so it is in progress.)</li>
+</ul>
+</li>
+<li>
+<p>Bug fixes, etc</p>
+<ul>
+<li>Added progress bar to avoid Anki freezing during loading.</li>
+<li>Added a solution for a bug that causes Anki to freeze.</li>
+<li>Fixed a bug that the editor does not show up on startup.</li>
+<li>Fixed a bug that the window width is not auto adjusted.</li>
+<li>Fixed a bug that the dropbox in window mode is not displayed.</li>
+<li>Fixed a bug that an error occurs when closing the editor.</li>
+<li>Fixed a bug that Anki crashes when rebuilding indexes.</li>
+<li>Added workaround for Anki freezing.</li>
+<li>Checked and repaired the PDF viewer.</li>
+<li>Tidied up a lot of code.</li>
+<li>Updated license info. (AGPL)</li>
+</ul>
+</li>
+<li>
+<p>New Features</p>
+<ul>
+<li>Added function to display random quotes at startup.</li>
+<li>Added a function to save the selected deck automatically.</li>
+</ul>
+</li>
+<li>
+<p>Note</p>
+<ul>
+<li>Fixes for the latest Anki are largely complete, but all buttons and functions have not yet been tested due to their large number. If you find any buttons or functions that do not work properly please contact me.</li>
+<li>The original add-on has been reported to occasionally freeze Anki. So far the cause of the freeze I found has already been fixed, but if Anki freezes or runs too slowly please contact me.</li>
+</ul>
+</li>
+</ol>
+<h4 id="please-support-shiges-anki-add-ons-development"><a class="header" href="#please-support-shiges-anki-add-ons-development"><a href="http://patreon.com/Shigeyuki">💖Please Support Shige's Anki add-ons development!</a></a></h4>
+<p>Hi thank you for using this add-on, I'm Shigeඞ! I'm looking for supporters for my add-ons development, because I like Anki! So far I fixed and customized 60+ discontinued add-ons and created 30+ new add-ons. If you support my volunteer development you will get 14 add-ons for patrons only and 15 game themes included in AnkiArcade ($5/month). If you have any ideas or requests feel free to send them to me, thanks! :D</p>
+<p><a href="http://patreon.com/Shigeyuki"><img src="https://shigeyukey.github.io/shige-addons-wiki/images/_promotion/promotion_00.gif" alt="patrons_banner" /></a><br>
+<a href="https://www.patreon.com/Shigeyuki">Get Patrons only addons</a> | <a href="https://shigeyukey.github.io/shige-addons-wiki/patrons_q_and_a.html">Patrons Q and A</a> | <a href="https://shigeyukey.github.io/shige-addons-wiki/contact.html">Contact</a> <br></p>
+<!-- 
+## 📥 How do I install this add-on?
+
+1. This add-on works with Anki for desktop (it does not work on mobile). Download Anki from the [official website](https://apps.ankiweb.net/) if you haven't already.
+2. Copy and paste the add-on code ( `🟢` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
+3. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
+4. Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!
+
+[Click here and please Rate this add-on, Thank you! :-) <br>
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/🟢) -->
 
                     </main>
 
