@@ -10,7 +10,7 @@
 This add-on is fixed and customized version for Anki25.04+ of the addon <a href="https://github.com/fonol/anki-search-inside-add-card" target="_blank">"Searching PDF Reading and Note-Taking in Add Dialog"</a>, originally created by <a href="https://github.com/fonol" target="_blank">Tom Z</a> and credit goes to them and contributors. (AGPL License).
 
 *Switching (when the Add window is small, shortcut is CTRL-F):*<br>
-![alt text](images/pdf-search/00.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/00.png)
 
 ### How to use
 
@@ -65,40 +65,40 @@ Notes you edit through the edit button in the Add Card dialog are updated immedi
 
 
 Editing:  
-![alt text](images/pdf-search/01.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/01.png)
 
 "Timeline" (CTRL + hover to see the info):  
-![alt text](images/pdf-search/02.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/02.png)
 
 
 Tag info (a little wonky atm):  
-![alt text](images/pdf-search/03.png)
-![alt text](images/pdf-search/04.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/03.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/04.png)
 
 Night mode styling:  
-![alt text](images/pdf-search/08.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/08.png)
 
 Reader in night mode styling:  
-![alt text](images/pdf-search/06.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/06.png)
 
 Making Clozes:  
-![alt text](images/pdf-search/09.gif)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/09.gif)
 
 Tomato Timer:  
-![alt text](images/pdf-search/10.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/10.png)
 
 "Full Screen"  
-![alt text](images/pdf-search/11.gif)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/11.gif)
 
 "Pages Read"  
-![alt text](images/pdf-search/12.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/12.png)
 
 "Stats"  
-![alt text](images/pdf-search/13.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/13.png)
 
 "Review before continuing to read"  
-![alt text](images/pdf-search/14.png)
-![alt text](images/pdf-search/15.gif)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/14.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/15.gif)
 
 
 The search results are updated when a field on the left is changed, if a query is entered through the bottom search mask, or if text is selected on the left. Results are notes, not cards, where fields are separated by a | character. Clicking on a note will show some (very basic) evaluation on how you performed on card(s) of the note. 
@@ -110,7 +110,7 @@ If you enter "What is Anki?" on the left side of the dialog, your search results
 If you click on Settings & Info -> Synonyms, you will see a dialog that allows for the input of synonym sets. These are used when searching, but only for the searches done through the add-on, not for the browser search (when the bottom search bar is in Mode: Browser).
 
 Old image, but you get the idea:
-![alt text](images/pdf-search/16.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/16.png)
 
 Terms are separated by ",". If you click inside a set, you can edit it and confirm by pressing enter.
 If you use synonyms, searching works like follows:
@@ -136,7 +136,7 @@ I am quite sure there are smarter ways to schedule and maybe testing will prove 
 
 There is also the possiblity to schedule notes to be shown at certain times. At the moment, this happens mainly in the Create/Update note dialog. When a note is scheduled for a given day, it will be placed in front of the queue on that day. If multiple notes are scheduled on that day, they are all placed in front, and internally sorted by their priority and time last seen just like normal.
 
-![](images/pdf-search/17.png)
+![](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/17.png)
 
 
 
