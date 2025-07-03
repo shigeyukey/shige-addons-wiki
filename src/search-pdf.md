@@ -7,7 +7,7 @@
 
 ### Credit
 
-This add-on is fixed and customized version for Anki25.04+ of the addon <a href="https://github.com/fonol/anki-search-inside-add-card" target="_blank">"Searching PDF Reading and Note-Taking in Add Dialog"</a>, originally created by <a href="https://github.com/fonol" target="_blank">Tom Z</a> and credit goes to them and contributors. (AGPL License).
+This add-on is fixed and customized version for Anki25.04+ of the addon <a href="https://github.com/fonol/anki-search-inside-add-card" target="_blank">"Searching PDF Reading and Note-Taking in Add Dialog"</a>, originally created by <a href="https://github.com/fonol" target="_blank">Tom Z</a> and credit goes to them and contributors. (AGPL License)
 
 *Switching (when the Add window is small, shortcut is CTRL-F):*<br>
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/pdf-search/00.png)
