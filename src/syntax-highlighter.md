@@ -26,7 +26,7 @@
 
 For quick syntax highlighting of code in Anki's Editor. Select the code and press the ⚡️electric button to auto add highlighting. (or paste from the clipboard)
 
-![alt text](images/syntax-highlighter/00.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/syntax-highlighter/00.png)
 
 ### Credit<br>
 This add-on is a fixed and Custmized version for Anki25+ of the addon <a href="https://ankiweb.net/shared/info/566351439" target="_blank">"Syntax Highlighting (NG)"</a> and <a href="https://ankiweb.net/shared/info/1463041493" target="_blank">"Syntax Highlighting for Code"</a>, originally created by <a href="https://github.com/tmbb" target="_blank">Tiago Barroso</a>, <a href="https://github.com/timrae" target="_blank">Tim Rae</a>, <a href="https://github.com/glutanimate" target="_blank">Aristotelis P. Glutanimate</a>, <a href="https://github.com/cav71" target="_blank">C A. Cavallo</a>, and credit goes to them (AGPL). Syntax highlighting is executed by bundling  <a href="https://github.com/pygments/pygments" target="_blank">pygments</a> (BSD).
@@ -38,13 +38,13 @@ This add-on is a fixed and Custmized version for Anki25+ of the addon <a href="h
 This customized version includes support for the latest Anki 25.04+, user interface enhancements, code updates and optimizations. Added functions to auto add CSS, select line numbers, etc.<br>
 <br>
 Select the code or paste from the clipboard.<br>
-![alt text](images/syntax-highlighter/07.png)
-![alt text](images/syntax-highlighter/05.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/syntax-highlighter/07.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/syntax-highlighter/05.png)
 
 
 ## Option
 
-![alt text](images/syntax-highlighter/01.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/syntax-highlighter/01.png)
 
 
 ### Line number
@@ -56,7 +56,7 @@ Select the code or paste from the clipboard.<br>
 * Default line number
   * Sets the default line start number.
 
-![alt text](images/syntax-highlighter/06.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/syntax-highlighter/06.png)
 
 
 ### Center code fragments
@@ -73,7 +73,7 @@ Select the code or paste from the clipboard.<br>
 
 Enable this option to highlight using CSS instead of inline highlighting.
 
-![alt text](images/syntax-highlighter/08.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/syntax-highlighter/08.png)
 
 * CSS mode can be easily changed with the theme option, and can be auto change in night mode and light mode. Inline mode is not possible.
 * CSS is auto added to the notetype style when syntax is added.
@@ -84,14 +84,14 @@ Enable this option to highlight using CSS instead of inline highlighting.
 
 ### Language
 
-![alt text](images/syntax-highlighter/02.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/syntax-highlighter/02.png)
 
  * You can select which languages to display in the drop box in the editor, and rearrange them by dragging and dropping.
 
 
 ### StyleSample
 
-![alt text](images/syntax-highlighter/03.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/syntax-highlighter/03.png)
 
 * You can view a sample of syntax highlighting and change the default theme.
 * Inline mode is the default highlighting. The highlight is embedded and cannot be changed later.
@@ -101,7 +101,7 @@ Enable this option to highlight using CSS instead of inline highlighting.
 
 CSS mode automatically adds CSS to the card. This option allows you to batch remove or add CSS added to the note type style. If you are not using the CSS mode option this option does nothing.
 
-![alt text](images/syntax-highlighter/04.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/syntax-highlighter/04.png)
 
 * All-ON, All OFF button
   * Batch select or deselect note types.
