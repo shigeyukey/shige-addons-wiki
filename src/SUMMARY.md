@@ -111,6 +111,7 @@
 
 ---
 
+- [⚡️Syntax Highlighter (New!)](syntax-highlighter.md)
 - [📖Searching PDF Reading and Note-Taking in Add Dialog(New!)](search-pdf.md)
 - [🦉AnkiBuddy (New!)](anki-buddy.md)
 - [🔍️Review Lookup (New!)](review-lookup.md)
