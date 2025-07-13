@@ -11,7 +11,9 @@ Live preview in the Editor.
 This add-on is a fixed and custmized version for Anki25.04+ of the addon <a href="https://ankiweb.net/shared/info/1960039667" target="_blank">"Editor Live Preview"</a>, originally created by <a href="https://github.com/rad4day" target="_blank">Tobias Manske</a> and <a href="https://github.com/rad4day/anki-editor-preview-plugin/graphs/contributors" target="_blank">Contributors</a>, and credit goes to them.
 
 
-![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/editor-live-preview/00.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/editor-live-preview/00.png)<br>
+*(For JavaScript CSP check, this image uses user provided <a href="https://github.com/donkuri/lapis" target="_blank">Lapis deck.</a>)*<br>
+
 
 This version fixes a problem with Javascript not working on Anki25.04+(Security update), adds some uncompleted pull requests, enhances the options UI, and adds an audio playback function.
 
@@ -37,6 +39,12 @@ You can show or hide the preview by pressing the button at the top of the editor
 ### Location
 
 * You can change the location of the previewer. ("above", "below", "left", "right")
+
+
+### Others
+
+* I added an audio playback function, so if you press the play button the audio will play (not auto play).
+
 
 ### Note
 
