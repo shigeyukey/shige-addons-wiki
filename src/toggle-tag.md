@@ -14,7 +14,8 @@ This add-on is a fixed and Enhanced version for Anki25+ of the addon <a href="ht
 
 
 
-![alt text](images/toggle-tag/01.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/toggle-tag/01.png)
+
 
 
 
@@ -25,7 +26,7 @@ This add-on can be used from the right-click context menu of the Editor, Reviewe
 
 ### Exclude Tags Name
 
-![alt text](images/toggle-tag/02.png)<br>
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/toggle-tag/02.png)<br>
 
 This option allows you to exclude the selected tags from the context menu, it helps reduce having too many tags.
 
@@ -34,7 +35,7 @@ This option allows you to exclude the selected tags from the context menu, it he
 
 
 ### Enable Tag Nesting
-![alt text](images/toggle-tag/03.png)<br>
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/toggle-tag/03.png)<br>
 
 You can toggle whether to display tags nested or not.
 
