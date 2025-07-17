@@ -1,14 +1,16 @@
 ### 🎧️Advanced Answer sound
 
+**[AnkiWeb Page](https://ankiweb.net/shared/info/1951446409) | Code : `1951446409`**
+
+
+
 
 [![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](https://www.reddit.com/user/Shige-yuki)
 
+Plays ambient music when Anki is started and plays audio when buttons are pressed.
 
-**[AnkiWeb Page](https://ankiweb.net/shared/info/1951446409) | Code : `1951446409`**
+This add-on is a fixed and customized version for Anki25.07+ of the addon <a href="https://ankiweb.net/shared/info/1167194350" target="_blank">"Advanced Answer Sounds"</a> (author unknown). "Advanced Answer Sounds" was developed based on  "<a href="https://ankiweb.net/shared/info/679615590" target="_blank">Answer Button Sounds</a>" by <a href="https://github.com/khonkhortisan" target="_blank">Kyle Mills</a> and credit goes to them.
 
-This add-on is a fixed and customized version of the addon <a href="https://ankiweb.net/shared/info/1167194350" target="_blank">"Advanced Answer Sounds"</a>. Linux and Mac support has been added (beta).
-
-It plays ambient music when Anki is started and plays audio when buttons are pressed.
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/advanced-answer-sound/01.png)
 
@@ -25,10 +27,17 @@ Audio files can be customized.
 For more info see the <a href="https://ankiweb.net/shared/info/1167194350" target="_blank">original add-on page.</a>
 
 
+### Notes
+1. This add-on is designed to play various sounds and background music, so when you install it sounds and BGM will auto play. If you don't like the sound, BGM, or volume, you can customize them in the options. (Menu -> Tools -> Advanced Answer Sound)
+1. If the sound does not auto play there may be a bug, if so please contact me.
+1. Mac and Linux should work but I have not confirmed this yet, if it does not work please contact me.
+
+
 ### Credit
 
-* <a href="https://ankiweb.net/shared/info/679615590" target="_blank">Answer Button Sounds</a> Author: [Kyle Mills](https://github.com/khonkhortisan)
-* <a href="https://ankiweb.net/shared/info/1167194350" target="_blank">Advanced Answer Sounds</a> Author: Unknown
+   * add-on: <a href="https://ankiweb.net/shared/info/679615590" target="_blank">Answer Button Sounds</a> Author: [Kyle Mills](https://github.com/khonkhortisan)
+* add-on: <a href="https://ankiweb.net/shared/info/1167194350" target="_blank">Advanced Answer Sounds</a> Author: Unknown
+* Module: PySimpleAudio, MIT License
 
 
 <br><br>
