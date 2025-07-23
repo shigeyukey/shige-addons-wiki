@@ -127,8 +127,7 @@ In short, the notetype options and auto-add feature are enabled or disabled by a
 * The tooltips use the same system as the original add-on, so if you have cards created with the original AnkiTooltip they should work normally with this add-on as well.
 
 
-
-<br><br>
+<br>
 
 ## 🚨Report
 
