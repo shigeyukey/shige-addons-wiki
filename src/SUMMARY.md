@@ -111,6 +111,7 @@
 
 ---
 
+- [💬Anki Tooltip (New!)](anki-tooltip.md)
 - [🏷️Toggle Tags via Context Menu (New!)](toggle-tag.md)
 - [📺️Editor Live Preview (New!)](editor-live-preview.md)
 - [⚡️Syntax Highlighter (New!)](syntax-highlighter.md)

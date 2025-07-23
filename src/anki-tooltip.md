@@ -4,8 +4,6 @@
 
 <!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
 
-
-
 <!-- Customized -->
 [![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](https://www.reddit.com/user/Shige-yuki)
 
@@ -24,133 +22,151 @@ This add-on is a Fixed and Enhanced version for Anki25+ of the addon <a href="ht
 #### Tooltip-Editor in Editor
 
 
-エディターボタン
-エディターでテキストを選択してからこのボタンを押すとツールチップを追加できます.
-追加したツールチップはエディターとレビュワーで表示されます.
-デフォルトのショートカットキーは"Ctrl+t"です.
+#### Editor button
+  * Select text in the editor and press this button to add a tooltip.
+The added tooltip will be displayed in the editor and reviewer. The default shortcut key is “Ctrl+t”
 
-ツールチップエィデター
-ツールチップを追加したテキストをクリックするとツールチップエディターを開くことができます.
-この関数はEditorでのみ働きます.
-このウィンドウをドラッグすると位置を移動できます.
-このウィンドウの外側をクリックすると編集をキャンセルします.
+#### Tooltip Editor
+   * Click on the text with the added tooltip to open the tooltip editor.
+This function only works in the Editor. You can move the position by dragging this window. Click outside this window to cancel editing.
 
+#### Check button (bottom right, green)
+  * Updates the tooltip text with the entered text. Pressing the button when the text is empty will delete the tooltip. The shortcut key is “Alt+Enter.”
 
-チェックボタン(右下, 緑)
+#### X button (top right, red)
+  * Deletes the tooltip and leaves only the text.
 
-入力したテキストでツールチップのテキストを更新します.
-テキストを空にしてから押すとツールチップを削除します.
-ショートカットキーは"Alt+Enter"です.
-
-バツボタン(右上, 赤)
-
-ツールチップを削除してただのテキストにします.
-
-リストアボタン(左上, 紫)
-
-編集中のテキストを編集前のテキストに復元します.
-
+#### Restore button (top left, purple)
+  * Restores the text being edited to its previous state.
 
 #### NoteType manager
 
 ![alt text](images/anki-tooltip/00.png)
 
-このadd-onはカードにツールチップを表示するためにノートタイプにCSSとJavaScriptを自動で追加します.
+This add-on auto adds CSS and JavaScript to note types to display tooltips on cards. This option allows you to manually disable, enable, or customize them all at once.
 
-このオプションでそれらを一括で手動で無効化, 有効化, またはカスタマイズできます.
+#### Enable Tooltip Notetype (Back)
 
-Enable Tooltip Notetype (Back)
-
-これを有効化するとツールチップを有効化します.
-無効化するとノートタイプに追加したツールチップのCSSとJavaScriptを削除します.
+  * Enabling this will enable tooltips, disabling it will remove the CSS and JavaScript added to the note type.
 
 
-Front Tooltip
-ツールチップはデフォルトでカードの答えのみに表示されます(Back).
-カードの質問にツールチップを表示したいときはこれを有効化する必要があります (Front).
+#### Front Tooltip
+  * Tooltips are displayed by default only on the answers of cards (Back).
+If you want to display tooltips on the questions of cards, you need to enable this (Front).
 
-Prev-Shortcut, Next-Shortcut
+#### Prev-Shortcut, Next-Shortcut
+  * If there are multiple tooltips, you can display them using shortcut keys. You can change the shortcut keys by double-clicking this option.
 
-もしツールチップが複数ある場合, ショートカットキーでそれらを表示できます.
-このオプションでダブルクリックするとそのショートカットキーを変更できます.
-
-コンテキストメニュー
-
-これらのオプションは一括で変更できます.
-複数選択 -> 右クリック -> コンテキストメニュー
+#### Context Menu
+  * These options can be changed in bulk. Select multiple -> Right-click -> Context Menu
 
 
-#### Option
+### Option
 
 ![alt text](images/anki-tooltip/01.png)
 
-* Editor Shortcut key
+#### Editor Shortcut key
+  * You can change the shortcut key for adding tooltips in the editor, the default is “Ctrl+t”.
 
-エディターでツールチップを追加するためのショートカットキーを変更できます.
-デフォルトは"Ctrl+t"です.
+#### Auto add tooltip to NoteType
+  * When you add a tooltip in the editor, CSS and JavaScript for displaying the tooltip in the note type will be auto added. This option is enabled by default.
 
-* Auto add tooltip to NoteType
-
-エディターでツールチップを追加したとき, 自動的にノートタイプにツールチップを表示するためのCSSとJavaScriptを追加します.
-このオプションはデフォルトで有効になっています.
-
-* Use Javascript in Editor
-
-このAdd-onはEditorでツールチップを表示して編集するためにいろいろなJavaScriptをエディターで実行しています.
-このオプションを無効化するとそれらのJavaScriptをほぼすべて無効化し, ツールチップを追加するためだけのシンプルなモードに変更します.
-
-
+#### Use JavaScript in Editor
+  * This add-on executes JavaScript in the editor to display and edit tooltips. Disabling this option will disable almost all of that JavaScript and switch to a simple mode for adding tooltips only. (e.g. you don't use the tooltip editor at all because you edit HTML directly.)
 
 
 #### Notes
 
+* This add-on edits note types. If you are concerned I recommend backup all your decks before using this and check that it works properly.
 
-このadd-onはノートタイプを編集します. もし心配な場合はこれを使う前にすべてのデッキをバックアップし, 正常に動作するか確認することをお勧めします.
+* Text with added tooltips will have HTML such as colors and bold text removed.
 
-ツールチップを追加したテキストは色や太字などのHTMLが削除されます.
-
-高度な共有されたデッキを使用している場合は干渉により問題が発生するかもしれません.
-もしその場合は調べてみるので私にカードテンプレートを送信してください.
+* If you are using advanced shared decks, unexpected problems may occur due to interference, if so please send me your card template so I can look into it.
 
 
+### Technical explanation
 
-#### 技術的な説明
 
-TooltipのHTML
-
+#### Tooltip HTML
 
 ![alt text](images/anki-tooltip/04.png)
 
 ```
 <a data-tippy-content="Fixed by Shigeඞ">Anki Tooltip</a>
 ```
-ツールチップを追加するとこのようなコードが生成されます.
-高度なユーザーの場合はこのHTMLを直接編集することでツールチップを追加や編集ができます.
+
+* Adding a tooltip generates code like this. Advanced users can add or edit tooltips by directly editing this HTML. Nesting is not currently supported.
 
 
+#### Front Template, or Back Template
 
-* Front Template, or Back Template
 
-
-これらがノートタイプ(カードテンプレート)に追加されるツールチップのコードです.
+This is the code for the tooltips auto added to the notetype (card template).
 
 ```
 <script src="_anki-tooltips.js" data-prev-shortcut="Shift+Tab" data-next-shortcut="Tab"></script>
 ```
-* Styling
+#### Styling
 
 ```
 @import url("_anki-tooltips.css");
 ```
 
-簡単に言えばノートタイプのオプションと自動追加はこれらの1行のコードを追加または削除しています.
-Addonのオプションはこれらのノートテンプレートから読み取って表示している.
-なので高度なユーザーの場合は手動で直接これらのコードを追加または削除しても問題ありません.
+In short, the notetype options and auto-add feature are enabled or disabled by adding or removing these lines of code. Addon options are read from these note templates and displayed, so advanced users can manually add or remove these codes directly.
 
-JavaScript and CSS
+#### JavaScript and CSS
 
-_anki-tooltips.jsと_anki-tooltips.cssは自動的に生成されユーザーのメディアフォルダへ保存されます.
-たぶんモバイルでも働くはずです.
+* _anki-tooltips.js and _anki-tooltips.css are automatically generated and saved to the user's media folder. They should also work on mobile devices.
+
+### Development
+
+#### About Svelte
+* The original add-on was developed using Svelte. Svelte is a convenient framework that is often used in the official Anki, but in the latest version of Anki access to Svelte from add-ons is completely broken and probably irreparable (Svelte 5), so this add-on abandons Svelte and almost all of the code has been replaced with plain JavaScript. I made it as similar as possible but it works a bit differently from the original add-on.
+
+#### Compatibility
+* The tooltips use the same system as the original add-on, so if you have cards created with the original AnkiTooltip they should work normally with this add-on as well.
 
 
 
+<br><br>
+
+## 🚨Report
+
+If you have any problems or requests feel free to send them to me.
+
+  <!-- 1. <a href="https://ankiweb.net/shared/review/🟢" target="_blank">👍️Rate Comment</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development. -->
+  2. <a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">👩‍🚀Reddit</a> : You can request me to repair broken Add-ons.
+  2. <a href="https://forums.ankiweb.net/t/simple-fix-of-broken-add-ons-for-the-latest-anki-by-shige/41650" target="_blank">🌟AnkiForums</a> : You can request me to repair broken Add-ons, and it is ideal for open discussions.
+  3. <a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">🐙Github </a> : Makes it easier to track problems.
+  4. <a href="https://www.patreon.com/Shigeyuki" target="_blank">💖Patreon DM</a> : Response will be prioritized.
+
+
+<br>
+
+<h4><a href="http://patreon.com/Shigeyuki">💖Please Support Shige's Anki add-ons development!</a></h4>
+
+Hi thank you for using this add-on, I'm Shigeඞ! I'm looking for supporters for my add-ons development, because I like Anki! So far I fixed and customized 60+ discontinued add-ons and created 30+ new add-ons. If you support my volunteer development you will get 14 add-ons for patrons only and 15 game themes included in AnkiArcade ($5/month). If you have any ideas or requests feel free to send them to me, thanks! :D
+
+
+[![patrons_banner](https://shigeyukey.github.io/shige-addons-wiki/images/_promotion/promotion_00.gif)](http://patreon.com/Shigeyuki)<br>
+[Get Patrons only addons](https://www.patreon.com/Shigeyuki) | [Patrons Q and A](https://shigeyukey.github.io/shige-addons-wiki/patrons_q_and_a.html) | [Contact](https://shigeyukey.github.io/shige-addons-wiki/contact.html) <br>
+
+
+
+**[[ Special Thanks ]](https://shigeyukey.github.io/shige-addons-wiki/patrons_credit.html#patrons)** <br>
+ So far I received donations from 439 patrons and without their support I never could develop this, thank you very much!🙏<br><br>
+  **Patrons:** <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/95201671.png">Arthur Bookstein <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/4189493.png">Haruka  <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/39049205.png">Luis Alberto, Letona Quispe <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/3015355.png">07951350313540  <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/131367142.png">Lily <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/123514506.png">Daniel Kohl-Fink <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/130988514.png">Tim <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/21640709.png">Kyle Mondlak <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/130863731.png">NamelessGO <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/112593636.png">ElAnki <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/78715897.png">Ernest Chan <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/139233949.png">Abhi S <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/72892241.png">GP O'Byrne <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/137001490.png">KM <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/140244563.png">Jonathan Contreras <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/142758041.png">Isabel Guan <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/131879614.png">Jesse Asiedu <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/86498562.png">ellie <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/143150902.png">Matthew Hartford <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/90408011.png">Tobias Klös <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/3977614.png">K  <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/20456974.png">Peasant of Anki <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/45458777.png">iuventius <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/147535833.png">findus161 <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/95408482.png">Patrick ellis <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/49035952.png">tarek <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/32002936.png">Jake Stucki <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/59869739.png">Muneeb Khan <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/146804612.png">Juan Salgado <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/149705924.png">qiting zeng <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/22537707.png">Keeler Kime <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/95296012.png">Kurt Grabow <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/53817814.png">Elisabeth Barber <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/18365874.png">Lis Y. <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/153136646.png">Matheus Chagas <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/71291734.png">Fahim Shaik <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/108245110.png">Augusto Stein <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/124387188.png">Ashok Rajpurohit <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/24926793.png">mootcourt <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/153319957.png">Yaeerrrrrr <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/27209515.png">Svel1989 <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/16653393.png">Christopher Lam <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/107757731.png">NoirHassassin <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/14557801.png">Kolorophyll  <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/141054047.png">Morgan Torres <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/126129884.png">Kaitlyn Bowler <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/5645766.png">Tae Lee <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/95639188.png">Steven Banner <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/2342247.png">Heidi  <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/18272512.png">Leonora Lomoki Akporyoe <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/66659056.png">Gabriel Farrugia <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/152892568.png">David C <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/65244351.png">Gabriel Vinicio Guedes <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/33839343.png">sab hoque <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/119890284.png">Ythalo Vlogs <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/145047142.png">Ujwal Chadha <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/30780459.png">pie_is_good <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/51031644.png">Ketan Pal <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/144275858.png">Aurora Dzurko <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/86501477.png">Tyler Schulte <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/41793356.png">Mac <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/10827293.png">gus forester <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/84577944.png">Douglas Beeman <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/54830120.png">Bryn Price <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/163514236.png">Xiuxuan Wang <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/155979761.png">Temi Jide <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/66955168.png">Ansel Ng <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/108021106.png">Haley Schwarz <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/160349862.png">Woody <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/163711094.png">Iggi <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/49440163.png">Jeanna <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/79973078.png">J P <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/136301102.png">K <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/164671636.png">Carly Burdorf <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/118400646.png">Cole Krueger <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/9986622.png">Wei <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/109655478.png">Sean Voiers <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/28473334.png">Austin Regal <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/11209375.png">Robert Malone <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/135355652.png">Jk <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/157766503.png">Andrew Yang <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/42357230.png">CunningPotato <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/162786071.png">Mia <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/144288699.png">Aayush Bhatawadekar <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/143557848.png">Stellate ggl <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/166334352.png">Cubli <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/93806908.png">Tina Weingarten <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/165591251.png">Aydin Herik <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/152256816.png">Azfar Hussain <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/132329777.png">Victor Evangelista <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/142510183.png">Adrine <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/102120950.png">Oleksandr Pashchenko <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/23439273.png">Orlando Frey <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/166415416.png">kenken <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/10045900.png">Take Root <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/141043766.png">Osasere Osula <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/159172027.png">Kylie <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/126299046.png">Alex D <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/17007980.png">Aaron Buckley <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/79818714.png">oiuhroiehg <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/160429145.png">Sebastian Bellotti  [...full list](https://shigeyukey.github.io/shige-addons-wiki/patrons_credit.html#patrons)
+
+
+
+
+  
+<!-- ## 📥 How do I install this add-on?
+
+1. This add-on works with Anki for desktop (it does not work on mobile). Download Anki from the [official website](https://apps.ankiweb.net/) if you haven't already.
+2. Copy and paste the add-on code ( `🟢` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
+3. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
+4. Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!
+
+[Click here and please Rate this add-on, Thank you! :-) <br>
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/🟢) -->
