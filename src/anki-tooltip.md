@@ -13,3 +13,21 @@
 This add-on is a fixed version for Anki25+ of the addon <a href="https://ankiweb.net/shared/info/1840818335" target="_blank">"Anki Tooltips"</a>, originally created by <a href="https://github.com/kleinerpirat" target="_blank">Matthias Metelka (kleinerpirat)</a> and credit goes to them.
 
 
+![AnkiTooltip](images/anki-tooltip/AnkiTooltip.gif)
+
+
+## How to use
+
+![alt text](images/anki-tooltip/03.png)
+
+#### Tooltip-Editor in Editor
+
+
+
+
+
+
+![alt text](images/anki-tooltip/00.png)
+
+
+![alt text](images/anki-tooltip/01.png)
