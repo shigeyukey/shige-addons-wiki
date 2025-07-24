@@ -12,12 +12,12 @@
 This add-on is a Fixed and Enhanced version for Anki25+ of the addon <a href="https://ankiweb.net/shared/info/1840818335" target="_blank">"Anki Tooltips"</a>, originally created by <a href="https://github.com/kleinerpirat" target="_blank">Matthias Metelka (kleinerpirat)</a> and credit goes to them.
 
 
-![AnkiTooltip](images/anki-tooltip/AnkiTooltip.gif)
+![AnkiTooltip](https://shigeyukey.github.io/shige-addons-wiki/images/anki-tooltip/AnkiTooltip.gif)
 
 
 ## How to use
 
-![alt text](images/anki-tooltip/03.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/anki-tooltip/03.png)
 
 #### Tooltip-Editor in Editor
 
@@ -41,7 +41,7 @@ This function only works in the Editor. You can move the position by dragging th
 
 #### NoteType manager
 
-![alt text](images/anki-tooltip/00.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/anki-tooltip/00.png)
 
 This add-on auto adds CSS and JavaScript to note types to display tooltips on cards. This option allows you to manually disable, enable, or customize them all at once.
 
@@ -63,7 +63,7 @@ If you want to display tooltips on the questions of cards, you need to enable th
 
 ### Option
 
-![alt text](images/anki-tooltip/01.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/anki-tooltip/01.png)
 
 #### Editor Shortcut key
   * You can change the shortcut key for adding tooltips in the editor, the default is “Ctrl+t”.
@@ -89,7 +89,7 @@ If you want to display tooltips on the questions of cards, you need to enable th
 
 #### Tooltip HTML
 
-![alt text](images/anki-tooltip/04.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/anki-tooltip/04.png)
 
 ```
 <a data-tippy-content="Fixed by Shigeඞ">Anki Tooltip</a>
@@ -100,7 +100,7 @@ If you want to display tooltips on the questions of cards, you need to enable th
 
 #### Front Template, or Back Template
 
-![alt text](images/anki-tooltip/05.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/anki-tooltip/05.png)
 
 
 This is the code for the tooltips auto added to the notetype (card template).
