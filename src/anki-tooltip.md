@@ -100,6 +100,8 @@ If you want to display tooltips on the questions of cards, you need to enable th
 
 #### Front Template, or Back Template
 
+![alt text](images/anki-tooltip/05.png)
+
 
 This is the code for the tooltips auto added to the notetype (card template).
 
@@ -111,8 +113,9 @@ This is the code for the tooltips auto added to the notetype (card template).
 ```
 @import url("_anki-tooltips.css");
 ```
-
 In short, the notetype options and auto-add feature are enabled or disabled by adding or removing these lines of code. Addon options are read from these note templates and displayed, so advanced users can manually add or remove these codes directly.
+
+
 
 #### JavaScript and CSS
 
