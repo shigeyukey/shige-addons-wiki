@@ -47,13 +47,9 @@ This add-on is a Fixed and Enhanced version for Anki25+ of the addon <a href="ht
 ## Notes
 
 * This add-on replaces all notes in the deck at once. So far no problems on my device but if you're concerned I recommend backing up all your decks before using this.
-
-* Removing all nbspmay cause the layout of some cards to break. (That's why the official Anki has this function built in.)
-
+* Removing all nbsp may cause the layout of some cards to break. (That's why the official Anki has this function built in.)
 * nbsp is removed in Add Editor not while editing the card, but after adding the card.
-
 * If there is special text, it may not be replaced correctly. If so please send me the text of that card.
-
 
 <br>
 
