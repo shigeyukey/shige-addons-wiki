@@ -41,7 +41,7 @@ This add-on is a Fixed and Enhanced version for Anki25+ of the addon <a href="ht
 
 * This is an option for advanced users, you can use [regular expressions](https://docs.ankiweb.net/searching.html#regular-expressions) to remove strings other than nbsp. (e.g. `&nbsp;|ඞ`) This option is disabled by default.
 * ⚠️ If you don't know how to use regular expressions please don't use this option, if you set it incorrectly there is a possibility that your note data will be deleted unintentionally.
-* According to [comments](https://forums.ankiweb.net/t/nbspremover-official-support/20327/31) on AnkiForums some users have reported that `&nbsp;` cannot be replaced in the new Anki, but that using `u00A0` instead works. But I haven't encountered this problem on my device and `u00A0` doesn't replace anything, so it may depend on the device.
+* According to [comments](https://forums.ankiweb.net/t/nbspremover-official-support/20327/31) on AnkiForums some users have reported that `&nbsp;` cannot be replaced in the new Anki, but that using `u00A0` instead works. But I haven't encountered this problem and `u00A0` doesn't replace anything, so it may depend on the device.
 
 
 ## Notes
