@@ -37,7 +37,7 @@ This add-on is a Fixed and Enhanced version for Anki25+ of the addon <a href="ht
 #### Purge Shortcut
 * You can change the shortcut key for Purge to whatever you like. (Purge Collection from nbsp;)
 
-#### Search Query
+### Search Query
 
 * This is an option for advanced users, you can use [regular expressions](https://docs.ankiweb.net/searching.html#regular-expressions) to remove strings other than nbsp. (e.g. `&nbsp;|ඞ`) This option is disabled by default.
 * ⚠️ If you don't know how to use regular expressions please don't use this option, if you set it incorrectly there is a possibility that your note data will be deleted unintentionally.
