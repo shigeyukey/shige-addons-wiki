@@ -2,6 +2,11 @@
 
 🧹nbsp Remover - Auto remove HTML spaces in bulk (Fixed by Shigeඞ)
 
+<!-- Hi I'm add-ons developer Shige, I fixed this add-on and uploaded it to AnkiWeb.
+🧹nnbsp Remover - Auto remove HTML spaces in bulk (Fixed by Shigeඞ)
+https://ankiweb.net/shared/info/1998029342 -->
+
+
 **[AnkiWeb Page](https://ankiweb.net/shared/info/1998029342) | Code : `1998029342`**
 
 
