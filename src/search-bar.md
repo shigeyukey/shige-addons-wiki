@@ -1,5 +1,12 @@
 # 🔍️Search Bar
 
+
+
+<!-- Hi I'm add-ons developer Shige, I fixed this add-on and uploaded it to AnkiWeb.
+🔍️Search Bar - Search text in Editor and Reviewer (Fixed by Shigeඞ)
+https://ankiweb.net/shared/info/342408518 -->
+
+
 🔍️Search Bar - Search text in Editor and Reviewer (Fixed by Shigeඞ)
 
 **[AnkiWeb Page](https://ankiweb.net/shared/info/342408518) | Code : `342408518`**
