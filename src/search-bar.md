@@ -15,7 +15,7 @@ This add-on is a Fixed and Enhanced version for Anki25+ of the addon <a href="ht
 "</a>, originally created by <a href="https://github.com/hgiesel" target="_blank">Henrik Giesel</a> and credit goes to them.
 
 
-![alt text](images/search-bar/01.gif)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/search-bar/01.gif)
 
 ## How to use
 
@@ -32,7 +32,7 @@ This add-on is a Fixed and Enhanced version for Anki25+ of the addon <a href="ht
 
 The options can be displayed from the add-on menu.(Menu -> Tools -> 🔍️Search Bar)
 
-![alt text](images/search-bar/01.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/search-bar/01.png)
 
 #### Show Defaul
 
@@ -49,12 +49,12 @@ There are two types of search ways, Webview(Qt) and JavaScript.
 
 * Webview Mode (Qt), Default
   * Search for text using Webview (Qt). All matching text is highlighted in yellow and orange. The scroll accuracy is relatively high.
-  * ![alt text](images/search-bar/01.gif)
+  * ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/search-bar/01.gif)
 
 * JavaScript Mode
   * Searches for text using JavaScript. Only the first matching text is selected, the highlight color is gray. Scrolling accuracy is low, e.g. long texts in the editor cannot be scrolled properly.
 
-  * ![alt text](images/search-bar/00.gif)
+  * ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/search-bar/00.gif)
 
 ## FAQ
 
