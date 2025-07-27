@@ -50,7 +50,7 @@ If you have any problems or requests feel free to send them to me.
 
 
 
-## 📥 How do I install this add-on?
+<!-- ## 📥 How do I install this add-on?
 
 1. This add-on works with Anki for desktop (it does not work on mobile). Download Anki from the [official website](https://apps.ankiweb.net/) if you haven't already.
 2. Copy and paste the add-on code ( `🟢` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
@@ -58,7 +58,7 @@ If you have any problems or requests feel free to send them to me.
 4. Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!
 
 [Click here and please Rate this add-on, Thank you! :-) <br>
- ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/🟢)
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/🟢) -->
 
 
 <!-- 
