@@ -1,12 +1,13 @@
 # 🐞Custom Debug Info
 
-[![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)<br>
-
 [Add-on page (Ankiweb)](https://ankiweb.net/shared/info/1616945135)
+
+
+[![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)<br>
 
 This add-on is for add-on developers, not for general learners. It displays debug info directly and makes errors easier to read. (It does nothing unless an error occurs.)
 
-![alt text](images/debugInfo/07.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/debugInfo/07.png)
 
 <br>
 
@@ -16,14 +17,14 @@ This add-on is for add-on developers, not for general learners. It displays debu
 1. Font size and colors can be customized in Config.
 1. When you resize the window the size is auto saved.
 
-![alt text](images/debugInfo/05.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/debugInfo/05.png)
 
 <br>
 
 ## Avoid Anki freeze
 1. If the same error occurs continuously due to an infinite loop, etc., the popup is stopped and a tooltip is displayed.
 2. If there are three or more error windows a new window will not be created.<br>
-![alt text](images/debugInfo/06.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/debugInfo/06.png)
 
 <br>
 
@@ -39,7 +40,7 @@ This add-on is for add-on developers, not for general learners. It displays debu
 If AnkiRestart is installed, add a button to restart Anki:<br>
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/debugInfo/08.png)
 
-* [⚙️Meta json Formatter](meta_json_fomatter.md)
+* [⚙️Meta json Formatter](https://shigeyukey.github.io/shige-addons-wiki/meta_json_fomatter.html)
 
 
 <br>
