@@ -179,16 +179,17 @@
 <!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
 <!-- Created -->
 <p><a href="https://www.reddit.com/user/Shige-yuki"><img src="https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065" alt="reddit" /></a></p>
-<p>Quick Restart Anki. This is an improved version of the old AnkiRestart (Prototype), use only the add-on to restart, not external files.</p>
+<p>Quick Restart Anki. This is an improved beta version of the old AnkiRestart, it use only the add-on to restart, not external files.</p>
+<p>This V2 is a new prototype developed for some users who are not able to restart, so if old V1 is already working fine on your device you can use either add-on.</p>
 <h2 id="how-to-use"><a class="header" href="#how-to-use">How to use</a></h2>
-<p>These features are available.</p>
+<p>These features are available:</p>
 <ol>
-<li>Added Restart button and Menu</li>
+<li>Added Restart button and Menu (Shortcut: <code>Ctrl+Shift+R</code>)</li>
 <li>Pop up restart dialog when updating add-ons</li>
 </ol>
-<p>Installing the add-on will add an icon to the Anki menu bar. Clicking on this icon will quickly restart Anki. MAC cannot display the icon here, so it will be displayed in the system tray instead. Blue is a normal restart, and red is an optional safe mode restart (default disabled).</p>
+<p>Installing the add-on will add an icon to the Anki menu bar. Clicking on this icon will quickly restart Anki. MacOS cannot display the icon here, so it will be displayed in the system tray instead. Blue is a normal restart, and red is an optional safe mode restart (default disabled).</p>
 <ul>
-<li>Anki Home -&gt; icon (Blue)</li>
+<li>Anki Home -&gt; Restart icon (Blue)</li>
 <li>Anki Home -&gt; tools -&gt; AnkiRestartV2 -&gt; Restart Anki now</li>
 </ul>
 <p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/03.png" alt="alt text" /></p>
@@ -200,7 +201,8 @@
 </ul>
 <p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/00.png" alt="alt text" /></p>
 <h3 id="custom-anki-path"><a class="header" href="#custom-anki-path">Custom Anki Path</a></h3>
-<p>To restart Anki, the path to the Anki executable file is required (win:anki.exe, Mac:anki.app, Linux:anki). If the automatically detected Anki path is incorrect, you will need to set it manually.</p>
+<p>If the restart has already succeeded there is no need to change this option. To restart Anki the path to the Anki executable file is required (win:anki.exe, Mac:anki.app, Linux:anki). If the auto detected Anki path is incorrect you will need to set it manually.</p>
+<h2 id="options"><a class="header" href="#options">Options</a></h2>
 <h3 id="trigger-restart-when-add-ons-are-updated"><a class="header" href="#trigger-restart-when-add-ons-are-updated">Trigger restart when add-ons are updated</a></h3>
 <p>When add-ons are updated Anki needs to be restarted. This option displays a pop-up window to restart Anki when add-ons are updated (it is enabled by default). e.g.</p>
 <ol>
@@ -211,8 +213,14 @@
 <p>Show or hide the buttons displayed on Anki's Home menu bar.</p>
 <h3 id="sound-effect"><a class="header" href="#sound-effect">Sound Effect</a></h3>
 <p>Enable or disable a sound when restarting.</p>
+<h3 id="disable-auto-sync-when-restarting"><a class="header" href="#disable-auto-sync-when-restarting">Disable auto sync when restarting</a></h3>
+<p>Anki's auto sync takes a little time. When restarting frequently sync is not needed, so this add-on disabled and restore Anki's auto sync option only when restarting. This option disabled this feature.</p>
+<ul>
+<li>ON: Save auto sync option -&gt; Disabled auto sync -&gt; Restart Anki -&gt; Restore auto sync otion</li>
+<li>OFF: Nothing</li>
+</ul>
 <h3 id="short-cut-key"><a class="header" href="#short-cut-key">Short cut key</a></h3>
-<p>You can change the shortcut key for restarting Anki. The shortcut key will not work if it conflicts with other add-ons or Anki shortcut keys, so if the key does not work try changing it.</p>
+<p>You can change the shortcut key for restarting Anki. The shortcut key will not work if it conflicts with other add-ons or Anki shortcut keys, so if the key does not work try changing it. default short cut key: <code>Ctrl+Shift+R</code>.</p>
 <h2 id="advanced-tab"><a class="header" href="#advanced-tab">Advanced tab</a></h2>
 <p>These are options for advanced users, there is no need to change them unless you need to.</p>
 <p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/01.png" alt="alt text" /></p>
@@ -227,19 +235,31 @@ For more info please read the Anki Manual:</p>
 <ul>
 <li>Action: Trigger Safe Mode Restart -&gt; Save All addons data -&gt; disables all add-ons except AnkiRestart -&gt; Run Restart (Close Anki) -&gt; Open new Anki -&gt; Enable all save add-ons</li>
 </ul>
-<h4 id="show-safe-mode-restart-button"><a class="header" href="#show-safe-mode-restart-button">Show safe mode restart button</a></h4>
+<h3 id="show-safe-mode-restart-button"><a class="header" href="#show-safe-mode-restart-button">Show safe mode restart button</a></h3>
 <p>Enabling this will display a menu and button to restart in safe mode. (Red icon)</p>
-<h4 id="use-real-safe-mode"><a class="header" href="#use-real-safe-mode">Use real safe mode</a></h4>
+<h3 id="use-real-safe-mode"><a class="header" href="#use-real-safe-mode">Use real safe mode</a></h3>
 <p>This mode manually disables add-ons, so it is not <a href="https://docs.ankiweb.net/troubleshooting.html#2-check-add-ons">Anki's default safe mode</a>. Enabling this option will restart Anki in its native safe mode. In this case, AnkiRestart will also be disabled.</p>
 <ul>
 <li>Action: Trigger Real Safe Mode Restart -&gt; Run Restart (Close Anki) -&gt; Open new Anki + safe mode (as holding down the Shift key while starting Anki)</li>
 </ul>
 <h3 id="delay-restart-second"><a class="header" href="#delay-restart-second">Delay Restart Second</a></h3>
+<ul>
+<li>
 <p>This add-on waits a few seconds when restarting Anki. It probably works even with 0 seconds, but I set it to 3 seconds just to be safe.</p>
+</li>
+<li>
+<p>🚨NOTE: This timer uses subprocess.Popen's shell=True (Win: timeout /T, MacOS/Linux: sleep). If you are concerned about security setting it to 0 seconds will disable it.</p>
+<ul>
+<li>time 1+ sec : <code>subprocess.Popen(cmd, shell=True)</code></li>
+<li>time 0 sec : <code>subprocess.Popen(popen_args)</code></li>
+<li>If there are unknown characters in the path used in cmd, or if the path does not exist, the timer and shell will be automatically disabled.</li>
+</ul>
+</li>
+</ul>
 <h2 id="faq"><a class="header" href="#faq">FAQ</a></h2>
 <h4 id="q-what-is-the-difference-between-v1-and-v2"><a class="header" href="#q-what-is-the-difference-between-v1-and-v2">Q. What is the difference between V1 and V2?</a></h4>
 <ul>
-<li>This version restarts Anki using only the add-on without using external files. (Beta) So there is no problem with misdetection by antivirus software. I also fixed some bugs, enhanced features, and optimized the code.</li>
+<li>This version restarts Anki using only the add-on without using external files, so there is no problem with misdetection by antivirus software. I also fixed some bugs, enhanced features, and optimized the code.</li>
 </ul>
 <h4 id="q-what-is-safe-mode-used-for"><a class="header" href="#q-what-is-safe-mode-used-for">Q. What is Safe Mode used for?</a></h4>
 <ul>
