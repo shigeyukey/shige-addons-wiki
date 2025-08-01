@@ -96,7 +96,8 @@
 
 
 # For Development add-ons
-  - [🔂AnkiRestart](ankirestart.md)
+  - [🔂AnkiRestart V2 (New!)](anki-restart-v2.md)
+    - [🔂AnkiRestart V1 (Old)](ankirestart.md)
   - [🐞Custom Debug Info](debug_info.md)
   - [⚙️Meta json Formatter](meta_json_fomatter.md)
   - [📥Addon Bug Detector](save_and_load_enable_add-ons.md)
