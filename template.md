@@ -70,6 +70,7 @@ Hi thank you for using this add-on, I'm Shigeඞ! I'm looking for supporters for
 
 <!--
 <br>
+
 ## 📥 How do I install this add-on?
 
 1. This add-on works with Anki for desktop (it does not work on mobile). Download Anki from the [official website](https://apps.ankiweb.net/) if you haven't already.
