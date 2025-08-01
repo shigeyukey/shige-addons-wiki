@@ -9,18 +9,20 @@
 <!-- Created -->
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
 
-Quick Restart Anki. This is an improved version of the old AnkiRestart (Prototype), use only the add-on to restart, not external files.
+Quick Restart Anki. This is an improved beta version of the old AnkiRestart, it use only the add-on to restart, not external files.
+
+This V2 is a new prototype developed for some users who are not able to restart, so if old V1 is already working fine on your device you can use either add-on.
 
 ## How to use
 
-These features are available.
+These features are available:
 
-1. Added Restart button and Menu
+1. Added Restart button and Menu (Shortcut: `Ctrl+Shift+R`)
 2. Pop up restart dialog when updating add-ons
 
-Installing the add-on will add an icon to the Anki menu bar. Clicking on this icon will quickly restart Anki. MAC cannot display the icon here, so it will be displayed in the system tray instead. Blue is a normal restart, and red is an optional safe mode restart (default disabled).
+Installing the add-on will add an icon to the Anki menu bar. Clicking on this icon will quickly restart Anki. MacOS cannot display the icon here, so it will be displayed in the system tray instead. Blue is a normal restart, and red is an optional safe mode restart (default disabled).
 
-* Anki Home -> icon (Blue)
+* Anki Home -> Restart icon (Blue)
 * Anki Home -> tools -> AnkiRestartV2 -> Restart Anki now
 
 
@@ -40,9 +42,11 @@ Settings can be accessed from the Add-on menu or the add-ons dialog.
 
 ### Custom Anki Path
 
-To restart Anki, the path to the Anki executable file is required (win:anki.exe, Mac:anki.app, Linux:anki). If the automatically detected Anki path is incorrect, you will need to set it manually.
+If the restart has already succeeded there is no need to change this option. To restart Anki the path to the Anki executable file is required (win:anki.exe, Mac:anki.app, Linux:anki). If the auto detected Anki path is incorrect you will need to set it manually.
 
 
+
+## Options
 
 
 ### Trigger restart when add-ons are updated
@@ -60,9 +64,19 @@ Show or hide the buttons displayed on Anki's Home menu bar.
 
 Enable or disable a sound when restarting.
 
+### Disable auto sync when restarting
+
+Anki's auto sync takes a little time. When restarting frequently sync is not needed, so this add-on disabled and restore Anki's auto sync option only when restarting. This option disabled this feature.
+
+* ON: Save auto sync option -> Disabled auto sync -> Restart Anki -> Restore auto sync otion
+* OFF: Nothing
+
+
 ### Short cut key
 
-You can change the shortcut key for restarting Anki. The shortcut key will not work if it conflicts with other add-ons or Anki shortcut keys, so if the key does not work try changing it.
+You can change the shortcut key for restarting Anki. The shortcut key will not work if it conflicts with other add-ons or Anki shortcut keys, so if the key does not work try changing it. default short cut key: `Ctrl+Shift+R`.
+
+
 
 ## Advanced tab
 
@@ -84,28 +98,30 @@ This new safe mode disables all add-ons except AnkiRestart and then restart. Dis
 * Action: Trigger Safe Mode Restart -> Save All addons data -> disables all add-ons except AnkiRestart -> Run Restart (Close Anki) -> Open new Anki -> Enable all save add-ons
 
 
-#### Show safe mode restart button
+### Show safe mode restart button
 
 Enabling this will display a menu and button to restart in safe mode. (Red icon)
 
-#### Use real safe mode
+### Use real safe mode
 
 This mode manually disables add-ons, so it is not [Anki's default safe mode](https://docs.ankiweb.net/troubleshooting.html#2-check-add-ons). Enabling this option will restart Anki in its native safe mode. In this case, AnkiRestart will also be disabled.
 
 * Action: Trigger Real Safe Mode Restart -> Run Restart (Close Anki) -> Open new Anki + safe mode (as holding down the Shift key while starting Anki)
 
-
-
 ### Delay Restart Second
 
-This add-on waits a few seconds when restarting Anki. It probably works even with 0 seconds, but I set it to 3 seconds just to be safe.
+* This add-on waits a few seconds when restarting Anki. It probably works even with 0 seconds, but I set it to 3 seconds just to be safe.
+
+* 🚨NOTE: This timer uses subprocess.Popen's shell=True (Win: timeout /T, MacOS/Linux: sleep). If you are concerned about security setting it to 0 seconds will disable it.
+  * time 1+ sec : `subprocess.Popen(cmd, shell=True)`
+  * time 0 sec : `subprocess.Popen(popen_args)`
+  * If there are unknown characters in the path used in cmd, or if the path does not exist, the timer and shell will be automatically disabled.
 
 ## FAQ
 
 #### Q. What is the difference between V1 and V2?
 
- * This version restarts Anki using only the add-on without using external files. (Beta) So there is no problem with misdetection by antivirus software. I also fixed some bugs, enhanced features, and optimized the code.
-
+ * This version restarts Anki using only the add-on without using external files, so there is no problem with misdetection by antivirus software. I also fixed some bugs, enhanced features, and optimized the code.
 
 #### Q. What is Safe Mode used for?
 
