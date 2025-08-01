@@ -3,6 +3,10 @@
 ![nolonger_needed](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/template/nolonger_needed.png)
 
 
+<!--
+https://shigeyukey.github.io/shige-addons-wiki/images/
+-->
+
 <!-- 
 Hi I'm add-ons developer Shige, I fixed this add-on and uploaded it to AnkiWeb.
 🟢 (Fixed by Shigeඞ)
