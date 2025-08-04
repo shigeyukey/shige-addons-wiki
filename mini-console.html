@@ -1,0 +1,366 @@
+<!DOCTYPE HTML>
+<html lang="en" class="navy sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>🔧Mini Console (New!) - Shige addons Wiki</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "navy";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('navy')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Shige addons Wiki</h1>
+
+                    <div class="right-buttons">
+                        <a href="https://www.patreon.com/Shigeyuki" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-envelope"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="mini-console"><a class="header" href="#mini-console">Mini Console</a></h1>
+<p>🔧Mini Console - for quick add-on debug (Created by Shigeඞ)</p>
+<!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
+<!-- Created -->
+<p><a href="https://www.reddit.com/user/Shige-yuki"><img src="https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065" alt="reddit" /></a></p>
+<p>Pops up a mini console for displaying debug info. It's for add-ons development so not for general learners. It includes a prototype feature that utilizes part of Anki's new launcher (uv).</p>
+<p><img src="images/mini-console/00.png" alt="alt text" /></p>
+<h2 id="how-to-use"><a class="header" href="#how-to-use">How to use</a></h2>
+<p>Install the add-on and restart Anki to auto display the console.</p>
+<h2 id="top-toolbar"><a class="header" href="#top-toolbar">Top Toolbar</a></h2>
+<p><img src="images/mini-console/03.png" alt="alt text" /></p>
+<ol>
+<li>In Python mode displays the Python version.</li>
+<li>Changes the font.</li>
+<li>Enable the checkbox to keep it always on top.</li>
+<li>Change the font size with the minus and plus buttons.</li>
+<li>Close the window to exit.</li>
+<li>Press Anki to open Anki.</li>
+</ol>
+<h2 id="mini-mode"><a class="header" href="#mini-mode">Mini Mode</a></h2>
+<p><img src="images/mini-console/02.png" alt="alt text" /></p>
+<p>You can reduce the size by dragging the bottom right corner of the window. Size and Position are auto saved and restored.</p>
+<h2 id="option1"><a class="header" href="#option1">Option1</a></h2>
+<p><img src="images/mini-console/01.png" alt="alt text" /></p>
+<h3 id="option"><a class="header" href="#option">Option</a></h3>
+<ol>
+<li>Run at Start up
+<ul>
+<li>Automatically starts the console when Anki is started.</li>
+</ul>
+</li>
+<li>Disable word wrap
+<ul>
+<li>Disables word wrap for console text.</li>
+</ul>
+</li>
+<li>Open shortcut
+<ul>
+<li>Change shortcut key to open console.</li>
+</ul>
+</li>
+<li>Maximum number of lines
+<ul>
+<li>limits the text displayed in the console.</li>
+</ul>
+</li>
+<li>Reset size and position
+<ul>
+<li>Reset console position and size.</li>
+</ul>
+</li>
+</ol>
+<h2 id="option2"><a class="header" href="#option2">Option2</a></h2>
+<p><img src="images/mini-console/04.png" alt="alt text" /></p>
+<h2 id="python-mode"><a class="header" href="#python-mode">Python mode</a></h2>
+<p><img src="images/mini-console/05.png" alt="alt text" /></p>
+<p>This console has 2 modes, one for running within Anki and one for using Python with Anki's new launcher, this option can be switched.</p>
+<h3 id="anki-mode"><a class="header" href="#anki-mode">Anki Mode</a></h3>
+<ul>
+<li>The window is displayed by Anki in the same way as normal Add-ons.</li>
+<li>When Anki closes, close it.</li>
+<li>If an error occurs in Python Mode, it will automatically change to this mode.</li>
+</ul>
+<h3 id="python-mode-1"><a class="header" href="#python-mode-1">Python Mode</a></h3>
+<p>This mode uses Anki's new uv launcher to launch Python and run the console through Python. (in short it is almost the same as running a new app.)</p>
+<p>This feature has these advantages.</p>
+<ul>
+<li>The console will continue to run without closing even after closing Anki.</li>
+<li>If Anki's UI freezes while loading, the display can be refreshed.</li>
+</ul>
+<p>The disadvantages are these.</p>
+<ul>
+<li>It increases the load on the PC when running. (about +70MB)</li>
+<li>If an unexpected error occurs, the console may not be able to be closed (since closing Anki will not close it). If so, use the task manager or activity monitor to force Python to close (or reboot the PC).</li>
+</ul>
+<h3 id="reconnect"><a class="header" href="#reconnect">Reconnect</a></h3>
+<ul>
+<li>The mini console uses a socket to communicate with Anki. If communication is completely lost, a reconnect button will be displayed. Press it to reconnect to Anki.</li>
+</ul>
+<p><img src="images/mini-console/06.png" alt="alt text" /></p>
+<h3 id="use-custom-python-path"><a class="header" href="#use-custom-python-path">use custom python path</a></h3>
+<ul>
+<li>The mini console runs using the Python path from the uv that Anki launcher uses. If you are a developer and already have Python installed on your PC, you can run the mini-console by specifying the Python path instead. (this requires PyQt6.)</li>
+</ul>
+<h3 id="anki-button"><a class="header" href="#anki-button">Anki button</a></h3>
+<ul>
+<li>This button launches Anki. If the auto-detected Anki path is wrong, or if you want to use a different path from the default Anki, you can specify the Anki path with this option.</li>
+</ul>
+<h2 id="notes"><a class="header" href="#notes">Notes</a></h2>
+<ul>
+<li>I only checked it on Windows, not on MacOS and Linux yet.</li>
+<li>The output of the console can be read only after the add-ons are loaded, so info before this add-on is loaded cannot be displayed. Also info before Anki is closed cannot be displayed.</li>
+<li>It communicates via sockets, so it may not work if there is a communication problem. So far it works fine on my device.</li>
+</ul>
+<h2 id="faq"><a class="header" href="#faq">FAQ</a></h2>
+<h3 id="q-what-is-a-console"><a class="header" href="#q-what-is-a-console">Q. What is a console?</a></h3>
+<ul>
+<li>It is a tool used by developers to read feedback from Anki and add-ons. e.g. Check that the function is working properly. Look into the detailed cause of an error.</li>
+<li>The console can only be displayed with the default Anki. <em>Writing Anki Add-ons: <a href="https://addon-docs.ankiweb.net/console-output.html">Console Output</a></em></li>
+</ul>
+<h3 id="q-why-use-this-instead-of-the-default-console"><a class="header" href="#q-why-use-this-instead-of-the-default-console">Q. Why use this instead of the default console?</a></h3>
+<ul>
+<li>In Add-ons development I often don't need too much detail (e.g. just one line of print to make sure it works).</li>
+<li>Previously I used to show or hide the console in the AnkiRetart options.
+But this does not work well with the new launcher, so this is a simple workaround.</li>
+<li>If possible I will use this same mechanism in another add-ons, so this is a prototype.</li>
+</ul>
+<br>
+<h2 id="report"><a class="header" href="#report">🚨Report</a></h2>
+<p>If you have any problems or requests feel free to send them to me.</p>
+  <!-- 1. <a href="https://ankiweb.net/shared/review/🟢" target="_blank">👍️Rate Comment</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development. -->
+<ol start="2">
+<li><a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">👩‍🚀Reddit</a> : You can request me to repair broken Add-ons.</li>
+<li><a href="https://forums.ankiweb.net/t/simple-fix-of-broken-add-ons-for-the-latest-anki-by-shige/41650" target="_blank">🌟AnkiForums</a> : You can request me to repair broken Add-ons, and it is ideal for open discussions.</li>
+<li><a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">🐙Github </a> : Makes it easier to track problems.</li>
+<li><a href="https://www.patreon.com/Shigeyuki" target="_blank">💖Patreon DM</a> : Response will be prioritized.</li>
+</ol>
+<br>
+<h4 id="please-support-shiges-anki-add-ons-development"><a class="header" href="#please-support-shiges-anki-add-ons-development"><a href="http://patreon.com/Shigeyuki">💖Please Support Shige's Anki add-ons development!</a></a></h4>
+<p>Hi thank you for using this add-on, I'm Shigeඞ! I'm looking for supporters for my add-ons development, because I like Anki! So far I fixed and customized 60+ discontinued add-ons and created 30+ new add-ons. If you support my volunteer development you will get 14 add-ons for patrons only and 15 game themes included in AnkiArcade ($5/month). If you have any ideas or requests feel free to send them to me, thanks! :D</p>
+<p><a href="http://patreon.com/Shigeyuki"><img src="https://shigeyukey.github.io/shige-addons-wiki/images/_promotion/promotion_00.gif" alt="patrons_banner" /></a><br>
+<a href="https://www.patreon.com/Shigeyuki">Get Patrons only addons</a> | <a href="https://shigeyukey.github.io/shige-addons-wiki/patrons_q_and_a.html">Patrons Q and A</a> | <a href="https://shigeyukey.github.io/shige-addons-wiki/contact.html">Contact</a> <br></p>
+<!-- 🟢 template_patreon_100.md -->
+<br>
+<!--
+<br>
+
+## 📥 How do I install this add-on?
+
+1. This add-on works with Anki for desktop (it does not work on mobile). Download Anki from the [official website](https://apps.ankiweb.net/) if you haven't already.
+2. Copy and paste the add-on code ( `🟢` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
+3. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
+4. Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!
+
+[Click here and please Rate this add-on, Thank you! :-) <br>
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/🟢)
+ -->
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="patreon-card-generator.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="fixed_addons.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="patreon-card-generator.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="fixed_addons.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>
