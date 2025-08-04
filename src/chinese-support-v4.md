@@ -14,20 +14,23 @@ This add-on is a fixed version for Anki25.07+ of the addon <a href="https://anki
 
 <br>
 
-![alt text](images/chinese-support-v4/03.png)
-![alt text](images/chinese-support-v4/04.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/chinese-support-v4/chineseSupportV4.gif)
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/chinese-support-v4/03.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/chinese-support-v4/04.png)
 *(These images are edited and re-uploaded from the original add-on images.)*
 
 ## How to use
 
-このAdd-onを使用するためには中国語のノートタイプを使用する必要があります.
-Add-onをダウンロードするとManage Note Typesに新しいノートタイプが追加されます.
-なのでそれをAddで追加してください.
 
-![alt text](images/chinese-support-v4/02.png)
+To use this add-on you need to use Chinese note types. When you download the add-on a new note type will be added to Manage Note Types (Ctrl+Shift+N), so please add it by clicking on the Add button.
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/chinese-support-v4/02.png)
+
+After adding a note type select the note type in the editor and activate it with the button in the editor.
 
 
-
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/chinese-support-v4/05.png)
 
 
 ## Features
