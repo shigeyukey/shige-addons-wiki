@@ -14,7 +14,6 @@ https://ankiweb.net/shared/info/🟢
  -->
 
 
-<!-- ### [AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢` -->
 <!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
 
 
