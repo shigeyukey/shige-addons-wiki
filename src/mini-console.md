@@ -9,7 +9,7 @@
 
 Pops up a mini console for displaying debug info. It's for add-ons development so not for general learners. It includes a prototype feature that utilizes part of Anki's new launcher (uv).
 
-![alt text](images/mini-console/00.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/mini-console/00.png)
 
 
 ## How to use
@@ -18,7 +18,7 @@ Install the add-on and restart Anki to auto display the console.
 
 ## Top Toolbar
 
-![alt text](images/mini-console/03.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/mini-console/03.png)
 
 1. In Python mode displays the Python version.
 1. Changes the font.
@@ -30,13 +30,13 @@ Install the add-on and restart Anki to auto display the console.
 
 ## Mini Mode
 
-![alt text](images/mini-console/02.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/mini-console/02.png)
 
 You can reduce the size by dragging the bottom right corner of the window. Size and Position are auto saved and restored.
 
 ## Option1
 
-![alt text](images/mini-console/01.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/mini-console/01.png)
 
 ### Option
 
@@ -54,12 +54,12 @@ You can reduce the size by dragging the bottom right corner of the window. Size 
 
 ## Option2
 
-![alt text](images/mini-console/04.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/mini-console/04.png)
 
 
 ## Python mode
 
-![alt text](images/mini-console/05.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/mini-console/05.png)
 
 This console has 2 modes, one for running within Anki and one for using Python with Anki's new launcher, this option can be switched.
 
@@ -87,7 +87,7 @@ The disadvantages are these.
 
 * The mini console uses a socket to communicate with Anki. If communication is completely lost, a reconnect button will be displayed. Press it to reconnect to Anki.
 
-![alt text](images/mini-console/06.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/mini-console/06.png)
 
 
 ### use custom python path
