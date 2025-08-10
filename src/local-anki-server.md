@@ -29,7 +29,7 @@ Use self-hosted server with Wifi
       - [Sync Port](#sync-port)
       - [Sync Host (Local)](#sync-host-local)
     - [Custom tab 02](#custom-tab-02)
-    - [Custom tab 02](#custom-tab-02-1)
+    - [Console mode](#console-mode)
     - [Users tab](#users-tab)
     - [Online Tab](#online-tab)
       - [Why Tailscale?](#why-tailscale)
@@ -178,13 +178,22 @@ You can change the number of the server host to be used locally. This is needed 
 
 ### Custom tab 02
 
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/07.png)
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/06.png)
 
 
-### Custom tab 02
 
 
+### Console mode
 
 
+I developed a new console mode for local Anki server.
+
+1. The server is displayed and closed using the console. A black window will be displayed, like the Anki launcher.
+2. The server will continue to run until the console window is closed. To close the server please press Ctrl+C or use addon menu action. (closing the window with the X button will force close, not recommended.)
+3. If Cancel, start the server without the console (as before).
+ This old mode has a bit of a bug, so server may not be closed from add-on. (if so, please close it from Task Manager or restart your laptop.)
 
 
 
