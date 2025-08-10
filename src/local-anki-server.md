@@ -3,17 +3,8 @@ Use self-hosted server with Wifi
 
 <!-- 🌐Local Anki Server - Use self-hosted server with Wifi (Created by Shigeඞ) -->
 
-
 **[AnkiWeb Page](https://ankiweb.net/shared/info/49665391) | Code : `49665391`**
 
-
-<!-- Created -->
-[![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
-
-
-### What is this Add-on?
-
-This is an add-on to use a local server instead of AnkiWeb server. The latest version of Anki for desktop has a built-in <a href="https://docs.ankiweb.net/sync-server.html">Self-Hosted Sync Server</a></a> for advanced Anki users, this add-on makes that server easier to use for beginner Anki users, so you can easily use the local server by just logging in with very little setup.
 
 - [🌐Local Anki Server](#local-anki-server)
     - [What is this Add-on?](#what-is-this-add-on)
@@ -37,6 +28,8 @@ This is an add-on to use a local server instead of AnkiWeb server. The latest ve
       - [Max Sync Payload](#max-sync-payload)
       - [Sync Port](#sync-port)
       - [Sync Host (Local)](#sync-host-local)
+    - [Custom tab 02](#custom-tab-02)
+    - [Custom tab 02](#custom-tab-02-1)
     - [Users tab](#users-tab)
     - [Online Tab](#online-tab)
       - [Why Tailscale?](#why-tailscale)
@@ -46,6 +39,17 @@ This is an add-on to use a local server instead of AnkiWeb server. The latest ve
       - [Info for developer](#info-for-developer)
   - [🚨Report](#report)
   - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
+
+
+
+
+<!-- Created -->
+[![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
+
+
+### What is this Add-on?
+
+This is an add-on to use a local server instead of AnkiWeb server. The latest version of Anki for desktop has a built-in <a href="https://docs.ankiweb.net/sync-server.html">Self-Hosted Sync Server</a></a> for advanced Anki users, this add-on makes that server easier to use for beginner Anki users, so you can easily use the local server by just logging in with very little setup.
 
 ## Introduction
 
@@ -170,6 +174,23 @@ You can change the Port number of the server you use locally. Port is like a loc
 #### Sync Host (Local)
 
 You can change the number of the server host to be used locally. This is needed to enter the correct IP address if the auto-detected IP address is wrong. If you set the wrong IP address, you will not be able to access the server, so do not enter anything unless you want to. (Do NOT enter the Tailscale host here.)
+
+
+### Custom tab 02
+
+
+
+### Custom tab 02
+
+
+
+
+
+
+
+
+
+
 
 ### Users tab
 
