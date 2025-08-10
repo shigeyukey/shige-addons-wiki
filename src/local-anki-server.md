@@ -5,47 +5,12 @@ Use self-hosted server with Wifi
 
 **[AnkiWeb Page](https://ankiweb.net/shared/info/49665391) | Code : `49665391`**
 
-
-- [🌐Local Anki Server](#local-anki-server)
-    - [What is this Add-on?](#what-is-this-add-on)
-  - [Introduction](#introduction)
-    - [How the add-on basically works](#how-the-add-on-basically-works)
-    - [Why use a local server instead of AnkiWeb?](#why-use-a-local-server-instead-of-ankiweb)
-    - [What are the disadvantages and risks of a local server?](#what-are-the-disadvantages-and-risks-of-a-local-server)
-      - [Notes](#notes)
-    - [How to terminate the server?](#how-to-terminate-the-server)
-  - [How to use](#how-to-use)
-  - [Addon menu](#addon-menu)
-    - [Settings](#settings)
-    - [Local tab](#local-tab)
-      - [User Setting](#user-setting)
-      - [Local Server URL](#local-server-url)
-      - [QR code](#qr-code)
-      - [User Self-hosted server](#user-self-hosted-server)
-    - [Custom tab](#custom-tab)
-      - [Custom Anki Path](#custom-anki-path)
-      - [Custom Sync Base Path](#custom-sync-base-path)
-        - [How to change username and password?](#how-to-change-username-and-password)
-      - [Max Sync Payload](#max-sync-payload)
-      - [Sync Port](#sync-port)
-      - [Sync Host (Local)](#sync-host-local)
-    - [Console mode](#console-mode)
-    - [Custom 02](#custom-02)
-    - [Users tab](#users-tab)
-    - [Online Tab](#online-tab)
-      - [Why Tailscale?](#why-tailscale)
-      - [How to set up a VPN online with Tailscale?](#how-to-set-up-a-vpn-online-with-tailscale)
-      - [Notes](#notes-1)
-    - [Documents](#documents)
-      - [Info for developer](#info-for-developer)
-  - [🚨Report](#report)
-  - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
-
-
-
-
 <!-- Created -->
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
+
+<br>
+
+Edit 2025-08-10: I added a new mode to display the console. You can use it by selecting it when you start it up for the first time. (it will not start if the local server is already running.)
 
 
 ### What is this Add-on?
@@ -193,14 +158,11 @@ You can change the Port number of the server you use locally. Port is like a loc
 You can change the number of the server host to be used locally. This is needed to enter the correct IP address if the auto-detected IP address is wrong. If you set the wrong IP address, you will not be able to access the server, so do not enter anything unless you want to. (Do NOT enter the Tailscale host here.)
 
 
-
-
-
 ### Console mode
 
 I developed a new console mode for local Anki server. <br>
 
-This mode can be used by selecting Console mode in the window that pops up when you launch the add-on. (it can be changed in the options.)
+This mode can be used by selecting Console mode in the window that pops up when you launch the add-on. (it will not start if the local server is already running.)
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/08.png)
 
@@ -210,22 +172,57 @@ This mode can be used by selecting Console mode in the window that pops up when 
 3. If Cancel, start the server without the console (as before).
  This old mode has a bit of a bug, so server may not be closed from add-on. (if so please close it from Task Manager or restart your laptop.)
 
+Q. Why console mode? <br>
+
+* Anki's built-in server is designed to be launched from the console by developers, so using the console is closer to the intended use.
+* It seems that the console must be displayed in order to close using Ctrl+C, if it is hidden keys will no longer be entered. (Forced termination is probably possible but not recommended.)
+
 <br>
 
-You can check whether the server is closed or not by displaying the console, if the path is displayed it is closed. Like this:
-
-![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/09.png)
-
-
 Others <br>
-* If startup fails, it will start up without a console.
+
+* You can check whether the server is closed or not by displaying the console, if the path is displayed it is closed. Like this:
+
+* ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/09.png)
+
+* If startup fails it will start up without a console.
 * If you are not synchronizing you can probably close the console directly with the X button without any problems, but I think it is safer to close it with Ctrl+C or the add-on menu action.
+* If the console cannot be closed by pressing Ctrl+C, close it by clicking the X button when it is not sync. (e.g. Close Anki for desktop and AnkiMobile so that they cannot sync, then close the console.)
+
+
+ <br>
+
+Q. What are the disadvantages of console mode? <br>
+
+* Users may be startled when the black console is displayed.
+* It can be a little dangerous if users accidentally press the X button during sync.
+* Depending on the PC, it may not be possible to start the console.
+
+ <br>
+
+
+Q. Are there any problems with using it without a console?<br>
+
+* There is a high possibility that the server will fail to close.
+* The server should start up and be usable even if you run it without a console. If you don't have a console, it's just inconvenient to reflect changes in Settings.
+* e.g. even if you change your username or password, the changes won't be reflected until you close the server in Task Manager or restart your laptop.
+* If you don't use Settings at all I think it's fine not to have a console, the local server will continue to run in the background until you shut down your laptop.
 
 
 
 ### Custom 02
 
+I added some new options.
+
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/07.png)
+
+
+1. Enable Auto Close
+    * try close server when Anki close. This option is disabled by default in the latest version of the add-on.
+1. Try auto restart Server after change settigs
+    * By default, the server will auto restart when Settings are changed. Disabling this will skip that action.
+1. Auto startup Server
+    * Auto start server when Anki is launched. If the server is already running, do nothing.
 
 
 
