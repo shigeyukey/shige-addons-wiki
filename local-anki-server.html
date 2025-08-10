@@ -178,71 +178,10 @@
 <p>Use self-hosted server with Wifi</p>
 <!-- 🌐Local Anki Server - Use self-hosted server with Wifi (Created by Shigeඞ) -->
 <p><strong><a href="https://ankiweb.net/shared/info/49665391">AnkiWeb Page</a> | Code : <code>49665391</code></strong></p>
-<ul>
-<li><a href="#local-anki-server">🌐Local Anki Server</a>
-<ul>
-<li><a href="#what-is-this-add-on">What is this Add-on?</a></li>
-<li><a href="#introduction">Introduction</a>
-<ul>
-<li><a href="#how-the-add-on-basically-works">How the add-on basically works</a></li>
-<li><a href="#why-use-a-local-server-instead-of-ankiweb">Why use a local server instead of AnkiWeb?</a></li>
-<li><a href="#what-are-the-disadvantages-and-risks-of-a-local-server">What are the disadvantages and risks of a local server?</a>
-<ul>
-<li><a href="#notes">Notes</a></li>
-</ul>
-</li>
-<li><a href="#how-to-terminate-the-server">How to terminate the server?</a></li>
-</ul>
-</li>
-<li><a href="#how-to-use">How to use</a></li>
-<li><a href="#addon-menu">Addon menu</a>
-<ul>
-<li><a href="#settings">Settings</a></li>
-<li><a href="#local-tab">Local tab</a>
-<ul>
-<li><a href="#user-setting">User Setting</a></li>
-<li><a href="#local-server-url">Local Server URL</a></li>
-<li><a href="#qr-code">QR code</a></li>
-<li><a href="#user-self-hosted-server">User Self-hosted server</a></li>
-</ul>
-</li>
-<li><a href="#custom-tab">Custom tab</a>
-<ul>
-<li><a href="#custom-anki-path">Custom Anki Path</a></li>
-<li><a href="#custom-sync-base-path">Custom Sync Base Path</a>
-<ul>
-<li><a href="#how-to-change-username-and-password">How to change username and password?</a></li>
-</ul>
-</li>
-<li><a href="#max-sync-payload">Max Sync Payload</a></li>
-<li><a href="#sync-port">Sync Port</a></li>
-<li><a href="#sync-host-local">Sync Host (Local)</a></li>
-</ul>
-</li>
-<li><a href="#console-mode">Console mode</a></li>
-<li><a href="#custom-02">Custom 02</a></li>
-<li><a href="#users-tab">Users tab</a></li>
-<li><a href="#online-tab">Online Tab</a>
-<ul>
-<li><a href="#why-tailscale">Why Tailscale?</a></li>
-<li><a href="#how-to-set-up-a-vpn-online-with-tailscale">How to set up a VPN online with Tailscale?</a></li>
-<li><a href="#notes-1">Notes</a></li>
-</ul>
-</li>
-<li><a href="#documents">Documents</a>
-<ul>
-<li><a href="#info-for-developer">Info for developer</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#report">🚨Report</a></li>
-<li><a href="#-how-do-i-install-this-add-on">📥 How do I install this add-on?</a></li>
-</ul>
-</li>
-</ul>
 <!-- Created -->
 <p><a href="https://www.reddit.com/user/Shige-yuki"><img src="https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065" alt="reddit" /></a></p>
+<br>
+<p>Edit 2025-08-10: I added a new mode to display the console. You can use it by selecting it when you start it up for the first time. (it will not start if the local server is already running.)</p>
 <h3 id="what-is-this-add-on"><a class="header" href="#what-is-this-add-on">What is this Add-on?</a></h3>
 <p>This is an add-on to use a local server instead of AnkiWeb server. The latest version of Anki for desktop has a built-in <a href="https://docs.ankiweb.net/sync-server.html">Self-Hosted Sync Server</a></a> for advanced Anki users, this add-on makes that server easier to use for beginner Anki users, so you can easily use the local server by just logging in with very little setup.</p>
 <h2 id="introduction"><a class="header" href="#introduction">Introduction</a></h2>
@@ -368,7 +307,7 @@
 <p>You can change the number of the server host to be used locally. This is needed to enter the correct IP address if the auto-detected IP address is wrong. If you set the wrong IP address, you will not be able to access the server, so do not enter anything unless you want to. (Do NOT enter the Tailscale host here.)</p>
 <h3 id="console-mode"><a class="header" href="#console-mode">Console mode</a></h3>
 <p>I developed a new console mode for local Anki server. <br></p>
-<p>This mode can be used by selecting Console mode in the window that pops up when you launch the add-on. (it can be changed in the options.)</p>
+<p>This mode can be used by selecting Console mode in the window that pops up when you launch the add-on. (it will not start if the local server is already running.)</p>
 <p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/08.png" alt="alt text" /></p>
 <ol>
 <li>The server is displayed and closed using the console. A black window will be displayed, like the Anki launcher.</li>
@@ -376,16 +315,65 @@
 <li>If Cancel, start the server without the console (as before).
 This old mode has a bit of a bug, so server may not be closed from add-on. (if so please close it from Task Manager or restart your laptop.)</li>
 </ol>
+<p>Q. Why console mode? <br></p>
+<ul>
+<li>Anki's built-in server is designed to be launched from the console by developers, so using the console is closer to the intended use.</li>
+<li>It seems that the console must be displayed in order to close using Ctrl+C, if it is hidden keys will no longer be entered. (Forced termination is probably possible but not recommended.)</li>
+</ul>
 <br>
-<p>You can check whether the server is closed or not by displaying the console, if the path is displayed it is closed. Like this:</p>
-<p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/09.png" alt="alt text" /></p>
 <p>Others <br></p>
 <ul>
-<li>If startup fails, it will start up without a console.</li>
-<li>If you are not synchronizing you can probably close the console directly with the X button without any problems, but I think it is safer to close it with Ctrl+C or the add-on menu action.</li>
+<li>
+<p>You can check whether the server is closed or not by displaying the console, if the path is displayed it is closed. Like this:</p>
+</li>
+<li>
+<p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/09.png" alt="alt text" /></p>
+</li>
+<li>
+<p>If startup fails it will start up without a console.</p>
+</li>
+<li>
+<p>If you are not synchronizing you can probably close the console directly with the X button without any problems, but I think it is safer to close it with Ctrl+C or the add-on menu action.</p>
+</li>
+<li>
+<p>If the console cannot be closed by pressing Ctrl+C, close it by clicking the X button when it is not sync. (e.g. Close Anki for desktop and AnkiMobile so that they cannot sync, then close the console.)</p>
+</li>
+</ul>
+ <br>
+<p>Q. What are the disadvantages of console mode? <br></p>
+<ul>
+<li>Users may be startled when the black console is displayed.</li>
+<li>It can be a little dangerous if users accidentally press the X button during sync.</li>
+<li>Depending on the PC, it may not be possible to start the console.</li>
+</ul>
+ <br>
+<p>Q. Are there any problems with using it without a console?<br></p>
+<ul>
+<li>There is a high possibility that the server will fail to close.</li>
+<li>The server should start up and be usable even if you run it without a console. If you don't have a console, it's just inconvenient to reflect changes in Settings.</li>
+<li>e.g. even if you change your username or password, the changes won't be reflected until you close the server in Task Manager or restart your laptop.</li>
+<li>If you don't use Settings at all I think it's fine not to have a console, the local server will continue to run in the background until you shut down your laptop.</li>
 </ul>
 <h3 id="custom-02"><a class="header" href="#custom-02">Custom 02</a></h3>
+<p>I added some new options.</p>
 <p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/07.png" alt="alt text" /></p>
+<ol>
+<li>Enable Auto Close
+<ul>
+<li>try close server when Anki close. This option is disabled by default in the latest version of the add-on.</li>
+</ul>
+</li>
+<li>Try auto restart Server after change settigs
+<ul>
+<li>By default, the server will auto restart when Settings are changed. Disabling this will skip that action.</li>
+</ul>
+</li>
+<li>Auto startup Server
+<ul>
+<li>Auto start server when Anki is launched. If the server is already running, do nothing.</li>
+</ul>
+</li>
+</ol>
 <h3 id="users-tab"><a class="header" href="#users-tab">Users tab</a></h3>
 <p>You can add users to be used on the server.</p>
 <p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/04.png" alt="alt text" /></p>
