@@ -194,7 +194,8 @@
 <li><a href="#how-to-terminate-the-server">How to terminate the server?</a></li>
 </ul>
 </li>
-<li><a href="#how-to-use">How to use</a>
+<li><a href="#how-to-use">How to use</a></li>
+<li><a href="#addon-menu">Addon menu</a>
 <ul>
 <li><a href="#settings">Settings</a></li>
 <li><a href="#local-tab">Local tab</a>
@@ -304,6 +305,30 @@
 </ol>
 <p>Also if the server freezes for some reason, it may prevent Anki from starting. In such a case, exit Anki and the server as described above, and start Anki with Shift key pressed to disable the add-ons.</p>
 <h2 id="how-to-use"><a class="header" href="#how-to-use">How to use</a></h2>
+<h2 id="addon-menu"><a class="header" href="#addon-menu">Addon menu</a></h2>
+<p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/06.png" alt="alt text" /></p>
+<ol>
+<li>Option
+<ul>
+<li>Open the Settings window. Change the settings then auto restart server.</li>
+</ul>
+</li>
+<li>Run Local Sync Server
+<ul>
+<li>Run the server. If the server is already running do nothing.</li>
+</ul>
+</li>
+<li>Close Server
+<ul>
+<li>Close the server. If it cannot be closed please close it manually from Task Manager or restart your laptop.</li>
+</ul>
+</li>
+<li>Check Server
+<ul>
+<li>Exists Check whether the server exists or not.</li>
+</ul>
+</li>
+</ol>
 <h3 id="settings"><a class="header" href="#settings">Settings</a></h3>
 <p>When you press Save, or when you log in a new user, the server will exit and restart.</p>
 <h3 id="local-tab"><a class="header" href="#local-tab">Local tab</a></h3>
@@ -343,14 +368,14 @@
 <p>You can change the number of the server host to be used locally. This is needed to enter the correct IP address if the auto-detected IP address is wrong. If you set the wrong IP address, you will not be able to access the server, so do not enter anything unless you want to. (Do NOT enter the Tailscale host here.)</p>
 <h3 id="custom-tab-02"><a class="header" href="#custom-tab-02">Custom tab 02</a></h3>
 <p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/07.png" alt="alt text" /></p>
-<p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/06.png" alt="alt text" /></p>
 <h3 id="console-mode"><a class="header" href="#console-mode">Console mode</a></h3>
 <p>I developed a new console mode for local Anki server.</p>
+<p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/08.png" alt="alt text" /></p>
 <ol>
 <li>The server is displayed and closed using the console. A black window will be displayed, like the Anki launcher.</li>
 <li>The server will continue to run until the console window is closed. To close the server please press Ctrl+C or use addon menu action. (closing the window with the X button will force close, not recommended.)</li>
 <li>If Cancel, start the server without the console (as before).
-This old mode has a bit of a bug, so server may not be closed from add-on. (if so, please close it from Task Manager or restart your laptop.)</li>
+This old mode has a bit of a bug, so server may not be closed from add-on. (if so please close it from Task Manager or restart your laptop.)</li>
 </ol>
 <h3 id="users-tab"><a class="header" href="#users-tab">Users tab</a></h3>
 <p>You can add users to be used on the server.</p>
