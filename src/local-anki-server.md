@@ -29,8 +29,8 @@ Use self-hosted server with Wifi
       - [Max Sync Payload](#max-sync-payload)
       - [Sync Port](#sync-port)
       - [Sync Host (Local)](#sync-host-local)
-    - [Custom tab 02](#custom-tab-02)
     - [Console mode](#console-mode)
+    - [Custom 02](#custom-02)
     - [Users tab](#users-tab)
     - [Online Tab](#online-tab)
       - [Why Tailscale?](#why-tailscale)
@@ -193,14 +193,14 @@ You can change the Port number of the server you use locally. Port is like a loc
 You can change the number of the server host to be used locally. This is needed to enter the correct IP address if the auto-detected IP address is wrong. If you set the wrong IP address, you will not be able to access the server, so do not enter anything unless you want to. (Do NOT enter the Tailscale host here.)
 
 
-### Custom tab 02
 
-![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/07.png)
 
 
 ### Console mode
 
-I developed a new console mode for local Anki server.
+I developed a new console mode for local Anki server. <br>
+
+This mode can be used by selecting Console mode in the window that pops up when you launch the add-on. (it can be changed in the options.)
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/08.png)
 
@@ -209,6 +209,23 @@ I developed a new console mode for local Anki server.
 2. The server will continue to run until the console window is closed. To close the server please press Ctrl+C or use addon menu action. (closing the window with the X button will force close, not recommended.)
 3. If Cancel, start the server without the console (as before).
  This old mode has a bit of a bug, so server may not be closed from add-on. (if so please close it from Task Manager or restart your laptop.)
+
+<br>
+
+You can check whether the server is closed or not by displaying the console, if the path is displayed it is closed. Like this:
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/09.png)
+
+
+Others <br>
+* If startup fails, it will start up without a console.
+* If you are not synchronizing you can probably close the console directly with the X button without any problems, but I think it is safer to close it with Ctrl+C or the add-on menu action.
+
+
+
+### Custom 02
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/07.png)
 
 
 
