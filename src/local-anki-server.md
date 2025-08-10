@@ -15,6 +15,7 @@ Use self-hosted server with Wifi
       - [Notes](#notes)
     - [How to terminate the server?](#how-to-terminate-the-server)
   - [How to use](#how-to-use)
+  - [Addon menu](#addon-menu)
     - [Settings](#settings)
     - [Local tab](#local-tab)
       - [User Setting](#user-setting)
@@ -104,6 +105,22 @@ Also if the server freezes for some reason, it may prevent Anki from starting. I
 
 ## How to use
 
+## Addon menu
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/06.png)
+
+
+1. Option
+     * Open the Settings window. Change the settings then auto restart server.
+2. Run Local Sync Server
+     * Run the server. If the server is already running do nothing.
+3. Close Server
+     * Close the server. If it cannot be closed please close it manually from Task Manager or restart your laptop.
+4. Check Server
+     * Exists Check whether the server exists or not.
+
+
+
 ### Settings
 
 When you press Save, or when you log in a new user, the server will exit and restart.
@@ -180,23 +197,18 @@ You can change the number of the server host to be used locally. This is needed 
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/07.png)
 
-![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/06.png)
-
-
-
 
 ### Console mode
 
-
 I developed a new console mode for local Anki server.
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/local-anki-server/08.png)
+
 
 1. The server is displayed and closed using the console. A black window will be displayed, like the Anki launcher.
 2. The server will continue to run until the console window is closed. To close the server please press Ctrl+C or use addon menu action. (closing the window with the X button will force close, not recommended.)
 3. If Cancel, start the server without the console (as before).
- This old mode has a bit of a bug, so server may not be closed from add-on. (if so, please close it from Task Manager or restart your laptop.)
-
-
-
+ This old mode has a bit of a bug, so server may not be closed from add-on. (if so please close it from Task Manager or restart your laptop.)
 
 
 
