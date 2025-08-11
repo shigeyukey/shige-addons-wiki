@@ -113,6 +113,7 @@
 
 ---
 
+- [🖼️Image Editor (New!)](image-editor.md)
 - [🐼Chinese Support V4 (New!)](chinese-support-v4.md)
 - [🔍️Search Bar (New!)](search-bar.md)
 - [🧹nbsp Remover (New!)](nbsp-remover.md)
