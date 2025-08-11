@@ -1,5 +1,9 @@
 # Image Editor
 
+**[AnkiWeb Page](https://ankiweb.net/shared/info/789309990) | Code : `789309990`**
+
+🖼️Image Editor - Edit image by right click in the Editor (Fixed by Shigeඞ)
+
 <!-- 
 Hi I'm add-ons developer Shige, I fixed this add-on and uploaded it to AnkiWeb.
 🖼️Image Editor - Edit image by right click in the Editor (Fixed by Shigeඞ)
@@ -7,10 +11,6 @@ https://ankiweb.net/shared/info/789309990
  -->
 
 
-**[AnkiWeb Page](https://ankiweb.net/shared/info/789309990) | Code : `789309990`**
-
-
-🖼️Image Editor - Edit image by right click in the Editor (Fixed by Shigeඞ)
 
 
 <!-- Customized -->
