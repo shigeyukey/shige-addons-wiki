@@ -14,6 +14,13 @@ https://ankiweb.net/shared/info/726620341
 <!-- Customized -->
 [![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](https://www.reddit.com/user/Shige-yuki)
 
+===============
+
+Edit 2025-08-20: I developed and uploaded a new version of Ankimon Patch V2, so if this patch does not work please try this one.
+### add-on: [🛠️Ankimon Patch V2 Installer - Fix Patch for Ankimon (Fixed by Shigeඞ)](https://ankiweb.net/shared/info/1947038262)
+
+=================
+
 
 Adds a temporary patch and fixes to make broken Ankimon work with the latest Anki 25.07+. If Ankimon is already working, this patch is not necessary.
 
