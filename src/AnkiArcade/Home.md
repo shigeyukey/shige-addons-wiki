@@ -9,7 +9,7 @@ if you [become a Patreon](https://www.patreon.com/Shigeyuki), you will get early
 
 <!-- * ### [ [ Latest Version v1.8.5  (95 MB) ]  Download Page (Patreon)](https://www.patreon.com/posts/ankiarcade-1-8-0-116494987?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) 2024-11-26 -->
 
-* ### [ [ Latest Version v1.9.0 (104 MB) ]  Download Page (Patreon)](https://www.patreon.com/posts/ankiarcade-v1-9-136548011?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) 2025-08-15
+* ### [ [ Latest Version 1.9.2 (104 MB) ]  Download Page (Patreon)](https://www.patreon.com/posts/ankiarcade-v1-9-136548011?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) 2025-08-26
 
 
   * [ **[ Change log ]** ](09.-Changelog.md)  Older versions are available from the Change log, if you have problems with the new versions try them.
