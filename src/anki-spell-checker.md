@@ -1,9 +1,11 @@
 # ✅️Anki Spell Checker
 
+
+### [AnkiWeb Page](https://ankiweb.net/shared/info/143753963) | Code : `143753963`
+
 <!-- Customized -->
 [![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](https://www.reddit.com/user/Shige-yuki)
 
-### [AnkiWeb Page](https://ankiweb.net/shared/info/143753963) | Code : `143753963`
 
 ![spell check image](https://shigeyukey.github.io/shige-addons-wiki/images/AnkiSpellChecker/04.png)
 
@@ -60,6 +62,55 @@ This add-on only works in the Editor for now. Spell check is only available for 
 1. Spell checked words can be added to a custom dictionary as correct words. This feature is only available on Windows and Linux, not yet on Macx. Added words can be edited in the advanced tab.
 
 <br><br>
+
+### Manually download dictionary files
+
+If you cannot download the dictionary, please manually download the Dict file (.bdic) from these links and place it in the "DictFiles" folder. (Tools -> Spell Checker -> Dict tab -> DictFils button)
+
+<ul>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/af-ZA-3-0.bdic">Afrikaans</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/sq-3-0.bdic">Albanian</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/bg-BG-3-0.bdic">Bulgarian</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/ca-ES-3-0.bdic">Catalan</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/hr-HR-3-0.bdic">Croatian</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/cs-CZ-3-0.bdic">Czech</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/da-DK-3-0.bdic">Danish</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/nl-NL-3-0.bdic">Dutch</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/en-AU-3-0.bdic">English (Australia)</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/en-CA-3-0.bdic">English (Canada)</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/en-GB-3-0.bdic">English (UK)</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/en-US-3-0.bdic">English (US)</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/et-EE-3-0.bdic">Estonian</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/fo-FO-3-0.bdic">Faroese</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/fr-FR-3-0.bdic">French</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/de-DE-3-0.bdic">German</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/el-GR-3-0.bdic">Greek</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/he-IL-3-0.bdic">Hebrew</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/hi-IN-3-0.bdic">Hindi</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/hu-HU-3-0.bdic">Hungarian</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/id-ID-3-0.bdic">Indonesian</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/it-IT-3-0.bdic">Italian</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/ko-3-0.bdic">Korean</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/lv-LV-3-0.bdic">Latvian</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/lt-LT-3-0.bdic">Lithuanian</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/nb-NO-3-0.bdic">Norwegian</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/pl-PL-3-0.bdic">Polish</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/pt-BR-3-0.bdic">Portuguese (Brazil)</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/pt-PT-3-0.bdic">Portuguese (Portugal)</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/ro-RO-3-0.bdic">Romanian</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/ru-RU-3-0.bdic">Russian</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/sr-3-0.bdic">Serbian</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/sh-3-0.bdic">Serbo-Croatian</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/sk-SK-3-0.bdic">Slovak</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/sl-SI-3-0.bdic">Slovenian</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/es-ES-3-0.bdic">Spanish</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/sv-SE-3-0.bdic">Swedish</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/ta-IN-3-0.bdic">Tamil</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/tr-TR-4-0.bdic">Turkish</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/uk-UA-3-0.bdic">Ukrainian</a></li>
+  <li><a href="https://raw.githubusercontent.com/shigeyukey/third_party_hunspell_dictionaries/master/vi-VN-3-0.bdic">Vietnamese</a></li>
+</ul>
+
 
 ## 🚨Report
 
