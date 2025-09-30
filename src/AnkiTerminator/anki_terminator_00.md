@@ -69,7 +69,9 @@ To resolve this cookie issue, API is needed (in short, it will be paid for). I h
       - [Auto Prompt](#auto-prompt)
       - [Shortcut Keys](#shortcut-keys)
       - [Effect Volume](#effect-volume)
-    - [🚨Report a problem or request](#report-a-problem-or-request)
+  - [Frequently Asked Questions](#frequently-asked-questions)
+    - [Q. An error occurs when updating the add-on](#q-an-error-occurs-when-updating-the-add-on)
+  - [🚨Report a problem or request](#report-a-problem-or-request)
   - [📥How do I install this add-on?](#how-do-i-install-this-add-on)
 
 
@@ -220,7 +222,29 @@ When this setting is enabled, a custom URL will be added to the \[ AI ] at the t
 
 <br>
 
-### 🚨Report a problem or request
+## Frequently Asked Questions
+
+### Q. An error occurs when updating the add-on
+
+AnkiTerminator cannot update while the sidebar is open, normally the sidebar auto closes when updating so this problem does not occur, but sometimes it seems to fail for some reason. (e.g. another add-on interfering).
+
+There is an action in the menu to manually close the sidebar, so use that to close the add-on, then try updating again. (Tools → AnkiTerminator → Completely close Sidebar)
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/AnkiTorminator/00.png)
+
+If that doesn’t work, try disabling the add-on and updating. (AnkiMenu → Tools → Addons → Select AnkiTerminator → Toggle Enable → Restart Anki → Update addon → Toggle Enable → Restart Anki)
+
+If these steps do not resolve the problem please contact me.
+
+
+
+<br><br>
+
+
+
+
+
+## 🚨Report a problem or request
 
 If you have any problems or requests feel free to send them to me.
 
