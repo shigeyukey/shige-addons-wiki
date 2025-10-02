@@ -25,8 +25,6 @@ This add-on idea was inspired by add-on [Ruzu Pop-ups](https://ankiweb.net/share
 
 # Menu bar
 
-![image](https://github.com/user-attachments/assets/9c54c646-df0b-4299-a29a-9b185b0b240f)
-
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/break-timer/04.png)
 
 
@@ -38,7 +36,7 @@ This add-on idea was inspired by add-on [Ruzu Pop-ups](https://ankiweb.net/share
 
 # Timer
 
-![image](https://github.com/user-attachments/assets/8fc7c94b-11fb-4407-a8ce-703cc70da8a4)  
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/break-timer/05.png)
 
 
 
