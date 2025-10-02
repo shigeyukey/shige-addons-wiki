@@ -12,10 +12,13 @@
 
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)  
 
+Planned Procrastination! 10 reviews -> hide Anki ->  3 min timer -> timer end -> show Anki -> repeat.
 
 This add-on auto hides Anki after reviewing cards and redisplays Anki once the break timer ends. You can review Anki cards bit by bit while doing other things on the laptop.
 
-After reviewing 10 cards, it auto-hides Anki and shows it after 3 minutes. (Customizable) This add-on idea was inspired by add-on [Ruzu Pop-ups](https://ankiweb.net/shared/info/1736169259).
+After reviewing 10 cards, it auto hides Anki and shows it after 3 minutes (Customizable). This add-on idea was inspired by add-on [Ruzu Pop-ups](https://ankiweb.net/shared/info/1736169259).
+
+
 
 <br>
 
