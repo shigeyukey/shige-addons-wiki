@@ -5,7 +5,7 @@
 #### [AnkiWeb page](https://ankiweb.net/shared/info/174058935) | code: `174058935`
 
 
-
+<!--  -->
 
 
 ![banner_AnkiPopup (2)](https://github.com/user-attachments/assets/cac2621a-71e9-4487-ada3-45cbf248e2ca)  
@@ -16,7 +16,7 @@
 2. A timer will appear during the break, you can stop the timer by right-clicking on it.
 3.  Press “Start Break Timer” on the menu bar to start the timer counting now.
 
-This add-on idea was inspired by ruzu_pop_ups.
+This add-on idea was inspired by add-on [Ruzu Pop-ups](https://ankiweb.net/shared/info/1736169259).
 
 <br>
 
