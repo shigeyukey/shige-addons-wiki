@@ -12,7 +12,7 @@
 
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)  
 
-Planned Procrastination! 10 reviews -> hide Anki ->  3 min timer -> timer end -> show Anki -> repeat.
+Planned Procrastination!🐢 10 reviews -> hide Anki ->  3 min timer -> timer end -> show Anki -> repeat.
 
 This add-on auto hides Anki after reviewing cards and redisplays Anki once the break timer ends. You can review Anki cards bit by bit while doing other things on the laptop.
 
@@ -33,11 +33,14 @@ After reviewing 10 cards, it auto hides Anki and shows it after 3 minutes (Custo
 
 
 
-# Timer
+# Break Timer
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/break-timer/05.png)
 
-A timer will appear during the break, you can stop the timer by right-clicking on it. This timer turns red when there is one minute remaining.
+* The timer will appear during the break.
+* The timer is always displayed on top and can be freely moved by drag and drop.
+* Stop the timer by right-clicking (Anki redisplay)
+* This timer turns red when there is 1 minute remaining.
 
 # Option
 
