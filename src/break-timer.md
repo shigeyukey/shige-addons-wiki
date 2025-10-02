@@ -13,10 +13,9 @@
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)  
 
 
-This add-on auto hides Anki after reviewing cards and redisplays Anki once the break timer ends. You can review Anki cards bit by bit while doing other things on the laptop. After reviewing 10 cards, it auto-hides Anki and shows it after 3 minutes. (Customizable)
+This add-on auto hides Anki after reviewing cards and redisplays Anki once the break timer ends. You can review Anki cards bit by bit while doing other things on the laptop.
 
-
-This add-on idea was inspired by add-on [Ruzu Pop-ups](https://ankiweb.net/shared/info/1736169259).
+After reviewing 10 cards, it auto-hides Anki and shows it after 3 minutes. (Customizable) This add-on idea was inspired by add-on [Ruzu Pop-ups](https://ankiweb.net/shared/info/1736169259).
 
 <br>
 
@@ -24,8 +23,7 @@ This add-on idea was inspired by add-on [Ruzu Pop-ups](https://ankiweb.net/share
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/break-timer/04.png)
 
-The add-on's menu bar displays the count of the current cards.
-
+* The add-on's menu bar displays the count of the current cards.
 * Press “Start Break Timer” on the menu bar to start the timer counting now.
 * Disable Count: Quickly disable or enable the count function.
 
@@ -144,7 +142,7 @@ Occasionally when the timer ends Anki's window may not regain focus and fail to 
  * addon: [🔝Always On Top - permanently keep Anki as top](https://ankiweb.net/shared/info/1045980020)
 
 
-### Small Window (or Full screen)
+### Small Anki Window (or Full screen)
 
 If you want to display Anki as small as possible like Ruzu popups, you can use the No Distractions Full Screen add-on option. like this:
 
@@ -157,6 +155,7 @@ If you want to display Anki as small as possible like Ruzu popups, you can use t
 If you want to reduce the text size try using the Zoom add-on.
 
  *  addon: [🔍️Zoom for Anki24 - Keep zoom level after reboot](https://ankiweb.net/shared/info/1923741581)
+
 
 <br>
 
