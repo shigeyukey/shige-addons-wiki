@@ -17,21 +17,36 @@ This add-on auto hides Anki after reviewing cards and redisplays Anki once the b
 
 1. After reviewing 10 cards, it auto-hides Anki and shows it after 3 minutes. (Customizable)
 2. A timer will appear during the break, you can stop the timer by right-clicking on it.
-3.  Press “Start Break Timer” on the menu bar to start the timer counting now.
+3. 
 
 This add-on idea was inspired by add-on [Ruzu Pop-ups](https://ankiweb.net/shared/info/1736169259).
 
 <br>
 
-![image](https://github.com/user-attachments/assets/9c54c646-df0b-4299-a29a-9b185b0b240f) 
+# Menu bar
+
+![image](https://github.com/user-attachments/assets/9c54c646-df0b-4299-a29a-9b185b0b240f)
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/break-timer/04.png)
+
+
+* Press “Start Break Timer” on the menu bar to start the timer counting now.
+* Disable Count: Quickly disable or enable the count function.
+
+
+
+
+# Timer
 
 ![image](https://github.com/user-attachments/assets/8fc7c94b-11fb-4407-a8ce-703cc70da8a4)  
 
-![breakTimer](https://github.com/user-attachments/assets/843d28c3-c098-4e54-beef-0ac30ce9472c)  
 
 
 
 # Option
+
+![breakTimer](https://github.com/user-attachments/assets/843d28c3-c098-4e54-beef-0ac30ce9472c)  
+
 
 ## Count tab
 
