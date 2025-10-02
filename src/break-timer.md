@@ -32,7 +32,7 @@ This add-on idea was inspired by add-on [Ruzu Pop-ups](https://ankiweb.net/share
 
 ## Count tab
 
-![alt text](images/break-timer/00.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/break-timer/00.png)
 
 ### Target Cards
 
@@ -71,7 +71,7 @@ Set actions to run when card counting is done.
 
 ## Break timer tab
 
-![alt text](images/break-timer/01.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/break-timer/01.png)
 
 ### Break Timer
 
@@ -94,7 +94,7 @@ Set a shortcut key to run the break timer. If the key doesn't work it may be con
 
 ## Other tab
 
-![alt text](images/break-timer/02.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/break-timer/02.png)
 
 ### Do not show in menu bar
 
@@ -124,18 +124,33 @@ Stop the add-on's Speed Focus Mode add-on when starting the timer.
 
 Stop Anki's native Auto Advance feature when starting the timer.
 
+## Tips
+
+### Ensure Anki's Window Redisplay
 
 
+Occasionally when the timer ends Anki's window may not regain focus and fail to display properly. To avoid this problem try using the add-on Always On Top.
 
-<br><br>
+ * addon: [🔝Always On Top - permanently keep Anki as top](https://ankiweb.net/shared/info/1045980020)
+
+
+### Small Window (or Full screen)
+
+If you want to display Anki as small as possible like Ruzu popups, you can use the No Distractions Full Screen add-on option. like this:
+
+* addon: [🖥️No Distractions Full Screen ](https://ankiweb.net/shared/info/1370336700)(ND Full Screen menu -> Windowed Mode\[ON])
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/break-timer/03.png)
+
+### Small text size (or Large)
+
+If you want to reduce the text size try using the Zoom add-on.
+
+ *  addon: [🔍️Zoom for Anki24 - Keep zoom level after reboot](https://ankiweb.net/shared/info/1923741581)
+
+<br>
 
 ### Related Add-ons
-
- *  [🔝Always On Top - permanently keep Anki as top](https://ankiweb.net/shared/info/1045980020)
- *  [🔍️Zoom for Anki24 - Keep zoom level after reboot](https://ankiweb.net/shared/info/1923741581)
- *  [🖥️No Distractions Full Screen ](https://ankiweb.net/shared/info/1370336700)
- *  [🏆Anki Leaderboard](anki-leaderboard.md)
- *  [🔂AnkiRestart](ankirestart.md)
  *  [⌛️Chunk Progressbar (Patreon)](progress-bar-for-anki.md)
  *  [⚔️️Anki Arcade (Patreon)](AnkiArcade/Home.md)
 
