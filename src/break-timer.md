@@ -13,11 +13,8 @@
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)  
 
 
-This add-on auto hides Anki after reviewing cards and redisplays Anki once the break timer ends. You can review Anki cards bit by bit while doing other things on the laptop.
+This add-on auto hides Anki after reviewing cards and redisplays Anki once the break timer ends. You can review Anki cards bit by bit while doing other things on the laptop. After reviewing 10 cards, it auto-hides Anki and shows it after 3 minutes. (Customizable)
 
-1. After reviewing 10 cards, it auto-hides Anki and shows it after 3 minutes. (Customizable)
-2. A timer will appear during the break, you can stop the timer by right-clicking on it.
-3. 
 
 This add-on idea was inspired by add-on [Ruzu Pop-ups](https://ankiweb.net/shared/info/1736169259).
 
@@ -27,6 +24,7 @@ This add-on idea was inspired by add-on [Ruzu Pop-ups](https://ankiweb.net/share
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/break-timer/04.png)
 
+The add-on's menu bar displays the count of the current cards.
 
 * Press “Start Break Timer” on the menu bar to start the timer counting now.
 * Disable Count: Quickly disable or enable the count function.
@@ -38,13 +36,9 @@ This add-on idea was inspired by add-on [Ruzu Pop-ups](https://ankiweb.net/share
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/break-timer/05.png)
 
-
-
+A timer will appear during the break, you can stop the timer by right-clicking on it. This timer turns red when there is one minute remaining.
 
 # Option
-
-![breakTimer](https://github.com/user-attachments/assets/843d28c3-c098-4e54-beef-0ac30ce9472c)  
-
 
 ## Count tab
 
