@@ -93,6 +93,7 @@
   - [⏩️Skip Anki home and deck overview](skip-anki-home-and-deck-overview.md)
   - [🩸Hide Leech Notification](hide-leech_notification.md)
   - [🎨Rewrite text of study cards](rewrite-text-of-study-cards.md)
+  - [👻Anki Fade In](anki-fade-in.md)
 
 
 # For Development add-ons
