@@ -43,7 +43,7 @@ Reviewer and other fade in adjustments.
 
 ### Others fade in
 
-All fade in effects except for the Reviewer. This fade in system is worked a bit differently than the reviewer.
+All fade in effects except for the Reviewer.
 
 
 * Othres fade in
