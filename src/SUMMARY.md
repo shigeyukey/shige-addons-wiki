@@ -80,7 +80,7 @@
 # Free add-ons by Shige
 
   - [👻Anki Fade In (New!)](anki-fade-in.md)
-  - [🤖PiperTTS (New!)](piper-tts.md)
+  - [🤖PiperTTS](piper-tts.md)
   - [🎬️FFmpeg Downloader](ffmpeg-downloader.md)
   - [🌐Local Anki Server](local-anki-server.md)
   - [🎮Today Again Count](today-again-count.md)
@@ -104,8 +104,8 @@
   - [⚙️Meta json Formatter](meta_json_fomatter.md)
   - [📥Addon Bug Detector](save_and_load_enable_add-ons.md)
   - [⛔Disable update addons](disable_update_addons.md)
-  - [💖Patreon Card Generator (New!)](patreon-card-generator.md)
-  - [🔧Mini Console (New!)](mini-console.md)
+  - [💖Patreon Card Generator](patreon-card-generator.md)
+  - [🔧Mini Console](mini-console.md)
 
 ---
 
@@ -116,17 +116,17 @@
 ---
 
 - [🖼️Image Editor (New!)](image-editor.md)
-- [🐼Chinese Support V4 (New!)](chinese-support-v4.md)
-- [🔍️Search Bar (New!)](search-bar.md)
-- [🧹nbsp Remover (New!)](nbsp-remover.md)
-- [💬Anki Tooltip (New!)](anki-tooltip.md)
-- [🏷️Toggle Tags via Context Menu (New!)](toggle-tag.md)
-- [📺️Editor Live Preview (New!)](editor-live-preview.md)
-- [⚡️Syntax Highlighter (New!)](syntax-highlighter.md)
-- [📖Searching PDF Reading and Note-Taking in Add Dialog(New!)](search-pdf.md)
-- [🦉AnkiBuddy (New!)](anki-buddy.md)
-- [🔍️Review Lookup (New!)](review-lookup.md)
-- [✅️Anki Spell Checker (New!)](anki-spell-checker.md)
+- [🐼Chinese Support V4](chinese-support-v4.md)
+- [🔍️Search Bar](search-bar.md)
+- [🧹nbsp Remover](nbsp-remover.md)
+- [💬Anki Tooltip](anki-tooltip.md)
+- [🏷️Toggle Tags via Context Menu](toggle-tag.md)
+- [📺️Editor Live Preview](editor-live-preview.md)
+- [⚡️Syntax Highlighter](syntax-highlighter.md)
+- [📖Searching PDF Reading and Note-Taking in Add Dialog](search-pdf.md)
+- [🦉AnkiBuddy](anki-buddy.md)
+- [🔍️Review Lookup](review-lookup.md)
+- [✅️Anki Spell Checker](anki-spell-checker.md)
 - [🍣KanjiVocab](KanjiVocab.md)
 - [🔓️Kanji Unlock Addon](kanji_unlocked.md)
 - [📱AnkiCord](ankicord.md)
