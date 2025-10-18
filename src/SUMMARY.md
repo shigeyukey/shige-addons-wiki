@@ -67,7 +67,7 @@
 - [⌛️Progress bar](progress-bar.md)
 - [🏆Anki Leaderboard](anki-leaderboard.md)
 - [🎖️Anki Killstreaks](anki-killstreaks.md)
-- [🔍Zoom 23](zoom-23.md)
+- [🔍Zoom for Anki](zoom-23.md)
 - [🎮Pokemanki Gold](pokemanki-gold.md)
 - [🤖Anki Terminator](AnkiTerminator/anki_terminator_00.md)
 - [🖥️No Distractions Full Screen](no-distractions-full-screen.md)
