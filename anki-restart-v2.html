@@ -258,7 +258,7 @@ For more info please read the Anki Manual:</p>
 </ul>
 <h2 id="v3-tab"><a class="header" href="#v3-tab">V3 tab</a></h2>
 <h3 id="anki-restart-v3"><a class="header" href="#anki-restart-v3">Anki Restart V3</a></h3>
-<p>This is a new restart option for the prototype. AnkiRestart V2 sometimes fails, this V3 restarts Anki more reliably. To use this feature you need Anki's new launcher (Anki 25.07+).</p>
+<p>This is a new restart option for the prototype. AnkiRestart V2 sometimes fails, this V3 restarts Anki more reliably. To use this feature you need Anki's new launcher (Anki 25.07+). If V2 is already working fine on your device this option is not needed.</p>
 <p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/05.png" alt="alt text" /></p>
 <h4 id="mechanism"><a class="header" href="#mechanism">Mechanism</a></h4>
 <p>Launch Python using the Anki launcher then start the mini app (window). This mini app communicates with Anki and waits until Anki closes, once Anki has completely closed launch a new instance of Anki then the mini app will auto close. (this mechanism is an improved version of AnkiRestart V1.)</p>
