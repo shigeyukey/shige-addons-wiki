@@ -16,7 +16,8 @@ This add-on is a fixed and customized version for Anki25+ of the addon <a href="
 
 ### How to use
 
-* Auto displays a popup when deleting a note using the reviewer's shortcut key or More button.
+
+* Auto displays a popup when deleting a note using the reviewer's shortcut key or More button. Press Yes to delete the note, press No to cancel.
 * You can optionally change which button the popup focuses by default (Yes or No). Unchecked defaults to Yes, checked defaults to No.
 * You can optionally change the popup's ask text. Default:`"Really delete the current note and all of its cards?"`
 
