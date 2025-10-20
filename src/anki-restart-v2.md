@@ -121,7 +121,7 @@ This mode manually disables add-ons, so it is not [Anki's default safe mode](htt
 
 ### Anki Restart V3
 
-This is a new restart option for the prototype. AnkiRestart V2 sometimes fails, this V3 restarts Anki more reliably. To use this feature you need Anki's new launcher (Anki 25.07+).
+This is a new restart option for the prototype. AnkiRestart V2 sometimes fails, this V3 restarts Anki more reliably. To use this feature you need Anki's new launcher (Anki 25.07+). If V2 is already working fine on your device this option is not needed.
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/05.png)
 
