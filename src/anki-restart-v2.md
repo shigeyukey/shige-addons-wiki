@@ -116,6 +116,25 @@ This mode manually disables add-ons, so it is not [Anki's default safe mode](htt
   * time 0 sec : `subprocess.Popen(popen_args)`
   * If there are unknown characters in the path used in cmd, or if the path does not exist, the timer and shell will be automatically disabled.
 
+
+## V3 tab
+
+### Anki Restart V3
+
+This is a new restart option for the prototype. AnkiRestart V2 sometimes fails, this V3 restarts Anki more reliably. To use this feature you need Anki's new launcher (Anki 25.07+).
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/05.png)
+
+#### Mechanism
+
+Launch Python using the Anki launcher then start the mini app (window). This mini app communicates with Anki and waits until Anki closes, once Anki has completely closed launch a new instance of Anki then the mini app will auto close. (this mechanism is an improved version of AnkiRestart V1.)
+
+
+#### Note
+
+It may not launch properly on some devices, if so please contact me.
+
+
 ## FAQ
 
 #### Q. Why use such an add-on just to restart?
