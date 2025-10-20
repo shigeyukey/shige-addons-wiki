@@ -115,7 +115,8 @@
 
 ---
 
-- [🖼️Image Editor (New!)](image-editor.md)
+- [🔍️Search from Editor](search-from-editor.md)
+- [🖼️Image Editor](image-editor.md)
 - [🐼Chinese Support V4](chinese-support-v4.md)
 - [🔍️Search Bar](search-bar.md)
 - [🧹nbsp Remover](nbsp-remover.md)
