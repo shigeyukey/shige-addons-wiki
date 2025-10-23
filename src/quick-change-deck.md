@@ -23,9 +23,13 @@ This add-on is a fixed and Enhanced version for Anki25+ of the addon <a href="ht
 
 ## How to use
 
-First, specify the deck in the options. (Menu -> Tools -> Quick Change Deck -> Select Quick Deck) After that quickly change decks using shortcut keys or menu actions. The tooltip will display the changed deck name.
+First, specify the deck in the options. (Menu -> Tools -> Quick Change Deck -> Select Quick Deck) After that quickly change decks using shortcut keys or menu actions.
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/quick-change-deck/04.png)
+
+The tooltip will display the changed deck name.
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/quick-change-deck/06.png)
 
 ### Reviewer
 
