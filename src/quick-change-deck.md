@@ -16,6 +16,8 @@ https://ankiweb.net/shared/info/398819226
 
 This add-on adds shortcuts and menu actions for the reviewer and browser to quickly change cards to a specified deck.
 
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/quick-change-deck/02.png)
+
 This add-on is a fixed and Enhanced version for Anki25+ of the addon <a href="https://ankiweb.net/shared/info/1701329457" target="_blank">"Quick Change Deck (Ank2.0)"</a>, some code and ideas are credited to them (author unknown 2015).
 
 
