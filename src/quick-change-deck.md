@@ -43,9 +43,13 @@ Reviewer -> More ->  Quick Change Deck (or Shortcut key `Shift+C`)
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/quick-change-deck/01.png)
 
 Quickly change decks using a shortcut key or the Card menu.
-Browse -> Menu (or right click) -> Card ->  Quick Change Deck (or Shortcut key `Shift+C`)
+Browse -> Menu (or right click) -> Card ->  Quick Change Deck (or Shortcut key `Shift+C`) You can select multiple cards at once.
+
 
 ### Option
+
+Options can be accessed from the Tools or Add-ons Dialog. Or, when the deck is not yet set up, using the shortcut will automatically open the Options.
+
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/quick-change-deck/05.png)
 
@@ -56,6 +60,7 @@ You can only select one deck. Shortcut keys can be customized to any key you pre
 * Filtered decks are not supported.
 * Older versions of Anki are not supported.
 * I recommend to check if change deck is working fine before using it.
+* There is no function to save the original deck before changing decks (except undo), so if you want to restore cards to their original deck later, I recommend saving the deck name with a tag beforehand.
 
 ### Change log
 
