@@ -25,17 +25,25 @@ This add-on is a fixed and Enhanced version for Anki25+ of the addon <a href="ht
 
 First, specify the deck in the options. (Menu -> Tools -> Quick Change Deck -> Select Quick Deck) After that quickly change decks using shortcut keys or menu actions. The tooltip will display the changed deck name.
 
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/quick-change-deck/04.png)
+
 ### Reviewer
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/quick-change-deck/00.png)
 
 Quickly change decks using a shortcut key or the More button.
 Reviewer -> More ->  Quick Change Deck (or Shortcut key `Shift+C`)
 
 ### Browse
 
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/quick-change-deck/01.png)
+
 Quickly change decks using a shortcut key or the Card menu.
 Browse -> Menu (or right click) -> Card ->  Quick Change Deck (or Shortcut key `Shift+C`)
 
 ### Option
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/quick-change-deck/05.png)
 
 You can only select one deck. Shortcut keys can be customized to any key you prefer in both the reviewer and browser. If shortcut keys aren't working they may be conflicting with keys from other add-ons, if so please change them to different keys.
 
