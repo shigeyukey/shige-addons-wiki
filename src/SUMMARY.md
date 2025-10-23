@@ -115,6 +115,7 @@
 
 ---
 
+- [🪶Quick change deck](quick-change-deck.md)
 - [🔍️Search from Editor](search-from-editor.md)
 - [🖼️Image Editor](image-editor.md)
 - [🐼Chinese Support V4](chinese-support-v4.md)

@@ -1,5 +1,8 @@
 # add-on name
 
+
+![broken](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/template/broken.png)
+
 ![nolonger_needed](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/template/nolonger_needed.png)
 
 
@@ -94,3 +97,11 @@ Shigeyuki :
 Hi thanks for
 ---
 I'm looking for supporters for my add-ons development, because I like Anki! So far I fixed and customized 60+ discontinued add-ons and created 30+ new add-ons. If you support my volunteer development you will get 14 add-ons for patrons only and 15 game themes included in AnkiArcade. If you have any ideas or requests feel free to send them to me, thanks! :D -->
+
+
+
+
+
+
+
+
