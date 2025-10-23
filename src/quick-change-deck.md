@@ -63,9 +63,9 @@ You don't need to restart Anki after changing settings, but if you already open 
 ### Note
 
 * Filtered decks are not supported.
-* Older versions of Anki are not supported.
 * I recommend to check if change deck is working fine before using it.
 * There is no function to save the original deck before changing decks (except undo), so if you want to restore cards to their original deck later, I recommend saving the deck name with a tag beforehand.
+* Older versions of Anki are not supported yet. If it doesn't work, please send me a request and send me your Anki version.
 
 ### Change log
 
