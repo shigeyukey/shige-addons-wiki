@@ -1,14 +1,14 @@
 # 🪶Quick Change Deck
 
 
+**[AnkiWeb Page](https://ankiweb.net/shared/info/398819226) | Code : `398819226`**
+
+
 <!--
 Hi I'm add-ons developer Shige, I fixed this add-on and uploaded it to AnkiWeb.
 🪶Quick Change Deck (Fixed by Shigeඞ)
 https://ankiweb.net/shared/info/398819226
  -->
-
-
-**[AnkiWeb Page](https://ankiweb.net/shared/info/398819226) | Code : `398819226`**
 
 
 <!-- Customized -->
@@ -25,11 +25,9 @@ This add-on is a fixed and Enhanced version for Anki25+ of the addon <a href="ht
 
 First, specify the deck in the options. (Menu -> Tools -> Quick Change Deck -> Select Quick Deck) After that quickly change decks using shortcut keys or menu actions.
 
+ For example, if you want to quickly move too difficult cards to another deck, create a Difficult Deck and select it.
+
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/quick-change-deck/04.png)
-
-The tooltip will display the changed deck name.
-
-![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/quick-change-deck/06.png)
 
 ### Reviewer
 
@@ -37,6 +35,11 @@ The tooltip will display the changed deck name.
 
 Quickly change decks using a shortcut key or the More button.
 Reviewer -> More ->  Quick Change Deck (or Shortcut key `Shift+C`)
+
+The tooltip will display the changed deck name. You can restore this deck change using Undo.
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/quick-change-deck/06.png)
+
 
 ### Browse
 
