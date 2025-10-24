@@ -17,7 +17,7 @@ https://ankiweb.net/shared/info/1045980020
 
 Always keep Anki on top of other apps.
 
-This add-on is a fixed and Enhanced version for Anki25+ of the addon <a href="https://ankiweb.net/shared/info/1760080335" target="_blank">"Always On Top"</a> and credit goes to them. (Copyright: Damien Elmes, <a href="https://github.com/glutanimate" target="_blank">Glutanimate</a> , Unknow 2019)
+This add-on is a fixed and Enhanced version for Anki25+ of the addon <a href="https://ankiweb.net/shared/info/1760080335" target="_blank">"Always On Top"</a> and credit goes to them. (AGPL, Copyright: Damien Elmes, <a href="https://github.com/glutanimate" target="_blank">Glutanimate</a> , Unknow 2019)
 
 ## How to use
 
