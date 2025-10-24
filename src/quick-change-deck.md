@@ -25,7 +25,7 @@ This add-on is a fixed and Enhanced version for Anki25+ of the addon <a href="ht
 
 First, specify the deck in the options. (Menu -> Tools -> Quick Change Deck -> Select Quick Deck) After that quickly change decks using shortcut keys or menu actions.
 
- For example, if you want to quickly move too difficult cards to another deck, create a Difficult Deck and select it.
+e.g. if you want to quickly move too difficult cards to another deck, create a Difficult Deck and select it. (the deck name can be anything.)
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/quick-change-deck/04.png)
 
@@ -36,9 +36,13 @@ First, specify the deck in the options. (Menu -> Tools -> Quick Change Deck -> S
 Quickly change decks using a shortcut key or the More button.
 Reviewer -> More ->  Quick Change Deck (or Shortcut key `Shift+C`)
 
-The tooltip will display the changed deck name. You can restore this deck change using Undo.
+The tooltip will display the changed deck name.
+
+You can restore this deck change using Undo.
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/quick-change-deck/06.png)
+
+(If decks are nested only the lowest deck's name is displayed, and if the deck name is too long it is automatically omitted, max 20.)
 
 
 ### Browse
