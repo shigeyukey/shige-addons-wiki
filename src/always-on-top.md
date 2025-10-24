@@ -5,7 +5,7 @@
 **[AnkiWeb Page](https://ankiweb.net/shared/info/1045980020) | Code : `1045980020`**
 
 <!-- 
-Hi I'm add-ons developer Shige, I fixed this add-on and uploaded it to AnkiWeb.
+Hi I'm add-ons developer Shige, I fixed and Enhanced this add-on and uploaded it to AnkiWeb.
 🔝Always On Top V2 - permanently keep Anki as top (Fixed by Shigeඞ)
 https://ankiweb.net/shared/info/1045980020
  -->
