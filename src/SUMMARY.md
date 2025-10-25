@@ -115,6 +115,7 @@
 
 ---
 
+- [🐼Chinese Words Finder](chinese-words-finder.md)
 - [🪶Quick change deck](quick-change-deck.md)
 - [🔍️Search from Editor](search-from-editor.md)
 - [🖼️Image Editor](image-editor.md)
