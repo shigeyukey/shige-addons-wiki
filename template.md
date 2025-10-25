@@ -6,6 +6,12 @@
 ![nolonger_needed](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/template/nolonger_needed.png)
 
 
+<!-- 
+contact
+https://shigeyukey.github.io/shige-addons-wiki/contact.html
+ -->
+
+
 <!--
 https://shigeyukey.github.io/shige-addons-wiki/images/
 -->
