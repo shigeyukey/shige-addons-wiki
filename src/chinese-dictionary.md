@@ -1,6 +1,6 @@
 # 🐼Chinese dictionary CC-CEDICT
 
-🐼Chinese Dictionary CC-CEDICT (Fixed by Shigeඞ)
+🐼Chinese Dictionary CC-CEDICT 120,416 (Fixed by Shigeඞ)
 
 **[AnkiWeb Page](https://ankiweb.net/shared/info/1563780834) | Code : `1563780834`**
 
@@ -33,9 +33,9 @@ Tools -> Chinese dictionary launches the add-on window (Ctrl+D). After selecting
 
 
 ## Related Add-ons
+ 1.  add-on : <a href="https://ankiweb.net/shared/info/1240761427" target="_blank">🐼Chinese Support V4</a>
  1.  add-on : <a href="https://ankiweb.net/shared/info/1259610887" target="_blank">🐼Chinese Words Finder</a>
- 2.  add-on : <a href="https://ankiweb.net/shared/info/1240761427" target="_blank">🐼Chinese Support V4</a>
-
+ <!-- 1.  add-on : <a href="https://ankiweb.net/shared/info/1563780834" target="_blank">🐼Chinese Dictionary CC-CEDICT</a> -->
 
 <br>
 

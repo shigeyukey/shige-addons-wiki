@@ -114,10 +114,13 @@ other contributors, see: [chinese-support-3/contributors](https://github.com/Gus
   * Contributors: [Kieran Black](ttps://github.com/kieranlblack)
 
 
-## Related addon
-  *  [Korean Support](https://github.com/scottgigante/korean-support)
-     * AnkiWeb: [AddonPage](https://ankiweb.net/shared/info/1336389630)
-     * Author: [Scott Gigante](https://github.com/scottgigante)
+## Related Add-ons
+ <!-- 1.  add-on : <a href="https://ankiweb.net/shared/info/1240761427" target="_blank">🐼Chinese Support V4</a> -->
+ 1.  add-on : <a href="https://ankiweb.net/shared/info/1259610887" target="_blank">🐼Chinese Words Finder</a>
+ 1.  add-on : <a href="https://ankiweb.net/shared/info/1563780834" target="_blank">🐼Chinese Dictionary CC-CEDICT</a>
+1. [Korean Support](https://github.com/scottgigante/korean-support) | AnkiWeb: [AddonPage](https://ankiweb.net/shared/info/1336389630) | Author: [Scott Gigante](https://github.com/scottgigante)
+
+
 
 
 ## 🚨Report

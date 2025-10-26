@@ -2,6 +2,7 @@
 
 **[AnkiWeb Page](https://ankiweb.net/shared/info/1259610887) | Code : `1259610887`**
 
+🐼Chinese Words Finder - frequency and missing words (Fixed by Shigeඞ)
 
 <!--
 https://shigeyukey.github.io/shige-addons-wiki/images/
@@ -30,6 +31,11 @@ This add-on is a fixed version for Anki25+ of the addon <a href="https://ankiweb
 
 I'm still looking into how to use it so please wait. If you find any non-working options or issues please contact me.
 
+
+## Related Add-ons
+ 1.  add-on : <a href="https://ankiweb.net/shared/info/1240761427" target="_blank">🐼Chinese Support V4</a>
+ 1.  add-on : <a href="https://ankiweb.net/shared/info/1563780834" target="_blank">🐼Chinese Dictionary CC-CEDICT</a>
+ <!-- 1.  add-on : <a href="https://ankiweb.net/shared/info/1259610887" target="_blank">🐼Chinese Words Finder</a> -->
 
 
 <br>
