@@ -15,6 +15,7 @@ https://ankiweb.net/shared/info/789309990
 <!-- Customized -->
 [![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](https://www.reddit.com/user/Shige-yuki)
 
+Draw or edit images while adding and editing cards.
 
 This add-on is a fixed version for Anki25+ of the addon <a href="https://ankiweb.net/shared/info/307397307" target="_blank">"Image Editor"</a>, originally created by <a href="https://github.com/BlueGreenMagick" target="_blank">BlueGreenMagick</a>, uses <a href="https://github.com/methodofaction/Method-Draw" target="_blank">"Method Draw"</a> for image editing by <a href="https://github.com/methodofaction" target="_blank">Mark MacKay</a> and credit goes to them.
 
@@ -27,6 +28,7 @@ This add-on is a fixed version for Anki25+ of the addon <a href="https://ankiweb
 * To create a new image, click the button (A pen scribbling on a paper) on the toolbar. To edit an existing image, right click an image and click 'Edit Image'.
 * After editing, click 'Save' to save the image. If you have the same image across multiple notes, check 'Replace All' to replace all of them with the new image. Otherwise, only the image on that one note is edited.
 * If you are using Anki v2.1.50+, the image should not be selected when you right click on the image. Or the 'Edit Image' context menu will not show up.
+* Edited images are saved as .svg vector images, this makes it possible to edit the images later. (like Image Occlusion)
 
 
 ### Image Editing Tools
