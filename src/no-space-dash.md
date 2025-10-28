@@ -21,7 +21,7 @@ https://ankiweb.net/shared/info/1573867049
 
 The Show Answer button and Answer buttons are each blocked for 1.5 seconds to prevent accidental double clicks or too quick answers.
 
-![alt text](images/no-space-dash/00.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/no-space-dash/00.png)
 
 This add-on is a fixed and Enhanced version for Anki25+ of the addon <a href="https://ankiweb.net/shared/info/1409134430" target="_blank">"No Space Dash"</a>, originally created by <a href="https://github.com/phu54321" target="_blank">Hyun Woo Park (phu54321, trgk_anki)</a> and credit goes to them.
 
@@ -33,7 +33,7 @@ Installing the add-on automatically enables it. By default, the Show Answer butt
 
 ## Options
 
-![alt text](images/no-space-dash/01.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/no-space-dash/01.png)
 
 You can change the seconds in the options. If you don't need it please set it to 0.
 
