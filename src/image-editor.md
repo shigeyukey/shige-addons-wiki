@@ -29,9 +29,12 @@ This add-on is a fixed version for Anki25+ of the addon <a href="https://ankiweb
 * After editing, click 'Save' to save the image. If you have the same image across multiple notes, check 'Replace All' to replace all of them with the new image. Otherwise, only the image on that one note is edited.
 * If you are using Anki v2.1.50+, the image should not be selected when you right click on the image. Or the 'Edit Image' context menu will not show up.
 
+
 ### Image Editing Tools
 * Long press the button to access the shape library
 * Left color square is the fill color, Right color square is stroke color.
+* **Crop image:** When no image is selected, Canvas, Width, and Height are displayed on the right. Click and drag the Width and Height up or down with the mouse to change their values (or mouse hover + mouse wheel). After resizing try moving the image with the mouse.
+* Press the space bar to move the mouse and the canvas will also move.
 
 
 <br>
