@@ -7,7 +7,7 @@
 
 <!-- 
 Hi I'm add-ons developer Shige, I fixed this add-on and uploaded it to AnkiWeb.
-🔔Anki Time (Fixed by Shigeඞ)
+🔔Anki Time - anti distraction alarm (Fixed by Shigeඞ)
 https://ankiweb.net/shared/info/2142212962
  -->
 
