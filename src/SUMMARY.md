@@ -115,6 +115,7 @@
 
 ---
 
+- [🔔Anki Time](anki-time.md)
 - [🐼Chinese dictionary CC-CEDICT](chinese-dictionary.md)
 - [🐼Chinese Words Finder](chinese-words-finder.md)
 - [🪶Quick change deck](quick-change-deck.md)
