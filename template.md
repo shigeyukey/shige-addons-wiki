@@ -39,7 +39,7 @@ https://ankiweb.net/shared/info/🟢
 
 This add-on is a fixed version for Anki25+ of the addon <a href="🟢" target="_blank">"🟢"</a>, originally created by <a href="🟢" target="_blank">🟢</a> and credit goes to them.
 
-
+<!-- *(these images and descriptions are re-uploaded and partially edited from the original add-on page.)* -->
 
 ## Related Add-ons
  1.  <b>add-on : <a href="🟢" target="_blank">🟢</a> / Author :<a href="🟢" target="_blank">🟢</a>

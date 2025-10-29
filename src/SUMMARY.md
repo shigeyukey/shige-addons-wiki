@@ -115,6 +115,7 @@
 
 ---
 
+- [🎨Colorful Browse Sidebar](colorful-browse-sidebar.md)
 - [🔔Anki Time](anki-time.md)
 - [🐼Chinese dictionary CC-CEDICT](chinese-dictionary.md)
 - [🐼Chinese Words Finder](chinese-words-finder.md)
