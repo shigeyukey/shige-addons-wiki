@@ -6,6 +6,8 @@
 ![nolonger_needed](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/template/nolonger_needed.png)
 
 
+
+
 <!-- 
 contact
 https://shigeyukey.github.io/shige-addons-wiki/contact.html
@@ -16,6 +18,8 @@ https://shigeyukey.github.io/shige-addons-wiki/contact.html
 https://shigeyukey.github.io/shige-addons-wiki/images/
 -->
 
+<!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
+
 <!-- 
 Hi I'm add-ons developer Shige, I fixed this add-on and uploaded it to AnkiWeb.
 🟢 (Fixed by Shigeඞ)
@@ -23,7 +27,6 @@ https://ankiweb.net/shared/info/🟢
  -->
 
 
-<!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
 
 
 
