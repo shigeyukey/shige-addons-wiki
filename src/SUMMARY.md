@@ -115,6 +115,7 @@
 
 ---
 
+- [🍣Immersion Kit Downloader](immersion-kit-dl.md)
 - [🎨Colorful Browse Sidebar](colorful-browse-sidebar.md)
 - [🔔Anki Time](anki-time.md)
 - [🐼Chinese dictionary CC-CEDICT](chinese-dictionary.md)
