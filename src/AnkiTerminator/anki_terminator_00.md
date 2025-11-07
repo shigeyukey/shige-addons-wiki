@@ -3,8 +3,16 @@
 
 ![banner](https://github.com/shigeyukey/Anki-Terminator-/assets/124401518/8141ce68-9f0a-4eb9-8f99-e418a879baa2)
 
-
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.patreon.com/Shigeyuki)
+
+![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?logo=openai&logoColor=white)
+![Deepseek](https://custom-icon-badges.demolab.com/badge/Deepseek-4D6BFF?logo=deepseek&logoColor=fff)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-886FBF?logo=googlegemini&logoColor=fff)
+![Claude](https://img.shields.io/badge/Claude-D97757?logo=claude&logoColor=fff)
+![Perplexity](https://img.shields.io/badge/Perplexity-1FB8CD?logo=perplexity&logoColor=fff)
+![Microsoft Copilot](https://custom-icon-badges.demolab.com/badge/Microsoft%20Copilot-2771D8?logo=edge-white&logoColor=white)
+![Grok](https://custom-icon-badges.demolab.com/badge/Grok-%23000000.svg?logo=white-grok&logoColor=white)
+![DuckDuckGo](https://img.shields.io/badge/DuckDuckGoAI-FF5722?logo=duckduckgo&logoColor=white)
 
 
 AI sidebar for reviews. Just login to use ChatGPT, GoogleGemini, and Bing Chat for free and easy, no OpenAI API required.There is a feature to auto-send prompts when flipping Anki cards.<br>
