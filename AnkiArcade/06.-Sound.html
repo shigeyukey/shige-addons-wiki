@@ -208,6 +208,28 @@
 </ol>
 <h3 id="crash-check"><a class="header" href="#crash-check">Crash Check</a></h3>
 <p>I added a new function to automatically detect crashes. If Anki does not exit normally a pop-up will be displayed and you can choose to enable or disable the sound system. If there are misdetections you can disable this option. (e.g. Another add-on is causing crashes. The sound is already working fine so it's not relevant.)</p>
+<h3 id="sound-system"><a class="header" href="#sound-system">Sound System</a></h3>
+<p>If sound effects do not work you can change the sound system (Anki must be restarted after changing). This option only affects Sound effects, BGM uses a different mechanism (MIDI) and is unaffected.</p>
+<ol>
+<li>
+<p>pyglet (default)</p>
+<ul>
+<li>The default sound system for games. Lightweight and supports many platforms.</li>
+</ul>
+</li>
+<li>
+<p>qmedia_player</p>
+<ul>
+<li>Plays sounds using Anki's Qt. Lightweight but may not work on some devices or older versions of Anki.</li>
+</ul>
+</li>
+<li>
+<p>mpv_player</p>
+<ul>
+<li>Plays sounds using mpv, which Anki uses for audio playback. Relatively likely to work, but it may be a bit more load on your PC.</li>
+</ul>
+</li>
+</ol>
 
                     </main>
 
