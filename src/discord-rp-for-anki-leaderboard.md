@@ -1,7 +1,12 @@
 # 📱Discord RP for Anki Leaderboard
+
+
+**[AnkiWeb Page](https://ankiweb.net/shared/info/978245457) | Code : `978245457`** 
+
+
 <!--
 📱Discord RP for Anki Leaderboard (Created by Shigeඞ)
-
+978245457
 -->
 
 <!-- Created -->
@@ -9,7 +14,7 @@
 
 Use RP (Rich Presence, activity status) in Discord for desktop to display your [Anki leaderboard](https://ankiweb.net/shared/info/175794613) scores in Discord in real time (score display only, no direct communication with the leaderboard). The status updates every 15 seconds and the icon display changes based on reviews, time, etc. This add-on is not related to the official Discord or the official Anki.
 
-![alt text](images/discord-rp-for-anki-leaderboard/05.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/05.png)
 
 
 # How to use
@@ -26,12 +31,12 @@ Use RP (Rich Presence, activity status) in Discord for desktop to display your [
 Click the Discord icon in the top toolbar to open the add-on options (or the tool's add-on menu). This icon will be colored when connected successfully and gray when not connected.
 
 
-![alt text](images/discord-rp-for-anki-leaderboard/01.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/01.png)
 
 
 ## Connect tab
 
-![alt text](images/discord-rp-for-anki-leaderboard/02.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/02.png)
 
 
 You can check whether the connection was successful on this tab. The total connection time and the time taken to send data are displayed.
@@ -43,7 +48,7 @@ If an error occurs information will be displayed in the box below. (Even if an e
 
 ## Option tab
 
-![alt text](images/discord-rp-for-anki-leaderboard/03.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/03.png)
 
 After changing the settings, please press the SAVE button. It may take a bit of time for the changes to display on Discord.
 
@@ -56,37 +61,37 @@ You can change the type of large images displayed on Discord. The values display
 * **today_review:** Displays the number of cards studied today.
 
 
-![alt text](images/discord-rp-for-anki-leaderboard/07.png)<br>
-![alt text](images/discord-rp-for-anki-leaderboard/12.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/07.png)<br>
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/12.png)
 
 
 * **study_time:** Today's study time is displayed. This time represents the time spent reviewing cards, the same as in Anki and the leaderboard, not the time Anki was open.
 
-![alt text](images/discord-rp-for-anki-leaderboard/06.png)<br>
-![alt text](images/discord-rp-for-anki-leaderboard/13.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/06.png)<br>
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/13.png)
 
 
 * **streaks:** Streaks displays trees and the number of days.
 
-![alt text](images/discord-rp-for-anki-leaderboard/08.png)<br>
-![alt text](images/discord-rp-for-anki-leaderboard/14.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/08.png)<br>
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/14.png)
 
 * **review_31days:** Displays the average number of cards reviewed in the last 31 days.
 
-![alt text](images/discord-rp-for-anki-leaderboard/09.png)<br>
-![alt text](images/discord-rp-for-anki-leaderboard/15.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/09.png)<br>
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/15.png)
 
 
 * **review_31days:** Displays the percentage of today's reviewed cards out of the past 31 days' reviews. (e.g. today 341cards ÷ 31day 672cards /day = 50%)
 
-![alt text](images/discord-rp-for-anki-leaderboard/10.png)<br>
-![alt text](images/discord-rp-for-anki-leaderboard/16.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/10.png)<br>
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/16.png)
 
 
 * **League:** The icons change to 4 different types depending on the league. To use this feature, you need to be already syncing using the add-on [Anki leaderboard](https://ankiweb.net/shared/info/175794613). (There is no function to identify the exact league rank.)
 
-![alt text](images/discord-rp-for-anki-leaderboard/11.png)<br>
-![alt text](images/discord-rp-for-anki-leaderboard/17.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/11.png)<br>
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/17.png)
 
 
 This add-on does not have the function to communicate directly with the leaderboard so it does not affect your leaderboard score. (you can use it even if you are not registered on the leaderboard.)
@@ -95,7 +100,7 @@ This add-on does not have the function to communicate directly with the leaderbo
 
 * **Others:** You can change the icon to other Anki icons. These do not have the feature to change based on score.
 
-![alt text](images/discord-rp-for-anki-leaderboard/18.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/18.png)
 
 
 
@@ -103,7 +108,7 @@ This add-on does not have the function to communicate directly with the leaderbo
 
 You can change or hide the type of small image displayed in the lower-right corner of the icon. (study_time, today_review, League)
 
-![alt text](images/discord-rp-for-anki-leaderboard/19.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/19.png)
 
 
 #### Auto Start Up
@@ -114,7 +119,7 @@ This add-on automatically runs when Anki launches and connects to Discord. You c
 
 Rich Presence status auto calculate and display the time since the card was last reviewed. You can hide this using this option.
 
-![alt text](images/discord-rp-for-anki-leaderboard/20.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/20.png)
 
 
 #### Update rate limit
@@ -133,7 +138,7 @@ You can hide the Discord icon in the top toolbar. This option requires restartin
 
 This add-on displays the User Info from the [Anki leaderboard](https://ankiweb.net/shared/info/175794613) and shows the time of your last review. If you dislike these features you can disable them optionally. (this button won't display for you but only for other users)
 
-![alt text](images/discord-rp-for-anki-leaderboard/21.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/21.png)
 
 
 
@@ -141,7 +146,7 @@ This add-on displays the User Info from the [Anki leaderboard](https://ankiweb.n
 
 Hide all status(stats) and display only large other icons. (Review and time icons are not displayed.) 
 
-![alt text](images/discord-rp-for-anki-leaderboard/04.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/04.png)
 
 <br>
 
@@ -151,12 +156,10 @@ Hide all status(stats) and display only large other icons. (Review and time icon
 ## Credit
 
 1. The code for calculate scores is customized from <a href="https://github.com/ThoreBor" target="_blank">Thore Tyborski's</a> <a href="https://github.com/ThoreBor/Anki_Leaderboard" target="_blank">Anki LeaderBoard</a> code. Communication with Discord uses <a href="https://github.com/qwertyquerty/pypresence" target="_blank">pypresene</a>.
-
 2. The idea for rich presence was inspired by the add-on <a href="https://github.com/STadas/Ankicord/" target="_blank">Ankicord </a> by <a href="https://github.com/STadas" target="_blank">STadas </a> and the add-on <a href="https://ankiweb.net/shared/info/1133851639" target="_blank">AnkiDiscord</a> by <a href="https://github.com/Monacraft" target="_blank">Monacraft</a>.
-
 3. The illustrations for orbs, ranks, and other elements are game assets created by these creators, which I have modified and edited for use. Rank icon : <a href="https://x.com/rhosgfx" target="_blank">Rhos @RhosGFX</a>, Star icon : <a icon : a href="https://commons.wikimedia.org/wiki/File:Star_icon_stylized.svg" target="_blank">Clip Art Library</a>, ProgressBars : <a href="https://bdragon1727.itch.io/" target="_blank">BDragon1727</a>, TimeRank :<a href="https://warstellar.itch.io/fictional-military-ranks-icons-set" target="_blank"> Warstellar Interactive</a>, Tree :<a href="http://yms.main.jp" target="_blank"> Pixel Art  World</a>, Orb and Crystal : Nanamiyuki atelier.<!-- * WeatherIcons : illust-AC<br> not used yet -->
 4. Some icons include <a href="https://apps.ankiweb.net" target="_blank">official Anki</a> icons.
-(<a href="https://github.com/ankitects/anki/blob/main/LICENSE" target="_blank">Anki License</a>) This add-on is not related to the official.
+(<a href="https://github.com/ankitects/anki/blob/main/LICENSE" target="_blank">Anki License</a>) This add-on is not related to the official Anki.
 5. <a href="https://shigeyukey.github.io/shige-addons-wiki/Anki-tan.html" target="_blank">Anki-tan</a> is an unofficial meme character I created on my own and I draw the illustrations myself. (CC4, not related to the official Anki.)
 
 ## Related Add-ons
@@ -171,7 +174,7 @@ Hide all status(stats) and display only large other icons. (Review and time icon
 
 If you have any problems or requests feel free to send them to me.
 
-  <!-- 1. <a href="https://ankiweb.net/shared/review/🟢" target="_blank">👍️Rate Comment</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development. -->
+  1. <a href="https://ankiweb.net/shared/review/978245457" target="_blank">👍️Rate Comment</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development.
   2. <a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">👩‍🚀Reddit</a> : You can request me to repair broken Add-ons.
   2. <a href="https://forums.ankiweb.net/t/simple-fix-of-broken-add-ons-for-the-latest-anki-by-shige/41650" target="_blank">🌟AnkiForums</a> : You can request me to repair broken Add-ons, and it is ideal for open discussions.
   3. <a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">🐙Github </a> : Makes it easier to track problems.
@@ -199,18 +202,17 @@ Hi thank you for using this add-on, I'm Shigeඞ! I'm looking for supporters for
 
 <br>
 
-<!--
-<br>
+
 
 ## 📥 How do I install this add-on?
 
 1. This add-on works with Anki for desktop (it does not work on mobile). Download Anki from the [official website](https://apps.ankiweb.net/) if you haven't already.
-2. Copy and paste the add-on code ( `🟢` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
+2. Copy and paste the add-on code ( `978245457` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
 3. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
 4. Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!
 
 [Click here and please Rate this add-on, Thank you! :-) <br>
- ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/🟢)
- -->
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/978245457)
+
 
 
