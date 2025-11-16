@@ -94,6 +94,7 @@
   - [⏩️Skip Anki home and deck overview](skip-anki-home-and-deck-overview.md)
   - [🩸Hide Leech Notification](hide-leech_notification.md)
   - [🎨Rewrite text of study cards](rewrite-text-of-study-cards.md)
+  - [📱Discord RP for Anki Leaderboard](discord-rp-for-anki-leaderboard.md)
 
 
 
