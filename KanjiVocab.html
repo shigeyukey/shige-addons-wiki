@@ -12,20 +12,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-2459343d.css">
+        <link rel="stylesheet" href="css/chrome-9dfbd86b.css">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" id="highlight-css" href="highlight.css">
-        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
-        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
 
         <!-- Custom theme stylesheets -->
 
@@ -35,10 +34,10 @@
             const path_to_root = "";
             const default_light_theme = "navy";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex.js";
+            window.path_to_searchindex_js = "searchindex-4fd09990.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc.js"></script>
+        <script src="toc-6f26dfa4.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -52,7 +51,7 @@
             </div>
         </div>
     </div>
-    <div id="body-container">
+    <div id="mdbook-body-container">
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
@@ -81,12 +80,12 @@
             html.classList.add("js");
         </script>
 
-        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
             let sidebar = null;
-            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -101,39 +100,39 @@
             }
         </script>
 
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
                 <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
             </noscript>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
             </div>
         </nav>
 
-        <div id="page-wrapper" class="page-wrapper">
+        <div id="mdbook-page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                            <i class="fa fa-bars"></i>
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
                         </label>
-                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                            <i class="fa fa-paint-brush"></i>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
                         </button>
-                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
                         </ul>
-                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
-                            <i class="fa fa-search"></i>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
                         </button>
                     </div>
 
@@ -141,44 +140,44 @@
 
                     <div class="right-buttons">
                         <a href="https://www.patreon.com/Shigeyuki" title="Git repository" aria-label="Git repository">
-                            <i id="git-repository-button" class="fa fa-envelope"></i>
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 128C0 92.65 28.65 64 64 64H448C483.3 64 512 92.65 512 128V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V128zM48 128V150.1L220.5 291.7C241.1 308.7 270.9 308.7 291.5 291.7L464 150.1V127.1C464 119.2 456.8 111.1 448 111.1H64C55.16 111.1 48 119.2 48 127.1L48 128zM48 212.2V384C48 392.8 55.16 400 64 400H448C456.8 400 464 392.8 464 384V212.2L322 328.8C283.6 360.3 228.4 360.3 189.1 328.8L48 212.2z"/></svg></span>
                         </a>
 
                     </div>
                 </div>
 
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
                         <div class="search-wrapper">
-                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
                             <div class="spinner-wrapper">
-                                <i class="fa fa-spinner fa-spin"></i>
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
                             </div>
                         </div>
                     </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
                         </ul>
                     </div>
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
                 <script>
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
                         link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
                     });
                 </script>
 
-                <div id="content" class="content">
+                <div id="mdbook-content" class="content">
                     <main>
                         <h1 id="kanjivocab---smart-automatic-vocab-for-rtk-fixed-by-shige"><a class="header" href="#kanjivocab---smart-automatic-vocab-for-rtk-fixed-by-shige">🍣KanjiVocab - smart automatic vocab for RTK Fixed by Shige</a></h1>
-<p><a href="http://patreon.com/Shigeyuki"><img src="https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb" alt="banner_shigeyuki_Fixed" /></a>   <br></p>
+<p><a href="http://patreon.com/Shigeyuki"><img src="https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb" alt="banner_shigeyuki_Fixed"></a>   <br></p>
 <h3 id="ankiweb-page--code--887572166"><a class="header" href="#ankiweb-page--code--887572166"><a href="https://ankiweb.net/shared/info/887572166">AnkiWeb Page</a> | Code : <code>887572166</code></a></h3>
 <p>&gt; <em>This Anki addon adds Japanese words to a kanji writing deck (such as Remembering The Kanji), using known words from other decks.</em></p>
-<p>This add-on is a fixed version (fork) of the "KanjiVocab" for Anki24+ (Qt6, Qt5).<br>
+<p>This add-on is a fixed version (fork) of the “KanjiVocab” for Anki24+ (Qt6, Qt5).<br>
 (If the original add-on has been updated to Anki 24+ this fork is not required.)</p>
 <h3 id="credit"><a class="header" href="#credit">Credit:</a></h3>
 <ul>
@@ -186,9 +185,9 @@
 </ul>
 <br>
 <p>(These images are edited and re-uploaded from the original add-on images.)</p>
-<p><img src="images/KanjiVocab/KanjiVocab.gif" alt="alt text" />
+<p><img src="images/KanjiVocab/KanjiVocab.gif" alt="alt text">
 <br>
-<img src="images/KanjiVocab/KanjiVocab_02.gif" alt="alt text" /></p>
+<img src="images/KanjiVocab/KanjiVocab_02.gif" alt="alt text"></p>
 <ul>
 <li><a href="#kanjivocab---smart-automatic-vocab-for-rtk-fixed-by-shige">🍣KanjiVocab - smart automatic vocab for RTK Fixed by Shige</a>
 <ul>
@@ -223,9 +222,9 @@
 <p>(These descriptions are edited and re-uploaded from the original add-on.)</p>
 <h3 id="quick-start"><a class="header" href="#quick-start">Quick Start</a></h3>
 <ol>
-<li>Add fields to your kanji deck, named "KanjiVocabQuestion", "KanjiVocabAnswer" and "KanjiVocabExtra".</li>
-<li>Edit the card template. Add "KanjiVocabQuestion" to the front of the card, and the other two to the back of the card. They contain furigana, so use {{furigana:KanjiVocabQuestion}} etc.</li>
-<li>Restart Anki after installing the addon, and "KanjiVocab..." should appear on the Tools menu. This opens a dialog with the various options.</li>
+<li>Add fields to your kanji deck, named “KanjiVocabQuestion”, “KanjiVocabAnswer” and “KanjiVocabExtra”.</li>
+<li>Edit the card template. Add “KanjiVocabQuestion” to the front of the card, and the other two to the back of the card. They contain furigana, so use {{furigana:KanjiVocabQuestion}} etc.</li>
+<li>Restart Anki after installing the addon, and “KanjiVocab…” should appear on the Tools menu. This opens a dialog with the various options.</li>
 </ol>
 <h3 id="notes-"><a class="header" href="#notes-">Notes :</a></h3>
 <ol>
@@ -252,67 +251,67 @@ color: #800080
 </code></pre>
 </li>
 <li>
-<p>Vocab card scanning is self-contained. Text scanning requires a recent version of the "<a href="https://ankiweb.net/shared/info/3918629684">Japanese Support</a>" addon.</p>
+<p>Vocab card scanning is self-contained. Text scanning requires a recent version of the “<a href="https://ankiweb.net/shared/info/3918629684">Japanese Support</a>” addon.</p>
 </li>
 </ol>
 <br>
 <h2 id="detailed-description"><a class="header" href="#detailed-description">Detailed Description</a></h2>
 <h4 id="kanjivocab---smart-automatic-vocab-for-rtk"><a class="header" href="#kanjivocab---smart-automatic-vocab-for-rtk">KanjiVocab - smart automatic vocab for RTK</a></h4>
 <h4 id="introduction"><a class="header" href="#introduction">Introduction</a></h4>
-<p>This Anki addon adds Japanese words to a kanji writing deck (such as Remembering The Kanji), using known words from other decks. It makes post-completion RTK reviews much more pleasant, and helps link all the new words you're learning with what you learned in RTK.</p>
+<p>This Anki addon adds Japanese words to a kanji writing deck (such as Remembering The Kanji), using known words from other decks. It makes post-completion RTK reviews much more pleasant, and helps link all the new words you’re learning with what you learned in RTK.</p>
 <p>The addon can add words to the question side with the target kanji hidden, to help decide which kanji to write. It tries to prioritise known words and common words, and avoid words that might suggest the wrong answer. It scans cards in other decks to determine which words are known. It gets the best results from vocab cards, particularly if they have vocab expression and reading fields. It can also scan sentence fields for the words within (this requires the Japanese Support addon). The results are saved into the kanji cards, so can be synced to non-desktop versions of Anki.</p>
-<p>Vocab card scanning is self-contained. Text scanning requires a recent version of the "<a href="https://ankiweb.net/shared/info/3918629684">Japanese Support</a>"</p>
+<p>Vocab card scanning is self-contained. Text scanning requires a recent version of the “<a href="https://ankiweb.net/shared/info/3918629684">Japanese Support</a>”</p>
 <p>The Python code is licensed under the GNU AGPL, version 3 or later (the same as Anki itself). See http://www.gnu.org/licenses/agpl.html</p>
-<p>This addon includes a dictionary derived from the JMdict dictionary file. JMdict is property of the Electronic Dictionary Research and Development Group, and is used in conformance with the Group's licence. See http://www.edrdg.org/jmdict/j_jmdict.html</p>
+<p>This addon includes a dictionary derived from the JMdict dictionary file. JMdict is property of the Electronic Dictionary Research and Development Group, and is used in conformance with the Group’s licence. See http://www.edrdg.org/jmdict/j_jmdict.html</p>
 <h3 id="installation"><a class="header" href="#installation">Installation</a></h3>
 <p>This fixed version is for Anki 24+.</p>
 <p>If you are concerned, make a backup of your decks before using the add-on.</p>
-<p>Restart Anki, and "KanjiVocab..." should appear on the Tools menu. This opens a dialog with the various options.</p>
+<p>Restart Anki, and “KanjiVocab…” should appear on the Tools menu. This opens a dialog with the various options.</p>
 <h3 id="field-setup"><a class="header" href="#field-setup">Field Setup</a></h3>
 <p>Add fields to your kanji deck for the new information, named as follows:</p>
 <ol>
-<li>"KanjiVocabQuestion" for the words with masked kanji (put this on the front of the card);</li>
-<li>"KanjiVocabAnswer" for the answers to the questions (put this on the back of the card, ideally so that it appears in the same place as the question field);</li>
-<li>"KanjiVocabExtra" for words which would have more than one likely answer (put this on the back of the card).</li>
+<li>“KanjiVocabQuestion” for the words with masked kanji (put this on the front of the card);</li>
+<li>“KanjiVocabAnswer” for the answers to the questions (put this on the back of the card, ideally so that it appears in the same place as the question field);</li>
+<li>“KanjiVocabExtra” for words which would have more than one likely answer (put this on the back of the card).</li>
 </ol>
 <p>The above fields contain furigana, so add them using {{furigana:KanjiVocabQuestion}} etc.</p>
 <p>Note: These were renamed to remove spaces (as spaces make searching etc more awkward). You can rename existing fields within Anki. Apologies for any inconvenience.</p>
-<p>With each run of KanjiVocab, these fields will be overwritten and anything already in them will be lost. Notes with the tag "KanjiVocabFreeze" are left alone; but heavy use of this tag may create more work for you later. Consider putting hand-edited material into other fields instead.</p>
+<p>With each run of KanjiVocab, these fields will be overwritten and anything already in them will be lost. Notes with the tag “KanjiVocabFreeze” are left alone; but heavy use of this tag may create more work for you later. Consider putting hand-edited material into other fields instead.</p>
 <h3 id="css-setup"><a class="header" href="#css-setup">CSS Setup</a></h3>
 <p>Add CSS to your kanji deck to style the words as you like. There is an example in cards_example.css (so just copy that unless you have a different idea). Each word will have exactly one of the following classes:</p>
 <ol>
-<li>"kv_unique" for words with only one possible answer;</li>
-<li>"kv_likely" for words with only one likely answer;</li>
-<li>"kv_confuse" for words with more than one likely answer (by default these only appear as "extra" words).</li>
+<li>“kv_unique” for words with only one possible answer;</li>
+<li>“kv_likely” for words with only one likely answer;</li>
+<li>“kv_confuse” for words with more than one likely answer (by default these only appear as “extra” words).</li>
 </ol>
 <p>Also, each word will have exactly one of the following classes (with the ones listed first being higher priority):</p>
 <ol>
-<li>"kv_kanji_mature" for words where the kanji version is mature;</li>
-<li>"kv_kanji_known" for words where the kanji version is known;</li>
-<li>"kv_kana_mature" for words where the kana version is mature;</li>
-<li>"kv_kana_known" for words where the kana version is known;</li>
-<li>"kv_kanji_inactive" for words where the kanji version was scanned from a new or suspended card;</li>
-<li>"kv_kana_inactive" for words where the kana version was scanned from a new or suspended card;</li>
-<li>"kv_unknown" for words which were not scanned.</li>
+<li>“kv_kanji_mature” for words where the kanji version is mature;</li>
+<li>“kv_kanji_known” for words where the kanji version is known;</li>
+<li>“kv_kana_mature” for words where the kana version is mature;</li>
+<li>“kv_kana_known” for words where the kana version is known;</li>
+<li>“kv_kanji_inactive” for words where the kanji version was scanned from a new or suspended card;</li>
+<li>“kv_kana_inactive” for words where the kana version was scanned from a new or suspended card;</li>
+<li>“kv_unknown” for words which were not scanned.</li>
 </ol>
 <p>Since they are separated like this, it makes sense to use text styles for one set and background colour for the other.</p>
 <h3 id="settings-dialog"><a class="header" href="#settings-dialog">Settings Dialog</a></h3>
-<p>In the "Cards to update" tab:</p>
+<p>In the “Cards to update” tab:</p>
 <ol>
-<li>"Note type" is the note type you wish to add the words to.</li>
-<li>"Kanji field" is the name of the field containing only the kanji character being tested (used to decide which words to add to the card).</li>
-<li>"Dictionary words" allows words to be taken from the dictionary by frequency (based on JMdict priority tags), even if they did not appear in any scans.</li>
-<li>"Questions" is the maximum number of words with masked kanji to add to each card.</li>
-<li>"Extra answers" is the maximum number of extra words to add to each card.</li>
-<li>"Allow ambiguous questions" lets you choose whether to allow questions with more than one likely answer. Even if not, they can still appear as "extra".</li>
-<li>The "Fields to update" section shows whether the listed fields have been added correctly.</li>
+<li>“Note type” is the note type you wish to add the words to.</li>
+<li>“Kanji field” is the name of the field containing only the kanji character being tested (used to decide which words to add to the card).</li>
+<li>“Dictionary words” allows words to be taken from the dictionary by frequency (based on JMdict priority tags), even if they did not appear in any scans.</li>
+<li>“Questions” is the maximum number of words with masked kanji to add to each card.</li>
+<li>“Extra answers” is the maximum number of extra words to add to each card.</li>
+<li>“Allow ambiguous questions” lets you choose whether to allow questions with more than one likely answer. Even if not, they can still appear as “extra”.</li>
+<li>The “Fields to update” section shows whether the listed fields have been added correctly.</li>
 </ol>
-<p>In the "Cards to scan" tab, each row can be set to a different scan:</p>
+<p>In the “Cards to scan” tab, each row can be set to a different scan:</p>
 <ol>
-<li>"Note type" is the note type you wish to scan. A note type can appear more than once with different options.</li>
-<li>"Scan type" can be "vocab" or "text". A vocab scan considers the expression and reading as-is (the reading is optional). A text scan splits the expression with MeCab (and does not use a reading).</li>
+<li>“Note type” is the note type you wish to scan. A note type can appear more than once with different options.</li>
+<li>“Scan type” can be “vocab” or “text”. A vocab scan considers the expression and reading as-is (the reading is optional). A text scan splits the expression with MeCab (and does not use a reading).</li>
 <li>The other drop-downs let you select the expression and reading fields for each scan.</li>
-<li>The checkboxes let you choose whether each scan will consider new and suspended cards. Words from such cards will be prioritised above dictionary words, but not counted as "known".</li>
+<li>The checkboxes let you choose whether each scan will consider new and suspended cards. Words from such cards will be prioritised above dictionary words, but not counted as “known”.</li>
 </ol>
 <br>
 <br>
@@ -333,7 +332,7 @@ color: #800080
 <li>Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!</li>
 </ol>
 <p><a href="https://ankiweb.net/shared/review/887572166">Click here and please Rate this add-on, Thank you! :-) <br>
-<img src="https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif" alt="Please rate this" /></a>
+<img src="https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif" alt="Please rate this"></a>
 <br></p>
 <h3 id="ankiweb-page--code--887572166-1"><a class="header" href="#ankiweb-page--code--887572166-1"><a href="https://ankiweb.net/shared/info/887572166">AnkiWeb Page</a> | Code : <code>887572166</code><br></a></h3>
 <br>
@@ -351,11 +350,11 @@ color: #800080
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                             <a rel="prev" href="anki-spell-checker.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                             </a>
 
                             <a rel="next prefetch" href="kanji_unlocked.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                             </a>
 
                         <div style="clear: both"></div>
@@ -365,16 +364,21 @@ color: #800080
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                     <a rel="prev" href="anki-spell-checker.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                     </a>
 
                     <a rel="next prefetch" href="kanji_unlocked.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                     </a>
             </nav>
 
         </div>
 
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
 
 
 
@@ -383,13 +387,13 @@ color: #800080
         </script>
 
 
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-c2a407aa.js"></script>
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-a0b12cfe.js"></script>
 
         <!-- Custom JS scripts -->
 

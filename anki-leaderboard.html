@@ -12,20 +12,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-2459343d.css">
+        <link rel="stylesheet" href="css/chrome-9dfbd86b.css">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" id="highlight-css" href="highlight.css">
-        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
-        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
 
         <!-- Custom theme stylesheets -->
 
@@ -35,10 +34,10 @@
             const path_to_root = "";
             const default_light_theme = "navy";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex.js";
+            window.path_to_searchindex_js = "searchindex-4fd09990.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc.js"></script>
+        <script src="toc-6f26dfa4.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -52,7 +51,7 @@
             </div>
         </div>
     </div>
-    <div id="body-container">
+    <div id="mdbook-body-container">
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
@@ -81,12 +80,12 @@
             html.classList.add("js");
         </script>
 
-        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
             let sidebar = null;
-            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
@@ -101,39 +100,39 @@
             }
         </script>
 
-        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
                 <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
             </noscript>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
             </div>
         </nav>
 
-        <div id="page-wrapper" class="page-wrapper">
+        <div id="mdbook-page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
-                <div id="menu-bar" class="menu-bar sticky">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                            <i class="fa fa-bars"></i>
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
                         </label>
-                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                            <i class="fa fa-paint-brush"></i>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
                         </button>
-                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
                         </ul>
-                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
-                            <i class="fa fa-search"></i>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
                         </button>
                     </div>
 
@@ -141,38 +140,38 @@
 
                     <div class="right-buttons">
                         <a href="https://www.patreon.com/Shigeyuki" title="Git repository" aria-label="Git repository">
-                            <i id="git-repository-button" class="fa fa-envelope"></i>
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 128C0 92.65 28.65 64 64 64H448C483.3 64 512 92.65 512 128V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V128zM48 128V150.1L220.5 291.7C241.1 308.7 270.9 308.7 291.5 291.7L464 150.1V127.1C464 119.2 456.8 111.1 448 111.1H64C55.16 111.1 48 119.2 48 127.1L48 128zM48 212.2V384C48 392.8 55.16 400 64 400H448C456.8 400 464 392.8 464 384V212.2L322 328.8C283.6 360.3 228.4 360.3 189.1 328.8L48 212.2z"/></svg></span>
                         </a>
 
                     </div>
                 </div>
 
-                <div id="search-wrapper" class="hidden">
-                    <form id="searchbar-outer" class="searchbar-outer">
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
                         <div class="search-wrapper">
-                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
                             <div class="spinner-wrapper">
-                                <i class="fa fa-spinner fa-spin"></i>
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
                             </div>
                         </div>
                     </form>
-                    <div id="searchresults-outer" class="searchresults-outer hidden">
-                        <div id="searchresults-header" class="searchresults-header"></div>
-                        <ul id="searchresults">
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
                         </ul>
                     </div>
                 </div>
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
                 <script>
-                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
-                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
                         link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
                     });
                 </script>
 
-                <div id="content" class="content">
+                <div id="mdbook-content" class="content">
                     <main>
                         <h1 id="anki-leaderboard-wiki"><a class="header" href="#anki-leaderboard-wiki">🏆️Anki leaderboard Wiki</a></h1>
 <a href="http://patreon.com/Shigeyuki" target="_blank">
@@ -186,17 +185,17 @@
 <p><em>This add-on ranks all of its users by the number of cards reviewed today</em></p>
 </blockquote>
 <p>This add-on is a customized version (fork) of the shutdown <a href="https://github.com/ThoreBor/Anki_Leaderboard" target="_blank">Anki LeaderBoard</a>, originally created by <a href="https://github.com/ThoreBor" target="_blank">Thore Tyborski</a> and credit goes to him.</p>
-<iframe src="https://www.youtube.com/embed/nJvFxID874g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
-<p><img src="images/Leaderboard/main-image/main-image-v2.png" alt="leaderboard" /></p>
+<iframe src="https://www.youtube.com/embed/nJvFxID874g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="aspect-ratio: 16/9; width: 100%;"></iframe>
+<p><img src="images/Leaderboard/main-image/main-image-v2.png" alt="leaderboard"></p>
 <!-- ![leaderboard](images/Leaderboard/00_leaderboard_dark_700.png) -->
 <br>
- *I've enhanced graphics by adding countries, ranks, tooltips, etc. If you find it distracting you can disable it in the settings. (Config -> others tab -> add Pic country and league)*
+ *I've enhanced graphics by adding countries, ranks, tooltips, etc. If you find it distracting you can disable it in the settings. (Config -&gt; others tab -&gt; add Pic country and league)*
 <br>
 ![alt text](images/Leaderboard/tooltip.gif)<br>
 *(This image is a sample so all user names are hidden.)*
 <br>
 <ul>
-<li><a href="#%EF%B8%8Fanki-leaderboard-wiki">🏆️Anki leaderboard Wiki</a></li>
+<li><a href="#️anki-leaderboard-wiki">🏆️Anki leaderboard Wiki</a></li>
 <li><a href="#how-to-use">📖How to use</a>
 <ul>
 <li><a href="#league">🏆League</a>
@@ -206,13 +205,13 @@
 </li>
 <li><a href="#group">👥Group</a></li>
 <li><a href="#friends">🤝Friends</a></li>
-<li><a href="#%EF%B8%8Faccount">🗝️Account</a></li>
+<li><a href="#️account">🗝️Account</a></li>
 <li><a href="#xp-formula">📈XP formula</a></li>
 <li><a href="#leaderboard-web">🌐Leaderboard Web</a></li>
 <li><a href="#profile-icon">📸Profile icon</a></li>
 <li><a href="#rank-icons">Rank icons</a></li>
 <li><a href="#sync-multiple-devices">Sync multiple devices</a></li>
-<li><a href="#%EF%B8%8Fgamification-mode">🎮️Gamification Mode</a>
+<li><a href="#️gamification-mode">🎮️Gamification Mode</a>
 <ul>
 <li><a href="#online-status">Online Status</a></li>
 <li><a href="#review-progressbar">Review ProgressBar</a>
@@ -247,11 +246,11 @@
 <li><a href="#q-login-keeps-failing-and-sync-is-not-finished-what-should-i-do">Q. Login keeps failing and sync is not finished, what should I do?</a></li>
 <li><a href="#q-a-user-is-cheating-what-should-i-do">Q. A user is cheating, what should I do?</a></li>
 <li><a href="#q-how-do-i-delete-a-group">Q. How do I delete a group?</a></li>
-<li><a href="#q-why-doesnt-my-anki-streaks-match-the-leaderboard-streaks">Q. Why doesn't my Anki Streaks match the leaderboard streaks?</a></li>
+<li><a href="#q-why-doesnt-my-anki-streaks-match-the-leaderboard-streaks">Q. Why doesn’t my Anki Streaks match the leaderboard streaks?</a></li>
 <li><a href="#q-when-will-the-new-league-start">Q. When will the new league start?</a></li>
-<li><a href="#q-why-doesnt-my-xp-match-when-i-calculate-it-manually">Q. Why doesn't my XP match when I calculate it manually?</a></li>
+<li><a href="#q-why-doesnt-my-xp-match-when-i-calculate-it-manually">Q. Why doesn’t my XP match when I calculate it manually?</a></li>
 <li><a href="#q-what-is-the-reason-for-using-the-bonus-instead-of-real-retention">Q. What is the reason for using the bonus instead of real retention?</a></li>
-<li><a href="#q-why-doesnt-the-leaderboard-sort-order-help-my-learning">Q. Why doesn't the leaderboard sort order help my learning?</a></li>
+<li><a href="#q-why-doesnt-the-leaderboard-sort-order-help-my-learning">Q. Why doesn’t the leaderboard sort order help my learning?</a></li>
 </ul>
 </li>
 <li><a href="#-how-do-i-install-this-add-on">📥 How do I install this add-on?</a></li>
@@ -261,25 +260,25 @@
 <ol>
 <li>This add-on ranks all of its users by the number of cards reviewed today, time spend studying today, current streak, reviews in the past 31 days, and retention.</li>
 <li>You can also compete against friends, join groups, and join a country leaderboard.</li>
-<li>You'll only see users, that synced on the same day as you.
+<li>You’ll only see users, that synced on the same day as you.
 <br></li>
 </ol>
 <h2 id="league"><a class="header" href="#league">🏆League</a></h2>
 <ol>
 <li>In the league tab, you see everyone who synced at least once during the current season. There are four leagues. (Alpha, Beta, Gamma, and Delta)
-<img src="images/Leaderboard/04_league.png" alt="League" /></li>
+<img src="images/Leaderboard/04_league.png" alt="League"></li>
 <li>The top 20% will be promoted, and the bottom 20% will be demoted. (Start -&gt; Delta -&gt; Gamma -&gt; Beta -&gt; Alpha)
 <br></li>
 </ol>
 <h3 id="season-league"><a class="header" href="#season-league">📅Season (League)</a></h3>
 <ol>
-<li>A season lasts two weeks. You don't have to sync every day. For now I have it set to tally after 3 days and start a new league on the next Monday. (Because of time zone differences between countries and the time it takes mobile users to sync leagues on their PC)
+<li>A season lasts two weeks. You don’t have to sync every day. For now I have it set to tally after 3 days and start a new league on the next Monday. (Because of time zone differences between countries and the time it takes mobile users to sync leagues on their PC)
 <br></li>
 </ol>
 <h2 id="group"><a class="header" href="#group">👥Group</a></h2>
 <ol>
 <li>Groups is the function to create private leaderboards. e.g. if you create a group with your schoolmates or friends only users who know the password can use the leaderboard. Anyone can freely create groups. If you want anyone to be able to join your group please include the password in the group name.
-<img src="images/Leaderboard/03_groups.png" alt="03_groups" /></li>
+<img src="images/Leaderboard/03_groups.png" alt="03_groups"></li>
 <li>By default, there are public groups for Medicine, Language, and Pokemon. (password 1234)<br></li>
 <li>If you want to delete the group, please contact me.<br></li>
 <li>If you do not set a password, an error will occur. <br></li>
@@ -287,8 +286,8 @@
 <h2 id="friends"><a class="header" href="#friends">🤝Friends</a></h2>
 <ol>
 <li>You can add users to friends and display them like a group. (If you add a user as a friend, they will not be notified or see your name.)
-<img src="images/Leaderboard/05_friends.png" alt="alt text" /></li>
-<li>To add a user as a friend, double-click on the user's name and click the “Add friend” button or enter the name in Config.
+<img src="images/Leaderboard/05_friends.png" alt="alt text"></li>
+<li>To add a user as a friend, double-click on the user’s name and click the “Add friend” button or enter the name in Config.
 <br></li>
 </ol>
 <h2 id="account"><a class="header" href="#account">🗝️Account</a></h2>
@@ -298,7 +297,7 @@
 </li>
 <li>
 <p>Click on the dropbox to toggle the account options.<br>
-<img src="images/Leaderboard/02_config_login_options.png" alt="02_config_login_options" /></p>
+<img src="images/Leaderboard/02_config_login_options.png" alt="02_config_login_options"></p>
 </li>
 <li>
 <p><strong>🚨Note:</strong> Do not use a name or biography that would offend other users, I often receive such reports and users who do not correct them will be banned.
@@ -311,11 +310,11 @@
 <p><code>XP = days studied percentage x ((6 x time) + (2 x reviews x retention)) </code></p>
 </li>
 <li>
-<p>You have to study at least 5 minutes per day. Otherwise, this day won't be counted as “studied”
+<p>You have to study at least 5 minutes per day. Otherwise, this day won’t be counted as “studied”
 (<i><a href="https://github.com/ThoreBor/Anki_Leaderboard/issues/122" target="_blank">See this issue for more info</a></i>).</p>
 </li>
 <li>
-<p><a href="#q-why-doesnt-my-xp-match-when-i-calculate-it-manually">Q. Why doesn't my XP match when I calculate it manually?</a></p>
+<p><a href="#q-why-doesnt-my-xp-match-when-i-calculate-it-manually">Q. Why doesn’t my XP match when I calculate it manually?</a></p>
 </li>
 </ol>
 <br>
@@ -335,7 +334,7 @@
 </li>
 <li>
 <p>Menu - &gt; Leaderboard -&gt; Upload profile image
-<img src="images/Leaderboard/06_tooltip.png" alt="alt text" /></p>
+<img src="images/Leaderboard/06_tooltip.png" alt="alt text"></p>
 </li>
 <li>
 <p>Uploaded images are automatically edited -&gt; Height 64px Width 64px Circle</p>
@@ -355,7 +354,7 @@
 <li>
 <p><strong>📁Profile Icons Cache :</strong></p>
 <ol>
-<li>This function works by downloading icons from the server and storing them as a binary cache in the add-on's user_file folder.</li>
+<li>This function works by downloading icons from the server and storing them as a binary cache in the add-on’s user_file folder.</li>
 <li>If there are a lot of icons on the server it may take a long time to download the cache. In this case the order of downloading is like this:
 <ol>
 <li>Friends -&gt; Country -&gt; Group -&gt; Global -&gt; League</li>
@@ -363,7 +362,7 @@
 </li>
 <li>Downloading of the cache of icons from the server is done only while the leaderboard window is open. If you close the window it will be interrupted.</li>
 <li>The cache of icons deleted from the server is auto deleted from the icon cache user_file folder of add-on.</li>
-<li>These functions run a bit slowly in the background, so they should not affect Anki's operation and your review. (Anki23+ is required)</li>
+<li>These functions run a bit slowly in the background, so they should not affect Anki’s operation and your review. (Anki23+ is required)</li>
 <li><strong>🚨Note:</strong>
 <ol>
 <li>Each icon is about 7-10KB so 1,000 user icons will require about 10MB of cache, thus if the number of users suddenly increases too much the cache may increase too much (e.g. 10,000users-&gt;100MB). I plan to develop workarounds for this once the server icons actually increase.</li>
@@ -375,16 +374,16 @@
 <h2 id="rank-icons"><a class="header" href="#rank-icons"><img src="images/Leaderboard/rank_icons/alpha_12.png" alt="tooltip icon" width="20" height="20">Rank icons</a></h2>
 <ol>
 <li>
-<p>I've enhanced graphics by adding countries, ranks, tooltips, etc.</p>
+<p>I’ve enhanced graphics by adding countries, ranks, tooltips, etc.</p>
 </li>
 <li>
 <p>If you find it distracting you can disable it in the settings: Config -&gt; others tab -&gt; add Pic country and league.<br>
-<img src="images/Leaderboard/tooltip.gif" alt="alt text" /></p>
+<img src="images/Leaderboard/tooltip.gif" alt="alt text"></p>
 </li>
 <li>
 <p>There are three types of rank icons on the leaderboard, each with 10 ranks in each of the leagues.</p>
 <ol>
-<li><strong>Color (User's current league) :</strong>
+<li><strong>Color (User’s current league) :</strong>
 <ol>
 <li><img src="images/Leaderboard/rank_icons/alpha_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Hexagon/alpha_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Diamond/alpha_12.png" alt="tooltip icon" width="20" height="20"> <img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"> Alpha (Gold)</li>
 <li><img src="images/Leaderboard/rank_icons/beta_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Hexagon/beta_12.png" alt="tooltip icon" width="20" height="20"><img src="images/Leaderboard/Diamond/beta_12.png" alt="tooltip icon" width="20" height="20"> <img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"> Beta (Silver)</li>
@@ -416,55 +415,55 @@
 </ol>
 </li>
 </ol>
-<p>E.g. if a user is B (Mid 30-40%) on the global leaderboard the rank icon will be <img src="images/Leaderboard/Grades/delta_09.png" alt="icon" width="20" height="20"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"> but if the user's current league is Gamma the color will change and the rank icon will be <img src="images/Leaderboard/Grades/gamma_09.png" alt="icon" width="20" height="20"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15">.</p>
+<p>E.g. if a user is B (Mid 30-40%) on the global leaderboard the rank icon will be <img src="images/Leaderboard/Grades/delta_09.png" alt="icon" width="20" height="20"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"> but if the user’s current league is Gamma the color will change and the rank icon will be <img src="images/Leaderboard/Grades/gamma_09.png" alt="icon" width="20" height="20"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15"><img src="images/Leaderboard/star_icon.png" alt="tooltip icon" width="15" height="15">.</p>
 <h2 id="sync-multiple-devices"><a class="header" href="#sync-multiple-devices">Sync multiple devices</a></h2>
 <p>The default leaderboard does not allow multiple devices to log in at the same time. I added workaround for problem with multiple devices.<br></p>
-<p><img src="images/Leaderboard/07_Sync%20multiple%20device.png" alt="alt text" /></p>
+<p><img src="images/Leaderboard/07_Sync multiple device.png" alt="alt text"></p>
 <ol>
 <li>Save data to AnkiWeb from your login device:
 <ul>
-<li>Config -&gt; Others tab -&gt; Sync multiple devices -&gt; Auto save this device's config dat to AnkiWeb[ON]</li>
+<li>Config -&gt; Others tab -&gt; Sync multiple devices -&gt; Auto save this device’s config dat to AnkiWeb[ON]</li>
 </ul>
 </li>
 <li>Sync Anki decks.</li>
-<li>Sync Anki's deck on the second device.</li>
+<li>Sync Anki’s deck on the second device.</li>
 <li>Download the config data on the second device:
 <ul>
 <li>Sync multiple devices -&gt; Download Config data from AnkiWeb</li>
 </ul>
 </li>
 </ol>
-<p>This saved data has nothing to do with the server's leaderboard data, so you can either delete it or not after a successful login. (Sync multiple devices -&gt; Delete AnkiWeb config data)</p>
+<p>This saved data has nothing to do with the server’s leaderboard data, so you can either delete it or not after a successful login. (Sync multiple devices -&gt; Delete AnkiWeb config data)</p>
 <h2 id="gamification-mode"><a class="header" href="#gamification-mode">🎮️Gamification Mode</a></h2>
-<p><img src="images/Leaderboard/game-mode/game-modev2.png" alt="game-mode" /></p>
-<p>Enhanced gamification with more icons and numerical feedback. If you don't like it, you can disable it at once in the options(Config -&gt; Oters tab).
+<p><img src="images/Leaderboard/game-mode/game-modev2.png" alt="game-mode"></p>
+<p>Enhanced gamification with more icons and numerical feedback. If you don’t like it, you can disable it at once in the options(Config -&gt; Oters tab).
 The code is not optimized yet, so there is a disadvantage for now that it increases the delay before the window is displayed.</p>
 <h3 id="online-status"><a class="header" href="#online-status">Online Status</a></h3>
-<p><img src="images/Leaderboard/online-status/online-status.png" alt="online-status" /></p>
-<p>Display of yesterday's users. Added a function to display the scores of users who logged in yesterday and not only today. Users who logged in today will see a green dot. If you do not like this yesterday, you can optionally disable it (Show only today's users).</p>
+<p><img src="images/Leaderboard/online-status/online-status.png" alt="online-status"></p>
+<p>Display of yesterday’s users. Added a function to display the scores of users who logged in yesterday and not only today. Users who logged in today will see a green dot. If you do not like this yesterday, you can optionally disable it (Show only today’s users).</p>
 <h3 id="review-progressbar"><a class="header" href="#review-progressbar">Review ProgressBar</a></h3>
-<p><img src="images/Leaderboard/review-progress-bar/review-progress.png" alt="review-progress" /></p>
+<p><img src="images/Leaderboard/review-progress-bar/review-progress.png" alt="review-progress"></p>
 <p>This will reach 100% when the average number of reviews for the month is reached.</p>
 <h4 id="alert-emoji"><a class="header" href="#alert-emoji">Alert Emoji</a></h4>
-<p><img src="images/Leaderboard/review-progress-bar/alert-emoji.png" alt="alert-emoji" /></p>
+<p><img src="images/Leaderboard/review-progress-bar/alert-emoji.png" alt="alert-emoji"></p>
 <p>Added a function to display seconds in review. The 0-2 seconds/card is indicated by a patlamp. (Since the most common reason reported so far is that the review is too fast.) This function is only for display, so there is no penalty for now. If you are reviewing too fast for some reason, I recommend you to write the reason in Bio. (Because Bio will be displayed when someone reports a user.)</p>
 <h3 id="time-ranks"><a class="header" href="#time-ranks">Time Ranks</a></h3>
-<p><img src="images/Leaderboard/time/time-02.png" alt="time-02" /></p>
+<p><img src="images/Leaderboard/time/time-02.png" alt="time-02"></p>
 <p>The rank changes by the learning time. Maximum 12 hours.</p>
 <h3 id="review-orb-and-crystal"><a class="header" href="#review-orb-and-crystal">Review Orb and Crystal</a></h3>
-<p><img src="images/Leaderboard/orb_and_crystal/orb-and-crystal-v2.png" alt="orb_and_crystal" /></p>
+<p><img src="images/Leaderboard/orb_and_crystal/orb-and-crystal-v2.png" alt="orb_and_crystal"></p>
 <p>Colorful orbs and crystals are displayed based on the average number of reviews in the last 31 days (or 2 weeks of league). The orb will change color and shape for every 100 reviews, counting in 10 steps until 3000 reviews. After that, the orb counts every 1000 reviews up to a maximum of 10,000 reviews.</p>
 <h3 id="streaks-tree"><a class="header" href="#streaks-tree">Streaks Tree</a></h3>
-<p><img src="images/Leaderboard/StreaksTree/StreaksTree.png" alt="StreaksTree" /></p>
+<p><img src="images/Leaderboard/StreaksTree/StreaksTree.png" alt="StreaksTree"></p>
 <p>A tree grows after one week and can grow up a maximum of 3 years.</p>
 <h4 id="cracker"><a class="header" href="#cracker">Cracker</a></h4>
-<p><img src="images/Leaderboard/StreaksTree/StreaksCracker.png" alt="StreaksCracker" /></p>
+<p><img src="images/Leaderboard/StreaksTree/StreaksCracker.png" alt="StreaksCracker"></p>
 <p>Added a function that sometimes display cracker or cake by streaks.</p>
 <h3 id="retention-weather"><a class="header" href="#retention-weather">Retention Weather</a></h3>
-<p><img src="images/Leaderboard/Retention/retention.png" alt="retention" /></p>
+<p><img src="images/Leaderboard/Retention/retention.png" alt="retention"></p>
 <p>The weather icon changes according to the retention rate.</p>
 <h3 id="xp-progressbars"><a class="header" href="#xp-progressbars">XP ProgressBars</a></h3>
-<p><img src="images/Leaderboard/XP-progress/xp-progress.png" alt="xp-progress" /></p>
+<p><img src="images/Leaderboard/XP-progress/xp-progress.png" alt="xp-progress"></p>
 <p>Calculates and displays the level from the XP (League Only). The blue progress bar indicates the XP required for the next level.</p>
 <h4 id="level-calculation-formula"><a class="header" href="#level-calculation-formula">Level calculation formula</a></h4>
 <p>Calculated to be level 100 at approximately the top of the Alpha League, for now. (EXP 20,000,000)</p>
@@ -493,9 +492,13 @@ The code is not optimized yet, so there is a disadvantage for now that it increa
 <li>
 <p>Images: Crown icon /<a href="https://www.flaticon.com/de/autoren/freepik" title="Freepik" target="_blank">Freepik</a>, <a href="https://www.flaticon.com/de/" title="Flaticon" target="_blank">flaticon.com</a>, Person icon /<a href="https://www.flaticon.com/de/autoren/iconixar" title="iconixar" target="_blank">iconixar</a>, <a href="https://www.flaticon.com/de/" title="Flaticon" target="_blank">flaticon.com</a>, Settings icon/<a href="https://www.flaticon.com/free-icons/setting" title="setting icons" target="_blank">Phoenix Group, Flaticon</a>, Confetti gif/ <a href="https://giphy.com/stickers/giphycam-rainbow-WNJATm9pwnjpjI1i0g" target="_blank">Giphy</a></p>
 </li>
-<li><div>Rank icons : <a href="https://x.com/rhosgfx">Rhos @RhosGFX</a></div>
+<li>
+<div>Rank icons : <a href="https://x.com/rhosgfx">Rhos @RhosGFX</a></div>
+
 </li>
-<li><div>Star icon : <a href="https://commons.wikimedia.org/wiki/File:Star_icon_stylized.svg">Clip Art Library </a></div>
+<li>
+<div>Star icon : <a href="https://commons.wikimedia.org/wiki/File:Star_icon_stylized.svg">Clip Art Library </a></div>
+
 </li>
 </ul>
 <p><br><br></p>
@@ -503,31 +506,31 @@ The code is not optimized yet, so there is a disadvantage for now that it increa
 <p>If you have any problems or requests feel free to send them to me.</p>
 <ol>
 <li><a href="https://ankiweb.net/shared/review/175794613" target="_blank">AnkiWeb (Rate Comment)</a> : You can contact me anonymously, and AnkiWeb will send you an email when I reply, a high rating increases priority of development.</li>
-<li><a href="https://forums.ankiweb.net/t/add-on-support-thread-anki-leaderboard-by-shige/51634" target="_blank">AnkiForums</a> : Official AnkiForums support thread, it's a good place for open discussion.</li>
+<li><a href="https://forums.ankiweb.net/t/add-on-support-thread-anki-leaderboard-by-shige/51634" target="_blank">AnkiForums</a> : Official AnkiForums support thread, it’s a good place for open discussion.</li>
 <li><a href="https://www.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/" target="_blank">Reddit (Fixed add-ons, or DM)</a> : You can request me to repair broken Add-ons.</li>
-<li><a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">Github (Issues)</a> : Makes it easier to track problems. (I haven't created a repository yet.)</li>
+<li><a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">Github (Issues)</a> : Makes it easier to track problems. (I haven’t created a repository yet.)</li>
 <li><a href="https://www.patreon.com/Shigeyuki" target="_blank">Patreon (Direct Message)</a> : Response will be prioritized.</li>
 </ol>
 <p><br><br></p>
 <h1 id="frequently-asked-questions"><a class="header" href="#frequently-asked-questions">💡Frequently Asked Questions</a></h1>
-<hr />
+<hr>
 <h3 id="q-can-i-show-the-leaderboard-without-opening-the-add-on-window"><a class="header" href="#q-can-i-show-the-leaderboard-without-opening-the-add-on-window">Q. Can I show the leaderboard without opening the add-on window?</a></h3>
 <ul>
-<li>The leaderboard can be displayed in Anki's Home by Config. (Leaderboard Config -&gt; Settings -&gt; Home screen -&gt; Show the home screen leaderboard)</li>
+<li>The leaderboard can be displayed in Anki’s Home by Config. (Leaderboard Config -&gt; Settings -&gt; Home screen -&gt; Show the home screen leaderboard)</li>
 </ul>
-<hr />
+<hr>
 <h3 id="q-how-do-i-show-the-leaderboard-after-the-review-is-finished"><a class="header" href="#q-how-do-i-show-the-leaderboard-after-the-review-is-finished">Q. How do I show the leaderboard after the review is finished?</a></h3>
 <ul>
 <li>This feature is not yet available, you can sync when the review is finished by Config. (Leaderboard Config -&gt; Settings -&gt; General -&gt; Sync when deck is finished)</li>
 <li>You can open the leaderboard with a shortcut key. (Shift + L)</li>
 </ul>
-<hr />
+<hr>
 <h3 id="q-login-keeps-failing-and-sync-is-not-finished-what-should-i-do"><a class="header" href="#q-login-keeps-failing-and-sync-is-not-finished-what-should-i-do">Q. Login keeps failing and sync is not finished, what should I do?</a></h3>
 <ul>
 <li>Sometimes bad internet communication can prevent the connection, please try again later.</li>
 <li>It may work if you remove the add-on and reinstall it.</li>
 </ul>
-<hr />
+<hr>
 <h3 id="q-a-user-is-cheating-what-should-i-do"><a class="header" href="#q-a-user-is-cheating-what-should-i-do">Q. A user is cheating, what should I do?</a></h3>
 <p>There are two ways to Hide or Report a user.</p>
 <p><strong>1. Hide user</strong></p>
@@ -546,28 +549,28 @@ The code is not optimized yet, so there is a disadvantage for now that it increa
 <li>The learner may be reviewing a batch of cards before the exams.</li>
 <li>The learner reviews a lot of easy cards.</li>
 <li>The Learner is delayed review and trying to catch up.</li>
-<li>The learner may be using Anki's option to shorten the time to record.</li>
+<li>The learner may be using Anki’s option to shorten the time to record.</li>
 </ol>
 <p>In my opinion these learning methods are not malicious so they do not deserve a ban (perhaps the calculation method needs to be changed).<br>
 In any way we lack development resources yet at the moment, so basically please address this problem with hide user.</p>
-<hr />
+<hr>
 <h3 id="q-how-do-i-delete-a-group"><a class="header" href="#q-how-do-i-delete-a-group">Q. How do I delete a group?</a></h3>
 <ul>
 <li>The function to delete a group is not yet developed, please contact me.</li>
 </ul>
-<hr />
-<h3 id="q-why-doesnt-my-anki-streaks-match-the-leaderboard-streaks"><a class="header" href="#q-why-doesnt-my-anki-streaks-match-the-leaderboard-streaks">Q. Why doesn't my Anki Streaks match the leaderboard streaks?</a></h3>
+<hr>
+<h3 id="q-why-doesnt-my-anki-streaks-match-the-leaderboard-streaks"><a class="header" href="#q-why-doesnt-my-anki-streaks-match-the-leaderboard-streaks">Q. Why doesn’t my Anki Streaks match the leaderboard streaks?</a></h3>
 <p>If you customized “Next day starts at” you will need to set it manually. Please check if these settings match:</p>
 <ul>
-<li>Leadearboard: Config -&gt; Settings -&gt; General -&gt; The next day starts [...] hours past midnight</li>
-<li>Anki: Tools -&gt; Preferences -&gt; Review -&gt; Scheduler -&gt; Next day starts at [...]</li>
+<li>Leadearboard: Config -&gt; Settings -&gt; General -&gt; The next day starts […] hours past midnight</li>
+<li>Anki: Tools -&gt; Preferences -&gt; Review -&gt; Scheduler -&gt; Next day starts at […]</li>
 </ul>
 <h3 id="q-when-will-the-new-league-start"><a class="header" href="#q-when-will-the-new-league-start">Q. When will the new league start?</a></h3>
 <ul>
 <li>For now I have it set to tally after 3 days and start a new league on the next Monday. Because of time zone differences between countries and the time it takes mobile users to sync leagues on their PC.</li>
 </ul>
-<hr />
-<h3 id="q-why-doesnt-my-xp-match-when-i-calculate-it-manually"><a class="header" href="#q-why-doesnt-my-xp-match-when-i-calculate-it-manually">Q. Why doesn't my XP match when I calculate it manually?</a></h3>
+<hr>
+<h3 id="q-why-doesnt-my-xp-match-when-i-calculate-it-manually"><a class="header" href="#q-why-doesnt-my-xp-match-when-i-calculate-it-manually">Q. Why doesn’t my XP match when I calculate it manually?</a></h3>
 <ul>
 <li>
 <p>The cause of this problem is that the XP formula is partially omitted.</p>
@@ -592,21 +595,21 @@ In any way we lack development resources yet at the moment, so basically please 
 </ul>
 </li>
 </ul>
-<hr />
+<hr>
 <h3 id="q-what-is-the-reason-for-using-the-bonus-instead-of-real-retention"><a class="header" href="#q-what-is-the-reason-for-using-the-bonus-instead-of-real-retention">Q. What is the reason for using the bonus instead of real retention?</a></h3>
 <p>The reason for this is that retention is calculated by ranges.<br><br>
 Basically the retention rate recommended by Anki is 80-90%, and dedicated learners may aim for 90-95% or so. It is possible to aim for 95%-100%, but this is not efficient because the learning workload increases significantly, like this:<br></p>
 <!-- ![workload](images/AnkiTorminator/workload.png) -->
-<p><img src="images/AnkiTorminator/workload-mini.png" alt="alt text" /></p>
+<p><img src="images/AnkiTorminator/workload-mini.png" alt="alt text"></p>
  <br>
  This means that Anki retention rates are not recommended to be perfect or as high as possible, and possibly slightly lower is more efficient for learning.
  <br> <br>
 So I think 85% would be a reasonable range to be in the same range as 100%, 85% users do not need to go higher, and 95%+ users can lower the retention rate to make learning more efficient and not affect XP. (If the retention rate is changed to the same value as it is, users may make learning inefficient by making the retention rate as high as possible.)
-<hr />
-<h3 id="q-why-doesnt-the-leaderboard-sort-order-help-my-learning"><a class="header" href="#q-why-doesnt-the-leaderboard-sort-order-help-my-learning">Q. Why doesn't the leaderboard sort order help my learning?</a></h3>
-<p>For now there are workarounds for these, try these settings if you haven't already:<br></p>
+<hr>
+<h3 id="q-why-doesnt-the-leaderboard-sort-order-help-my-learning"><a class="header" href="#q-why-doesnt-the-leaderboard-sort-order-help-my-learning">Q. Why doesn’t the leaderboard sort order help my learning?</a></h3>
+<p>For now there are workarounds for these, try these settings if you haven’t already:<br></p>
 <p>[1] Sorting<br>
-You can change the sort order of the leaderboards. (Today's Reviews, Today's Time, Streak, Reviews in the past 31 days, and Retention)
+You can change the sort order of the leaderboards. (Today’s Reviews, Today’s Time, Streak, Reviews in the past 31 days, and Retention)
 e.g. Sort by past31days to exclude all users who reviewed a lot just today.<br>
 Config -&gt; Settings -&gt; Genearl -&gt; Sortby<br></p>
 <p>[2] League<br>
@@ -616,9 +619,9 @@ You can change the default leaderboard to be displayed. (Global, Friends, Groups
 Config -&gt; Settings -&gt; Genearl -&gt; Default Leaderboard<br>
 e.g. if you are only interested in groups of medical students you can set the group of medical students as your default leaderboard. The medical students group has the most active users 334. (Languages have 136 users, 2024-11-18). The number of active users is small for now but the total number of active users is increasing by about 1000 every few months, so I guess it will be solved in the long run.<br></p>
 <p>[4] Hide users<br>
-If there are users who are offensive to you, you can hide them by using the hide user option: Double-click on the user's name<br></p>
+If there are users who are offensive to you, you can hide them by using the hide user option: Double-click on the user’s name<br></p>
 <p>[5] Report Users<br>
-If you report a user you can contact me and I can ban the offending user, basically I do not reply to reports but I read all of them: Double click on the user's name<br></p>
+If you report a user you can contact me and I can ban the offending user, basically I do not reply to reports but I read all of them: Double click on the user’s name<br></p>
 <p>But even if we use all of these functions I think it is still insufficient, so currently the functions under development are like these:</p>
 <p>[1] XP enhancements<br>
 Use XP or score in global leaderboards.<br></p>
@@ -628,8 +631,8 @@ e.g. Leaderboards for yesterday, this week, a month, all periods. Leagues for gr
 e.g. Hide users who review too quickly in bulk, hide all users using offensive words, hide all users who have joined a particular group.<br></p>
 <p>[4] Enhancement of ban function<br>
 e.g. Make it impossible to avoid banning by re-registering, introduce stealth BANs.<br></p>
-<p>All of these functions are technically developable but will still take some time to develop, this free add-on is developed and maintained by me as an individual free volunteer(In short it's just a hobby when I get bored of it it's over), and basically fixing bugs and supporting the latest Anki is a high priority.</p>
-<hr />
+<p>All of these functions are technically developable but will still take some time to develop, this free add-on is developed and maintained by me as an individual free volunteer(In short it’s just a hobby when I get bored of it it’s over), and basically fixing bugs and supporting the latest Anki is a high priority.</p>
+<hr>
 <p><br><br></p>
 <h1 id="-how-do-i-install-this-add-on"><a class="header" href="#-how-do-i-install-this-add-on">📥 How do I install this add-on?</a></h1>
 <ol>
@@ -645,11 +648,11 @@ e.g. Make it impossible to avoid banning by re-registering, introduce stealth BA
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                             <a rel="prev" href="progress-bar.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                                <i class="fa fa-angle-left"></i>
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                             </a>
 
                             <a rel="next prefetch" href="anki-killstreaks.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                                <i class="fa fa-angle-right"></i>
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                             </a>
 
                         <div style="clear: both"></div>
@@ -659,16 +662,21 @@ e.g. Make it impossible to avoid banning by re-registering, introduce stealth BA
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                     <a rel="prev" href="progress-bar.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
-                        <i class="fa fa-angle-left"></i>
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                     </a>
 
                     <a rel="next prefetch" href="anki-killstreaks.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
-                        <i class="fa fa-angle-right"></i>
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                     </a>
             </nav>
 
         </div>
 
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
 
 
 
@@ -677,13 +685,13 @@ e.g. Make it impossible to avoid banning by re-registering, introduce stealth BA
         </script>
 
 
-        <script src="elasticlunr.min.js"></script>
-        <script src="mark.min.js"></script>
-        <script src="searcher.js"></script>
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-c2a407aa.js"></script>
 
-        <script src="clipboard.min.js"></script>
-        <script src="highlight.js"></script>
-        <script src="book.js"></script>
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-a0b12cfe.js"></script>
 
         <!-- Custom JS scripts -->
 
