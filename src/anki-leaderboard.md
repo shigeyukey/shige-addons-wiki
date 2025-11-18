@@ -5,12 +5,23 @@
 </a> <br>
 
 * **<a href="https://ankiweb.net/shared/info/175794613" target="_blank">AnkiWeb Page</a> | Code : `175794613`**<br>
+
+<!--
+
+
+
+
+
+ -->
+
+
 * **<a href="https://shigeyuki.pythonanywhere.com/" target="_blank">🌐Anki Leaderboard Web </a>** : You can check the leaderboard on this website.<br>
 
 
-
-
 <!-- src\images\Leaderboard\active_users\leadearboard_active_users.svg -->
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/Leaderboard/active_users/leadearboard_active_users.svg)
+
 
 
 > *This add-on ranks all of its users by the number of cards reviewed today*
