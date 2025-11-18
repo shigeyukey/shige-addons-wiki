@@ -141,6 +141,12 @@ This add-on displays the User Info from the [Anki leaderboard](https://ankiweb.n
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/21.png)
 
 
+#### Show cards and time in the title
+
+The Discord username activity app title displays the number of cards and time in small text.
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/22.png)
+
 
 #### Hide all stats
 
