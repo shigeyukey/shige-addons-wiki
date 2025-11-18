@@ -20,7 +20,8 @@
 
 <!-- src\images\Leaderboard\active_users\leadearboard_active_users.svg -->
 
-![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/Leaderboard/active_users/leadearboard_active_users.svg)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/Leaderboard/active_users/leadearboard_active_users.svg)<br>
+
 
 
 
