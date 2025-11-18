@@ -8,6 +8,8 @@
     - [What is Anki-tan?](#what-is-anki-tan)
     - [Gallery](#gallery)
     - [Anki-tan App icon](#anki-tan-app-icon)
+    - [Anki-tan emoji](#anki-tan-emoji)
+    - [Anki-tan stickers](#anki-tan-stickers)
     - [License](#license)
       - [What is CC-BY-SA 4.0?](#what-is-cc-by-sa-40)
       - [Other Notes](#other-notes)
@@ -50,6 +52,21 @@ This add-on does not exist because I drew it on April Fool's Day.
 256x256, Transparent png.
 
 ![alt text](Anki-tan-illust/011.png)
+
+
+### Anki-tan emoji
+
+Anki-tan's emoji for the Anki Leaderboard Discord server. (128 x 128px)
+
+![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_00_smile.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_01_heart_wink.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_02_cry.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_03_heart_eyes.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_04_rolling_laugh.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_05_shocked.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_06_pleading.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_07_star_eyes.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_08_upside_down.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_09_fire_eyes.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_10_party.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_11_sunglasses.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_12_again.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_13_hard.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_14_good.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_15_easy.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_16_notification_badge.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_17_thumbs_up.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_18_smirking.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_19_thinking.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_20_sweat.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_21_saluting.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_22_hand_over_mouth.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_23_savoring.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_24_screaming_in_fear.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_25_shushing_close.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_26_smiling.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_27_smiling_halo.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_28_spiral_eyes.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_29_big_eyes.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_30_folded_hands.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_31_police_car_light.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_32_light_bulb.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_33_melting.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_34_flushed.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_35_sleeping.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_36_angry.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_37_tear.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_38_expressionless.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_39_crossed_out_eyes.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_40_woozy.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_41_blowing_a_kiss.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_42_open_hands.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_43_crown.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_44_big_heart.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_45_big_heart_blue.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_46_anki.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_47_robot.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_48_perfect_streaks.png) ![alt text](Anki-tan-illust/anki-tan-emoji/Ankitan_49_lost_streaks.png)
+
+
+### Anki-tan stickers
+
+Anki-tan's stickers for the Anki Leaderboard Discord server. (320 x 320px)
+
+![alt text](Anki-tan-illust/anki-tan-stickers/anki_tan_good.png) ![alt text](Anki-tan-illust/anki-tan-stickers/anki_tan_hello.png) ![alt text](Anki-tan-illust/anki-tan-stickers/ankitan_brought_cards_.png) ![alt text](Anki-tan-illust/anki-tan-stickers/ankitan_lets_study.png) ![alt text](Anki-tan-illust/anki-tan-stickers/press_spacebar.png)
+
 
 
 ### License
