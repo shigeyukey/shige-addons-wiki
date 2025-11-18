@@ -1,7 +1,7 @@
 [book]
 authors = ["Shigeyuki"]
 language = "en"
-multilingual = false
+
 src = "src"
 title = "Shige addons Wiki"
 
