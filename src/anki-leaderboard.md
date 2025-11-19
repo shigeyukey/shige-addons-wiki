@@ -19,7 +19,9 @@
 
 <!-- src\images\Leaderboard\active_users\leadearboard_active_users.svg -->
 
-![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/Leaderboard/active_users/leadearboard_active_users.svg)<br>
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/Leaderboard/active_users/leadearboard_active_users.svg) [![Discord for Anki Leadearborad](https://img.shields.io/discord/1215610525212344350?label=Discord&logo=discord&logoColor=fff)](https://discord.gg/XUrGSX9UME)
+
+<br>
 
 
 
