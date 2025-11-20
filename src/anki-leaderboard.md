@@ -11,19 +11,19 @@
 
 
 
- -->
-
+-->
 
 * **<a href="https://shigeyuki.pythonanywhere.com/" target="_blank">🌐Anki Leaderboard Web </a>** : You can check the leaderboard on this website.<br>
 
+<!--
 
-<!-- src\images\Leaderboard\active_users\leadearboard_active_users.svg -->
+src\images\Leaderboard\active_users\leadearboard_active_users.svg
 
-![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/Leaderboard/active_users/leadearboard_active_users.svg) [![Discord for Anki Leadearborad](https://img.shields.io/discord/1215610525212344350?label=Discord&logo=discord&logoColor=fff)](https://discord.gg/XUrGSX9UME)
+ -->
 
-<br>
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/Leaderboard/active_users/leadearboard_active_users.svg) [![Discord for Anki Leadearborad](https://img.shields.io/discord/1215610525212344350?label=Discord&logo=discord&logoColor=fff)](https://discord.gg/XUrGSX9UME) <br>
 
-
+<!-- ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/Leaderboard/active_users/leadearboard_active_users.svg) [![Discord for Anki Leadearborad](https://img.shields.io/discord/1215610525212344350?&logo=discord&logoColor=fff)](https://discord.gg/XUrGSX9UME)  -->
 
 
 > *This add-on ranks all of its users by the number of cards reviewed today*
