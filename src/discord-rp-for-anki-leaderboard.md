@@ -19,6 +19,8 @@ Use RP (Rich Presence, activity status) in Discord for desktop to display your [
 
 # How to use
 
+Basically this add-on is optimized for the leaderboard but you can use it even if you don't register on the leaderboard.
+
 1. Need [Discord for desktop.](https://discord.com/download) (website and mobile are not supported by discord RP.)
 2. Activity sharing needs to be enabled in [Discord's activity privacy settings.](https://support.discord.com/hc/en-us/articles/7931156448919-Activity-Sharing-on-Discord-FAQ#h_01HTJA8QV5H72HKXSNDXME2NAS) (also it will not be displayed when your Discord status is set to invisible.)
 3. Auto launches when the add-on is installed. You can customize the icon type and behavior with options.
@@ -143,9 +145,16 @@ This add-on displays the User Info from the [Anki leaderboard](https://ankiweb.n
 
 #### Show cards and time in the title
 
-The Discord username activity app title displays the number of cards and time in small text.
+The Discord username activity app title displays the number of cards and time in small text. You can hide it with this option.
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/22.png)
+
+
+#### Type Competing or Playing
+
+Switch between Competing and Playing for Rich Presence (RP). Some RP features only work when set to Playing (e.g., voice chat). But Playing occasionally interferes with other RP add-ons so the default is still Competing. (If you're not using any other RP add-ons either one is fine.)
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/23.png)
 
 
 #### Hide all stats
