@@ -10,7 +10,6 @@
 
 
 
-
 -->
 
 * **<a href="https://shigeyuki.pythonanywhere.com/" target="_blank">🌐Anki Leaderboard Web </a>** : You can check the leaderboard on this website.<br>
@@ -85,7 +84,9 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
     - [Q. When will the new league start?](#q-when-will-the-new-league-start)
     - [Q. Why doesn't my XP match when I calculate it manually?](#q-why-doesnt-my-xp-match-when-i-calculate-it-manually)
     - [Q. What is the reason for using the bonus instead of real retention?](#q-what-is-the-reason-for-using-the-bonus-instead-of-real-retention)
-    - [Q. Why doesn't the leaderboard sort order help my learning?](#q-why-doesnt-the-leaderboard-sort-order-help-my-learning)
+    - [Q. Why are cheats permitted?](#q-why-are-cheats-permitted)
+    - [Q. Why is it impossible to prevent cheating?](#q-why-is-it-impossible-to-prevent-cheating)
+    - [Q. Why is not the leaderboard effective for my learning?](#q-why-is-not-the-leaderboard-effective-for-my-learning)
 - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
 <br>
@@ -299,9 +300,11 @@ python: `math.floor(math.sqrt(exp / 2000))`
 
 ## 🔗Related Add-ons
 
+1.  <a href="https://ankiweb.net/shared/info/978245457" target="_blank">📱Discord RP for Anki Leaderboard - study activity status </a>
 1. <a href="https://ankiweb.net/shared/info/1797615099" target="_blank">📌Rearrange home addons </a><br>
-1. <a href="https://ankiweb.net/shared/info/906950015" target="_blank">🐻TidyAnkiBear - Select and hide Anki menu bar items</a><br>
-1. <a href="https://ankiweb.net/shared/info/33855257" target="_blank">📱Anki Discord Sidebar - Chat room within Anki</a><br>
+2. <a href="https://ankiweb.net/shared/info/906950015" target="_blank">🐻TidyAnkiBear - Select and hide Anki menu bar items</a><br>
+
+
 <br>
 
 ## 💖Credit
@@ -354,11 +357,27 @@ If you have any problems or requests feel free to send them to me.
 * Sometimes bad internet communication can prevent the connection, please try again later.
 * It may work if you remove the add-on and reinstall it.
 
+
 ---
 
 ### Q. A user is cheating, what should I do?
 
-There are two ways to Hide or Report a user.
+Since it is technically impossible to prevent cheating in Anki, the use of cheats is explicitly permitted, thus all reports are unnecessary. (detailed explanation: [Q. Why are cheats permitted?](#q-why-are-cheats-permitted))
+
+So if you think another user is cheating, please address it with these ways:
+
+1. You can optionally hide distracting users. (Double click on user name -> Hide user)
+2. You can optionally hide all medals.(Config -> Settings tab -> Show league medals next to username)
+3. If you want fair competition, create a group with your trusted friends.
+
+
+
+
+
+
+
+
+<!-- There are two ways to Hide or Report a user.
 
 **1. Hide user**
 
@@ -370,7 +389,7 @@ Basically if you find such users distracting, please hide them.
 These are some of the most commonly reported examples of suspected cheats:
 
 1. Review time is too fast
-1. Retention is too high
+2. Retention is too high
 
 However these may not be cheats because learner use Anki in different ways, these are possibilities:
 
@@ -380,14 +399,15 @@ However these may not be cheats because learner use Anki in different ways, thes
   1. The learner may be using Anki's option to shorten the time to record.
 
 In my opinion these learning methods are not malicious so they do not deserve a ban (perhaps the calculation method needs to be changed).<br>
-In any way we lack development resources yet at the moment, so basically please address this problem with hide user.
+In any way we lack development resources yet at the moment, so basically please address this problem with hide user. -->
 
----
+
+----
 
 ### Q. How do I delete a group?
 * The function to delete a group is not yet developed, please contact me.
 
----
+----
 
 ### Q. Why doesn't my Anki Streaks match the leaderboard streaks?
 
@@ -439,16 +459,15 @@ So I think 85% would be a reasonable range to be in the same range as 100%, 85% 
 ---
 
 
-### Q. Why doesn't the leaderboard sort order help my learning?
+<!-- ### Q. Why doesn't the leaderboard sort order help my learning?
 
 For now there are workarounds for these, try these settings if you haven't already:<br>
 
 \[1] Sorting<br>
 You can change the sort order of the leaderboards. (Today's Reviews, Today's Time, Streak, Reviews in the past 31 days, and Retention)
-e.g. Sort by past31days to exclude all users who reviewed a lot just today.<br>
-Config -> Settings -> Genearl -> Sortby<br>
+e.g. Sort by past31days to exclude all users who reviewed a lot just today. (Config -> Settings -> Genearl -> Sortby)
 
-\[2] League<br>
+<!-- \[2] League<br>
 Leagues are regularly scheduled for 2 weeks and are calculated by XP, not by reviews. It is a system that requires long term learning, so short term learners will not be able to get to the top. So far about half of the top rankers are medical students, and language learners seem to be a relatively small minority.<br>
 
 \[3] Changing the default leaderboard<br>
@@ -459,32 +478,67 @@ e.g. if you are only interested in groups of medical students you can set the gr
 \[4] Hide users<br>
 If there are users who are offensive to you, you can hide them by using the hide user option: Double-click on the user's name<br>
 
-\[5] Report Users<br>
-If you report a user you can contact me and I can ban the offending user, basically I do not reply to reports but I read all of them: Double click on the user's name<br>
+<!-- \[5] Report Users<br>
+If you report a user you can contact me and I can ban the offending user, basically I do not reply to reports but I read all of them: Double click on the user's name<br> -->
 
-But even if we use all of these functions I think it is still insufficient, so currently the functions under development are like these:
+<!-- But even if we use all of these functions I think it is still insufficient, so currently the functions under development are like these: -->
 
-\[1] XP enhancements<br>
+<!-- \[1] XP enhancements<br>
 Use XP or score in global leaderboards.<br>
 
 \[2] Display of past history<br>
 e.g. Leaderboards for yesterday, this week, a month, all periods. Leagues for groups, history.<br>
 
 \[3] Auto hide users in bulk<br>
-e.g. Hide users who review too quickly in bulk, hide all users using offensive words, hide all users who have joined a particular group.<br>
-
+e.g. Hide users who review too quickly in bulk, hide all users using offensive words, hide all users who have joined a particular group.<br> -->
+<!--
 \[4] Enhancement of ban function<br>
-e.g. Make it impossible to avoid banning by re-registering, introduce stealth BANs.<br>
+e.g. Make it impossible to avoid banning by re-registering, introduce stealth BANs.<br> -->
 
-All of these functions are technically developable but will still take some time to develop, this free add-on is developed and maintained by me as an individual free volunteer(In short it's just a hobby when I get bored of it it's over), and basically fixing bugs and supporting the latest Anki is a high priority.
+<!-- All of these functions are technically developable but will still take some time to develop, this free add-on is developed and maintained by me as an individual free volunteer(In short it's just a hobby when I get bored of it it's over), and basically fixing bugs and supporting the latest Anki is a high priority. -->
+
+<!-- ----- -->
+
+### Q. Why are cheats permitted?
+
+The leaderboard is intended for competitive purposes add-on and fair competition is ideal, but since Anki is a self grading and freely customizable learning app, truly fair competition or cheating prevention is technically impossible to develop. (to do this would require a format like a school exam, not Anki.)
+
+So in my version of the leaderboard scores are based on self grading and users are free to use any learning method they prefer, in other words cheats are explicitly permitted. Because there is no way to distinguish between cheating and noncheating learning methods, and all discussions and reports about cheating are unproductive.
+
+Thus reports and discussions regarding cheating and misconduct will not be permitted going forward. Please note if you pursue specific users for cheating or misconduct you may be banned, because such criticism could mistakenly hinder serious users' learning.
+
+If you dislike this system, instead of a report, please devise new features or rules to prevent cheating and request them to me. e.g. I'm in the process of developing these new features: Medals based on a new calculation method, the maximum value that can be sent, and leagues for groups. Suggestions that help improve learning efficiency for many users are welcome.
 
 -----
 
 
+### Q. Why is it impossible to prevent cheating?
 
+The technical challenges are these for now:
+
+* Anki is self grading so there's no way to verify whether users are being honest or not.
+* Anki users have different learning methods, so there's no consensus or definition of what constitutes cheating.
+* Anki is open source program so users can easily manipulate the numbers sent to the server.
+* Anki decks are also open source and learning data is just numbers so users can easily generate dummy decks or cards.
+* The Leaderboard is a free add-on that I develop personally as a hobby so I don't have the development resources to handle huge amount of reports like commercial apps do.
+* Even though such anti cheat are costly to develop they have very little effect on streamlining user learning so their development priority is low.
+
+To resolve all these challenges we need to base the scoring on the exam and encrypt the program, but such a program is not Anki add-on anymore.
+
+
+--------
+
+### Q. Why is not the leaderboard effective for my learning?
+
+That's very normal, the Leaderboard is an add-on for users who enjoy competition, so it is not for all Anki users. In gamification of learning users with high scores tend to be more motivated but those with low scores may become less motivated, this means learning efficiency may decrease for some users.
+
+Also Anki is a learning app for studying so many Anki users dislike games in the first place, because they like studying more than games. Long time Anki users tend to prefer the simple version of Anki so there are often Anki users who don't use add-ons at all.
+
+In short the leaderboard is an add-on for the relatively small minority of Anki users who enjoy competition or gamification, if you like such add-ons it's suitable for you but if not you don't need to force yourself to use it, I recommend choosing the method that best suits your learning style.
+
+--------
 
 <br><br>
-
 
 
 
