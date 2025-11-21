@@ -150,7 +150,7 @@ The Discord username activity app title displays the number of cards and time in
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/22.png)
 
 
-#### Type Competing or Playing
+#### Competing or Playing
 
 Switch between Competing and Playing for Rich Presence (RP). Some RP features only work when set to Playing (e.g., voice chat). But Playing occasionally interferes with other RP add-ons so the default is still Competing. (If you're not using any other RP add-ons either one is fine.)
 
