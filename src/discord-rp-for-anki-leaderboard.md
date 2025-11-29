@@ -12,6 +12,10 @@
 <!-- Created -->
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
 
+
+[![Anki Leadearborad](https://img.shields.io/discord/1215610525212344350?label=Anki%20Leaderboard&logo=discord&logoColor=fff)](https://discord.gg/n6JgywmDrn) [![Anki](https://img.shields.io/discord/368267295601983490?label=Anki&logo=discord&logoColor=fff)](https://discord.gg/ytda36s37p) <br>
+
+
 Use RP (Rich Presence, activity status) in Discord for desktop to display your [Anki leaderboard](https://ankiweb.net/shared/info/175794613) scores in Discord in real time (score display only, no direct communication with the leaderboard). The status updates every 15 seconds and the icon display changes based on reviews, time, etc. This add-on is not related to the official Discord or the official Anki.
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/05.png)
