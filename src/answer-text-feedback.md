@@ -33,9 +33,11 @@ You can customize the text displayed on the reviewer's Front. (Question)
     * Adjust the time until the text is hidden.
     * This value is in milliseconds. (e.g. 1000ms -> 1 second)
 * Front text position
-    
+    * You can set the text position to one of nine locations, such as top, bottom, left, or right, etc., or set it randomly.
 * Animation type (Front)
-
+    * You can specify text animations such as bounce or slide-in.
+    * The default is random.
+    * To disable animations please use the options in the Global tab.
 
 
 ### Back Options
@@ -45,15 +47,22 @@ You can customize the text displayed on the reviewer's Back. (Answer)
 ![alt text](images/answer-text-feedback/01.png)
 
 * show back answer text
+    * Show or hide all text on the back.
 * show interval (back)
 * show card status balue
 * show current card ease (or difficulty)
 * show Ease factor text (or difficulty)
 * Back font size
+    * Adjust the font size.
 * Back fade time (ms)
-* Back tezt positon
+    * Adjust the time until the text is hidden.
+    * This value is in milliseconds. (e.g. 1000ms -> 1 second)
+* Back text positon
+    * You can set the text position to one of nine locations, such as top, bottom, left, or right, etc., or set it randomly.
 * Animation type (Back)
-
+    * You can specify text animations such as bounce or slide-in.
+    * The default is random.
+    * To disable animations please use the options in the Global tab.
 
 ### Global Options
 
