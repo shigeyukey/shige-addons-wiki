@@ -24,7 +24,7 @@
 
 ## 🌐AnkiWeb
 
-[🌐AnkiWeb Addons : by Shige](https://ankiweb.net/shared/addons?search=by%20Shige)
+[🌐AnkiWeb Addons : by Shige](https://ankiweb.net/shared/addons?search=Please%20Support%20Shige%27s%20Anki%20add-ons%20development)
 
 1. For free add-ons released on AnkiWeb you can easily contact me via rating comments. (Add-on page -> Rate This)
 2. AnkiWeb will send you an email when I reply.
