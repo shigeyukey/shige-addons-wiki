@@ -15,6 +15,8 @@
     - [Language](#language)
     - [StyleSample](#stylesample)
     - [Enable CSS Note Type](#enable-css-note-type)
+  - [Frequently Asked Questions](#frequently-asked-questions)
+    - [Q. I'm getting an error when updating the add-on and can't update it, how should I update it?](#q-im-getting-an-error-when-updating-the-add-on-and-cant-update-it-how-should-i-update-it)
   - [🚨Report](#report)
   - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
@@ -113,6 +115,17 @@ CSS mode automatically adds CSS to the card. This option allows you to batch rem
   * This option edits all note types at once, so if you are concerned I recommend making backups of your decks before running this option.
   *  CSS can be added or removed manually, only this one line is needed. -> `@import url("_shigeSyntax.css");`
 
+
+
+## Frequently Asked Questions
+
+### Q. I'm getting an error when updating the add-on and can't update it, how should I update it?
+
+I already fixed this bug, but the old version still has the same error, so please try updating with the add-on disabled.
+1. Disable the add-on.
+2. Restart Anki.
+3. Update the add-on. (Tools -> Addons -> Check for update, or use the add-on code)
+4. After updating re-enable the add-on and restart Anki.
 
 
 

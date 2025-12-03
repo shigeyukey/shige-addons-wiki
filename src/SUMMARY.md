@@ -43,6 +43,12 @@
 ---
 # Patreon add-ons
 
+---
+
+<!-- - [🚦Answer text feedback (new)](answer-text-feedback.md) -->
+
+---
+
 - [🌱New Card Farm 2](new-card-farm/new-card-farm-02.md)
   - [🌱New Card Farm (Old ver)](new-card-farm/new-card-farm-01.md)
 - [🌽Review Card Farm](review-card-farm.md)
@@ -122,6 +128,7 @@
 - [🐼Chinese dictionary CC-CEDICT](chinese-dictionary.md)
 - [🐼Chinese Words Finder](chinese-words-finder.md)
 - [🪶Quick change deck](quick-change-deck.md)
+- [❓️Confirm deletion ](confirm-deletion-of-the-card-in-reviewer.md)
 - [🔍️Search from Editor](search-from-editor.md)
 - [🖼️Image Editor](image-editor.md)
 - [🐼Chinese Support V4](chinese-support-v4.md)
@@ -132,7 +139,6 @@
 - [📺️Editor Live Preview](editor-live-preview.md)
 - [⚡️Syntax Highlighter](syntax-highlighter.md)
 - [📖Searching PDF Reading and Note-Taking in Add Dialog](search-pdf.md)
-- [🦉AnkiBuddy](anki-buddy.md)
 - [🔍️Review Lookup](review-lookup.md)
 - [✅️Anki Spell Checker](anki-spell-checker.md)
 - [🍣KanjiVocab](KanjiVocab.md)
@@ -163,7 +169,6 @@
 - [🪨Sync to Obsidian](sync-to-obsidian.md)
 - [🔊Forvo Pronunciation Downloader](forvo-pronunciation-downloader.md)
 - [📚Google Dictionary](google-dictionary.md)
-- [🐼Dict2Anki](dict2anki.md)
 - [🌶️Hanseido](hanseido.md)
 - [🔊Anki IPA](anki-ipa.md)
 - [📝Browser external editor](browser-external-editor.md)
@@ -182,10 +187,12 @@
 - [📂Readable Addons Folder](readable-addons-folder.md)
 - [🛡️Enable HTTPS](enable-https.md)
 
+
+
 ---
 # ⚠️broken
-- [Confirm deletion of the card in Reviewer](confirm-deletion-of-the-card-in-reviewer.md)
-
+- [🦉AnkiBuddy](anki-buddy.md)
+- [🐼Dict2Anki](dict2anki.md)
 
 ---
 
@@ -203,9 +210,7 @@
 
 ---
 
-# Q & A
-- [Q & A]()
-
+<!-- # Q & A -->
 
 
 
