@@ -10,7 +10,7 @@
 
 <!-- 🟢 not free yet -->
 
-Hi I'm developer Shigeඞ! This add-on was developed as a special thanks for the support from my patrons [($5/month)](https://www.patreon.com/Shigeyuki) so it is not yet available for free. If you want it for free, download this empty add-on and please wait, when it becomes free I will notify you and you can install it.
+Hi I'm Shigeඞ! This add-on was developed as a special thanks for the support from my patrons [($5/month)](https://www.patreon.com/Shigeyuki) so it is not yet available for free. If you want it for free, download this empty add-on and please wait, when it becomes free I will notify you and you can install it.
 
 <!-- 🟢 not free yet -->
 
