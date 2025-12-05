@@ -12,6 +12,9 @@
 
 Hi I'm Shigeඞ! This add-on was developed as a special thanks for the support from my patrons [($5/month)](https://www.patreon.com/Shigeyuki) so it is not yet available for free. If you want it for free, download [this empty add-on](https://ankiweb.net/shared/info/1453460899) (`1453460899`) and please wait, when it becomes free I will notify you and you can install it.
 
+Patreon: [🚦Answer text feedback, Anki add-on download page for patrons only](
+https://www.patreon.com/posts/answer-text-v-1-145097996)
+
 <!-- 🟢 not free yet -->
 
 <iframe src="https://www.youtube.com/embed/3Fz1p-6X1g4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
