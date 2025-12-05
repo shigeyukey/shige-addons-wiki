@@ -122,3 +122,35 @@ Hi thank you for using this add-on, I'm Shigeඞ! I'm looking for supporters for
 
 
 
+
+
+
+######
+
+<!-- Created -->
+
+[![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
+
+<!-- 🟢 not free yet -->
+
+Hi I'm Shigeඞ! This add-on was developed as a special thanks for the support from my patrons [($5/month)](https://www.patreon.com/Shigeyuki) so it is not yet available for free. If you want it for free, download [this empty add-on](https://ankiweb.net/shared/info/🟡) (`🟡`) and please wait, when it becomes free I will notify you and you can install it.
+
+Patreon: [🟡](🟡)
+
+<!-- 🟢 not free yet -->
+
+
+<!-- 🔴 Wiki page ver  -->
+
+<iframe src="https://www.youtube.com/embed/🟡" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
+
+<!-- 🔴 AnkiWeb ver -->
+<!--
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/🟡.gif)  
+[Youtube demo video](https://youtu.be/🟡)
+
+  -->
+
+
+
+######
