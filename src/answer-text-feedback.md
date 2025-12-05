@@ -6,6 +6,9 @@
 
 <!-- Created -->
 
+
+
+
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
 
 <!-- 🟢 not free yet -->
@@ -13,6 +16,9 @@
 Hi I'm Shigeඞ! This add-on was developed as a special thanks for the support from my patrons [($5/month)](https://www.patreon.com/Shigeyuki) so it is not yet available for free. If you want it for free, download this empty add-on and please wait, when it becomes free I will notify you and you can install it.
 
 <!-- 🟢 not free yet -->
+
+<iframe src="https://www.youtube.com/embed/3Fz1p-6X1g4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
+
 
 
 

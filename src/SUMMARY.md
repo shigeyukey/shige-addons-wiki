@@ -45,10 +45,6 @@
 
 ---
 
-<!-- - [🚦Answer text feedback (new)](answer-text-feedback.md) -->
-
----
-
 - [🌱New Card Farm 2](new-card-farm/new-card-farm-02.md)
   - [🌱New Card Farm (Old ver)](new-card-farm/new-card-farm-01.md)
 - [🌽Review Card Farm](review-card-farm.md)
@@ -60,7 +56,8 @@
 - [🎖️additional animation coins](additional-animation-coins.md)
 - [🎨Top toolbar icons](top-toolbar-icons.md)
 - [🔫Doomanki](doomanki.md)
-- [🕶️EaseScouter](easescouter.md)
+- [🚦Answer text feedback (new)](answer-text-feedback.md)
+  - [🕶️EaseScouter](easescouter.md)
 - [🔥Just Do It Anki Timer](just-anki-timer.md)
 - [🎮Superfluous Button Bros](superfluous-button-bros.md)
 ---
