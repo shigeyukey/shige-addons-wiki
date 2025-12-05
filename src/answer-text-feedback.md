@@ -10,9 +10,7 @@
 
 <!-- 🟢 not free yet -->
 
-Hi I'm Shigeඞ! This add-on was developed as a special thanks for the support from my patrons [($5/month)](https://www.patreon.com/Shigeyuki) so it is not yet available for free.
-
- <!-- If you want it for free, download this empty add-on and please wait, when it becomes free I will notify you and you can install it. -->
+Hi I'm Shigeඞ! This add-on was developed as a special thanks for the support from my patrons [($5/month)](https://www.patreon.com/Shigeyuki) so it is not yet available for free. If you want it for free, download [this empty add-on](https://ankiweb.net/shared/info/1453460899) (`1453460899`) and please wait, when it becomes free I will notify you and you can install it.
 
 <!-- 🟢 not free yet -->
 
@@ -35,7 +33,7 @@ Text feedback can be customized with options. This option can be accessed from t
 
 You can customize the text displayed on the reviewer's Front. (Question)
 
-![alt text](images/answer-text-feedback/00.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/answer-text-feedback/00.png)
 
 * Show front question text
     * Show or hide all text on the front.
@@ -60,7 +58,7 @@ You can customize the text displayed on the reviewer's Front. (Question)
 
 You can customize the text displayed on the reviewer's Back. (Answer)
 
-![alt text](images/answer-text-feedback/01.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/answer-text-feedback/01.png)
 
 * show back answer text
     * Show or hide all text on the back.
@@ -88,11 +86,11 @@ You can customize the text displayed on the reviewer's Back. (Answer)
 
 These options affect both the Front and Back.
 
-![alt text](images/answer-text-feedback/02.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/answer-text-feedback/02.png)
 
 * Choose Fonts
   * The text feedback font randomly changes from over 40 fonts built-in for English. You can specify the font to use with this option. Fonts installed on your PC can be used, so if you want to use a new font, try installing the font on your PC.
-  * ![alt text](images/answer-text-feedback/03.png)
+  * ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/answer-text-feedback/03.png)
 
 * Translate
     * Auto translates shown text into your Anki settings language. Disabling this will display text feedback in English.
