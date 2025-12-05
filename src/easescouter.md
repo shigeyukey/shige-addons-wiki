@@ -1,6 +1,10 @@
 # 🕶️EaseScouter
-### EaseScouter (Ankiaddon Prototype Patreon)Visual feedback Ease Answer Interval multilingual text
 
+
+#### This add-on is a bit outdated, there is a new enhanced version available -> [🚦Answer text feedback](https://shigeyukey.github.io/shige-addons-wiki/answer-text-feedback.html)
+
+
+EaseScouter (Ankiaddon Prototype Patreon)Visual feedback Ease Answer Interval multilingual text
 
 
 <iframe src="https://www.youtube.com/embed/rB9JgY0JHHQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>

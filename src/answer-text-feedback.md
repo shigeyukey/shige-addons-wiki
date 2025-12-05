@@ -2,6 +2,8 @@
 <!--
 (Not Free)🚦Answer text feedback (Created by Shigeඞ)
 
+
+This add-on is a bit outdated, there is a new enhanced version available. -> [🚦Answer text feedback](https://shigeyukey.github.io/shige-addons-wiki/answer-text-feedback.html)
 -->
 
 <!-- Created -->
@@ -18,14 +20,16 @@ https://www.patreon.com/posts/answer-text-v-1-145097996)
 <!-- 🟢 not free yet -->
 
 
-<!-- 🔴 Wikipage  -->
+<!-- 🔴 Wiki page ver  -->
+
 <iframe src="https://www.youtube.com/embed/3Fz1p-6X1g4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
 
+<!-- 🔴 AnkiWeb ver -->
+<!--
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/answer-text-feedback/answer-text-feedback.gif)  
+[Youtube demo video](https://youtu.be/3Fz1p-6X1g4)
 
-<!-- 🔴 AnkiWeb  -->
-
-![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/answer-text-feedback.gif)
-
+  -->
 
 
 ## How to use

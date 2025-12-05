@@ -53,11 +53,11 @@
 - [🦖Dino Timer](dino-timer.md)
 - [🏆️Anki Leaderboard Plus](Anki-Leaderboard-Plus.md)
 - [📅New Card Heatmap](new-card-heatmap.md)
+- [🚦Answer text feedback (new)](answer-text-feedback.md)
+  - [🕶️EaseScouter](easescouter.md)
 - [🎖️additional animation coins](additional-animation-coins.md)
 - [🎨Top toolbar icons](top-toolbar-icons.md)
 - [🔫Doomanki](doomanki.md)
-- [🚦Answer text feedback (new)](answer-text-feedback.md)
-  - [🕶️EaseScouter](easescouter.md)
 - [🔥Just Do It Anki Timer](just-anki-timer.md)
 - [🎮Superfluous Button Bros](superfluous-button-bros.md)
 ---
