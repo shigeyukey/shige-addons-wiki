@@ -1,5 +1,9 @@
 # 🎮Virtual AnkiPad
 
+
+[![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
+
+
 <!--
 (Not Free)🎮Virtual AnkiPad - Floating answer buttons (Created by Shigeඞ)
 
@@ -7,7 +11,6 @@
 
 <!-- Created -->
 
-[![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
 
 <!-- 🟢 not free yet -->
 
