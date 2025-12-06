@@ -3,7 +3,6 @@
 <!--
 (Not Free)🎮Virtual AnkiPad - Floating answer buttons (Created by Shigeඞ)
 
-
 -->
 
 <!-- Created -->
