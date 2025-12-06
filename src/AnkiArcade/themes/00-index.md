@@ -11,7 +11,7 @@
   - [🐈️Cat Gathering in Anki](07-️cat-gathering-in-anki.md)
   - [🧘‍♀️Zen Mode](08-️zen-mode.md)
   - [🤖AnkiTerminator SR-800](09-ankiterminator-sr-800.md)
-  - [🎮Virtual AnkiPad](10-virtual-ankipad.md)
+  <!-- - [🎮Virtual AnkiPad](10-virtual-ankipad.md) -->
   - [🎵Mozartanki](11-mozartanki.md)
   - [⚔️WarriorWoman and ArmorKnight](12-warriorwoman.md)
   - [🐈MeowKnight](13-meowknight.md)

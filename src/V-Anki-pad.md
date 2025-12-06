@@ -25,7 +25,7 @@ Patreon: [Virtual AnkiPad - Floating answer buttons, Anki add-on download page f
 <!-- <iframe src="https://www.youtube.com/embed/-wnvkWz8GHg?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe> -->
 
 <!-- 🔴 AnkiWeb ver -->
-![alt text](images/V-Ankipad/v-anki-pad-mini.gif)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/V-Ankipad/v-anki-pad-mini.gif)
 [youtube demo video (bit old)](https://youtu.be/-wnvkWz8GHg)
 
 
@@ -37,32 +37,34 @@ This add-on is a standalone version of a feature previously integrated into Anki
 
 ## How to use
 
+After downloading the add-on it will be activated and auto displayed in the reviewer.
+
 ### Show or Hide
 
 Quickly show or hide buttons using the reviewer's right-click action.
 
-![alt text](images/V-Ankipad/02.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/V-Ankipad/02.png)
 
 
 ### Drag to move
 
 Drag the center box to move all buttons.
 
-![alt text](images/V-Ankipad/05.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/V-Ankipad/05.png)
 
 
 ### Change button position
 
 Right-click the button to change its position to another position.
 
-![alt text](images/V-Ankipad/07.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/V-Ankipad/07.png)
 
 
 ### Additional buttons
 
 Right-click the central box to quickly show or hide additional buttons. (Undo, More, Edit, Bury)
 
-![alt text](images/V-Ankipad/04.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/V-Ankipad/04.png)
 
 
 ### Cancel
@@ -74,13 +76,13 @@ Cancel button by pressing and holding it for more than 1 second. (e.g. you press
 
 Options can be accessed from the Tools add-on menu or the right-click menu.
 
-![alt text](images/V-Ankipad/08.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/V-Ankipad/08.png)
 
 ### Button Type
 
-For now there are 2 button types, default and military.
+For now there are 2 button types, default and military. The color changes on mouse hover.
 
-![alt text](images/V-Ankipad/09.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/V-Ankipad/09.png)
 
 ### Enable V-AnkiPad
 
@@ -108,9 +110,22 @@ I recommend checking that each button is functioning properly before use.
 
 Also I recommend using an add-on that provides feedback to help avoid pressing the wrong button. (e.g. my add-on: [Answer Text feedback](https://shigeyukey.github.io/shige-addons-wiki/answer-text-feedback.html))
 
+
+## Credit
+
+The illustrations for the buttons are game assets that I edited and used.
+
+* Button: [Free Fantasy Game GUI, by pzUH](https://pzuh.itch.io/free-fantasy-game-gui)
+* ICons [FPS Icons, by da_st](https://opengameart.org/content/fps-icons-51-high-res-icons)
+
+
 ## Change log
 
 ```
+2025-12-06
+    - Enhanced Options
+    - Image Enhancement
+    - Code Optimization
 2025-06-14
     - Developed enhanced standalone add-on (V-AnkiPad)
 2024-01-30
@@ -118,9 +133,6 @@ Also I recommend using an add-on that provides feedback to help avoid pressing t
 2023-05-21
     - Developed prototype add-on (Button Blos)
 ```
-
-
-
 
 
 

@@ -22,7 +22,7 @@
 - [🐈️Cat Gathering in Anki](AnkiArcade/themes/07-️cat-gathering-in-anki.md)
 - [🧘‍♀️Zen Mode](AnkiArcade/themes/08-️zen-mode.md)
 - [🤖AnkiTerminator SR-800](AnkiArcade/themes/09-ankiterminator-sr-800.md)
-- [🎮Virtual AnkiPad](AnkiArcade/themes/10-virtual-ankipad.md)
+<!-- - [🎮Virtual AnkiPad](AnkiArcade/themes/10-virtual-ankipad.md) -->
 - [🎵Mozartanki](AnkiArcade/themes/11-mozartanki.md)
 - [⚔️WarriorWoman and ArmorKnight](AnkiArcade/themes/12-warriorwoman.md)
 - [🐈MeowKnight](AnkiArcade/themes/13-meowknight.md)
@@ -55,7 +55,7 @@
 - [📅New Card Heatmap](new-card-heatmap.md)
 - [🚦Answer text feedback (new)](answer-text-feedback.md)
   - [🕶️EaseScouter](easescouter.md)
-<!-- - [🎮Virtual AnkiPad](V-anki-pad.md) -->
+- [🎮Virtual AnkiPad](V-anki-pad.md)
 - [🎖️additional animation coins](additional-animation-coins.md)
 - [🎨Top toolbar icons](top-toolbar-icons.md)
 - [🔫Doomanki](doomanki.md)

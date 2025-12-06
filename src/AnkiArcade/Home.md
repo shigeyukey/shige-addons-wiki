@@ -30,7 +30,7 @@ if you [become a Patreon](https://www.patreon.com/Shigeyuki), you will get early
 1. [🐈️Cat Gathering in Anki](themes/07-️cat-gathering-in-anki.md)
 1. [🧘‍♀️Zen Mode](themes/08-️zen-mode.md)
 1. [🤖AnkiTerminator SR-800](themes/09-ankiterminator-sr-800.md)
-1. [🎮Virtual AnkiPad](themes/10-virtual-ankipad.md)
+<!-- 1. [🎮Virtual AnkiPad](themes/10-virtual-ankipad.md) -->
 1. [🎵Mozartanki](themes/11-mozartanki.md)
 1. [⚔️WarriorWoman and ArmorKnight](themes/12-warriorwoman.md)
 1. [🐈MeowKnight](themes/13-meowknight.md)
