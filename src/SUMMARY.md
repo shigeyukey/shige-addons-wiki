@@ -55,7 +55,7 @@
 - [📅New Card Heatmap](new-card-heatmap.md)
 - [🚦Answer text feedback (new)](answer-text-feedback.md)
   - [🕶️EaseScouter](easescouter.md)
-- [🎮Virtual AnkiPad](V-anki-pad.md)
+- [🎮Virtual AnkiPad](virtual-anki-pad.md)
 - [🎖️additional animation coins](additional-animation-coins.md)
 - [🎨Top toolbar icons](top-toolbar-icons.md)
 - [🔫Doomanki](doomanki.md)
