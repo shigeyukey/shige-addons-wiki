@@ -24,7 +24,7 @@ Patreon: [Virtual AnkiPad - Floating answer buttons, Anki add-on download page f
 <!-- <iframe src="https://www.youtube.com/embed/-wnvkWz8GHg?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe> -->
 
 <!-- 🔴 AnkiWeb ver -->
-![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/V-Ankipad/v-anki-pad-mini.gif)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/V-Ankipad/v-anki-pad-mini.gif)  
 [youtube demo video (bit old)](https://youtu.be/-wnvkWz8GHg)
 
 
