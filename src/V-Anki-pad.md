@@ -26,7 +26,7 @@ Patreon: [Virtual AnkiPad - Floating answer buttons, Anki add-on download page f
 
 <!-- 🔴 AnkiWeb ver -->
 ![alt text](images/V-Ankipad/v-anki-pad-mini.gif)
-[youtube demo video](https://youtu.be/-wnvkWz8GHg)
+[youtube demo video (bit old)](https://youtu.be/-wnvkWz8GHg)
 
 
 
@@ -55,7 +55,7 @@ Drag the center box to move all buttons.
 
 Right-click the button to change its position to another position.
 
-![alt text](images/V-Ankipad/06.png)
+![alt text](images/V-Ankipad/07.png)
 
 
 ### Additional buttons
@@ -69,6 +69,38 @@ Right-click the central box to quickly show or hide additional buttons. (Undo, M
 
 Cancel button by pressing and holding it for more than 1 second. (e.g. you pressed the wrong button so hold down the click instead of releasing it to cancel.)
 
+
+## Option
+
+Options can be accessed from the Tools add-on menu or the right-click menu.
+
+![alt text](images/V-Ankipad/08.png)
+
+### Button Type
+
+For now there are 2 button types, default and military.
+
+![alt text](images/V-Ankipad/09.png)
+
+### Enable V-AnkiPad
+
+Show or hide buttons. It's the same as the reviewer's right-click action.
+
+### Show the button inside the reviewer
+
+The button is set to remain inside the reviewer window. Disabling this option will move the button outside the Anki window.
+
+### Zoom Scale
+
+Change button size.
+
+### Block Press button (seconds)
+
+Presses are blocked for 0.5 seconds to prevent accidental repeated button presses. (Related add-on: [🏃🏻No Space Dash - Prevents answer for 1.5 seconds ](https://ankiweb.net/shared/info/1573867049)) This option changes that duration. If not needed please set it to 0.
+
+### Reset window position
+
+Resets the button's window position. This is for when the button moves off-screen and becomes inaccessible.
 
 ## Note
 
