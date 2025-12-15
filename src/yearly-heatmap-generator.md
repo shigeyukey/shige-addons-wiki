@@ -1,42 +1,108 @@
-# 📅Yearly Heatmap Generator
+# 🎂Yearly Heatmap Generator
 
 <!--
 
-(Not Free)📅Yearly Heatmap Generator (Created by Shigeඞ)
+(Not Free)🎂Yearly Heatmap Generator (Created by Shigeඞ)
 
  -->
 
 <!-- Created -->
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
 
+<!-- 🟢 not free yet -->
 
-Generate all heatmaps as an image.
+Hi I'm Shigeඞ! This add-on was developed as a special thanks for the support from my patrons [($5/month)](https://www.patreon.com/Shigeyuki) so it is not yet available for free.
+
+<!-- If you want it for free, download [this empty add-on](https://ankiweb.net/shared/info/🟡) (`🟡`) and please wait, when it becomes free I will notify you and you can install it.
+
+<!-- Patreon: [🟡](🟡) -->
 
 <!-- 🟢 not free yet -->
 
-Hi I'm Shigeඞ! This add-on was developed as a special thanks for the support from my patrons [($5/month)](https://www.patreon.com/Shigeyuki) so it is not yet available for free. If you want it for free, download [this empty add-on](https://ankiweb.net/shared/info/🟡) (`🟡`) and please wait, when it becomes free I will notify you and you can install it.
+Generate all heatmaps as an image, for sharing on SNS. (This add-on is only for generating the heatmap image and does not have a feature to display the heatmap on Anki's Home screen.)
 
-Patreon: [🟡](🟡)
-
-<!-- 🟢 not free yet -->
-
-![alt text](images/yearly_heatmap_generator/00_anki_heatmap_01.webp)
+![alt text](images/yearly_heatmap_generator/00_animation.webp)
 
 
 # How to use
 
 
 
+You can generate and preview images from the Tools add-on menu.
 * AnkiMenu -> Tools ->  Yearly Heatmap Generator -> Show Heatmap Image
 
 
-![alt text](images/yearly_heatmap_generator/10.png)
+## Heatmap Viewer
+
+
+
+![alt text](images/yearly_heatmap_generator/11.png)
+
+
+
+### Meaning of the Score
+
+* Title
+
+
+* Year
+
+
+
+
+## Option
+
+
+### theme tab
+
+![alt text](images/yearly_heatmap_generator/12.png)
+
+* Now Color
+* Dark Mode
+* Anki Icon
+* Font Name
+* Background Image
+
+### Date tab
+
+![alt text](images/yearly_heatmap_generator/13.png)
+
+* Max Heatmapo (display)
+* Paint Start Year (display)
+* Next day Start at
+* Enable Limit Start Date (calculate)
+
+### Size tab
+
+![alt text](images/yearly_heatmap_generator/14.png)
+
+* Save image format
+* Image Width (px)
+* Image Aspect
+
+
+## Credit
+
+* The code for this add-on was newly written to optimize image generation and to study Anki's database mechanisms, so there are almost no direct code references but inspired by [Thore Tyborski's](https://github.com/ThoreBor) [Anki Leaderboard](https://github.com/ThoreBor/Anki_Leaderboard) and [Glutanimate's](https://glutanimate.com/support-my-work/) [Review heatmap](https://ankiweb.net/shared/info/1771074083).
+* The icons used are the official Anki icons. ([Anki License](https://github.com/ankitects/anki/blob/main/LICENSE)) (Me and my add-on are not related to the official Anki.)
+* The background images use images licensed under the [Unsplash License.](https://unsplash.com/license)
+* [Anki-tan](https://shigeyukey.github.io/shige-addons-wiki/Anki-tan.html) is an unofficial mascot character I drew (CC4, not related to the official Anki).
+
+
+
+
+## Note
 
 
 
 
 
+## Change log
 
+```
+
+
+```
 
 
 
