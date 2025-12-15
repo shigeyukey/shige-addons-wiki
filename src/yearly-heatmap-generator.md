@@ -19,14 +19,11 @@ Hi I'm Shigeඞ! This add-on was developed as a special thanks for the support f
 
 <!-- 🟢 not free yet -->
 
-Generate all heatmaps as an image, for sharing on SNS. (This add-on is only for generating the heatmap image and does not have a feature to display the heatmap on Anki's Home screen.)
-
 ![alt text](images/yearly_heatmap_generator/00_animation.webp)
 
+Generate all heatmaps as an image, for sharing on SNS (default: 800px PNG). This add-on is only for generating the heatmap image so does not have a feature to display the heatmap on Anki's Home screen.
 
 # How to use
-
-
 
 You can generate and preview images from the Tools add-on menu.
 * AnkiMenu -> Tools ->  Yearly Heatmap Generator -> Show Heatmap Image
@@ -34,51 +31,80 @@ You can generate and preview images from the Tools add-on menu.
 
 ## Heatmap Viewer
 
-
-
 ![alt text](images/yearly_heatmap_generator/11.png)
 
+1. **Reload**
+    * Recalculate reviews and options and regenerate images.
+2. **Open Image Folder**
+    * Open the user folder where generated images are saved. When you regenerate new images, old images are automatically deleted.
+3. **Option**
+    * Open the add-on's options window.
+4. **Copy Image to Clipboard**
+    * Copy the previewed image to the clipboard. This copied image supports only the PNG file format.
+    * You can also copy the image by right click.
+5. **Copy Path**
+    * Copies the file path of the saved image to the clipboard.
 
 
-### Meaning of the Score
 
-* Title
+## Review Data Text
 
-
-* Year
+ * **Title Text**
+    * Displays the total review count, time, and streak for all periods.
+    * Display the Anki icon on the left. This icon can be changed in the options.
+* **Year Text**
+    * Display the total reviews, time, and days studied per year below the heatmap.
 
 
 
 
 ## Option
 
+Pressing the Save button will save options and then quickly generate or regenerate the image.
 
 ### theme tab
 
 ![alt text](images/yearly_heatmap_generator/12.png)
 
-* Now Color
-* Dark Mode
-* Anki Icon
-* Font Name
-* Background Image
+
+* **Now Color**
+    * Change the current heatmap color theme.
+    * Themes: limeGreen, iceBlue, magenta, flameRed, oliveGreen, lavenderPurple, grapePurple, sakuraPink, amberOrange, rainbow
+        * Themes: <span style="color:limegreen;">limeGreen</span>, <span style="color:#b3e6ff;">iceBlue</span>, <span style="color:magenta;">magenta</span>, <span style="color:#ff4500;">flameRed</span>, <span style="color:olivedrab;">oliveGreen</span>, <span style="color:#b57edc;">lavenderPurple</span>, <span style="color:#6f2da8;">grapePurple</span>, <span style="color:#ffb7c5;">sakuraPink</span>, <span style="color:orange;">amberOrange</span>, <span style="background:linear-gradient(90deg,red,orange,yellow,green,blue,indigo,violet);-webkit-background-clip:text;color:transparent;">rainbow</span>
+
+* **Dark Mode**
+    * Switch between dark mode and light mode for generated heatmaps and text.
+    * Auto_mode uses the current Anki settings.
+* **Anki Icon**
+    * Change the displayed Anki icon.
+    * Icons: Anki for desktop, AnkiMobile, AnkiDroid, Anki-tan
+    * ![alt text](images/yearly_heatmap_generator/15.png)
+    * These icons are used only for the purpose of referring to Anki (except Anki-tan) and this add-on is not related to the official Anki. (URL: [Official Anki](https://apps.ankiweb.net/), [AnkiMobile](https://itunes.apple.com/us/app/ankimobile-flashcards/id373493387), [AnkiDroid](https://play.google.com/store/apps/details?id=com.ichi2.anki))
+
+* **Font Name**
+    * Change the font type of the text.
+    * Font type: Arial, Alpha54, Squares, Young_Serif, m6x11plus
+    * These fonts are included in the add-on.
+* **Background Image**
+    * Change the background image of the heatmap.
+    * None hides the image. (Dark-mode: Gray, Light-mode: White)
 
 ### Date tab
 
 ![alt text](images/yearly_heatmap_generator/13.png)
 
-* Max Heatmapo (display)
-* Paint Start Year (display)
-* Next day Start at
-* Enable Limit Start Date (calculate)
+* **Max Heatmapo (display)**
+* **Paint Start Year (display)**
+* **Next day Start at**
+* **Enable Limit Start Date (calculate)**
 
 ### Size tab
 
 ![alt text](images/yearly_heatmap_generator/14.png)
 
-* Save image format
-* Image Width (px)
-* Image Aspect
+* **Save image format**
+* **Image Width (px)**
+* **Image Aspect**
 
 
 ## Credit
@@ -91,9 +117,11 @@ You can generate and preview images from the Tools add-on menu.
 
 
 
-## Note
+## Notes
 
+年表示のみをサポートしています, 月はサポートしていません.
 
+画像なのでヒートマップのレビューの数値をツールチップで表示する機能はありません.
 
 
 
