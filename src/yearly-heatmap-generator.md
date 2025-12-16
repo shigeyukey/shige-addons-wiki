@@ -19,7 +19,7 @@ Patreon: [🎂Yearly Heatmap Generator - Anki add-on download page for patrons o
 
 <!-- 🟢 not free yet -->
 
-![alt text](images/yearly_heatmap_generator/00_animation.webp)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/yearly_heatmap_generator/00_animation.webp)
 
 Generate all heatmaps as an image (default: 800px PNG). Colors and designs can be customized as options. You can use it when you want to share yearly learning progress or when you want to share Streeck achievements.
 
@@ -35,7 +35,7 @@ You can generate and preview images from the Tools add-on menu.
 
 ## Heatmap Viewer
 
-![alt text](images/yearly_heatmap_generator/11.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/yearly_heatmap_generator/11.png)
 
 1. **Reload**
     * Recalculate reviews and options and regenerate images.
@@ -68,7 +68,7 @@ Pressing the Save button will save options and then quickly generate or regenera
 
 ### theme tab
 
-![alt text](images/yearly_heatmap_generator/12.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/yearly_heatmap_generator/12.png)
 
 
 * **Now Color**
@@ -82,14 +82,14 @@ Pressing the Save button will save options and then quickly generate or regenera
 * **Anki Icon**
     * Change the displayed Anki icon.
     * Icons: Anki for desktop, AnkiMobile, AnkiDroid, Anki-tan
-    * ![alt text](images/yearly_heatmap_generator/15.png)
+    * ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/yearly_heatmap_generator/15.png)
     * These icons are used only for the purpose of referring to Anki (except Anki-tan★) and this add-on is not related to the official Anki. (URL: [Official Anki](https://apps.ankiweb.net/), [AnkiMobile](https://itunes.apple.com/us/app/ankimobile-flashcards/id373493387), [AnkiDroid](https://play.google.com/store/apps/details?id=com.ichi2.anki))
 
 * **Font Name**
     * Change the font type of the text.
     * Font type: Arial, Alpha54, Squares, Young_Serif, m6x11plus
     * These fonts are included in the add-on. (except Arial)
-    * ![alt text](images/yearly_heatmap_generator/17.png)
+    * ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/yearly_heatmap_generator/17.png)
 * **Background Image**
     * Change the background image of the heatmap.
     * None hides the image. (Dark-mode: Gray, Light-mode: White)
@@ -98,11 +98,11 @@ Pressing the Save button will save options and then quickly generate or regenera
 
 The options on this tab are for date calculations.
 
-![alt text](images/yearly_heatmap_generator/13.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/yearly_heatmap_generator/13.png)
 
 * **Max Heatmapo (display)**
     * Maximum number of heatmaps to display. e.g.
-    * ![alt text](images/yearly_heatmap_generator/16.png)
+    * ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/yearly_heatmap_generator/16.png)
     * auto_mode: Show all heatmaps. (default)
     * This option only hides the heatmap, so reviews for hidden heatmaps are still calculated and included in the total score calculation.
 
@@ -116,7 +116,7 @@ The options on this tab are for date calculations.
 
 ### Size tab
 
-![alt text](images/yearly_heatmap_generator/14.png)
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/yearly_heatmap_generator/14.png)
 
 * **Save image format**
   * Change the format of the image to be saved.
@@ -131,7 +131,7 @@ The options on this tab are for date calculations.
 
 * **Image Aspect**
     * Change the image aspect ratio. e.g.
-    * ![alt text](images/yearly_heatmap_generator/18.png)
+    * ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/yearly_heatmap_generator/18.png)
     1. auto_mode
         * Auto mode combines all heatmaps into a single image.
         * A single heatmap results in a shorter image.
