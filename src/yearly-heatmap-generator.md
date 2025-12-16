@@ -13,9 +13,9 @@
 
 Hi I'm Shigeඞ! This add-on was developed as a special thanks for the support from my patrons [($5/month)](https://www.patreon.com/Shigeyuki) so it is not yet available for free.
 
-<!-- If you want it for free, download [this empty add-on](https://ankiweb.net/shared/info/🟡) (`🟡`) and please wait, when it becomes free I will notify you and you can install it.
+<!-- If you want it for free, download [this empty add-on](https://ankiweb.net/shared/info/🟡) (`🟡`) and please wait, when it becomes free I will notify you and you can install it. -->
 
-<!-- Patreon: [🟡](🟡) -->
+Patreon: [🎂Yearly Heatmap Generator - Anki add-on download page for patrons only](https://www.patreon.com/posts/145952423)
 
 <!-- 🟢 not free yet -->
 
