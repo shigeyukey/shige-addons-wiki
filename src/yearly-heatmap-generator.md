@@ -23,7 +23,7 @@ Hi I'm Shigeඞ! This add-on was developed as a special thanks for the support f
 
 Generate all heatmaps as an image (default: 800px PNG). Colors and designs can be customized as options. You can use it when you want to share yearly learning progress or when you want to share Streeck achievements.
 
-Note: This add-on is only for generating the heatmap image so does not have a feature to display the heatmap on Anki's Home screen. The Anki icons are used only to refer to the [official Anki](https://apps.ankiweb.net/) ([Anki License](https://github.com/ankitects/anki/blob/main/LICENSE)), so this add-on is not related to the official Anki.
+* **Notes:** This add-on is only for generating the heatmap image so does not have a feature to display the heatmap on Anki's Home screen. The Anki icons are used only to refer to the [official Anki](https://apps.ankiweb.net/) ([Anki License](https://github.com/ankitects/anki/blob/main/LICENSE)), so this add-on is not related to the official Anki.
 
 
 
