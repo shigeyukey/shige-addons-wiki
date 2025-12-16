@@ -126,6 +126,22 @@ The options on this tab are for date calculations.
   * Occasionally there may be slight variations in the value.
 
 * **Image Aspect**
+    * Change the image aspect ratio. e.g.
+    * ![alt text](images/yearly_heatmap_generator/18.png)
+    1. auto_mode
+        * Auto mode combines all heatmaps into a single image.
+        * A single heatmap results in a shorter image.
+        * If there are many heatmaps, the image will become very long.
+    * Other
+      * Other sizes will fix the image aspect ratio.
+      * If there are too many heatmaps to fit into a single image, a second or third image will be generated.
+      2. square_1_1
+      3. portrait_4_5
+      4. vertical_9_16
+      5. wide_1_91_1
+      6. landscape_16_9
+      7. portrait_2_3
+
 
 
 ## Credit
