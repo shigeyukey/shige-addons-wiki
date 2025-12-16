@@ -130,7 +130,7 @@ The options on this tab are for date calculations.
 
 ## Credit
 
-* The code for this add-on was newly written to optimize image generation and to study Anki's database mechanisms, so there are almost no direct code references but inspired by [Thore Tyborski's](https://github.com/ThoreBor) [Anki Leaderboard](https://github.com/ThoreBor/Anki_Leaderboard) and [Glutanimate's](https://glutanimate.com/support-my-work/) [Review heatmap](https://ankiweb.net/shared/info/1771074083).
+* The code for this add-on was newly written to optimize image generation and to study Anki's database mechanisms, so there are almost no direct code references. But inspired by [Thore Tyborski's](https://github.com/ThoreBor) [Anki Leaderboard](https://github.com/ThoreBor/Anki_Leaderboard) and [Glutanimate's](https://glutanimate.com/support-my-work/) [Review heatmap](https://ankiweb.net/shared/info/1771074083).
 * The icons used are the official Anki icons. ([Anki License](https://github.com/ankitects/anki/blob/main/LICENSE)) (Me and my add-on are not related to the official Anki.)
 * The background images use images licensed under the [Unsplash License.](https://unsplash.com/license)
 * [Anki-tan](https://shigeyukey.github.io/shige-addons-wiki/Anki-tan.html) is an unofficial mascot character I drew (CC4, not related to the official Anki).
@@ -146,15 +146,7 @@ The options on this tab are for date calculations.
 
 
 
-## Change log
-
-```
-
-
-```
-
-
-
+<!-- ## Change log -->
 
 
 

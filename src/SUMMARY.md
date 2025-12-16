@@ -64,6 +64,10 @@
 ---
 - [🎮An-Ki-Oh! Template](an-ki-oh.md)
 - [⌨TypingMaster US Shared Decks](typingmaster-us-keyboard.md)
+---
+- [🎂Yearly Heatmap Generator (new)](yearly-heatmap-generator.md)
+
+
 
 ---
 
