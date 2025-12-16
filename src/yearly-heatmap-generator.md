@@ -21,7 +21,7 @@ Hi I'm Shigeඞ! This add-on was developed as a special thanks for the support f
 
 ![alt text](images/yearly_heatmap_generator/00_animation.webp)
 
-Generate all heatmaps as an image, for sharing on SNS (default: 800px PNG). This add-on is only for generating the heatmap image so does not have a feature to display the heatmap on Anki's Home screen.
+Generate all heatmaps as an image, for sharing on SNS (default: 800px PNG). (This add-on is only for generating the heatmap image so does not have a feature to display the heatmap on Anki's Home screen.)
 
 # How to use
 
@@ -79,31 +79,52 @@ Pressing the Save button will save options and then quickly generate or regenera
     * Change the displayed Anki icon.
     * Icons: Anki for desktop, AnkiMobile, AnkiDroid, Anki-tan
     * ![alt text](images/yearly_heatmap_generator/15.png)
-    * These icons are used only for the purpose of referring to Anki (except Anki-tan) and this add-on is not related to the official Anki. (URL: [Official Anki](https://apps.ankiweb.net/), [AnkiMobile](https://itunes.apple.com/us/app/ankimobile-flashcards/id373493387), [AnkiDroid](https://play.google.com/store/apps/details?id=com.ichi2.anki))
+    * These icons are used only for the purpose of referring to Anki (except Anki-tan★) and this add-on is not related to the official Anki. (URL: [Official Anki](https://apps.ankiweb.net/), [AnkiMobile](https://itunes.apple.com/us/app/ankimobile-flashcards/id373493387), [AnkiDroid](https://play.google.com/store/apps/details?id=com.ichi2.anki))
 
 * **Font Name**
     * Change the font type of the text.
     * Font type: Arial, Alpha54, Squares, Young_Serif, m6x11plus
-    * These fonts are included in the add-on.
+    * These fonts are included in the add-on. (except Arial)
+    * ![alt text](images/yearly_heatmap_generator/17.png)
 * **Background Image**
     * Change the background image of the heatmap.
     * None hides the image. (Dark-mode: Gray, Light-mode: White)
 
 ### Date tab
 
+The options on this tab are for date calculations.
+
 ![alt text](images/yearly_heatmap_generator/13.png)
 
 * **Max Heatmapo (display)**
+    * Maximum number of heatmaps to display. e.g.
+    * ![alt text](images/yearly_heatmap_generator/16.png)
+    * auto_mode: Show all heatmaps. (default)
+    * This option only hides the heatmap, so reviews for hidden heatmaps are still calculated and included in the total score calculation.
+
 * **Paint Start Year (display)**
+    * Specify the year to start displaying the heatmap.
+    * This option only hides the heatmap so hidden heatmaps are still calculated.
 * **Next day Start at**
+    * Change the time the day begins. This auto fetches Anki settings so basically you don't need to change it.
 * **Enable Limit Start Date (calculate)**
+    * Specify the date to start calculating heatmaps and scores. Data prior to this date will not be fully calculated.
 
 ### Size tab
 
 ![alt text](images/yearly_heatmap_generator/14.png)
 
 * **Save image format**
+  * Change the format of the image to be saved.
+  1. **Png** (default) : A common image format. It has large file sizes but high quality.
+  2. **Jpg** : A common image format. It has smaller file sizes but is prone to quality degradation.
+  3. **Webp** : A relatively new image format. It's very lightweight with high quality, but sometimes it may not be supported by apps or websites. Cannot be saved to the clipboard.
+
 * **Image Width (px)**
+  * Specify the image width in pixels.
+  * The default is 800px.
+  * Occasionally there may be slight variations in the value.
+
 * **Image Aspect**
 
 
@@ -119,9 +140,9 @@ Pressing the Save button will save options and then quickly generate or regenera
 
 ## Notes
 
-年表示のみをサポートしています, 月はサポートしていません.
-
-画像なのでヒートマップのレビューの数値をツールチップで表示する機能はありません.
+* This add-on is only for generating the heatmap image so does not have a feature to display the heatmap on Anki's Home screen.
+* Only year display is supported, month display is not supported.
+* Since it is an image, there is no tooltip function to display the review scores from the heatmap.
 
 
 
