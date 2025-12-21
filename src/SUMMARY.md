@@ -87,7 +87,8 @@
 
 # Free add-ons by Shige
 
-  - [👻Anki Fade In (New!)](anki-fade-in.md)
+  - [❄️Avoid Flicker (New!)](avoid-flicker.md)
+  - [👻Anki Fade In](anki-fade-in.md)
   - [🤖PiperTTS](piper-tts.md)
   - [🎬️FFmpeg Downloader](ffmpeg-downloader.md)
   - [🌐Local Anki Server](local-anki-server.md)
