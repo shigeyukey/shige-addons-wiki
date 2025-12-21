@@ -51,7 +51,9 @@ Default Shortcut Keys (Home and Reviewer)<br>
 **Others**
 1. I added simple support for old Anki (Anki2.1.35-Anki2.1.44), but some new features are not available. 
 1. I added a workaround for a crash problem that was occurring with another zoom addons, so it is relatively safe.
-1. If the flicker problem occurs the Fade In add-on might help alleviate it a bit. addon: <a href="https://ankiweb.net/shared/info/33018515" target="_blank">👻Anki Fade In (by Shigeඞ)</a>  
+1. If the flicker problem occurs these add-ons may be useful:
+   * addon: [👻Anki Fade In - add fade in effect to Reviewer Home etc](https://ankiweb.net/shared/info/33018515)
+   * add-on: [❄️Avoid Flicker - Freeze Anki's UI for 500 milliseconds](https://ankiweb.net/shared/info/155773558)
 
 #### Related Add-ons (for GUI)
  4.  <a href="https://ankiweb.net/shared/info/1370336700" target="_blank">🖥️No Distractions Full Screen (Fixed by Shigeඞ)</a>

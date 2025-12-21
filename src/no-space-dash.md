@@ -42,6 +42,10 @@ You can set different seconds for Answer(Back) and Correct Answer(Easy, Good, Ha
 You can enable or disable No Space Dash using a shortcut key or an action in the Add-on menu. If the key doesn't work please try changing it to another key.
 
 
+## Related Add-ons
+* add-on: [❄️Avoid Flicker - Freeze Anki's UI for 500 milliseconds](https://ankiweb.net/shared/info/155773558)
+
+
 <br>
 
 ## 🚨Report

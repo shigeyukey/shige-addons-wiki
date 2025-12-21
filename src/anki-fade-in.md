@@ -60,8 +60,9 @@ All fade in effects except for the Reviewer.
 
 
 ## Related Add-ons
- *  add-on : <a href="https://ankiweb.net/shared/info/1923741581" target="_blank">🔍️Zoom for Anki24 - Keep zoom level after reboot (Fixed by Shigeඞ)</a>
-       * This fade in add-on was developed as a workaround for the flickering problem that occurs with some options in the Zoom add-on.
+
+* add-on: [❄️Avoid Flicker - Freeze Anki's UI for 500 milliseconds](https://ankiweb.net/shared/info/155773558)
+* addon: [🔍️Zoom for Anki25 - Keep zoom level after reboot](https://ankiweb.net/shared/info/1923741581)
 
 
 ## Change log
