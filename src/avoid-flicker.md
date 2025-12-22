@@ -25,8 +25,7 @@ In short it freezes instead of flickering. If no flickering occurs or if flicker
 * UI freezing occurs during these screens:
   * Anki Home (DeckBrowser)
   * Overview
-  * Reviewer (Question and Answer)
-
+  * Reviewer (Question and Answer
 
 
 ## Config
@@ -36,6 +35,7 @@ You can change the duration in the add-on's Config.
 * `msec_frozen`
   * The number of milliseconds that freezes Anki's UI. (e.g. 0.5 second -> 500 milliseconds)
   * No need to restart Anki.
+* `is_enable_reviewer` Enable or disable in the reviewer (question, answer) value: `true` or `false`.
 
 ## Notes
 
