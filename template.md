@@ -15,7 +15,7 @@ https://shigeyukey.github.io/shige-addons-wiki/contact.html
 https://shigeyukey.github.io/shige-addons-wiki/images/
 -->
 
-<!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
+**[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`**
 
 <!-- 
 Hi I'm add-ons developer Shige, I fixed this add-on and uploaded it to AnkiWeb.
