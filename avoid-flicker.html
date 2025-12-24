@@ -34,7 +34,7 @@
             const path_to_root = "";
             const default_light_theme = "navy";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-553dc8e1.js";
+            window.path_to_searchindex_js = "searchindex-a0440dca.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-a0065587.js"></script>
@@ -182,8 +182,20 @@
 <p><a href="https://www.reddit.com/user/Shige-yuki"><img src="https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb" alt="banner_shigeyuki_2"></a></p>
 <p>To avoid flickering freeze the Anki UI for 0.5 seconds when the screen changes. e.g.</p>
 <ul>
-<li><strong>Before:</strong> Question page -&gt; UI flickers while page loads -&gt; Answer Page</li>
-<li><strong>After:</strong> Question page -&gt; UI update pauses for 0.5 seconds (Freeze) -&gt; Answer Page</li>
+<li>
+<p><strong>Before:</strong></p>
+<ul>
+<li>Anki Home -&gt; UI flickers while page loads -&gt; Overview</li>
+<li>Question page -&gt; UI flickers while page loads -&gt; Answer Page</li>
+</ul>
+</li>
+<li>
+<p><strong>After:</strong></p>
+<ul>
+<li>Anki Home -&gt;  UI update pauses for 0.5 seconds (Freeze) -&gt; Overview</li>
+<li>Question page -&gt; UI update pauses for 0.5 seconds (Freeze) -&gt; Answer Page</li>
+</ul>
+</li>
 </ul>
 <p>In short it freezes instead of flickering. If no flickering occurs or if flickering does occur but does not bother you this add-on is not necessary.</p>
 <h2 id="how-to-use"><a class="header" href="#how-to-use">How to use</a></h2>
@@ -193,7 +205,11 @@
 <ul>
 <li>Anki Home (DeckBrowser)</li>
 <li>Overview</li>
-<li>Reviewer (Question and Answer</li>
+<li>Reviewer (Question and Answer)
+<ul>
+<li>Edit: Reviewer freeze is disabled by default, so if you need it please enable it in config.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
