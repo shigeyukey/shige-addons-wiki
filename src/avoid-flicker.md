@@ -12,11 +12,15 @@
 
 
 To avoid flickering freeze the Anki UI for 0.5 seconds when the screen changes. e.g.
-* **Before:** Question page -> UI flickers while page loads -> Answer Page
-* **After:** Question page -> UI update pauses for 0.5 seconds (Freeze) -> Answer Page
+* **Before:**
+  * Anki Home -> UI flickers while page loads -> Overview
+  * Question page -> UI flickers while page loads -> Answer Page
+
+* **After:**
+  * Anki Home ->  UI update pauses for 0.5 seconds (Freeze) -> Overview
+  * Question page -> UI update pauses for 0.5 seconds (Freeze) -> Answer Page
 
 In short it freezes instead of flickering. If no flickering occurs or if flickering does occur but does not bother you this add-on is not necessary.
-
 
 
 ## How to use
@@ -25,7 +29,8 @@ In short it freezes instead of flickering. If no flickering occurs or if flicker
 * UI freezing occurs during these screens:
   * Anki Home (DeckBrowser)
   * Overview
-  * Reviewer (Question and Answer
+  * Reviewer (Question and Answer)
+    * Edit: Reviewer freeze is disabled by default, so if you need it please enable it in config.
 
 
 ## Config
