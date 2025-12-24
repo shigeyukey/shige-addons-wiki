@@ -87,7 +87,8 @@
 
 # Free add-ons by Shige
 
-  - [❄️Avoid Flicker (New!)](avoid-flicker.md)
+  - [🐈‍⬛Text Shadow(New)](text-shadow.md)
+  - [❄️Avoid Flicker (New)](avoid-flicker.md)
   - [👻Anki Fade In](anki-fade-in.md)
   - [🤖PiperTTS](piper-tts.md)
   - [🎬️FFmpeg Downloader](ffmpeg-downloader.md)
