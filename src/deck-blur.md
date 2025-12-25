@@ -1,6 +1,6 @@
 # 🧊Deck Blur
 
-<!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
+**[AnkiWeb Page](https://ankiweb.net/shared/info/12898561) | Code : `12898561`**
 
 <!--
 
@@ -56,6 +56,15 @@ After download the add-on and restart Anki it will be auto enabled.
 * On some devices blur may cause flickering or performance degradation, this is why the official Anki developers haven't added it.
 
 
+## Related Add-ons
+
+* addon: [🔍️Zoom for Anki25 - Keep zoom level after reboot](https://ankiweb.net/shared/info/1923741581)
+* addon: [🐈‍⬛Text Shadow - add outline to text for easy reading](https://ankiweb.net/shared/info/1502258980)
+* addon: [❄️Avoid Flicker - Freeze Anki's UI for 500 milliseconds](https://ankiweb.net/shared/info/155773558)
+
+
+
+
 <br>
 
 <h4><a href="http://patreon.com/Shigeyuki">💖Please Support Shige's Anki add-ons development!</a></h4>
@@ -77,16 +86,16 @@ Hi thank you for using this add-on I'm Shigeඞ!
 
 
 
-<!--
+
 <br>
 
 ## 📥 How do I install this add-on?
 
 1. This add-on works with Anki for desktop (it does not work on mobile). Download Anki from the [official website](https://apps.ankiweb.net/) if you haven't already.
-2. Copy and paste the add-on code ( `🟢` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
+2. Copy and paste the add-on code ( `12898561` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
 3. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
 4. Add-ons will be broken when the official Anki gets a major update, so if you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you!
 
 [Click here and please Rate this add-on, Thank you! :-) <br>
- ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/🟢)
- -->
+ ![Please rate this](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif)](https://ankiweb.net/shared/review/12898561)
+

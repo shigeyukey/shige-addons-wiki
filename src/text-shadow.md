@@ -41,7 +41,7 @@ Auto adds outline shadow and bold formatting to Anki text and card text for easy
 
 * addon: [🔍️Zoom for Anki25 - Keep zoom level after reboot](https://ankiweb.net/shared/info/1923741581)
 * addon: [❄️Avoid Flicker - Freeze Anki's UI for 500 milliseconds](https://ankiweb.net/shared/info/155773558)
-
+* addon: [🧊Deck Blur - add blur to the deck table and top toolbar](https://ankiweb.net/shared/info/12898561)
 
 
 <br>
