@@ -1,21 +1,21 @@
 # 🧊Deck Blur
 
-<!-- 
+<!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
+
+<!--
+
+🧊Deck Blur - add blur to the deck table and top toolbar (Created by Shigeඞ)
+
 contact
 https://shigeyukey.github.io/shige-addons-wiki/contact.html
  -->
-
 
 <!--
 https://shigeyukey.github.io/shige-addons-wiki/images/
 -->
 
-<!-- **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`** -->
 
 <!-- 
-
-🧊Deck Blur - add blur to the deck table and top toolbar (Created by Shigeඞ)
-
 
 Hi I'm add-ons developer Shige, I fixed this add-on and uploaded it to AnkiWeb.
 🟢 (Fixed by Shigeඞ)
@@ -31,13 +31,15 @@ Add a blur effect to the background of the deck table on Anki's home screen. (al
 
 ![alt text](images/deck-blur/01.png)
 
+There is a feature to make buttons transparent using the same method, but this feature is likely to interfere with other button add-ons so it is disabled by default. You can enable it in the config.
+
+![alt text](images/deck-blur/02.png)
+
+
 ## How to use
 
 After download the add-on and restart Anki it will be auto enabled.
 
-There is a feature to make buttons transparent using the same method, but this feature is likely to interfere with other button add-ons so it is disabled by default. You can enable it in the config.
-
-![alt text](images/deck-blur/02.png)
 
 
 
