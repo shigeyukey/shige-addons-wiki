@@ -88,6 +88,8 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
     - [About Cheating](#about-cheating)
       - [Q. Why are cheats permitted?](#q-why-are-cheats-permitted)
       - [Q. Why is it impossible to prevent cheating?](#q-why-is-it-impossible-to-prevent-cheating)
+      - [Q. Why is discussion about cheating prohibited?](#q-why-is-discussion-about-cheating-prohibited)
+      - [Q. Without anti cheat measures, won't the number of users on the leaderboard decrease?](#q-without-anti-cheat-measures-wont-the-number-of-users-on-the-leaderboard-decrease)
 - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
 <br>
@@ -516,6 +518,7 @@ e.g. Make it impossible to avoid banning by re-registering, introduce stealth BA
 
 ### About Cheating
 
+Most people love gossip and rumors so reports about cheating are the most common on the leaderboard. (well people will do anything except study.)
 
 #### Q. Why are cheats permitted?
 
@@ -545,6 +548,25 @@ The technical challenges are these for now:
 * Even though such anti cheat are costly to develop they have very little effect on streamlining user learning so their development priority is low.
 
 To resolve all these challenges we need to base the scoring on the exam and encrypt the program, but such a program is not Anki add-on anymore.
+
+----
+
+#### Q. Why is discussion about cheating prohibited?
+
+Because there are too many reports. The leaderboard continues to increase in reports with the growth of users, also many Anki users are exhausted from studying and sleep deprived. And they don't research or read past discussions or this Wiki, so these are almost equivalent to development obstruction. The leaderboard is an open-source and free add-on, not a commercial app, so there are no development resources to address these.
+
+----
+
+#### Q. Without anti cheat measures, won't the number of users on the leaderboard decrease?
+
+The leaderboard is an open source and free add-on, not a commercial app, this means I'm developing it as a personal hobby, so user numbers increasing or decreasing will not affect its development. Rather, the current biggest issue is developing support to handle the server load caused by the excessive increase in users.
+
+<!-- 
+#### Q. Other questions about cheating -->
+
+
+
+
 
 
 --------
