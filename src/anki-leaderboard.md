@@ -503,7 +503,7 @@ e.g. Make it impossible to avoid banning by re-registering, introduce stealth BA
 
 TLDR: Because it's cheaper.
 
-
+![alt text](images/Leaderboard/08.jpg)
 
 
 
