@@ -85,7 +85,7 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
     - [Q. Why doesn't my XP match when I calculate it manually?](#q-why-doesnt-my-xp-match-when-i-calculate-it-manually)
     - [Q. What is the reason for using the bonus instead of real retention?](#q-what-is-the-reason-for-using-the-bonus-instead-of-real-retention)
     - [Q. Why are cheats permitted?](#q-why-are-cheats-permitted)
-    - [Q. Why is it impossible to prevent cheating?](#q-why-is-it-impossible-to-prevent-cheating)
+      - [Q. Why is it impossible to prevent cheating?](#q-why-is-it-impossible-to-prevent-cheating)
     - [Q. Why is not the leaderboard effective for my learning?](#q-why-is-not-the-leaderboard-effective-for-my-learning)
 - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
@@ -362,14 +362,15 @@ If you have any problems or requests feel free to send them to me.
 
 ### Q. A user is cheating, what should I do?
 
-Since it is technically impossible to prevent cheating in Anki, the use of cheats is explicitly permitted, thus all reports are unnecessary. (detailed explanation: [Q. Why are cheats permitted?](#q-why-are-cheats-permitted))
-
-So if you think another user is cheating, please address it with these ways:
+Since it is technically impossible to prevent cheating in Anki, the use of cheats is explicitly permitted, thus all reports are unnecessary. So if you think another user is cheating, please address it with these ways:
 
 1. You can optionally hide distracting users. (Double click on user name -> Hide user)
 2. You can optionally hide all medals.(Config -> Settings tab -> Show league medals next to username)
 3. If you want fair competition, create a group with your trusted friends.
 
+Detailed explanation about this:
+* [Q. Why are cheats permitted?](#q-why-are-cheats-permitted)
+* [Q. Why is it impossible to prevent cheating?](#q-why-is-it-impossible-to-prevent-cheating)
 
 
 
@@ -501,11 +502,11 @@ e.g. Make it impossible to avoid banning by re-registering, introduce stealth BA
 
 ### Q. Why are cheats permitted?
 
-TLDR: Because it's cheaper.
+TLDR: Because it's much cheaper. like this:
 
 ![alt text](images/Leaderboard/08.jpg)
 
-
+Long explanation:
 
 The leaderboard is intended for competitive purposes add-on and fair competition is ideal, but since Anki is a self grading and freely customizable learning app, truly fair competition or cheating prevention is technically impossible to develop. (to do this would require a format like a school exam, not Anki.)
 
@@ -515,10 +516,7 @@ Thus reports and discussions regarding cheating and misconduct will not be permi
 
 If you dislike this system, instead of a report, please devise new features or rules to prevent cheating and request them to me. e.g. I'm in the process of developing these new features: Medals based on a new calculation method, the maximum value that can be sent, and leagues for groups. Suggestions that help improve learning efficiency for many users are welcome.
 
------
-
-
-### Q. Why is it impossible to prevent cheating?
+#### Q. Why is it impossible to prevent cheating?
 
 The technical challenges are these for now:
 
