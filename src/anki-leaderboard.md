@@ -501,6 +501,12 @@ e.g. Make it impossible to avoid banning by re-registering, introduce stealth BA
 
 ### Q. Why are cheats permitted?
 
+TLDR: Because it's cheaper.
+
+
+
+
+
 The leaderboard is intended for competitive purposes add-on and fair competition is ideal, but since Anki is a self grading and freely customizable learning app, truly fair competition or cheating prevention is technically impossible to develop. (to do this would require a format like a school exam, not Anki.)
 
 So in my version of the leaderboard scores are based on self grading and users are free to use any learning method they prefer, in other words cheats are explicitly permitted. Because there is no way to distinguish between cheating and noncheating learning methods, and all discussions and reports about cheating are unproductive.
