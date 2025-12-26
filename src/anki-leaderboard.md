@@ -84,9 +84,10 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
     - [Q. When will the new league start?](#q-when-will-the-new-league-start)
     - [Q. Why doesn't my XP match when I calculate it manually?](#q-why-doesnt-my-xp-match-when-i-calculate-it-manually)
     - [Q. What is the reason for using the bonus instead of real retention?](#q-what-is-the-reason-for-using-the-bonus-instead-of-real-retention)
-    - [Q. Why are cheats permitted?](#q-why-are-cheats-permitted)
-      - [Q. Why is it impossible to prevent cheating?](#q-why-is-it-impossible-to-prevent-cheating)
     - [Q. Why is not the leaderboard effective for my learning?](#q-why-is-not-the-leaderboard-effective-for-my-learning)
+    - [About Cheating](#about-cheating)
+      - [Q. Why are cheats permitted?](#q-why-are-cheats-permitted)
+      - [Q. Why is it impossible to prevent cheating?](#q-why-is-it-impossible-to-prevent-cheating)
 - [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 
 <br>
@@ -357,24 +358,25 @@ If you have any problems or requests feel free to send them to me.
 * Sometimes bad internet communication can prevent the connection, please try again later.
 * It may work if you remove the add-on and reinstall it.
 
-
 ---
 
 ### Q. A user is cheating, what should I do?
 
-Since it is technically impossible to prevent cheating in Anki, the use of cheats is explicitly permitted, thus all reports are unnecessary. So if you think another user is cheating, please address it with these ways:
+My version of the leaderboard permits the use of cheats (except for server destruction or illegal activities), thus you can use any cheat you want (e.g. fix lost streaks), and all reports or discussions regarding cheating or criticism of other users are prohibited.
+
+If you do not like other users, please address it with these ways.
 
 1. You can optionally hide distracting users. (Double click on user name -> Hide user)
 2. You can optionally hide all medals.(Config -> Settings tab -> Show league medals next to username)
-3. If you want fair competition, create a group with your trusted friends.
+3. Create a group and set rules with your trusted friends and compete.
 
-Detailed explanation about this:
+<br>
+
+Please note if you call other users' reviews cheating or criticize how other users review you will be banned, because those aren't cheats in the first place and you're the one violating the rules.
+
+For a more detailed explanation about this, please read these.
 * [Q. Why are cheats permitted?](#q-why-are-cheats-permitted)
 * [Q. Why is it impossible to prevent cheating?](#q-why-is-it-impossible-to-prevent-cheating)
-
-
-
-
 
 
 
@@ -457,6 +459,17 @@ Basically the retention rate recommended by Anki is 80-90%, and dedicated learne
  <br> <br>
 So I think 85% would be a reasonable range to be in the same range as 100%, 85% users do not need to go higher, and 95%+ users can lower the retention rate to make learning more efficient and not affect XP. (If the retention rate is changed to the same value as it is, users may make learning inefficient by making the retention rate as high as possible.)
 
+--------
+
+### Q. Why is not the leaderboard effective for my learning?
+
+That's very normal, the Leaderboard is an add-on for users who enjoy competition, so it is not for all Anki users. In gamification of learning users with high scores tend to be more motivated but those with low scores may become less motivated, this means learning efficiency may decrease for some users.
+
+Also Anki is a learning app for studying so many Anki users dislike games in the first place, because they like studying more than games. Long time Anki users tend to prefer the simple version of Anki so there are often Anki users who don't use add-ons at all.
+
+In short the leaderboard is an add-on for the relatively small minority of Anki users who enjoy competition or gamification, if you like such add-ons it's suitable for you but if not you don't need to force yourself to use it, I recommend choosing the method that best suits your learning style.
+
+
 ---
 
 
@@ -500,9 +513,13 @@ e.g. Make it impossible to avoid banning by re-registering, introduce stealth BA
 
 <!-- ----- -->
 
-### Q. Why are cheats permitted?
 
-TLDR: Because it's much cheaper. like this:
+### About Cheating
+
+
+#### Q. Why are cheats permitted?
+
+TLDR: Because it's much cheaper. If you're a billionaire and want to tip me $200 million for anti cheat measures feel free to contact me, thanks in advance🙏
 
 ![alt text](images/Leaderboard/08.jpg)
 
@@ -532,15 +549,20 @@ To resolve all these challenges we need to base the scoring on the exam and encr
 
 --------
 
-### Q. Why is not the leaderboard effective for my learning?
+<!--
+なぜ保持率が100%のﾕｰｻﾞｰがいますか?
+なぜ1秒以下のﾚﾋﾞｭｰをするﾕｰｻﾞｰがいますか?
+なぜ数千枚のﾚﾋﾞｭｰをしているﾕｰｻﾞｰがいますか?
+なぜ10時間以上ﾚﾋﾞｭｰするﾕｰｻﾞｰがいますか?
+なぜﾁｰﾄに関する議論が禁止されていますか?
+なぜﾁｰﾄに関する報告が禁止されていますか?
+良いﾁｰﾄとは?
+ﾁｰﾄを許可するとﾘｰﾀﾞｰﾎﾞｰﾄﾞの人気がなくなるのでは?
 
-That's very normal, the Leaderboard is an add-on for users who enjoy competition, so it is not for all Anki users. In gamification of learning users with high scores tend to be more motivated but those with low scores may become less motivated, this means learning efficiency may decrease for some users.
+-->
 
-Also Anki is a learning app for studying so many Anki users dislike games in the first place, because they like studying more than games. Long time Anki users tend to prefer the simple version of Anki so there are often Anki users who don't use add-ons at all.
 
-In short the leaderboard is an add-on for the relatively small minority of Anki users who enjoy competition or gamification, if you like such add-ons it's suitable for you but if not you don't need to force yourself to use it, I recommend choosing the method that best suits your learning style.
 
---------
 
 <br><br>
 
