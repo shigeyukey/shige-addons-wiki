@@ -42,6 +42,11 @@ You can change the duration in the add-on's Config.
   * No need to restart Anki.
 * `is_enable_reviewer` Enable or disable in the reviewer (question, answer) value: `true` or `false`.
 
+
+## Others
+
+* If Anki freezes for over 10 seconds due to an unknown error the add-on will be auto disabled to restore Anki control.
+
 ## Notes
 
 This add-on contains a feature that can freeze Anki's UI, so if unexpected issues occur there is a risk that Anki will freeze completely and become unresponsive. (Several features to prevent this are already included in this add-on but the risk of unexpected errors or interference from other add-ons is not 0%.)
