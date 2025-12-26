@@ -1,17 +1,14 @@
 # 🏆️Anki leaderboard Wiki
 
+
+**<a href="https://ankiweb.net/shared/info/175794613" target="_blank">AnkiWeb Page</a> | Code : `175794613`**<br>
+
+
+
+
 <a href="http://patreon.com/Shigeyuki" target="_blank">
   <img src="https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb" alt="banner_shigeyuki_2">
 </a> <br>
-
-* **<a href="https://ankiweb.net/shared/info/175794613" target="_blank">AnkiWeb Page</a> | Code : `175794613`**<br>
-
-<!--
-
-
--->
-
-* **<a href="https://shigeyuki.pythonanywhere.com/" target="_blank">🌐Anki Leaderboard Web </a>** : You can check the leaderboard on this website.<br>
 
 <!--
 
@@ -19,9 +16,13 @@ src\images\Leaderboard\active_users\leadearboard_active_users.svg
 
  -->
 
+ **<a href="https://shigeyuki.pythonanywhere.com/" target="_blank">🌐Anki Leaderboard Web </a>** : You can check the leaderboard on this website.<br>
+
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/Leaderboard/active_users/leadearboard_active_users.svg) [![Discord for Anki Leadearborad](https://img.shields.io/discord/1215610525212344350?label=Discord&logo=discord&logoColor=fff)](https://discord.gg/XUrGSX9UME) <br>
 
 <!-- ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/Leaderboard/active_users/leadearboard_active_users.svg) [![Discord for Anki Leadearborad](https://img.shields.io/discord/1215610525212344350?&logo=discord&logoColor=fff)](https://discord.gg/XUrGSX9UME)  -->
+
+
 
 
 > *This add-on ranks all of its users by the number of cards reviewed today*
@@ -73,6 +74,7 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
   - [🔗Related Add-ons](#related-add-ons)
   - [💖Credit](#credit)
 - [🚨Report problems or requests](#report-problems-or-requests)
+- [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
 - [💡Frequently Asked Questions](#frequently-asked-questions)
     - [Q. Can I show the leaderboard without opening the add-on window?](#q-can-i-show-the-leaderboard-without-opening-the-add-on-window)
     - [Q. How do I show the leaderboard after the review is finished?](#q-how-do-i-show-the-leaderboard-after-the-review-is-finished)
@@ -84,12 +86,16 @@ This add-on is a customized version (fork) of the shutdown <a href="https://gith
     - [Q. Why doesn't my XP match when I calculate it manually?](#q-why-doesnt-my-xp-match-when-i-calculate-it-manually)
     - [Q. What is the reason for using the bonus instead of real retention?](#q-what-is-the-reason-for-using-the-bonus-instead-of-real-retention)
     - [Q. Why is not the leaderboard effective for my learning?](#q-why-is-not-the-leaderboard-effective-for-my-learning)
-    - [About Cheating](#about-cheating)
-      - [Q. Why are cheats permitted?](#q-why-are-cheats-permitted)
-      - [Q. Why is it impossible to prevent cheating?](#q-why-is-it-impossible-to-prevent-cheating)
-      - [Q. Why is discussion about cheating prohibited?](#q-why-is-discussion-about-cheating-prohibited)
-      - [Q. Without anti cheat measures, won't the number of users on the leaderboard decrease?](#q-without-anti-cheat-measures-wont-the-number-of-users-on-the-leaderboard-decrease)
-- [📥 How do I install this add-on?](#-how-do-i-install-this-add-on)
+- [About Cheating Q and A](#about-cheating-q-and-a)
+  - [Q. Why are cheats permitted?](#q-why-are-cheats-permitted)
+  - [Q. Why is it impossible to prevent cheating?](#q-why-is-it-impossible-to-prevent-cheating)
+  - [Q. Why is discussion about cheating prohibited?](#q-why-is-discussion-about-cheating-prohibited)
+  - [Q. Without anti cheat measures, won't the number of users on the leaderboard decrease?](#q-without-anti-cheat-measures-wont-the-number-of-users-on-the-leaderboard-decrease)
+  - [Q. Without anti cheat measures, won't it negatively impact regular users?](#q-without-anti-cheat-measures-wont-it-negatively-impact-regular-users)
+  - [Q. Why are there users who review for more than 10 hours? Isn't that impossible?](#q-why-are-there-users-who-review-for-more-than-10-hours-isnt-that-impossible)
+  - [Q. Why are there users with a 100% retention rate? Isn't that impossible?](#q-why-are-there-users-with-a-100-retention-rate-isnt-that-impossible)
+  - [Q. Why are there users who review in just a few seconds? Isn't that impossible?](#q-why-are-there-users-who-review-in-just-a-few-seconds-isnt-that-impossible)
+  - [Q. Why are there users with thousands of reviews? Isn't that impossible?](#q-why-are-there-users-with-thousands-of-reviews-isnt-that-impossible)
 
 <br>
 
@@ -337,6 +343,20 @@ If you have any problems or requests feel free to send them to me.
   5. <a href="https://github.com/shigeyukey/my_addons/issues" target="_blank">Github (Issues)</a> : Makes it easier to track problems. (I haven't created a repository yet.)
   6. <a href="https://www.patreon.com/Shigeyuki" target="_blank">Patreon (Direct Message)</a> : Response will be prioritized.
 
+
+<br><br>
+
+
+
+# 📥 How do I install this add-on?
+1. Copy and paste the add-on code ( `175794613` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
+2. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
+3. The leaderboard is a special add-on that uses the server, unless I manage it regularly it will be broken in a few months, so If you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you! 
+
+<a href="https://ankiweb.net/shared/review/175794613" target="_blank">Click here and please Rate this add-on, Thank you! :-) <br>
+<img src="https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif" alt="Please rate this"></a>
+
+
 <br><br>
 
 # 💡Frequently Asked Questions
@@ -375,13 +395,9 @@ If you do not like other users, please address it with these ways.
 
 Please note if you call other users' reviews cheating or criticize how other users review you will be banned, because those aren't cheats in the first place and you're the one violating the rules.
 
-For a more detailed explanation about this, please read these.
+For a more detailed explanation about this, please read [About Cheating Q and A](#about-cheating-q-and-a).
 
-- [About Cheating](#about-cheating)
-  - [Q. Why are cheats permitted?](#q-why-are-cheats-permitted)
-  - [Q. Why is it impossible to prevent cheating?](#q-why-is-it-impossible-to-prevent-cheating)
-  - [Q. Why is discussion about cheating prohibited?](#q-why-is-discussion-about-cheating-prohibited)
-  - [Q. Without anti cheat measures, won't the number of users on the leaderboard decrease?](#q-without-anti-cheat-measures-wont-the-number-of-users-on-the-leaderboard-decrease)
+
 
 <!-- * [Q. Why are cheats permitted?](#q-why-are-cheats-permitted)
 * [Q. Why is it impossible to prevent cheating?](#q-why-is-it-impossible-to-prevent-cheating) -->
@@ -521,14 +537,17 @@ e.g. Make it impossible to avoid banning by re-registering, introduce stealth BA
 
 <!-- ----- -->
 
+<br><br><br>
 
-### About Cheating
+
+
+# About Cheating Q and A
 
 Most people love gossip and rumors so reports about cheating are the most common on the leaderboard. (well people will do anything except study.)
 
-#### Q. Why are cheats permitted?
+## Q. Why are cheats permitted?
 
-TLDR: Because it's much cheaper. If you're a billionaire and want to tip me $200 million for anti cheat measures feel free to contact me, thanks in advance🙏
+TLDR: Because it's much cheaper, like this:
 
 ![alt text](images/Leaderboard/08.jpg)
 
@@ -542,7 +561,7 @@ Thus reports and discussions regarding cheating and misconduct will not be permi
 
 If you dislike this system, instead of a report, please devise new features or rules to prevent cheating and request them to me. e.g. I'm in the process of developing these new features: Medals based on a new calculation method, the maximum value that can be sent, and leagues for groups. Suggestions that help improve learning efficiency for many users are welcome.
 
-#### Q. Why is it impossible to prevent cheating?
+## Q. Why is it impossible to prevent cheating?
 
 The technical challenges are these for now:
 
@@ -557,49 +576,89 @@ To resolve all these challenges we need to base the scoring on the exam and encr
 
 ----
 
-#### Q. Why is discussion about cheating prohibited?
+## Q. Why is discussion about cheating prohibited?
 
 Because there are too many reports. The leaderboard continues to increase in reports with the growth of users, also many Anki users are exhausted from studying and sleep deprived. And they don't research or read past discussions or this Wiki, so these are almost equivalent to development obstruction. The leaderboard is an open-source and free add-on, not a commercial app, so there are no development resources to address these.
 
 ----
 
-#### Q. Without anti cheat measures, won't the number of users on the leaderboard decrease?
+##  Q. Without anti cheat measures, won't the number of users on the leaderboard decrease?
 
 The leaderboard is an open source and free add-on, not a commercial app, this means I'm developing it as a personal hobby, so user numbers increasing or decreasing will not affect its development. Rather, the current biggest issue is developing support to handle the server load caused by the excessive increase in users.
 
-<!-- 
-#### Q. Other questions about cheating -->
+
+----
+
+## Q. Without anti cheat measures, won't it negatively impact regular users?
+
+Because it's very common for Anki add-ons to have such adverse effects.
+
+e.g. One fundamental problem with leaderboards is that if learners study effectively their scores decrease, not increase. When learners create high level cards, study intensely, and manage their time well the number of reviews becomes smaller.
+
+Also the Anki community for medical students recommends a maximum of 3 hours/perday and about 1,000 reviews/perday, it's known from experience that learners who exceed this are highly likely to burn out. Most learners do not need such a large volume of reviews even enthusiastic learners are sufficient with about 60 new cards per day.
+
+This means that competing on leaderboards may have negative effects on our learning. e.g. pointless reviews increase to boost scores and become inefficient, and study time is wasted and burnout becomes more likely.
+
+So how should we deal with these negative effects? Do nothing!💪 If you dislike it merely do not use it, no one is forcing you to use the add-on.
+
+That is why the leaderboard is an add-on rather than being developed by official Anki or any other volunteer group. Features that are effective for anyone's learning are built into native Anki so such features do not become add-ons. In other words it's very normal for almost all add-ons to have drawbacks or negative effects (or the development costs are too high), if not they'll be incorporated into native Anki and disappear. That's just how add-ons are.
+
+The only way to determine whether something is effective for learning is for the learner themselves to judge it. There is no way for a program to identify or judge this. Please judge for yourself what is effective for your learning.
+
+----
+
+## Q. Why are there users who review for more than 10 hours? Isn't that impossible?
+
+Because there are 24 hours in a day. Since there are 10+ million Anki users, it's not that surprising that there are enthusiastic Anki users who literally spend 24 hours a day on Anki. If you believe that not one such learner exists in this world you are underestimating the human capacity, it is not uncommon for learners in learning communities to challenge human limits rather than simply study.
+
+----
+
+## Q. Why are there users with a 100% retention rate? Isn't that impossible?
+
+Because Anki allows users to freely customize cards and review methods. e.g. you can set your desired retention rate to be very high like 99%, or review without using the "Again" button, or use filtered decks to change the buttons, or, you can also rearrange the cards so that the easiest ones are first, also you can suspend all the incorrect cards.
+
+----
+
+## Q. Why are there users who review in just a few seconds? Isn't that impossible?
+
+In Anki it is commonly recommended to create flashcards that can be reviewed in less than 10 seconds, if not the card likely contains too much info. But for some subjects reducing the info isn't possible (e.g. studying law) so the optimal card design varies depending on the subject you're studying.
+
+Users who complete reviews in under 5 seconds often use Anki's Auto Advanced option or the Speed focus mode add-on. These automatically answer the card when time elapses so they're popular methods for those wanting to shorten study time. (e.g. prevents overthinking)
+
+Reviews under one second occur due to massive cramming. If learners are unable to memorize a card, it is recommended that they recreate it or suspend it, etc. But if learners do not do so or if recreating it proves ineffective they will memorize it by reviewing the card many times. Medical students who must memorize difficult cards and cannot suspend them or students aiming for high scores on exams may use such methods.
+
+----
+
+## Q. Why are there users with thousands of reviews? Isn't that impossible?
+
+Such large amounts of review often occur when students cram before exams. Anki allows you to create filtered decks using tags, these decks can be reviewed repeatedly. So learners aiming for high scores on exams often tag cards in advance and review all cards as many times as possible before the exam. Similarly you can also focus intensively on difficult cards or incorrect cards.
+
+----
 
 
 
 
 
 
---------
-
-<!--
-なぜ保持率が100%のﾕｰｻﾞｰがいますか?
-なぜ1秒以下のﾚﾋﾞｭｰをするﾕｰｻﾞｰがいますか?
-なぜ数千枚のﾚﾋﾞｭｰをしているﾕｰｻﾞｰがいますか?
-なぜ10時間以上ﾚﾋﾞｭｰするﾕｰｻﾞｰがいますか?
-なぜﾁｰﾄに関する議論が禁止されていますか?
-なぜﾁｰﾄに関する報告が禁止されていますか?
-良いﾁｰﾄとは?
-ﾁｰﾄを許可するとﾘｰﾀﾞｰﾎﾞｰﾄﾞの人気がなくなるのでは?
-
--->
 
 
 
 
-<br><br>
 
 
+<br><br><br>
 
-# 📥 How do I install this add-on?
-1. Copy and paste the add-on code ( `175794613` )  into Anki and you can install it. ( *Menu -> Tools -> Add-ons -> Get Add-ons -> Code \[ add-on code ]* )
-2. When I develop bug fixes, create new features, or compatibility for New Anki, I will notify you and you can install it.
-3. The leaderboard is a special add-on that uses the server, unless I manage it regularly it will be broken in a few months, so If you like this add-on please support my volunteer development by rating, sharing, and donating. Thank you! 
+<h4><a href="http://patreon.com/Shigeyuki">💖Please Support Shige's Anki add-ons development!</a></h4>
 
-<a href="https://ankiweb.net/shared/review/175794613" target="_blank">Click here and please Rate this add-on, Thank you! :-) <br>
-<img src="https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/rate_this.gif" alt="Please rate this"></a>
+Hi thank you for using this add-on I'm Shigeඞ!
+1. \[ 🛠️Fix add-ons ] So far I fixed and customized 80+ broken add-ons for free and developed over 30 add-ons as a hobby ([all add-ons](https://ankiweb.net/shared/addons?search=Please%20Support%20Shige%27s%20Anki%20add-ons%20development&sort=rating)). If you have requests to fix broken add-ons feel free to contact me. [Fix broken addons (Free)](https://new.reddit.com/r/Anki/comments/1b0eybn/simple_fix_of_broken_addons_for_the_latest_anki/)
+2. \[ 💖Donation ] I'm looking for supporters for my add-ons development because I like Anki!👍️ If you support my volunteer development you will get 14 add-ons for patrons only and 15 game themes included in AnkiArcade ($5/month).
+
+[![patrons_banner](https://shigeyukey.github.io/shige-addons-wiki/images/_promotion/promotion_00.gif)](http://patreon.com/Shigeyuki)<br>
+[Get Patrons only addons](https://www.patreon.com/Shigeyuki) | [Patrons Q and A](https://shigeyukey.github.io/shige-addons-wiki/patrons_q_and_a.html) | [Contact](https://shigeyukey.github.io/shige-addons-wiki/contact.html) <br>
+
+<!-- 🟢 template_patreon_100.md -->
+
+**[[ Special Thanks ]](https://shigeyukey.github.io/shige-addons-wiki/patrons_credit.html#patrons)** <br>
+ So far I received donations from 580 patrons and without their support I never could develop this, thank you very much!🙏<br><br>
+  **Patrons:** <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/95201671.png">Arthur Bookstein <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/4189493.png">Haruka  <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/39049205.png">Luis Alberto, Letona Quispe <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/3015355.png">07951350313540  <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/131367142.png">Lily <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/130988514.png">Tim <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/123514506.png">Daniel Kohl-Fink <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/130863731.png">NamelessGO <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/21640709.png">Kyle Mondlak <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/112593636.png">ElAnki <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/139233949.png">Abhi S <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/143150902.png">Matthew Hartford <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/147535833.png">findus161 <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/140244563.png">Jonathan Contreras <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/3977614.png">K  <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/20456974.png">Peasant of Anki <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/146804612.png">Juan Salgado <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/153319957.png">Yaeerrrrrr <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/53817814.png">Elisabeth Barber <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/131879614.png">Jesse Asiedu <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/152892568.png">David C <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/78715897.png">Ernest Chan <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/16653393.png">Christopher Lam <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/95639188.png">Steven Banner <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/2342247.png">Heidi  <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/18272512.png">Leonora Lomoki Akporyoe <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/72892241.png">GP O'Byrne <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/163514236.png">Xiuxuan Wang <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/137001490.png">KM <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/145047142.png">Ujwal Chadha <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/14557801.png">Kolorophyll  <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/32002936.png">Jake Stucki <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/126129884.png">Kaitlyn Bowler <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/142758041.png">Isabel Guan <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/10827293.png">gus forester <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/86498562.png">ellie <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/90408011.png">Tobias Klös <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/165591251.png">Aydin Herik <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/163711094.png">Iggi <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/164671636.png">Carly Burdorf <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/28473334.png">Austin Regal <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/162786071.png">Mia <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/162534376.png">Hoang Hung <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/45458777.png">iuventius <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/95408482.png">Patrick ellis <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/23439273.png">Orlando Frey <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/10045900.png">Take Root <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/97140314.png">Vivian Cao <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/49035952.png">tarek <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/149705924.png">qiting zeng <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/59869739.png">Muneeb Khan <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/168190678.png">Zarina Balde <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/42811030.png">Pansanity <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/10124363.png">Sameer Al <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/153136646.png">Matheus Chagas <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/54830120.png">Bryn Price <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/167783263.png">Joseph Howell <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/30780459.png">pie_is_good <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/27209515.png">Svel1989 <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/14264429.png">alpha male, shredded af <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/22537707.png">Keeler Kime <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/41862266.png">Anh-Tai Nguyen <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/95296012.png">Kurt Grabow <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/66659056.png">Gabriel Farrugia <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/178158467.png">Terence Bartenbach <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/177444844.png">R Rebecca <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/18365874.png">Lis Y. <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/71291734.png">Fahim Shaik <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/108245110.png">Augusto Stein <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/124387188.png">Ashok Rajpurohit <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/24926793.png">mootcourt <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/107757731.png">NoirHassassin <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/141054047.png">Morgan Torres <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/172695991.png">Dennis Obis <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/160278267.png">Kmyungc <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/174231223.png">Will S. <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/176596314.png">Meeyah Davis <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/11577204.png">Eric Allen <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/5645766.png">Tae Lee <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/173469460.png">Devon Williams <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/42281625.png">alex han <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/176573965.png">Andrew Yick <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/176726523.png">Robert Remedios <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/160198617.png">Simeon <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/65244351.png">Gabriel Vinicio Guedes <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/33839343.png">sab hoque <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/78520348.png">only <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/119890284.png">Ythalo Vlogs <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/51031644.png">Ketan Pal <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/144275858.png">Aurora Dzurko <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/176883675.png">Kevin Galvez <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/86501477.png">Tyler Schulte <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/41793356.png">Mac <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/84577944.png">Douglas Beeman <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/126441127.png">Ali Abid <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/45359542.png">Kyle Anthony <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/54558577.png">Marley Easterbrook <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/155979761.png">Temi Jide <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/66955168.png">Ansel Ng <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/152256816.png">Azfar Hussain <img src="https://shigeyukey.github.io/shige-addons-wiki/images/patreon_images/108021106.png">Haley Schwarz  [...full list](https://shigeyukey.github.io/shige-addons-wiki/patrons_credit.html#patrons)
