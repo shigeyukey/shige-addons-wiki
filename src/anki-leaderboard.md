@@ -9,7 +9,6 @@
 <!--
 
 
-
 -->
 
 * **<a href="https://shigeyuki.pythonanywhere.com/" target="_blank">🌐Anki Leaderboard Web </a>** : You can check the leaderboard on this website.<br>
@@ -377,8 +376,15 @@ If you do not like other users, please address it with these ways.
 Please note if you call other users' reviews cheating or criticize how other users review you will be banned, because those aren't cheats in the first place and you're the one violating the rules.
 
 For a more detailed explanation about this, please read these.
-* [Q. Why are cheats permitted?](#q-why-are-cheats-permitted)
-* [Q. Why is it impossible to prevent cheating?](#q-why-is-it-impossible-to-prevent-cheating)
+
+- [About Cheating](#about-cheating)
+  - [Q. Why are cheats permitted?](#q-why-are-cheats-permitted)
+  - [Q. Why is it impossible to prevent cheating?](#q-why-is-it-impossible-to-prevent-cheating)
+  - [Q. Why is discussion about cheating prohibited?](#q-why-is-discussion-about-cheating-prohibited)
+  - [Q. Without anti cheat measures, won't the number of users on the leaderboard decrease?](#q-without-anti-cheat-measures-wont-the-number-of-users-on-the-leaderboard-decrease)
+
+<!-- * [Q. Why are cheats permitted?](#q-why-are-cheats-permitted)
+* [Q. Why is it impossible to prevent cheating?](#q-why-is-it-impossible-to-prevent-cheating) -->
 
 
 
