@@ -18,6 +18,8 @@ https://shigeyukey.github.io/shige-addons-wiki/images/
 
 Auto adds outline shadow and bold formatting to Anki text and card text for easy to read text even with background colors or background images or wallpaper.
 
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/text-shadow/01.png)
+
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/text-shadow/00.png)
 
 ## How to use
@@ -36,6 +38,14 @@ Auto adds outline shadow and bold formatting to Anki text and card text for easy
 * `is_enable_bold` Toggles whether text is bold or not. value:`true` or `false`.
 
 
+```
+[ Change log ]
+2025-12-28: Add support Congrats
+2025-12-24: First release
+    - Added text color detection
+    - Added text outline
+    - Added bold text
+```
 
 ## Related Add-ons
 
