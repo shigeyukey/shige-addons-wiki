@@ -547,7 +547,8 @@ Most people love gossip and rumors so reports about cheating are the most common
 
 ## Q. Why are cheats permitted?
 
-TLDR: Because it's much cheaper, like this:
+TLDR: Because it's cheaper. Basically Shige's add-ons are made available for free by cutting costs as much as possible to the extreme. (e.g. dirty hacks, messy spaghetti code, lack of necessary documentation for developers, etc.) 
+
 
 ![alt text](images/Leaderboard/08.jpg)
 
