@@ -54,6 +54,10 @@ Change live wallpaper, the wallpaper video includes 18 types for now.
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/live-wallpaper/04.png)
 
+### Auto Change Mode
+
+Auto changes the wallpaper based on time. This option is disabled by default and will be executed when Auto Change is enabled. Wallpapers change in sequence, optionally you can set them to change randomly.
+
 
 ### Congrats Effect
 Enable or disable the Confetti video displayed on the Congratulations screen.
