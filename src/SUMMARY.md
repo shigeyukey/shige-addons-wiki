@@ -66,6 +66,7 @@
 - [⌨TypingMaster US Shared Decks](typingmaster-us-keyboard.md)
 ---
 - [🎂Yearly Heatmap Generator (new)](yearly-heatmap-generator.md)
+- [🎞️Live Wallpaper (new)](live-wallpaper.md)
 
 
 
