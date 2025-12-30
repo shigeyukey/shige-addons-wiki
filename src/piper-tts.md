@@ -20,7 +20,12 @@ Select a language and a voice from the options of the add-on, and download the v
 3. Options to add new language and settings to add in bulk
 
 ### Audio saving format (FFmpeg)
-The default audio file format saved is Wav. To save as mp3 you will need FFmpeg. If you already have FFmpeg installed on your laptop, the audio will be automatically converted to mp3. (Wav is large in size, while Mp3 is relatively small because it is compressed.)
+
+
+**Edit 2025-12-31: This explanation is outdated. I added a new feature to convert wav files to mp3 using Anki alone, unless an error occurs, it will auto save as mp3 even without ffmpeg.**
+
+
+The default audio file format saved is Wav. ~~To save as mp3 you will need FFmpeg.~~ If you already have FFmpeg installed on your laptop, the audio will be automatically converted to mp3. (Wav is large in size, while Mp3 is relatively small because it is compressed.)
 
 * [FFmpeg download page](https://ffmpeg.org/download.html)
 
