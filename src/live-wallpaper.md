@@ -66,6 +66,8 @@ Set the video transparency. Lowering the transparency increases brightness in Li
 ### Blur Main
 Set the blur for the main window.
 
+![alt text](images/live-wallpaper/05.png)
+
 ### Blur Top and Bottom
 Set the blur for the top toolbar and bottom bar.
 
@@ -81,22 +83,20 @@ Anki is divided into three screens. You can enable or disable each one with this
 
 ![alt text](images/live-wallpaper/02.png)
 
+
 ### Pause Timer (Seconds)
 
+To reduce the load on Anki, if no action is taken in Anki for over 10 seconds, playback will auto stop. When Anki is interacted with, playback will resume. You can change this duration with this option.
 
 
+## Others
 
-## Notes
-
-* The video import feature is still under development and is not yet available.
+* The video import feature is still under development and is not yet available, please wait.
 *  Flickering may occur when loading videos, if this bothers you please try using this add-on.
    * addon: [❄️Avoid Flicker - Freeze Anki's UI for 500 milliseconds](https://ankiweb.net/shared/info/155773558)
 * The text may be difficult to read depending on the color of the background video, if so please try these add-ons.
    * addon: [🐈‍⬛Text Shadow - add outline to text for easy reading](https://ankiweb.net/shared/info/1502258980)
   * addon: [🧊Deck Blur - add blur to the deck table and top toolbar](https://ankiweb.net/shared/info/12898561)
-
-
-
 
 
 
