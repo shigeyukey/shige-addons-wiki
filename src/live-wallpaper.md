@@ -50,8 +50,38 @@ If your PC does not have a basic GPU built in for some reason or if you can only
 
 ![alt text](images/live-wallpaper/01.png)
 
+### Wallpaper Name
+
+Change live wallpaper, the wallpaper video includes 18 types.
+
+![alt text](images/live-wallpaper/04.png)
 
 
+### Congrats Effect
+Enable or disable the Confetti video displayed on the Congratulations screen.
+
+### Opacity
+Set the video transparency. Lowering the transparency increases brightness in Light Mode and decreases brightness in Dark Mode. 1.0 is fully opaque.
+
+### Blur Main
+Set the blur for the main window.
+
+### Blur Top and Bottom
+Set the blur for the top toolbar and bottom bar.
+
+### Texture Opacity
+By default, the video displays the iron plate texture as semi transparent. Setting this to 0 will hide it.
+
+![alt text](images/live-wallpaper/03.png)
+
+
+### Enable Top-toolbar, Main, Bottom-toolbar
+
+Anki is divided into three screens. You can enable or disable each one with this option.
+
+![alt text](images/live-wallpaper/02.png)
+
+### Pause Timer (Seconds)
 
 
 
