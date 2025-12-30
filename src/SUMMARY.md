@@ -44,7 +44,8 @@
 # Patreon add-ons
 
 ---
-
+- [🎞️Live Wallpaper (new)](live-wallpaper.md)
+- [🎂Yearly Heatmap Generator (new)](yearly-heatmap-generator.md)
 - [🌱New Card Farm 2](new-card-farm/new-card-farm-02.md)
   - [🌱New Card Farm (Old ver)](new-card-farm/new-card-farm-01.md)
 - [🌽Review Card Farm](review-card-farm.md)
@@ -65,8 +66,6 @@
 - [🎮An-Ki-Oh! Template](an-ki-oh.md)
 - [⌨TypingMaster US Shared Decks](typingmaster-us-keyboard.md)
 ---
-- [🎂Yearly Heatmap Generator (new)](yearly-heatmap-generator.md)
-- [🎞️Live Wallpaper (new)](live-wallpaper.md)
 
 
 
