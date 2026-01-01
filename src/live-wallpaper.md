@@ -25,6 +25,12 @@ Patreon: [🎞️Live Wallpaper for Anki - Anki add-on download page for patrons
 <iframe src="https://www.youtube.com/embed/5KObwSDLRrY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
 <!-- 🟠Wiki page -->
 
+<!--
+[Yotube video](https://youtu.be/5KObwSDLRrY)
+  -->
+
+
+
 
 
 Display live wallpapers for Anki (Animated wallpaper, Background video). Support for Anki-Home, Reviewer, Overview, and Congrats. The wallpaper video includes 18 types for now.
