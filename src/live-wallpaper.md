@@ -21,6 +21,12 @@ Patreon: [🎞️Live Wallpaper for Anki - Anki add-on download page for patrons
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/live-wallpaper/00_live_wallpaper_mini.gif)
 
+<!-- 🟠Wiki page -->
+<iframe src="https://www.youtube.com/embed/5KObwSDLRrY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16/9; width: 100%;"></iframe>
+<!-- 🟠Wiki page -->
+
+
+
 Display live wallpapers for Anki (Animated wallpaper, Background video). Support for Anki-Home, Reviewer, Overview, and Congrats. The wallpaper video includes 18 types for now.
 
 Note: Video playback is relatively high load for Anki so this is a relatively fragile add-on, some devices may not work at all.
