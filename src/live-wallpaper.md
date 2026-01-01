@@ -26,7 +26,9 @@ Patreon: [🎞️Live Wallpaper for Anki - Anki add-on download page for patrons
 <!-- 🟠Wiki page -->
 
 <!--
-[Yotube video](https://youtu.be/5KObwSDLRrY)
+🔵AnkiWeb
+[![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/live-wallpaper/thumbnail_live_wallpaper_for_youtube.jpg)
+youtube video](https://youtu.be/5KObwSDLRrY)
   -->
 
 
