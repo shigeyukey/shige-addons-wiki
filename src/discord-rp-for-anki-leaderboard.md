@@ -167,10 +167,16 @@ Hide all status(stats) and display only large other icons. (Review and time icon
 
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/discord-rp-for-anki-leaderboard/04.png)
 
+
 <br>
 
+## Frequently Asked Questions
 
+### Q. Why aren't activities showing up in the Voice channel?
 
+* This is to avoid conflicts with other Discord add-ons. (e.g. Ankimon, AnkiCord. Using them simultaneously may cause display issues.) Please try setting the "Competing or Playing" option to OFF. (Competing -> Playing)
+
+<br>
 
 ## Credit
 
