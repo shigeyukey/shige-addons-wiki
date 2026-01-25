@@ -108,7 +108,7 @@ other contributors, see: [chinese-support-3/contributors](https://github.com/Gus
 * V2. [Chinese Support Redux v0.14.2](https://github.com/luoliyan/chinese-support-redux)
   * AnkiWeb: [AddonPage](https://ankiweb.net/shared/info/1128979221)
   * Author: [JD Lorimer](https://github.com/jdlorimer)
-* V3. [Chinese Support 3](https://github.com/jdlorimer/chinese-support-redux)
+* V3. [Chinese Support 3](https://github.com/Gustaf-C/anki-chinese-support-3)
   * AnkiWeb: [AddonPage](https://ankiweb.net/shared/info/1752008591)
   * Author: [Gustaf-C](https://github.com/Gustaf-C)
   * Contributors: [Kieran Black](ttps://github.com/kieranlblack)
