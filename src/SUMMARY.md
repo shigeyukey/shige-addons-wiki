@@ -87,6 +87,7 @@
 
 # Free add-ons by Shige
 
+  - [📎Image Paster(New!)](image-paster.md)
   - [🧊Deck Blur(New!)](deck-blur.md)
   - [🐈‍⬛Text Shadow(New!)](text-shadow.md)
   - [❄️Avoid Flicker (New!)](avoid-flicker.md)
