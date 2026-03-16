@@ -25,7 +25,7 @@ This add-on is a fixed version of the "Anki Killstreaks" for Anki23.12+. How to 
  * The latest Anki is supported, older Anki is not supported (The latest Anki is always excellent).
 * If you become a patron, you will get additional animation coins.(Not Free) 👉️ [🎖️additional animation coins](additional-animation-coins.md)
 
-   * [![AnkiCoins_faster.gif](https://github.com/shigeyukey/my_addons/blob/main/media_files/AnkiCoins_faster.gif?raw=true)](additional-animation-coins.md)
+   * [![AnkiCoins_faster.gif](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/AnkiCoins_faster.gif)](additional-animation-coins.md)
 
 
 <br>
