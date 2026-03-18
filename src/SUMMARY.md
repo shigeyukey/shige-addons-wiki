@@ -119,6 +119,7 @@
   - [⛔Disable update addons](disable_update_addons.md)
   - [💖Patreon Card Generator](patreon-card-generator.md)
   - [🔧Mini Console](mini-console.md)
+  - [📂Open VS Code (New!)](open-vs-code.md)
 
 ---
 
