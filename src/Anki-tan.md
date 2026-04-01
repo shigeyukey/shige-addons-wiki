@@ -1,10 +1,10 @@
-# Anki-tan
+# Anki-tan Wiki
 
 ![alt text](Anki-tan-illust/000_title.png)
 
 ![alt text](Anki-tan-illust/001.png)
 
-- [Anki-tan](#anki-tan)
+- [Anki-tan Wiki](#anki-tan-wiki)
     - [What is Anki-tan?](#what-is-anki-tan)
     - [Gallery](#gallery)
 - [Asset](#asset)
