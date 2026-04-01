@@ -12,6 +12,7 @@
     - [Anki-tan emoji](#anki-tan-emoji)
     - [Anki-tan stickers](#anki-tan-stickers)
     - [Anki-tan sprite](#anki-tan-sprite)
+- [Batch download](#batch-download)
 - [License](#license)
   - [What is CC-BY-SA 4.0?](#what-is-cc-by-sa-40)
   - [Notes](#notes)
@@ -89,6 +90,14 @@ idle, hello (240px)
 ![alt text](Anki-tan-illust/Anki-tan_idle_240px.png)
 ![alt text](Anki-tan-illust/Anki-tan_hello_240px.png)
 
+
+
+# Batch download
+
+* [Anki-tan.asset.pack.v1.0.zip](https://github.com/shigeyukey/shige-addons-wiki/releases/download/Anki-tan/Anki-tan.asset.pack.v1.0.zip) 2026-04-01 (8.74 MB)
+
+
+<br><br>
 
 
 # License
