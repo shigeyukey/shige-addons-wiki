@@ -1,11 +1,17 @@
 
 ## \[ AnkiArcade ] How to use Wiki
 
-![patreon_header_ankigame_addons_2 (2)](https://github.com/shigeyukey/AnkiArcade/assets/124401518/4dcc3e40-158d-4ccf-b1cf-5b97bdad0c4a)
+<!-- ![patreon_header_ankigame_addons_2 (2)](https://github.com/shigeyukey/AnkiArcade/assets/124401518/4dcc3e40-158d-4ccf-b1cf-5b97bdad0c4a) -->
 
+<!-- ![alt text](thumbnails/thumbnail.webp) -->
+![alt text](thumbnails/thumbnail_1280px_720px.webp)
+
+AnkiArcade is a multi minigame Anki add-on that I am primarily developing. Aiming for quality comparable to indie games, it currently features 40+ animated pixel art characters, 400+ sound effects, 500+ BGM tracks, and 400+ pixel art enemy characters, progress bar, pomodoro timer, and more! If you become a Patron you can use it. ([Patreon $5/month](https://www.patreon.com/Shigeyuki)) Not related to the official Anki.
+
+<!--
 AnkiArcade is an add-on with multiple mini games, progress bar, pomodoro timer, and more.<br>
 This is a prototype add-on that I personally developed for the [open source flashcard app Anki.](https://apps.ankiweb.net/)<br>
-if you [become a Patreon](https://www.patreon.com/Shigeyuki), you will get early access to Prototype.(It's not related to the official Anki)<br> 
+if you [become a Patreon](https://www.patreon.com/Shigeyuki), you will get early access to Prototype.(Not related to the official Anki)<br>  -->
 
 <!-- * ### [ [ Latest Version v1.8.5  (95 MB) ]  Download Page (Patreon)](https://www.patreon.com/posts/ankiarcade-1-8-0-116494987?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) 2024-11-26 -->
 
