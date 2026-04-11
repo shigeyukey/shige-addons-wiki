@@ -6,7 +6,7 @@
 <!-- ![alt text](thumbnails/thumbnail.webp) -->
 ![alt text](thumbnails/thumbnail_1280px_720px.webp)
 
-AnkiArcade is a multi minigame Anki add-on that I am primarily developing. Aiming for quality comparable to indie games, it currently features 40+ animated pixel art characters, 400+ sound effects, 500+ BGM tracks, and 400+ pixel art enemy characters, progress bar, pomodoro timer, and more! If you become a Patron you can use it. ([Patreon $5/month](https://www.patreon.com/Shigeyuki)) Not related to the official Anki.
+AnkiArcade is a multi minigame Anki add-on that I am primarily developing. Aiming for quality comparable to indie games, it currently features 40+ animated pixel art characters, 400+ sound effects, 500+ BGM tracks, and 400+ pixel art enemy characters, progress bar, pomodoro timer, and more! If you become a Patron you can use it. ([Patreon $5/month](https://www.patreon.com/Shigeyuki)) Not related to the [official Anki](https://apps.ankiweb.net/).
 
 <!--
 AnkiArcade is an add-on with multiple mini games, progress bar, pomodoro timer, and more.<br>
