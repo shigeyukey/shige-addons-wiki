@@ -2,24 +2,23 @@
 
 I fixed AnkiKillStreaks for the latest Anki. You can download it for free from AnkiWeb.
 
-* (Free version)[🎖️Anki Killstreaks - fixed for Anki 23 by Shige](https://ankiweb.net/shared/info/1562475180)
+* (Free version)[🎖️Anki Killstreaks](anki-killstreaks.md)
 
-If you become a patron, you will get additional animation coins.
+If you become a patron you will get additional animation coins.
 
+![Anki-animation-Coins](https://shigeyukey.github.io/shige-addons-wiki/images/Anki-killstreaks/killstreaks_animated_coins.webp)
 
-![AnkiCoins_faster](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/AnkiCoins_faster.gif)
-
-## \[ 📖How to use ]
+## 📖How to use
 
 1. After downloading the add-on from Patreon, "Anki Coins" will be added to the theme.
 1. Select "Anki Coins" to use it.
 1. The coins will rotate on the deck screen.
 1. In the review screen, the coins do not rotate, they are static.
-1. These coins are my original.
+1. These coins are my original!
 
-## \[ Download ]
+## Download
 
-* [Anki Killstreaks + Anki Coins (Add-on Download page)](https://www.patreon.com/posts/anki-killstreaks-99614094?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)
+* **(Patreon) [Anki Killstreaks + Anki Coins (Add-on Download page)](https://www.patreon.com/posts/anki-killstreaks-99614094?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link)**
 
 * This prototype Add-on can be updated on AnkiWeb after downloading. Updating the Add-on on Ankiweb should not delete the additional coins.
 
