@@ -7,7 +7,10 @@ Reward Medals for Correct Answers (Fixed by Shige)
 
 
 
- -->
+
+
+
+-->
 
 
 [![banner_shigeyuki_2](https://shigeyukey.github.io/shige-addons-wiki/images/_template/customized_by_shige.webp)](https://www.reddit.com/user/Shige-yuki)   <br>
