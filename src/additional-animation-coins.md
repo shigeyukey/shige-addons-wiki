@@ -1,6 +1,6 @@
 # 🎖️Additional animation coins
 
-This Anki add-on is for Patrons only (not Free), it adds animated coins to the Ankki KillStreaks add-on. Other than this animated coins it works the same as normal KillStreaks. How to use KillStreaks please read the Wiki: [(Free)🎖️Anki KillStreaks](anki-killstreaks.md)
+This Anki add-on is for Patrons only (not Free), it adds animated coins to the Anki KillStreaks add-on. Other than this animated coins it works the same as normal KillStreaks. How to use KillStreaks please read the Wiki: [(Free)🎖️Anki KillStreaks](anki-killstreaks.md)
 
 
 
