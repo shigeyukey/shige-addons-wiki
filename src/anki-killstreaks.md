@@ -15,7 +15,7 @@ This add-on is a fixed version of the "Anki Killstreaks" for Anki23.12+. How to 
 
 <br>
 
-![gifimage](images/Anki-killstreaks/anki_killstreaks_origin.webp)<br>
+![gifimage](https://shigeyukey.github.io/shige-addons-wiki/images/Anki-killstreaks/anki_killstreaks_origin.webp)<br>
 (This image is re-uploaded from the original add-on image.)
 
 <br>
@@ -25,7 +25,7 @@ This add-on is a fixed version of the "Anki Killstreaks" for Anki23.12+. How to 
  * The latest Anki is supported, older Anki is not supported (The latest Anki is always excellent).
 * If you become a patron you will get additional animation coins.(Not Free) 👉️ [🎖️additional animation coins](additional-animation-coins.md)
 
-   * [![Anki-animated-Coins](images/Anki-killstreaks/killstreaks_animated_coins.webp)](additional-animation-coins.md)
+   * [![Anki-animated-Coins](https://shigeyukey.github.io/shige-addons-wiki/images/Anki-killstreaks/killstreaks_animated_coins.webp)](additional-animation-coins.md)
 
 
 <br>

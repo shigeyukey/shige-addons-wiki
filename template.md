@@ -23,9 +23,8 @@ Hi I'm add-ons developer Shige, I fixed this add-on and uploaded it to AnkiWeb.
 https://ankiweb.net/shared/info/🟢
  -->
 
-
 <!-- Created -->
-[![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
+[![reddit](https://shigeyukey.github.io/shige-addons-wiki/images/_template/created_by_shige.webp)](https://www.reddit.com/user/Shige-yuki)
 
 <!-- Customized -->
 [![banner_shigeyuki_2](https://shigeyukey.github.io/shige-addons-wiki/images/_template/customized_by_shige.webp)](https://www.reddit.com/user/Shige-yuki)
