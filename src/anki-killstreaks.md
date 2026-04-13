@@ -2,7 +2,7 @@
 Reward Medals for Correct Answers (Fixed by Shige)
 
 
-[![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](https://www.reddit.com/user/Shige-yuki)   <br>
+[![banner_shigeyuki_2](images/_template/customized_by_shige.webp)](https://www.reddit.com/user/Shige-yuki)   <br>
 ### [AnkiWeb Page](https://ankiweb.net/shared/info/1562475180) | Code : `1562475180`
 
 
@@ -15,7 +15,7 @@ This add-on is a fixed version of the "Anki Killstreaks" for Anki23.12+. How to 
 
 <br>
 
-![gifimage](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/76172087-71164780-6168-11ea-8ab0-8962ec2b74c5.gif)<br>
+![gifimage](images/Anki-killstreaks/anki_killstreaks_origin.webp)<br>
 (This image is re-uploaded from the original add-on image.)
 
 <br>
@@ -23,9 +23,9 @@ This add-on is a fixed version of the "Anki Killstreaks" for Anki23.12+. How to 
  **Notes :** <br>
  * Leaderboards and Chase Mode were removed because the server does not exist. (Development resource is a bit scarce yet.)
  * The latest Anki is supported, older Anki is not supported (The latest Anki is always excellent).
-* If you become a patron, you will get additional animation coins.(Not Free) 👉️ [🎖️additional animation coins](additional-animation-coins.md)
+* If you become a patron you will get additional animation coins.(Not Free) 👉️ [🎖️additional animation coins](additional-animation-coins.md)
 
-   * [![AnkiCoins_faster.gif](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/AnkiCoins_faster.gif)](additional-animation-coins.md)
+   * [![Anki-animated-Coins](images/Anki-killstreaks/killstreaks_animated_coins.webp)](additional-animation-coins.md)
 
 
 <br>
