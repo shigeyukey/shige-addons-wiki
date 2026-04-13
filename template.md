@@ -28,7 +28,7 @@ https://ankiweb.net/shared/info/🟢
 [![reddit](https://github.com/shigeyukey/AnkiRestart/assets/124401518/85368aad-6f50-4335-8858-7a30a66fb065)](https://www.reddit.com/user/Shige-yuki)
 
 <!-- Customized -->
-[![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](https://www.reddit.com/user/Shige-yuki)
+[![banner_shigeyuki_2](https://shigeyukey.github.io/shige-addons-wiki/images/_template/customized_by_shige.webp)](https://www.reddit.com/user/Shige-yuki)
 
 
 This add-on is a fixed version for Anki25+ of the addon <a href="🟢" target="_blank">"🟢"</a>, originally created by <a href="🟢" target="_blank">🟢</a> and credit goes to them.
