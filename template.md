@@ -32,6 +32,12 @@ https://ankiweb.net/shared/info/🟢
 
 This add-on is a fixed version for Anki25+ of the addon <a href="🟢" target="_blank">"🟢"</a>, originally created by <a href="🟢" target="_blank">🟢</a> and credit goes to them.
 
+<!--
+This add-on is a fixed and customized version of No-Distractions-Full-Screen for Anki 25+.
+
+ -->
+
+
 <!-- *(these images and descriptions are re-uploaded and partially edited from the original add-on page.)* -->
 
 ## Related Add-ons

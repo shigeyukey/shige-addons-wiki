@@ -7,12 +7,14 @@
 
 Hi I am here!😎 I uploaded a fixed version (Fork) of No-Distractions-Full-Screen so far it is working fine, try it!👍<br>
 
-Eliminates everything unnecessary during reviews giving you maximum usable screen space and a clean, adjustable interface that supports touch. The original add-on is no longer maintained and is broken in the latest version of Anki, instead you can use this my fixed version.<br>
+Eliminates everything unnecessary during reviews giving you maximum usable screen space and a clean, adjustable interface that supports touch.
 
 
 ### Credit:
-* Original : [  ND Full Screen -2.1.45 ]( https://ankiweb.net/shared/info/1049863218 ) / Author : [ccz-2](https://github.com/ccz-2)
-* Fork : [  ND Full Screen -2.1.58 ](https://ankiweb.net/shared/info/1799768115) / Author : ?
+
+This add-on is a fixed and customized version of No-Distractions-Full-Screen, the original add-on is no longer maintained and is broken in the latest version of Anki, instead this my fixed version is available. Originally created by ccz-2 and credit goes to them.
+* Original : [ND Full Screen (-Anki2.1.45)](https://ankiweb.net/shared/info/1049863218) / Author : [ccz-2](https://github.com/ccz-2)
+* Fork : [ND Full Screen (-Anki2.1.58)](https://ankiweb.net/shared/info/1799768115) / Author : ?
 
 ##  How to use
 
@@ -51,27 +53,78 @@ You can change these in add-on config.
 * To return home from review, press "D".
 * You can also activate FullScreen from right-click context menu.
 
-<!-- 
-### Options
 
-![alt text](images/nd-full-screen/01.png)
+## Options
 
-![alt text](images/nd-full-screen/02.png)
+### Option1
 
-![alt text](images/nd-full-screen/03.png)
- -->
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/nd-full-screen/01.png)
 
 
+* Auto-toggle when reviewing
+    * Enables full-screen mode automatically when you open the reviewer.
+* Mode: Full Screen / Windowed
+    * Toggles between full-screen and windowed modes.
+* Stay on top (windowed)
+    * Keeps the add-on always on top.
+    * If you need more advanced features, please use the <a href="https://ankiweb.net/shared/info/1045980020" target="_blank">Always on Top</a> add-on.
+* Cursor idle timer (seconds)
+    * Hides the cursor if it remains stationary for the specified number of seconds.
+* Full Screen hotkey
+    * Change the hotkey to enter full-screen mode.
+* Lock answer bar hotkey
+    * Change the hotkey to lock the button positions.
+
+### Option2
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/nd-full-screen/02.png)
+
+These are options for customizing the appearance of the ND AnswerBar buttons.
+
+* Enable ND AnswerBar
+    * Enable the ND AnswerBar buttons.
+* Color pattern
+    * Change the color theme, currently available in 10 varieties.
+* Button size
+    * Quickly change the button size.
+
+#### Advanced Options
+
+You can customize other options in detail, click the "Restore Defaults" button at the bottom to reset.
 
 
-#### Related Add-ons (for GUI)
- 5.  <a href="https://ankiweb.net/shared/info/1923741581" target="_blank">🔍️Zoom for Anki24 - Keep zoom level after reboot (Fixed by Shigeඞ)</a>
+### Option3
+
+
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/nd-full-screen/03.png)
+
+* Windows Fullscreen compatibility
+    * If on Windows and experiencing grpahical issues, please try disabling this.
+* Rendering delay (seconds)
+    * Seconds to wait before window is updated with layout changes. Helps reduce flickering and artifacts when toggling fullscreen/windowed.
+
+<br>
+
+
+## Tips
+
+Combining this with <a href="https://ankiweb.net/shared/info/1923741581" target="_blank">Zoom for Anki add-on</a> helps display the text on the cards in a larger size.
+
+
+<!-- ウィンドウモード, Zoom for Anki, Always On Topを使うとAnkiをできるだけ小さくした状態で表示できます., -->
+
+
+<!-- ![alt text](images/nd-full-screen/04.png) -->
+
+
+## Related Add-ons (for GUI)
+ 1.  <a href="https://ankiweb.net/shared/info/1923741581" target="_blank">🔍️Zoom for Anki - Keep zoom level after reboot (Fixed by Shigeඞ)</a>
+ 1.  <a href="https://ankiweb.net/shared/info/1045980020" target="_blank">🔝Always On Top V2 - permanently keep Anki as top (Fixed by Shigeඞ)</a>
  1.  <a href="https://ankiweb.net/shared/info/1959668791" target="_blank">🎨Anki Redesign - Make Anki Cool Design (Fixed by Shigeඞ)</a>
- 2.  <a href="https://ankiweb.net/shared/info/1797615099" target="_blank">📌Rearrange home addons(Created by Shigeඞ)</a>
- 3.  <a href="https://ankiweb.net/shared/info/906950015" target="_blank">🐻TidyAnkiBear - Select and hide Anki menu bar items</a>
- 6.  <a href="https://shigeyukey.github.io/shige-addons-wiki/enhance-main-window.html" target="_blank">📊Enhance main window (Fork by Shigeඞ)</a>
- 8.  <a href="https://ankiweb.net/shared/info/1845966780" target="_blank">👻Remove tooltip for Answer buttons (Fork by Shigeඞ)</a>
- 7.  <a href="https://shigeyukey.github.io/shige-addons-wiki/hide-leech_notification.html" target="_blank">🩸Hide Leech Notification (Created by Shigeඞ)</a>
+ 1.  <a href="https://ankiweb.net/shared/info/1797615099" target="_blank">📌Rearrange home addons (Created by Shigeඞ)</a>
+ 1.  <a href="https://ankiweb.net/shared/info/906950015" target="_blank">🐻TidyAnkiBear - Select and hide Anki menu bar items (Created by Shigeඞ)<</a>
+ 1.  <a href="https://ankiweb.net/shared/info/1845966780" target="_blank">👻Remove tooltip for Answer buttons (Fork by Shigeඞ)</a>
+ 1.  <a href="https://shigeyukey.github.io/shige-addons-wiki/hide-leech_notification.html" target="_blank">🩸Hide Leech Notification (Created by Shigeඞ)</a>
 
 
 <br>
