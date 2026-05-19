@@ -111,10 +111,9 @@ You can customize other options in detail, click the "Restore Defaults" button a
 Combining this with <a href="https://ankiweb.net/shared/info/1923741581" target="_blank">Zoom for Anki add-on</a> helps display the text on the cards in a larger size.
 
 
-<!-- ウィンドウモード, Zoom for Anki, Always On Topを使うとAnkiをできるだけ小さくした状態で表示できます., -->
+By using the optional Window Mode, Zoom for Anki, and Always On Top, you can display Anki as small as possible, like this:
 
-
-<!-- ![alt text](images/nd-full-screen/04.png) -->
+![alt text](images/nd-full-screen/04.png)
 
 
 ## Related Add-ons (for GUI)
