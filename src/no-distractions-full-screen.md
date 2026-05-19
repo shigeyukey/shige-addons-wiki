@@ -12,9 +12,10 @@ Eliminates everything unnecessary during reviews giving you maximum usable scree
 
 ### Credit:
 
-This add-on is a fixed and customized version of No-Distractions-Full-Screen, the original add-on is no longer maintained and is broken in the latest version of Anki, instead this my fixed version is available. Originally created by ccz-2 and credit goes to them.
-* Original : [ND Full Screen (-Anki2.1.45)](https://ankiweb.net/shared/info/1049863218) / Author : [ccz-2](https://github.com/ccz-2)
-* Fork : [ND Full Screen (-Anki2.1.58)](https://ankiweb.net/shared/info/1799768115) / Author : ?
+This add-on is a fixed and customized version of No-Distractions-Full-Screen, the original add-on is no longer maintained and is broken in the latest version of Anki, instead you can use this my fixed version. Originally created by ccz-2 and credit goes to them.
+* Original version: [ND Full Screen (~Anki2.1.45)](https://ankiweb.net/shared/info/1049863218) / Author : [ccz-2](https://github.com/ccz-2)
+* Fork version: [ND Full Screen (~Anki2.1.58)](https://ankiweb.net/shared/info/1799768115) / Author : ?
+* This version: Anki23 ~ Anki26+
 
 ##  How to use
 
@@ -95,7 +96,6 @@ You can customize other options in detail, click the "Restore Defaults" button a
 
 ### Option3
 
-
 ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/nd-full-screen/03.png)
 
 * Windows Fullscreen compatibility
@@ -108,15 +108,16 @@ You can customize other options in detail, click the "Restore Defaults" button a
 
 ## Tips
 
-Combining this with <a href="https://ankiweb.net/shared/info/1923741581" target="_blank">Zoom for Anki add-on</a> helps display the text on the cards in a larger size.
+* **[ Display Anki larger ]** Combining this with <a href="https://ankiweb.net/shared/info/1923741581" target="_blank">Zoom for Anki add-on</a> helps display the text on the cards in a larger size.
+
+* **[ Display Anki smaller ]** By using the optional Window Mode, <a href="https://ankiweb.net/shared/info/1923741581" target="_blank">Zoom for Anki</a>, and <a href="https://ankiweb.net/shared/info/1045980020" target="_blank">Always On Top</a>, you can display Anki as small as possible, like this:
+     ![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/nd-full-screen/04.png)
 
 
-By using the optional Window Mode, Zoom for Anki, and Always On Top, you can display Anki as small as possible, like this:
+## Related Add-ons
 
-![alt text](images/nd-full-screen/04.png)
+These my add-ons are related to the GUI.
 
-
-## Related Add-ons (for GUI)
  1.  <a href="https://ankiweb.net/shared/info/1923741581" target="_blank">🔍️Zoom for Anki - Keep zoom level after reboot (Fixed by Shigeඞ)</a>
  1.  <a href="https://ankiweb.net/shared/info/1045980020" target="_blank">🔝Always On Top V2 - permanently keep Anki as top (Fixed by Shigeඞ)</a>
  1.  <a href="https://ankiweb.net/shared/info/1959668791" target="_blank">🎨Anki Redesign - Make Anki Cool Design (Fixed by Shigeඞ)</a>
@@ -126,8 +127,6 @@ By using the optional Window Mode, Zoom for Anki, and Always On Top, you can dis
  1.  <a href="https://shigeyukey.github.io/shige-addons-wiki/hide-leech_notification.html" target="_blank">🩸Hide Leech Notification (Created by Shigeඞ)</a>
 
 
-<br>
-<br>
 <br>
 
 <h4><a href="http://patreon.com/Shigeyuki">💖Please Support Shige's Anki add-ons development!</a></h4>
@@ -148,8 +147,7 @@ Hi thank you for using this add-on I'm Shigeඞ!
 
 
 
-<br><br><br>
-
+<br>
 
 #### [ 📥 How do I install this add-on? ]
 1. Copy and paste the add-on code ( `1370336700` )  into Anki and you can install it.<br>

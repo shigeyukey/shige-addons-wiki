@@ -4,12 +4,10 @@
 
 ![nolonger_needed](https://raw.githubusercontent.com/shigeyukey/shige-addons-wiki/refs/heads/main/src/images/template/nolonger_needed.png)
 
-
 <!-- 
 contact
 https://shigeyukey.github.io/shige-addons-wiki/contact.html
  -->
-
 
 <!--
 https://shigeyukey.github.io/shige-addons-wiki/images/
@@ -33,8 +31,7 @@ https://ankiweb.net/shared/info/🟢
 This add-on is a fixed version for Anki25+ of the addon <a href="🟢" target="_blank">"🟢"</a>, originally created by <a href="🟢" target="_blank">🟢</a> and credit goes to them.
 
 <!--
-This add-on is a fixed and customized version of No-Distractions-Full-Screen for Anki 25+.
-
+This add-on is a fixed and customized version of 🟢, the original add-on is no longer maintained and is broken in the latest version of Anki, instead you can use this my fixed version. Originally created by 🟢 and credit goes to them.
  -->
 
 
