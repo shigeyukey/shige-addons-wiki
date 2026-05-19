@@ -3,6 +3,14 @@
 
 **[AnkiWeb Page](https://ankiweb.net/shared/info/1370336700) | Code : `1370336700`**
 
+
+<!-- 
+
+
+
+ -->
+
+
 [![banner_shigeyuki_2](https://github.com/shigeyukey/Pokemanki-Gold/assets/124401518/8408c164-e95c-4e40-98c1-393b03e04bcb)](http://patreon.com/Shigeyuki)   <br>
 
 Hi I am here!😎 I uploaded a fixed version (Fork) of No-Distractions-Full-Screen so far it is working fine, try it!👍<br>
