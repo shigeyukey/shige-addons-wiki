@@ -36,7 +36,7 @@ This add-on is a fixed and customized version of No-Distractions-Full-Screen, th
 ![image3](https://raw.githubusercontent.com/shigeyukey/my_addons/main/media_files/ezgif-com-resize-7.gif)
 
 
-### Features:
+### Features
 1. Hides all menu bars.
 1. Superimposes answer buttons over cards.
 1. Draggable answer buttons that support touch.
@@ -48,11 +48,13 @@ This add-on is a fixed and customized version of No-Distractions-Full-Screen, th
 
 
 ### HotKey
-You can change these in add-on config.
+
 * Full screen : `Shift+F11`
 * Lock answerbar : `Ctrl+L`
-* To return home from review, press "D".
 * You can also activate FullScreen from right-click context menu.
+* To return home from review, press `D`.
+* More button hotkey: `M`
+* Editor button hotkey: `E`
 
 
 ## Options
