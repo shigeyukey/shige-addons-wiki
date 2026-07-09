@@ -15,8 +15,8 @@
         <link rel="icon" href="favicon-de23e50b.svg">
         <link rel="shortcut icon" href="favicon-8114d1fc.png">
         <link rel="stylesheet" href="css/variables-8adf115d.css">
-        <link rel="stylesheet" href="css/general-0392ca55.css">
-        <link rel="stylesheet" href="css/chrome-fc474251.css">
+        <link rel="stylesheet" href="css/general-e96d0476.css">
+        <link rel="stylesheet" href="css/chrome-d279d366.css">
 
         <!-- Fonts -->
         <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
@@ -34,7 +34,7 @@
             const path_to_root = "";
             const default_light_theme = "navy";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-93b40ef4.js";
+            window.path_to_searchindex_js = "searchindex-fab3b3c8.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-8f31ac7f.js"></script>
@@ -191,14 +191,14 @@
 <li>Anki Home -&gt; Restart icon (Blue)</li>
 <li>Anki Home -&gt; tools -&gt; AnkiRestartV2 -&gt; Restart Anki now</li>
 </ul>
-<p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/03.png" alt="alt text"></p>
+<p><label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/03.png" alt="alt text"><span class="img-wrapper"><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/03.png" alt="alt text"></span></label></p>
 <h2 id="settings"><a class="header" href="#settings">Settings</a></h2>
 <p>Settings can be accessed from the Add-on menu or the add-ons dialog.</p>
 <ul>
 <li>Anki Home -&gt; tools -&gt; AnkiRestartV2 -&gt; Swttings</li>
 <li>Anki Home -&gt; tools -&gt; Add-ons -&gt; AnkiRestartV2 -&gt; Confing</li>
 </ul>
-<p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/00.png" alt="alt text"></p>
+<p><label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/00.png" alt="alt text"><span class="img-wrapper"><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/00.png" alt="alt text"></span></label></p>
 <h3 id="custom-anki-path"><a class="header" href="#custom-anki-path">Custom Anki Path</a></h3>
 <p>If the restart has already succeeded there is no need to change this option. To restart Anki the path to the Anki executable file is required (win:anki.exe, Mac:anki.app, Linux:anki). If the auto detected Anki path is incorrect you will need to set it manually.</p>
 <h2 id="options"><a class="header" href="#options">Options</a></h2>
@@ -222,7 +222,7 @@
 <p>You can change the shortcut key for restarting Anki. The shortcut key will not work if it conflicts with other add-ons or Anki shortcut keys, so if the key does not work try changing it. default short cut key: <code>Ctrl+Shift+R</code>.</p>
 <h2 id="advanced-tab"><a class="header" href="#advanced-tab">Advanced tab</a></h2>
 <p>These are options for advanced users, there is no need to change them unless you need to.</p>
-<p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/01.png" alt="alt text"></p>
+<p><label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/01.png" alt="alt text"><span class="img-wrapper"><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/01.png" alt="alt text"></span></label></p>
 <h3 id="custom-base"><a class="header" href="#custom-base">Custom Base</a></h3>
 <p>Anki allows you to specify the path to the file containing the user profile when it starts up. If you restart Anki as is, this path will not be used. If you set a path for this option, you can use that path to start up when you restart.
 For more info please read the Anki Manual:</p>
@@ -258,7 +258,7 @@ For more info please read the Anki Manual:</p>
 <h2 id="v3-tab"><a class="header" href="#v3-tab">V3 tab</a></h2>
 <h3 id="anki-restart-v3"><a class="header" href="#anki-restart-v3">Anki Restart V3</a></h3>
 <p>This is a new restart option for the prototype. AnkiRestart V2 sometimes fails, this V3 restarts Anki more reliably. To use this feature you need Anki’s new launcher (Anki 25.07+). If V2 is already working fine on your device this option is not needed.</p>
-<p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/05.png" alt="alt text"></p>
+<p><label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/05.png" alt="alt text"><span class="img-wrapper"><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/05.png" alt="alt text"></span></label></p>
 <h4 id="mechanism"><a class="header" href="#mechanism">Mechanism</a></h4>
 <p>Launch Python using the Anki launcher then start the mini app (window). This mini app communicates with Anki and waits until Anki closes, once Anki has completely closed launch a new instance of Anki then the mini app will auto close. (this mechanism is an improved version of AnkiRestart V1.)</p>
 <h4 id="note"><a class="header" href="#note">Note</a></h4>
@@ -270,7 +270,7 @@ For more info please read the Anki Manual:</p>
 <p>Anki will forcefully terminate the new Anki for data safety when it tries to start up duplicately, so if you have a lot of add-ons or large decks it may take time for Anki to terminate and may loop. This add-on restarts after Anki terminates so you can restart in once.</p>
 </li>
 <li>
-<p><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/04.png" alt="alt text"></p>
+<p><label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/04.png" alt="alt text"><span class="img-wrapper"><img src="https://shigeyukey.github.io/shige-addons-wiki/images/ankiRestartV2/04.png" alt="alt text"></span></label></p>
 </li>
 <li>
 <p>e.g.: Close Anki01 and Open Anki02 -&gt; Anki02:“Ank01 is still open please try again” -&gt; Close Anki02 and open Anki03 -&gt; Anki03: “Anki02 is still open please try again” -&gt; Close Anki03 and open Anki04 -&gt; Anki04: “Anki03 is still open please try again” -&gt; …</p>
@@ -373,7 +373,7 @@ So far I received donations from 527 patrons and without their support I never c
 
         <script src="clipboard-1626706a.min.js"></script>
         <script src="highlight-abc7f01d.js"></script>
-        <script src="book-c22b7243.js"></script>
+        <script src="book-609e4cb8.js"></script>
 
         <!-- Custom JS scripts -->
 
