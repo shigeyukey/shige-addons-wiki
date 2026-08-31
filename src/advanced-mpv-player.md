@@ -11,8 +11,7 @@ Hi I'm add-ons developer Shige, I fixed this add-on and uploaded it to AnkiWeb.
 https://ankiweb.net/shared/info/466948669
 
 
-
- -->
+-->
 
 
 
