@@ -1,5 +1,22 @@
 # 📺️Advanced MPV Player
 
+
+**[AnkiWeb Page](https://ankiweb.net/shared/info/466948669) | Code : `466948669`**
+
+
+<!-- 
+
+Hi I'm add-ons developer Shige, I fixed this add-on and uploaded it to AnkiWeb.
+📺️Advanced MPV Player (Fixed by Shigeඞ)
+https://ankiweb.net/shared/info/466948669
+
+
+
+ -->
+
+
+
+
 <!-- Customized -->
 [![banner_shigeyuki_2](https://shigeyukey.github.io/shige-addons-wiki/images/_template/customized_by_shige.webp)](https://www.reddit.com/user/Shige-yuki)
 
