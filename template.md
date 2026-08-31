@@ -28,7 +28,7 @@ https://ankiweb.net/shared/info/🟢
 [![banner_shigeyuki_2](https://shigeyukey.github.io/shige-addons-wiki/images/_template/customized_by_shige.webp)](https://www.reddit.com/user/Shige-yuki)
 
 
-This add-on is a fixed version for Anki25+ of the addon <a href="🟢" target="_blank">"🟢"</a>, originally created by <a href="🟢" target="_blank">🟢</a> and credit goes to them.
+This add-on is a fixed version for Anki26+ of the addon <a href="🟢" target="_blank">"🟢"</a>, originally created by <a href="🟢" target="_blank">🟢</a> and credit goes to them. The original add-on is no longer maintained and is broken in the latest version of Anki, instead you can use this my fixed version.
 
 <!--
 This add-on is a fixed and customized version of 🟢, the original add-on is no longer maintained and is broken in the latest version of Anki, instead you can use this my fixed version. Originally created by 🟢 and credit goes to them.

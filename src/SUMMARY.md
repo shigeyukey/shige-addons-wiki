@@ -129,6 +129,7 @@
 
 ---
 
+- [📺️Advanced MPV Player](advanced-mpv-player.md)
 - [🦉Duolingo Style Gamification](duolingo-style-gamification.md)
 - [🍣Immersion Kit downloader](immersion-kit-dl.md)
 - [🎨Colorful Browse Sidebar](colorful-browse-sidebar.md)
