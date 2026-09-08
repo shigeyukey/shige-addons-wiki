@@ -5,12 +5,19 @@
 **[AnkiWeb Page](https://ankiweb.net/shared/info/🟢) | Code : `🟢`**
 contact
 https://shigeyukey.github.io/shige-addons-wiki/contact.html
+
+
+
+https://shigeyukey.github.io/shige-addons-wiki/images/
+
+
+
  -->
 
 This add-on embeds videos into Anki cards automatically. This allows you to display a small video within the card without popping up the video player. (Video size: 240p, 426px wide)
 
 
-
+![alt text](https://shigeyukey.github.io/shige-addons-wiki/images/embed-video/00.png)
 
 
 This embedded video is for display purposes only, the add-on does not directly change the card content or templates. So if you disable the add-on the video display will revert to its original state.
