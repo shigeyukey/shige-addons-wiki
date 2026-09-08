@@ -87,10 +87,11 @@
 
 # Free add-ons by Shige
 
-  - [📎Image Paster(New!)](image-paster.md)
-  - [🧊Deck Blur(New!)](deck-blur.md)
-  - [🐈‍⬛Text Shadow(New!)](text-shadow.md)
-  - [❄️Avoid Flicker (New!)](avoid-flicker.md)
+  - [🎞️Embed Video (New!)](embed-video.md)
+  - [📎Image Paster](image-paster.md)
+  - [🧊Deck Blur](deck-blur.md)
+  - [🐈‍⬛Text Shadow](text-shadow.md)
+  - [❄️Avoid Flicker](avoid-flicker.md)
   - [👻Anki Fade In](anki-fade-in.md)
   - [🤖PiperTTS](piper-tts.md)
   - [🎬️FFmpeg Downloader](ffmpeg-downloader.md)
