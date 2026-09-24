@@ -130,6 +130,7 @@
 
 ---
 
+- [🛡️Special Fields](special-fields.md)
 - [📺️Advanced MPV Player](advanced-mpv-player.md)
 - [🦉Duolingo Style Gamification](duolingo-style-gamification.md)
 - [🍣Immersion Kit downloader](immersion-kit-dl.md)
