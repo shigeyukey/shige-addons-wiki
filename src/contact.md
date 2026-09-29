@@ -14,7 +14,9 @@
 
 [💖Patreon Direct Message](https://www.patreon.com/Shigeyuki)
 
-* **Paid Members:** If you become a paid supporter on Patreon you'll be able to send me direct messages. You can still use direct messages after you cancel the paid subscription. 
+So far I have developed and maintained 100+ free Anki add-ons, you can directly support my work via Patreon donations.
+
+* **Paid Members ($5/month):** If you become a paid supporter on Patreon you'll be able to send me direct messages, also you can access patreon exclusive add-ons developed by me and your name will be listed in the credits.
 
 * **Free Members:** If you joined Patreon for free you can send me messages in the group chat, in this group chat I post updates and announcements regarding add-ons for free users.
 
@@ -23,10 +25,7 @@
 
 [🌐AnkiWeb Addons : by Shige](https://ankiweb.net/shared/addons?search=Please%20Support%20Shige%27s%20Anki%20add-ons%20development)
 
-1. For free add-ons released on AnkiWeb you can easily contact me via rating comments. (Add-on page -> Rate This)
-2. AnkiWeb will send you an email when I reply.
-3. High rating increases priority of development.
-
+For free add-ons released on AnkiWeb you can easily contact me via rating comments. (Add-on page -> Rate This) When I reply AnkiWeb will send a notification to your email.
 
 ##  👨‍🚀Reddit
 [👨‍🚀Reddit Direct Message: Shige-yuki](https://www.reddit.com/user/Shige-yuki)
@@ -49,6 +48,12 @@ Patreon addons : [🐙Github : AnkiArcade/issues](https://github.com/shigeyukey/
 
 1. Images and codes can be used.
 1. Long term issues and requests are eventually posted to Github to manage tasks.
+
+## 👾Discord
+
+The [Anki Leaderboard](anki-leaderboard.md) add-on has its own Discord server so you can send me messages through it. The invite link is located in the menu within the add-on.
+
+
 
 
 
