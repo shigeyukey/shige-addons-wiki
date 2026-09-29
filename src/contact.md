@@ -14,9 +14,9 @@
 
 [💖Patreon Direct Message](https://www.patreon.com/Shigeyuki)
 
-So far I have developed and maintained 100+ free Anki add-ons, you can directly support my work via Patreon donations.
+Hi I'm Shigeඞ so far I have developed and maintained 100+ free Anki add-ons, you can directly support my work via Patreon donations.
 
-* **Paid Members ($5/month):** If you become a paid supporter on Patreon you'll be able to send me direct messages, also you can access patreon exclusive add-ons developed by me and your name will be listed in the credits.
+* **Paid Members ($5/month):** If you become a paid supporter on Patreon you'll be able to send me direct messages. (also you can access patreon exclusive add-ons developed by me and your name will be listed in the credits.)
 
 * **Free Members:** If you joined Patreon for free you can send me messages in the group chat, in this group chat I post updates and announcements regarding add-ons for free users.
 
