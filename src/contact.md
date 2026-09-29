@@ -1,7 +1,5 @@
 # 📨Report and Request
 
-
-
 - [📨Report and Request](#report-and-request)
   - [💖Patreon](#patreon)
   - [🌐AnkiWeb](#ankiweb)
@@ -11,15 +9,14 @@
 
 <br>
 
-
 ## 💖Patreon
-![alt text](images/contact/01.png)
+<!-- ![alt text](images/contact/01.png) -->
 
 [💖Patreon Direct Message](https://www.patreon.com/Shigeyuki)
 
-1. If you become a paid Patron you can send direct messages to me.
-2. You can still use direct messages after you cancel the paid subscription.
-3. If you join for free you cannot use this function.
+* **Paid Members:** If you become a paid supporter on Patreon you'll be able to send me direct messages. You can still use direct messages after you cancel the paid subscription. 
+
+* **Free Members:** If you joined Patreon for free you can send me messages in the group chat, in this group chat I post updates and announcements regarding add-ons for free users.
 
 
 ## 🌐AnkiWeb
@@ -37,8 +34,6 @@
 1. I have answered on Reddit about the use of Anki and add-ons.
 1. You can upload images.
 1. If you want to mention me -> `u/shige-yuki`
-
-
 
 ##  🌟AnkiForums
 [🌟AnkiForums Direct Message: Shigeyuki](https://forums.ankiweb.net/u/shigeyuki/summary)
