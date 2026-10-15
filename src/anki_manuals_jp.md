@@ -16,7 +16,7 @@ These are not my translations but existing Wikis.
 
 1. [Anki Japanese Manual Wiki](https://wikiwiki.jp/rage2050/)
 2. [AnkiDroid Manual](https://ankidroid.org/docs/manual-ja.html)
-3. [Writing Anki Add-ons](https://t-cool.github.io/anki-addon-docs-ja/)
+3. [Writing Anki Add-ons](https://shigeyukey.github.io/anki-addon-docs-ja/)
 
 
 
